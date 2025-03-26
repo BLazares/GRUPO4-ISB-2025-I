@@ -13,6 +13,6 @@ Ayuda
 | ------------- | ------------- |
 | ![](Otros/Brayam.jpeg)  | Brayam Lazares, estudiante  |
 | ![](Otros/Eliane.jpeg)  | Eliane Loza, estudiante de la carrera de Ingeniería Biomedica con interés en especialización en procesamiento de señales e imagenes médicas. Tengo muchas espectativas referido al curso y al ciclo en general porque es una oportunidad para mi formación profesional el adquirir información tecnica y practicar nuevos conocimientos |
-| ![](Otros/Luis.jpeg)   | Jose Otoya, estudiante  |
+| ![](Otros/Luis.jpeg)   | Jose Otoya, estudiante de IB, estusiasta de la inteligencia artificial, tengo expectativas sobre este curso. |
 | ![](Otros/Margareth.jpeg)  | Margareth Olazabal |
 | ![](Otros/Joseph.jpeg)  | Joseph estudiante  |
