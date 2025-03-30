@@ -32,10 +32,12 @@ Pueden escribirme a: [**eliane.loza@upch.pe**](a20213367@pucp.edu.pe)
 En Markdown puedes hacer listas ordenadas (con números) o listas desordenadas (con guiones o asteriscos).
 + **Listas ordenadas**
   Se usan cuando el orden no importa, como ideas sueltas, tareas, ingredientes, etc.
-  Puedes usar -, * o + (todos funcionan igual):
+  Puedes usar -, * o + (todos funcionan igual, incluso mesclarlas):
 
   Por ejemplo.-
   * perro
+    + Labrador
+    + Dalmata
   * gato
   * caballo
   + pato
