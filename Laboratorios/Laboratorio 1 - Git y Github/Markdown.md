@@ -35,9 +35,10 @@ En Markdown puedes hacer listas ordenadas (con números) o listas desordenadas (
   Puedes usar -, * o + (todos funcionan igual):
 
   Por ejemplo.-
-*perro
-*gato
-*caballo
+* perro
+* gato
+* caballo
++ pato
 
   
 + **Listas desordenadas**
