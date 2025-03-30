@@ -82,4 +82,15 @@ print("Prueba de código en python")
 ### Creación de repositorio
 
 Paso 1: Seleccionar "New repository" en el botón de "+" ubicado en la esquina superior derecha.
+
+<p align="center">
+  <img src="https://github.com/BLazares/GRUPO4-ISB-2025-I/blob/main/Otros/repositorio1.png"/ width ="300" heigh="150">
+</p>
+
 Paso 2: Completar todos los detalles del nuevo repositorio: el nombre, descripción e incluir un archivo Readme
+
+<p align="center">
+  <img src="https://github.com/BLazares/GRUPO4-ISB-2025-I/blob/main/Otros/repositorio2.png"/ width ="300" heigh="150">
+</p>
+
+Siguiendo estos 2 pasos, se logra obtener el repositorio en el que se podra incluir todo su proyecto.
