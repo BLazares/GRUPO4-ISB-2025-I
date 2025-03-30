@@ -102,7 +102,7 @@ Siguiendo estos 2 pasos, se logra obtener el repositorio en el que se podra incl
 Se guardan los cambios realizados con el botón "Commit changes..."
 
 <p align="center">
-  <img src="https://github.com/BLazares/GRUPO4-ISB-2025-I/blob/main/Otros/repositorio4.png"/ width ="600" heigh="600">
+  <img src="https://github.com/BLazares/GRUPO4-ISB-2025-I/blob/main/Otros/repositorio4.png"/ width ="600" heigh="900">
 </p>
 
 Se realiza un comentario sobre el guardado, esto será útil para las buenas praxis del 
@@ -113,7 +113,7 @@ repositorio.
 </p>
 
 <p align="center">
-  <img src="https://github.com/BLazares/GRUPO4-ISB-2025-I/blob/main/Otros/repositorio6.png"/ width ="600" heigh="600">
+  <img src="https://github.com/BLazares/GRUPO4-ISB-2025-I/blob/main/Otros/repositorio6.png"/ width ="600" heigh="900">
 </p>
 
 ¡El archivo fue creado!
