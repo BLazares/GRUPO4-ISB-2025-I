@@ -66,6 +66,10 @@ print("Hola, mundo!")
 
 Si se desea indicar cual es el lenguaje de programación que se usara, este debe ser especificado despues de los primeros tres acentos graves
 
+<p align="center">
+  <img src="https://github.com/BLazares/GRUPO4-ISB-2025-I/blob/main/Otros/bloque 2.png"/ width ="300" heigh="150">
+</p>
+
 ```phyton
 print("Prueba de código en python")
 ```
