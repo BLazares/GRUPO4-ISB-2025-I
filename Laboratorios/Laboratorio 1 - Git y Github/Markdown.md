@@ -1,5 +1,5 @@
 # Contenido interactivo sobre el uso de Markdown y GITHUB
-### Encabezados
+### 1. Encabezados
 Un encabezado permite organizar tu contenido y resaltar títulos o seccioness. Ayuda a que tu texto se vea más claro y ordenado.
 - Encabezado de Nivel 1:
   Solo hace uso de un # antes del texto.
@@ -17,7 +17,14 @@ Un encabezado permite organizar tu contenido y resaltar títulos o seccioness. A
   ### Se usa para subsecciones
 
   
-### Texto en negrita y cursiva
+### 2. Texto en negrita y cursiva
+Ayuda a resaltar información clave y a guiar mejor la lectura. Sirve para que no todo el texto se vea igual y el público capte rápido lo más importante.
+Por ejemplo.-
+Hola, soy **Eliane**, estudiante de *Ingeniería Biomédica* en la PUCP - UPCH.  
+Actualmente soy **directora de membresías en IEEE** y formo parte de la *AEIB*.
+
+Pueden escribirme a: [**eliane.loza@upch.pe**](a20213367@pucp.edu.pe)
+
 ### Listas
 
 
