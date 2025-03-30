@@ -38,8 +38,10 @@ En Markdown puedes hacer listas ordenadas (con números) o listas desordenadas (
   *perro
   *gato
   *caballo
+  
   +rata
   +gallina
+  
   -pato
   -paloma
   
