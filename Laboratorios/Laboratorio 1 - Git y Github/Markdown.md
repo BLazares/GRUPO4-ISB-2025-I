@@ -30,11 +30,20 @@ Pueden escribirme a: [**eliane.loza@upch.pe**](a20213367@pucp.edu.pe)
 
 ### 3. Listas
 En Markdown puedes hacer listas ordenadas (con números) o listas desordenadas (con guiones o asteriscos).
-+ Listas ordenadas
++ **Listas ordenadas**
   Se usan cuando el orden no importa, como ideas sueltas, tareas, ingredientes, etc.
   Puedes usar -, * o + (todos funcionan igual):
+
+  Por ejemplo.-
+  *perro
+  *gato
+  *caballo
+  +rata
+  +gallina
+  -pato
+  -paloma
   
-+ Listas desordenadas
++ **Listas desordenadas**
   Se usan cuando el orden sí importa, como pasos, instrucciones o rankings. Aquí se usan números
 
 ### Bloques de código
