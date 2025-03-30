@@ -21,6 +21,7 @@ Un encabezado permite organizar tu contenido y resaltar títulos o seccioness. A
 Ayuda a resaltar información clave y a guiar mejor la lectura. Sirve para que no todo el texto se vea igual y el público capte rápido lo más importante.
 - Texto en negrita: se utilizan dos asteriscos ** antes y después del texto a resaltar,
 - Texto en cursiva: Se uitliza un asterisco * antes y después del texto a ajustar.
+  
 Por ejemplo.-
 Hola, soy **Eliane**, estudiante de *Ingeniería Biomédica* en la PUCP - UPCH.  
 Actualmente soy **directora de membresías en IEEE** y formo parte de la *AEIB*.
