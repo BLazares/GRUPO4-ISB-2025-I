@@ -1,4 +1,7 @@
 # Contenido interactivo sobre el uso de Markdown y GITHUB
+
+## MARCKDOWN
+
 ### 1. Encabezados
 Un encabezado permite organizar tu contenido y resaltar títulos o seccioness. Ayuda a que tu texto se vea más claro y ordenado.
 - Encabezado de Nivel 1:
@@ -53,7 +56,7 @@ En Markdown puedes hacer listas ordenadas (con números) o listas desordenadas (
   4. Trabajar en el proyecto
   5. Enviar avances
      
-### Bloques de código
+### 4. Bloques de código
 Cuando se necesita incluir códigos de un lenguaje de programación dentro de un archivo de Github, se debe incluir tres acentos graves (```) antes y despues del código.
 
 <p align="center">
@@ -73,3 +76,10 @@ Si se desea indicar cual es el lenguaje de programación que se usara, este debe
 ```phyton
 print("Prueba de código en python")
 ```
+
+## GITHUB
+
+### Creación de repositorio
+
+Paso 1: Seleccionar "New repository" en el botón de "+" ubicado en la esquina superior derecha.
+Paso 2: Completar todos los detalles del nuevo repositorio: el nombre, descripción e incluir un archivo Readme
