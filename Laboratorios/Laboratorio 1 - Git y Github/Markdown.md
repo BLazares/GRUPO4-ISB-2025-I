@@ -56,6 +56,10 @@ En Markdown puedes hacer listas ordenadas (con números) o listas desordenadas (
 ### Bloques de código
 Cuando se necesita incluir códigos de un lenguaje de programación dentro de un archivo de Github, se debe incluir tres acentos graves (```) antes y despues del código.
 
+<p align="center">
+  <img src="https://github.com/BLazares/GRUPO4-ISB-2025-I/blob/main/Otros/bloque 1.png"/ width ="300" heigh="150">
+</p>
+
 ```
 print("Hola, mundo!")
 ```
