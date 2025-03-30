@@ -7,12 +7,12 @@ Un encabezado permite organizar tu contenido y resaltar títulos o seccioness. A
   # Se usa para el título principal
 
 - Encabezado de Nivel 2:
-  Solo hace uso de dos ## antes del texto
+  Solo hace uso de dos ## antes del texto.
   Por ejemplo.-
   ## Se usa para subtítulos
   
 - Encabezado de Nivel 3:
-  Solo hace uso de tres ### antes del texto
+  Solo hace uso de tres ### antes del texto.
   Por ejemplo.-
   ### Se usa para subsecciones
 
