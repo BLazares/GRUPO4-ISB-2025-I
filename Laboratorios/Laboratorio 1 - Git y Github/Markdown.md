@@ -50,7 +50,6 @@ En Markdown puedes hacer listas ordenadas (con números) o listas desordenadas (
   Se usan cuando el orden sí importa, como pasos, instrucciones o rankings. Aquí se usan números
   1. Levantarse temprano
   2. Revisar correos
-     *Completado
   4. Trabajar en el proyecto
   5. Enviar avances
      
