@@ -1,6 +1,9 @@
 # Contenido interactivo sobre el uso de Markdown y GITHUB
-## Bueno
-### Hola
+### Encabezados
+### Texto en negrita y cursiva
+### Listas
+
+
 ### Bloques de código
 Cuando se necesita incluir códigos de un lenguaje de programación dentro de un archivo de Github, se debe incluir tres acentos graves (```) antes y despues del código.
 
