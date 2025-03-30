@@ -44,10 +44,16 @@ En Markdown puedes hacer listas ordenadas (con números) o listas desordenadas (
   * gallina
   - capibara
   - loro
-  
+  Tambien puedes anexar listas dentro elementos de otras listas más grandes
+
 + **Listas desordenadas**
   Se usan cuando el orden sí importa, como pasos, instrucciones o rankings. Aquí se usan números
-
+  1. Levantarse temprano
+  2. Revisar correos
+     *Completado
+  4. Trabajar en el proyecto
+  5. Enviar avances
+     
 ### Bloques de código
 Cuando se necesita incluir códigos de un lenguaje de programación dentro de un archivo de Github, se debe incluir tres acentos graves (```) antes y despues del código.
 
