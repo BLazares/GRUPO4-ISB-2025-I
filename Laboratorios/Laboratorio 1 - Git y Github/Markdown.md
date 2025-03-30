@@ -1,5 +1,7 @@
 # Contenido interactivo sobre el uso de Markdown y GITHUB
 ### Encabezados
+Un encabezado permite organizar tu contenido y resaltar títulos o seccioness. Ayuda a que tu texto se vea más claro y ordenado.
+- Encabezado de Nivel 1
 ### Texto en negrita y cursiva
 ### Listas
 
