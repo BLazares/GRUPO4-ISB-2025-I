@@ -1,7 +1,5 @@
 # Grupo 3 Introducción a Señales Biomédicas
 
-# Tabla de contenidos
-
 ## Subir archivos desde el CMD
 
 **Paso 1:** Ir a la carpeta donde se encuentran las carpetas y archivos a subir
