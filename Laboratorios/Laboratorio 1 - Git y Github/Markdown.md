@@ -23,8 +23,8 @@ Ayuda a resaltar información clave y a guiar mejor la lectura. Sirve para que n
 - Texto en cursiva: Se uitliza un asterisco * antes y después del texto a ajustar.
   
 Por ejemplo.-
-Hola, soy **Eliane Loza**, estudiante de *Ingeniería Biomédica* en la **PUCP - UPCH **.  
-Actualmente soy **directora de membresías en IEEE** y formo parte de la *AEIB*.
+Hola, soy **Eliane Loza**, estudiante de *Ingeniería Biomédica* en la **PUCP - UPCH**.  
+Actualmente soy *directora de membresías en IEEE* y formo parte de la *AEIB*.
 
 Pueden escribirme a: [**eliane.loza@upch.pe**](a20213367@pucp.edu.pe)
 
