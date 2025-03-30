@@ -87,10 +87,33 @@ Paso 1: Seleccionar "New repository" en el botón de "+" ubicado en la esquina s
   <img src="https://github.com/BLazares/GRUPO4-ISB-2025-I/blob/main/Otros/repositorio1.png"/ width ="300" heigh="150">
 </p>
 
-Paso 2: Completar todos los detalles del nuevo repositorio: el nombre, descripción e incluir un archivo Readme
+Paso 2: Completar todos los detalles del nuevo repositorio: el nombre, descripción e incluir la opción de un archivo Readme.
 
 <p align="center">
   <img src="https://github.com/BLazares/GRUPO4-ISB-2025-I/blob/main/Otros/repositorio2.png"/ width ="300" heigh="150">
 </p>
 
-Siguiendo estos 2 pasos, se logra obtener el repositorio en el que se podra incluir todo su proyecto.
+Siguiendo estos 2 pasos, se logra obtener el repositorio en el que se podra incluir todo su proyecto. En este se selecciona "Create new file" en las opciones de "Add file" para obtener un archivo.
+
+<p align="center">
+  <img src="https://github.com/BLazares/GRUPO4-ISB-2025-I/blob/main/Otros/repositorio3.png"/ width ="300" heigh="150">
+</p>
+
+Se guardan los cambios realizados con el botón "Commit changes..."
+
+<p align="center">
+  <img src="https://github.com/BLazares/GRUPO4-ISB-2025-I/blob/main/Otros/repositorio4.png"/ width ="300" heigh="150">
+</p>
+
+Se realiza un comentario sobre el guardado, esto será útil para las buenas praxis del 
+repositorio. 
+
+<p align="center">
+  <img src="https://github.com/BLazares/GRUPO4-ISB-2025-I/blob/main/Otros/repositorio5.png"/ width ="300" heigh="150">
+</p>
+
+<p align="center">
+  <img src="https://github.com/BLazares/GRUPO4-ISB-2025-I/blob/main/Otros/repositorio6.png"/ width ="300" heigh="150">
+</p>
+
+¡El archivo fue creado!
