@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\ruizm\Documents\GRUPO4-ISB-2025-I\Laboratorios\Laboratorio 2 - Setup para proyectos de señalesJ\mi_entorno
+set VIRTUAL_ENV=C:\Users\ruizm\OneDrive\Escritorio\2025\2025-1\Señales\SEMANA 2\mi_entorno
 
 if not defined PROMPT set PROMPT=$P$G
 
