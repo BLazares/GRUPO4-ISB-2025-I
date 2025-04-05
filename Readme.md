@@ -1,6 +1,7 @@
 Ayuda
-1. Qué se espera del curso
-2. Presentación de cada miembro: interepes, sueños y esperanzas xd
+<p align="center">
+  <img src="./Otros/70bm.gif" alt="Introducción a Señales Biomédicas" width="400"/>
+</p>
    
 # Tabla de contenidos 
 - [Participantes](#participantes)
