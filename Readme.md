@@ -1,4 +1,4 @@
-Ayuda
+Introducción a Señales Biomédicas
 <p align="center">
   <img src="./Otros/70bm.gif" alt="Introducción a Señales Biomédicas" width="400"/>
 </p>
