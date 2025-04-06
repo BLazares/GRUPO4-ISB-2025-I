@@ -1,42 +1,20 @@
-from _typeshed import StrOrBytesPath
-import subprocess
-from collections.abc import Iterable
-from typing import Literal as L, overload, TypedDict, type_check_only
+from numpy._core.multiarray import add_docstring, tracemalloc_domain
+from numpy._core.function_base import add_newdoc
 
-__all__ = ["run_main", "get_include"]
+from . import array_utils, format, introspect, mixins, npyio, scimath, stride_tricks  # noqa: F401
+from ._version import NumpyVersion
+from ._arrayterator_impl import Arrayterator
 
-@type_check_only
-class _F2PyDictBase(TypedDict):
-    csrc: list[str]
-    h: list[str]
-
-@type_check_only
-class _F2PyDict(_F2PyDictBase, total=False):
-    fsrc: list[str]
-    ltx: list[str]
-
-def run_main(comline_list: Iterable[str]) -> dict[str, _F2PyDict]: ...
-
-@overload
-def compile(
-    source: str | bytes,
-    modulename: str = ...,
-    extra_args: str | list[str] = ...,
-    verbose: bool = ...,
-    source_fn: StrOrBytesPath | None = ...,
-    extension: L[".f", ".f90"] = ...,
-    full_output: L[False] = ...,
-) -> int: ...
-@overload
-def compile(
-    source: str | bytes,
-    modulename: str = ...,
-    extra_args: str | list[str] = ...,
-    verbose: bool = ...,
-    source_fn: StrOrBytesPath | None = ...,
-    extension: L[".f", ".f90"] = ...,
-    *,
-    full_output: L[True],
-) -> subprocess.CompletedProcess[bytes]: ...
-
-def get_include() -> str: ...
+__all__ = [
+    "Arrayterator",
+    "add_docstring",
+    "add_newdoc",
+    "array_utils",
+    "introspect",
+    "mixins",
+    "NumpyVersion",
+    "npyio",
+    "scimath",
+    "stride_tricks",
+    "tracemalloc_domain",
+]
