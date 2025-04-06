@@ -6,7 +6,7 @@ PASO 1: Crear una nueva carpeta en el escritorio:
 
 
 <p align="center">
-  <img src="https://github.com/BLazares/GRUPO4-ISB-2025-I/blob/main/Otros/bloque 1.png"/ width ="300" heigh="150">
+  <img src="https://github.com/BLazares/GRUPO4-ISB-2025-I/blob/main/Otros/entorno_virtual_1.png"/ width ="300" heigh="150">
 </p>
 
 PASO 2: En su buscador escribir "cmd"
