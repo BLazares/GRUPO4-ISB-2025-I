@@ -27,7 +27,7 @@ PASO 5: Para activar el entorno virtual creado se debe escribir: "nombre_del_ent
   <img src="https://github.com/BLazares/GRUPO4-ISB-2025-I/blob/main/Otros/entorno_virtual_5.png"/ width ="800" heigh="500">
 </p>
  
-PASO 6: Con el comando "pip list" se puede revisar las librerías
+PASO 6: Con el comando "pip list" se puede revisar las librerías. En este caso, ya que es una nueva carpeta, no se tiene ninguna librería.
 <p align="center">
   <img src="https://github.com/BLazares/GRUPO4-ISB-2025-I/blob/main/Otros/entorno_virtual_6.png"/ width ="800" heigh="500">
 </p>
@@ -37,4 +37,7 @@ PASO 7: Se debe instalar: "pip install numpy pandas matplotlib"
   <img src="https://github.com/BLazares/GRUPO4-ISB-2025-I/blob/main/Otros/entorno_virtual_7.png"/ width ="800" heigh="500">
 </p>
 
-PASO 8:
+PASO 8: El código "pip freeze" y "pip freeze > requirements.txt" sirve para guardar las librerías y que estas puedan ser usadas en otros archivos.
+<p align="center">
+  <img src="https://github.com/BLazares/GRUPO4-ISB-2025-I/blob/main/Otros/entorno_virtual_8.png"/ width ="800" heigh="500">
+</p>
