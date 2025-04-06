@@ -1,8 +1,10 @@
-import logging
-from fontTools.misc.loggingTools import configLogger
+from pathlib import Path
 
-log = logging.getLogger(__name__)
 
-version = __version__ = "4.57.0"
-
-__all__ = ["version", "log", "configLogger"]
+# Check that the test directories exist.
+if not (Path(__file__).parent / 'baseline_images').exists():
+    raise OSError(
+        'The baseline image directory does not exist. '
+        'This is most likely because the test data is not installed. '
+        'You may need to install matplotlib from source to get the '
+        'test data.')
