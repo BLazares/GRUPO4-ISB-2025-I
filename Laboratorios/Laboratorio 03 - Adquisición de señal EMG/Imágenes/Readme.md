@@ -7,5 +7,5 @@ Reposo hombro mp4
 
 Reposo hombro gif
 <p align="center">
-  <img src="./Laboratorios/Laboratorio 03 - Adquisición de señal EMG/Imágenes/Reposo_hombro.gif" alt="Reposo hombro gif"/>
+  <img src="./Laboratorios/Laboratorio 03 - Adquisición de señal EMG/Imágenes/Reposo_hombro.gif" alt="Reposo hombro gif" width="400"/>
 </p>
