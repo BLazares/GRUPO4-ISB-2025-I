@@ -1,48 +1,45 @@
 # **Tabla de contenidos**
 
-1. [Objetivos](#id1)
-2. [Materiales y equipos](#id2)
-3. [Resultados](#id3)\
-     3.1 [Conexión usada](#id4)\
-     3.2 [Video de la señal](#id5)\
-     3.3 [Ploteo de la señal en OpenSignal](#id6)\
-     3.4 [Archivos](#id7)\
-     3.5 [Ploteo de la señal en Python](#id8)
+1. [Introducción](#id1)
+2. [Propósito de la práctica](#id2)
+3. [Materiales y equipos](#id3)
+4. [Resultados y limitaciones](#id4)\
+     3.1 [Conexión usada](#id5)\
+     3.2 [Ploteo de la señal en OpenSignal](#id6)\
+     3.3 [Archivos](#id7)\
+     3.4 [Ploteo de la señal en Python](#id8)\
+5. [Referencias](#id9)\
 
 
 
-## **Objetivos** <a name="id1"></a>
-* Adquirir señales biomédicas de EMG y ECG.
+## **Introducción** <a name="id1"></a>
+*fundamentos*
+*emg sirve para ..*
+*emg funciona a partir de los principios...*
+
+
+## **Propósito de la práctica** <a name="id2"></a>
+
+* Adquirir señales biomédicas de EMG de músculos con menor indice de confusión técnica.
 * Hacer una correcta configuración de BiTalino.
-* Extraer la información de las señales EMG y ECG del software OpenSignals (r)evolution
+* Extraer la información de las señales EMG del software OpenSignals (r)evolution
 
 
 
-## **Materiales y equipos** <a name="id2"></a>
+## **Materiales y equipos** <a name="id3"></a>
 
 <div align="center">
 
-|  **Modelo**  | **Descripción** | **Cantidad** |
-|:------------:|:---------------:|:------------:|
-| (R)EVOLUTION |   Kit BITalino  |       1      |
-|       -      |      Laptop     |       1      |
+|  **Modelo**  |    **Descripción**    | **Cantidad** |
+|:------------:|:---------------------:|:------------:|
+| (R)EVOLUTION |      Kit BITalino     |       1      |
+|       -      |         Laptop        |       1      |
+|       -      |      Aplicación -     |       1      |
 
 </div>
 
-<p align="justify">
-<p align="center"><img src="/ISB/Laboratorios/Imagenes/Bitalino/working1.jpeg" width="400" height="266"></p>
-</p>
-
-## **RESULTADOS** <a name="id3"></a>
-### **Conexión usada** <a name="id4"></a>
-Se utilizó la conexión EMG en la placa Bitalino utilizando el sensor EMG de 3 electrodos como se muestra a continuación.
-<p align="justify">
-<p align="center"><img src="/ISB/Laboratorios/Imagenes/Bitalino/bit-con2.jpg" width="400" height="266"></p>
-</p>
-
-El siguiente procedimiento consiste en colocar los electrodos EMG en el usuario de prueba. Para ello se utilizó la **Guía De Procedimiento de Electromiografía y velocidad de conducción de nervios periféricos** del año 2020 elaborada por el **Instituto Nacional del Niño de San Borja** para el Ministerio de Salud (MINSA).
-
-### **Video de la señal y ploteo en Opensignal** <a name="id5"></a>
+*insertar imagenes de los materiales*
+*Posición de los electrodos*
 ### PRUEBA 1 <br>
 
 <p align="justify">
@@ -90,6 +87,20 @@ En la prueba 3 se tomo señales del reposo y contracción del músculo gastrocne
 ### **Archivos** <a name="id7"></a>
 - [Documentos (.txt)](https://github.com/Grupo2-IntroduccionSenalesMedicas/S_biomedica/tree/main/Documentos/BiTalino)
 - [Programa de ploteo (Jupyter Notebook)](https://github.com/Grupo2-IntroduccionSenalesMedicas/S_biomedica/blob/main/Programaci%C3%B3n/Laboratorio%203/SignalPlot.ipynb)
+
+### **Conexión usada** <a name="id5"></a>
+Se utilizó la conexión EMG en la placa Bitalino utilizando el sensor EMG de 3 electrodos como se muestra a continuación.
+<p align="justify">
+<p align="center"><img src="/ISB/Laboratorios/Imagenes/Bitalino/bit-con2.jpg" width="400" height="266"></p>
+</p>
+
+El siguiente procedimiento consiste en colocar los electrodos EMG en el usuario de prueba. Para ello se utilizó la **Guía De Procedimiento de Electromiografía y velocidad de conducción de nervios periféricos** del año 2020 elaborada por el **Instituto Nacional del Niño de San Borja** para el Ministerio de Salud (MINSA).
+
+## **Resultados y limitaciones** <a name="id4"></a>
+
+
+### **Video de la señal y ploteo en Opensignal** <a name="id6"></a>
+
 ### **Ploteo de la señal en Python** <a name="id8"></a>
 <p align="justify">
 La primera prueba se realizo con el dedo pulgar en el cuál se tomaron muestras del dedo en reposo, contra fuerza y en posición de pinza con el dedo índice.
@@ -112,3 +123,5 @@ En la tercera prueba, el usuario estuvo en posición sentado y parado, y de las 
 <p align="center"><img src="/ISB/Laboratorios/Imagenes/Bitalino/EMG_Python_pantorrilla_parado.jpg" width="800" height="500"></p>
 - Señal de contracción del gastrocnemio en posición sentado:
 <p align="center"><img src="/ISB/Laboratorios/Imagenes/Bitalino/EMG_Python_pantorrilla_sentado.jpg" width="800" height="500"></p>
+
+## **Referencias** <a name="id9"></a>
