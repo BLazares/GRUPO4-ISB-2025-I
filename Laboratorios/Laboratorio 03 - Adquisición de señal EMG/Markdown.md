@@ -50,6 +50,54 @@ El siguiente procedimiento consiste en colocar los electrodos EMG en el usuario 
 *Posición de los electrodos*
 
 ### **MEDICIONES EN DELTOIDES** <a name="id5"></a>
+### PRUEBA 1<br>
+### Mediciones  en reposo <br>
+
+<p align="justify">
+En la prueba 1 se tomo señales del reposo y contracción del dedo pulgar, teniendo la conexión de tierra en el dorso de la mano.Presione el icono de video rojo para acceder a la lista de reproducción de la primera prueba.<br>
+     
+</p>
+<p align="center"><img src="/.png" width="400" height="300"></p>
+*insertar imagen *
+<div align="center">
+
+|  **Dedo en reposo**  | **Dedo sin oposición** | **Dedo con oposición** |
+|:------------:|:---------------:|:------------:|
+|<video src="https://user-images.githubusercontent.com/62686249/231337697-050966ab-cd84-454a-b6eb-9ab720da62cd.mp4"></video>|<video src="https://user-images.githubusercontent.com/62686249/231337782-f487bdb1-d614-4010-8caa-26c267cba7f6.mp4"></video>|<video src= "https://user-images.githubusercontent.com/62686249/231337918-3db1b3f2-4e32-4e3c-bb6f-f8fb607a03d2.mp4"></video>|
+
+[<img src="https://cdn.icon-icons.com/icons2/1713/PNG/512/iconfinder-videologoplayicon-3993847_112649.png" width="20%" height="20%">](https://www.youtube.com/playlist?list=PLZDUFkiHuQKhex5qfmNXrVl5pFNnRhcRX)
+
+</div>
+
+### PRUEBA 2 <br>
+### Mediciones  con esfuerzo simple <br>
+
+<p align="justify">
+En la prueba 2 se tomo señales del reposo y contracción del biceps, teniendo la conexión de tierra a la altura de la muñeca.Presione el icono de video rojo para acceder a la lista de reproducción de la segunda prueba<br>
+</p>
+<p align="center"><img src="/ISB/Laboratorios/Imagenes/Bitalino/electrodos_brazo1.png" width="400" height="300"></p>
+
+<div align="center">
+
+[<img src="https://cdn.icon-icons.com/icons2/1713/PNG/512/iconfinder-videologoplayicon-3993847_112649.png" width="20%" height="20%">](https://www.youtube.com/playlist?list=PLZDUFkiHuQKhhKAlygeNMoSdIRdmgaqWJ)
+
+</div>
+
+### PRUEBA 3 <br>
+### Mediciones  con un esfuerzo en contra <br>
+
+<p align="justify">
+En la prueba 3 se tomo señales del reposo y contracción del músculo gastrocnemio, teniendo la conexión de tierra en la parte anterior de la tibia.Presione el icono de video rojo para acceder a la lista de reproducción de la tercera prueba<br>
+</p>
+<p align="center"><img src="/ISB/Laboratorios/Imagenes/Bitalino/electrodos_pantorrilla1.png" width="400" height="300"></p>
+
+<div align="center">
+
+[<img src="https://cdn.icon-icons.com/icons2/1713/PNG/512/iconfinder-videologoplayicon-3993847_112649.png" width="20%" height="20%">](https://youtu.be/OC1sGy-e34A)
+
+</div>
+
+### **MEDICIONES EN BICEPS BRAQUIAL** <a name="id5"></a>
 ### Mediciones  en reposo <br>
 
 <p align="justify">
@@ -93,7 +141,6 @@ En la prueba 3 se tomo señales del reposo y contracción del músculo gastrocne
 [<img src="https://cdn.icon-icons.com/icons2/1713/PNG/512/iconfinder-videologoplayicon-3993847_112649.png" width="20%" height="20%">](https://youtu.be/OC1sGy-e34A)
 
 </div>
-
 
 ### **Archivos** <a name="id7"></a>
 - [Documentos (.txt)](https://github.com/Grupo2-IntroduccionSenalesMedicas/S_biomedica/tree/main/Documentos/BiTalino)
