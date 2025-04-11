@@ -6,7 +6,7 @@
      3.1 [Conexión usada](#id4)\
      3.2 [Mediciones en deltoides](#id5)\
      3.3 [Mediciones en bíceps](#id6)
-5. [Resultados y limitaciones](#id4)\
+5. [Resultados y limitaciones](#id7)\
      4.1 [Ploteo de la señal en OpenSignal](#id6)\
      4.2 [Archivos](#id7)\
      3.3 [Ploteo de la señal en Python](#id8)
@@ -42,27 +42,33 @@
 
 *insertar imagenes de los materiales*
 ### **Conexión usada** <a name="id4"></a>
-Se utilizó la conexión EMG en la placa Bitalino utilizando el sensor EMG de 3 electrodos como se muestra a continuación.
+Se utilizó el EMG del bitalino
+
+*insertar imagen emg*
 <p align="justify">
 <p align="center"><img src="/ISB/Laboratorios/Imagenes/Bitalino/bit-con2.jpg" width="400" height="266"></p>
 </p>
 
-El siguiente procedimiento consiste en colocar los electrodos EMG en el usuario de prueba. Para ello se utilizó la **Guía De Procedimiento de Electromiografía y velocidad de conducción de nervios periféricos** del año 2020 elaborada por el **Instituto Nacional del Niño de San Borja** para el Ministerio de Salud (MINSA).
-*Posición de los electrodos*
+y este fue conectado a 3 electrodos. Uno negro negativo, uno rojo positivo y uno blanco de referencia. Por lo que las señales ....[]
+*insertar imagen conexiones*
+
+
+Siguiendo la guía ... elaborada por ....se colocaron los electrodos EMG en ... []
+
+*Posición de los electrodos deltoides*
+*Posición de los electrodos bíceps*
 
 ### **MEDICIONES EN DELTOIDES** <a name="id5"></a>
-### PRUEBA 1<br>
-### Mediciones  en reposo <br>
 
 <p align="justify">
-En la prueba 1 se tomo señales del reposo y contracción del dedo pulgar, teniendo la conexión de tierra en el dorso de la mano.Presione el icono de video rojo para acceder a la lista de reproducción de la primera prueba.<br>
+Se tomaron señales del músculo en reposo y contracción.Presione el icono de video rojo para acceder a la lista de reproducción de la primera prueba.<br>
      
 </p>
 <p align="center"><img src="/.png" width="400" height="300"></p>
 *insertar imagen *
 <div align="center">
 
-|  **Dedo en reposo**  | **Dedo sin oposición** | **Dedo con oposición** |
+|  **Reposo**  | **Movimiento ligero** | **Fuerza** |
 |:------------:|:---------------:|:------------:|
 |<video src="https://user-images.githubusercontent.com/62686249/231337697-050966ab-cd84-454a-b6eb-9ab720da62cd.mp4"></video>|<video src="https://user-images.githubusercontent.com/62686249/231337782-f487bdb1-d614-4010-8caa-26c267cba7f6.mp4"></video>|<video src= "https://user-images.githubusercontent.com/62686249/231337918-3db1b3f2-4e32-4e3c-bb6f-f8fb607a03d2.mp4"></video>|
 
@@ -70,76 +76,21 @@ En la prueba 1 se tomo señales del reposo y contracción del dedo pulgar, tenie
 
 </div>
 
-### PRUEBA 2 <br>
-### Mediciones  con esfuerzo simple <br>
+### **MEDICIONES EN BICEPS BRAQUIAL** <a name="id6"></a>
 
 <p align="justify">
-En la prueba 2 se tomo señales del reposo y contracción del biceps, teniendo la conexión de tierra a la altura de la muñeca.Presione el icono de video rojo para acceder a la lista de reproducción de la segunda prueba<br>
-</p>
-<p align="center"><img src="/ISB/Laboratorios/Imagenes/Bitalino/electrodos_brazo1.png" width="400" height="300"></p>
-
-<div align="center">
-
-[<img src="https://cdn.icon-icons.com/icons2/1713/PNG/512/iconfinder-videologoplayicon-3993847_112649.png" width="20%" height="20%">](https://www.youtube.com/playlist?list=PLZDUFkiHuQKhhKAlygeNMoSdIRdmgaqWJ)
-
-</div>
-
-### PRUEBA 3 <br>
-### Mediciones  con un esfuerzo en contra <br>
-
-<p align="justify">
-En la prueba 3 se tomo señales del reposo y contracción del músculo gastrocnemio, teniendo la conexión de tierra en la parte anterior de la tibia.Presione el icono de video rojo para acceder a la lista de reproducción de la tercera prueba<br>
-</p>
-<p align="center"><img src="/ISB/Laboratorios/Imagenes/Bitalino/electrodos_pantorrilla1.png" width="400" height="300"></p>
-
-<div align="center">
-
-[<img src="https://cdn.icon-icons.com/icons2/1713/PNG/512/iconfinder-videologoplayicon-3993847_112649.png" width="20%" height="20%">](https://youtu.be/OC1sGy-e34A)
-
-</div>
-
-### **MEDICIONES EN BICEPS BRAQUIAL** <a name="id5"></a>
-### Mediciones  en reposo <br>
-
-<p align="justify">
-En la prueba 1 se tomo señales del reposo y contracción del dedo pulgar, teniendo la conexión de tierra en el dorso de la mano.Presione el icono de video rojo para acceder a la lista de reproducción de la primera prueba.<br>
+Se tomo señales del reposo y contracción del músculo.Presione el icono de video rojo para acceder a la lista de reproducción de la primera prueba.<br>
      
 </p>
 <p align="center"><img src="/.png" width="400" height="300"></p>
 *insertar imagen *
 <div align="center">
 
-|  **Dedo en reposo**  | **Dedo sin oposición** | **Dedo con oposición** |
+|  **Reposo**  | **Movimiento ligero** | **Fuerza** |
 |:------------:|:---------------:|:------------:|
 |<video src="https://user-images.githubusercontent.com/62686249/231337697-050966ab-cd84-454a-b6eb-9ab720da62cd.mp4"></video>|<video src="https://user-images.githubusercontent.com/62686249/231337782-f487bdb1-d614-4010-8caa-26c267cba7f6.mp4"></video>|<video src= "https://user-images.githubusercontent.com/62686249/231337918-3db1b3f2-4e32-4e3c-bb6f-f8fb607a03d2.mp4"></video>|
 
 [<img src="https://cdn.icon-icons.com/icons2/1713/PNG/512/iconfinder-videologoplayicon-3993847_112649.png" width="20%" height="20%">](https://www.youtube.com/playlist?list=PLZDUFkiHuQKhex5qfmNXrVl5pFNnRhcRX)
-
-</div>
-
-### PRUEBA 2 <br>
-
-<p align="justify">
-En la prueba 2 se tomo señales del reposo y contracción del biceps, teniendo la conexión de tierra a la altura de la muñeca.Presione el icono de video rojo para acceder a la lista de reproducción de la segunda prueba<br>
-</p>
-<p align="center"><img src="/ISB/Laboratorios/Imagenes/Bitalino/electrodos_brazo1.png" width="400" height="300"></p>
-
-<div align="center">
-
-[<img src="https://cdn.icon-icons.com/icons2/1713/PNG/512/iconfinder-videologoplayicon-3993847_112649.png" width="20%" height="20%">](https://www.youtube.com/playlist?list=PLZDUFkiHuQKhhKAlygeNMoSdIRdmgaqWJ)
-
-</div>
-
-### PRUEBA 3 <br>
-
-<p align="justify">
-En la prueba 3 se tomo señales del reposo y contracción del músculo gastrocnemio, teniendo la conexión de tierra en la parte anterior de la tibia.Presione el icono de video rojo para acceder a la lista de reproducción de la tercera prueba<br>
-</p>
-<p align="center"><img src="/ISB/Laboratorios/Imagenes/Bitalino/electrodos_pantorrilla1.png" width="400" height="300"></p>
-
-<div align="center">
-
-[<img src="https://cdn.icon-icons.com/icons2/1713/PNG/512/iconfinder-videologoplayicon-3993847_112649.png" width="20%" height="20%">](https://youtu.be/OC1sGy-e34A)
 
 </div>
 
@@ -147,7 +98,7 @@ En la prueba 3 se tomo señales del reposo y contracción del músculo gastrocne
 - [Documentos (.txt)](https://github.com/Grupo2-IntroduccionSenalesMedicas/S_biomedica/tree/main/Documentos/BiTalino)
 - [Programa de ploteo (Jupyter Notebook)](https://github.com/Grupo2-IntroduccionSenalesMedicas/S_biomedica/blob/main/Programaci%C3%B3n/Laboratorio%203/SignalPlot.ipynb)
 
-## **Resultados y limitaciones** <a name="id4"></a>
+## **Resultados y limitaciones** <a name="id7"></a>
 
 
 ### **Video de la señal y ploteo en Opensignal** <a name="id6"></a>
