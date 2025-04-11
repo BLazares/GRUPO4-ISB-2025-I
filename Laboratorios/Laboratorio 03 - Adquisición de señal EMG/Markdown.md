@@ -3,12 +3,13 @@
 1. [Introducción](#id1)
 2. [Propósito de la práctica](#id2)
 3. [Materiales y equipos](#id3)
-4. [Resultados y limitaciones](#id4)\
-     3.1 [Conexión usada](#id5)\
-     3.2 [Ploteo de la señal en OpenSignal](#id6)\
-     3.3 [Archivos](#id7)\
-     3.4 [Ploteo de la señal en Python](#id8)\
-5. [Referencias](#id9)\
+     3.1 [Conexión usada](#id4)
+     4.2 [Mediciones en deltoides](#id5)\
+5. [Resultados y limitaciones](#id4)\
+     4.1 [Ploteo de la señal en OpenSignal](#id6)\
+     4.2 [Archivos](#id7)\
+     3.3 [Ploteo de la señal en Python](#id8)
+6. [Referencias](#id9)
 
 
 
@@ -26,27 +27,37 @@
 
 
 
-## **Materiales y equipos** <a name="id3"></a>
+## **Materiales y métodos** <a name="id3"></a>
 
 <div align="center">
 
-|  **Modelo**  |    **Descripción**    | **Cantidad** |
-|:------------:|:---------------------:|:------------:|
-| (R)EVOLUTION |      Kit BITalino     |       1      |
-|       -      |         Laptop        |       1      |
-|       -      |      Aplicación -     |       1      |
+|       **Materiales**      | **Cantidad** |
+|:-------------------------:|:------------:|
+| (R)EVOLUTION Kit BITalino |       1      |
+|           Laptop          |       1      |
+|          Aplicación -     |       1      |
 
 </div>
 
 *insertar imagenes de los materiales*
+### **Conexión usada** <a name="id4"></a>
+Se utilizó la conexión EMG en la placa Bitalino utilizando el sensor EMG de 3 electrodos como se muestra a continuación.
+<p align="justify">
+<p align="center"><img src="/ISB/Laboratorios/Imagenes/Bitalino/bit-con2.jpg" width="400" height="266"></p>
+</p>
+
+El siguiente procedimiento consiste en colocar los electrodos EMG en el usuario de prueba. Para ello se utilizó la **Guía De Procedimiento de Electromiografía y velocidad de conducción de nervios periféricos** del año 2020 elaborada por el **Instituto Nacional del Niño de San Borja** para el Ministerio de Salud (MINSA).
 *Posición de los electrodos*
-### PRUEBA 1 <br>
+
+### **MEDICIONES EN DELTOIDES** <a name="id5"></a>
+### Mediciones  en reposo <br>
 
 <p align="justify">
 En la prueba 1 se tomo señales del reposo y contracción del dedo pulgar, teniendo la conexión de tierra en el dorso de la mano.Presione el icono de video rojo para acceder a la lista de reproducción de la primera prueba.<br>
+     
 </p>
-<p align="center"><img src="/ISB/Laboratorios/Imagenes/Bitalino/electrodos_dedo1.png" width="400" height="300"></p>
-
+<p align="center"><img src="/.png" width="400" height="300"></p>
+*insertar imagen *
 <div align="center">
 
 |  **Dedo en reposo**  | **Dedo sin oposición** | **Dedo con oposición** |
@@ -87,14 +98,6 @@ En la prueba 3 se tomo señales del reposo y contracción del músculo gastrocne
 ### **Archivos** <a name="id7"></a>
 - [Documentos (.txt)](https://github.com/Grupo2-IntroduccionSenalesMedicas/S_biomedica/tree/main/Documentos/BiTalino)
 - [Programa de ploteo (Jupyter Notebook)](https://github.com/Grupo2-IntroduccionSenalesMedicas/S_biomedica/blob/main/Programaci%C3%B3n/Laboratorio%203/SignalPlot.ipynb)
-
-### **Conexión usada** <a name="id5"></a>
-Se utilizó la conexión EMG en la placa Bitalino utilizando el sensor EMG de 3 electrodos como se muestra a continuación.
-<p align="justify">
-<p align="center"><img src="/ISB/Laboratorios/Imagenes/Bitalino/bit-con2.jpg" width="400" height="266"></p>
-</p>
-
-El siguiente procedimiento consiste en colocar los electrodos EMG en el usuario de prueba. Para ello se utilizó la **Guía De Procedimiento de Electromiografía y velocidad de conducción de nervios periféricos** del año 2020 elaborada por el **Instituto Nacional del Niño de San Borja** para el Ministerio de Salud (MINSA).
 
 ## **Resultados y limitaciones** <a name="id4"></a>
 
