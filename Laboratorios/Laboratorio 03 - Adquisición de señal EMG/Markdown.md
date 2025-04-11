@@ -2,10 +2,10 @@
 
 1. [Introducción](#id1)
 2. [Propósito de la práctica](#id2)
-3. [Materiales y equipos](#id3)
+3. [Materiales y equipos](#id3)\
      3.1 [Conexión usada](#id4)\
      3.2 [Mediciones en deltoides](#id5)\
-     3.3 [Mediciones en bíceps](#id6)\
+     3.3 [Mediciones en bíceps](#id6)
 5. [Resultados y limitaciones](#id4)\
      4.1 [Ploteo de la señal en OpenSignal](#id6)\
      4.2 [Archivos](#id7)\
