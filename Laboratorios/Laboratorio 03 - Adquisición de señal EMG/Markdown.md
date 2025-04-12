@@ -85,11 +85,12 @@ La señal EMG en el deltoides medial es fácil de registrar por su localización
 
 <p align="center">
    
-|  **Actividad Muscular - Deltoides en reposo** | **Actividad Muscular - Delotides ejerciendo fuerza** |
-|:-----------------------------------------------------:|:--------------------------------------------------------:|
-|<video src="https://github.com/user-attachments/assets/b501a6a4-6002-4526-81b7-ce0dc513d36a"></video>|<video src="https://github.com/user-attachments/assets/8ff2246f-7f49-48b0-aa0b-53cf2bd35a6a">|
-<p align="center"><i>Tabla 2. Videos de adquisición de la señal EMG según dos tomas: en reposo y con el músculo ejerciendo fuerza. </i></p>
-</p>
+| **Actividad Muscular - Deltoides en reposo** | **Actividad Muscular - Deltoides ejerciendo fuerza (Toma 1)** | **Actividad Muscular - Deltoides ejerciendo fuerza (Toma 2)** |
+|:-------------------------------------------:|:------------------------------------------------------------:|:------------------------------------------------------------:|
+| <video src="https://github.com/user-attachments/assets/b501a6a4-6002-4526-81b7-ce0dc513d36a"></video> | <video src="https://github.com/user-attachments/assets/8ff2246f-7f49-48b0-aa0b-53cf2bd35a6a"></video> | <video src="https://github.com/user-attachments/assets/8ff2246f-7f49-48b0-aa0b-53cf2bd35a6a"></video> |
+
+<p align="center"><i>Tabla 2. Videos de adquisición de la señal EMG del deltoides: reposo y dos tomas bajo contracción con carga.</i></p>
+
 
 <p align="center">
    
