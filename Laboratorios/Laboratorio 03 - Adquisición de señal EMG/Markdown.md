@@ -118,7 +118,14 @@ Por último, Guzmán-Muñoz y Méndez-Rebolledo (2018) subrayan el uso de EMG en
 <p align="center"><img src="Imágenes/biceps2.0.jpg" width="400"></p>
 <p align="center"><i>Figura 6: Posición de los electrodos según el protocolo seguido en el paper [6].</i></p>
 
-#### <blockquote> Prueba 03: Bíceps braquial / Nervio mediano
+###   Datos fisiológicos del Bíceps Braquial (según literatura)
+| Condición muscular           | Frecuencia media (Hz) | Amplitud media (μV)       |
+|-----------------------------|------------------------|----------------------------|
+| Descanso                    | ~20–40                 | Baja (~100–300 μV)         |
+| Contracción leve            | ~30–60                 | ~200–500 μV                |
+| Contracción fuerte          | ~60–110                | ~600–1500 μV               |
+
+#### <blockquote> Prueba 02: Bíceps braquial / Nervio mediano
 
 <p align="center"><img src="Anexos/IMG_mano.jpeg" width="450" height="300"></p>
 
