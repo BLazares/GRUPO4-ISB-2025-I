@@ -37,6 +37,8 @@
 | (R)EVOLUTION Kit BITalino |       1      |
 |           Laptop          |       1      |
 |          Aplicación -     |       1      |
+| Electrodos de superficie  |      5       |
+
 
 </div>
 
