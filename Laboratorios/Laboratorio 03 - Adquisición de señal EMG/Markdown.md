@@ -136,3 +136,4 @@ En la tercera prueba, el usuario estuvo en posición sentado y parado, y de las 
 5. https://www.redalyc.org/journal/817/81759607022/html/ deltoides 
 6. https://www.sciencedirect.com/science/article/pii/S2352340923005383
 7. https://biblioteca.utb.edu.co/notas/tesis/0069071.pdf
+8. https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide1_EMG.pdf
