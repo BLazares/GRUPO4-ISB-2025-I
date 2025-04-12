@@ -68,13 +68,15 @@ La señal EMG en el deltoides medial es fácil de registrar por su localización
 
 <div align="center">
 
-### 📊 Datos fisiológicos del Deltoides Medial (según literatura)
 
-| Condición muscular           | Frecuencia media (Hz) | Amplitud RMS (μV)         |
-|-----------------------------|------------------------|----------------------------|
-| Reposo                      | ~20–40                 | Baja (~100–300 μV)         |
-| Abducción con carga leve    | ~50–80                 | Media (~400–800 μV)        |
-| Abducción con carga alta    | ~90–120+               | Alta (~900–1500+ μV)       |
+### 🏋️‍♂️ Datos fisiológicos del Deltoides Medial (basados en Roldán, 2017 y Guzmán-Muñoz & Méndez-Rebolledo, 2020)
+
+| Condición muscular             | Frecuencia media (Hz) | Amplitud RMS estimada     |
+|-------------------------------|------------------------|----------------------------|
+| Reposo                        | ~30–40                 | Baja (~100–300 μV)*        |
+| Abducción con carga moderada  | ~60–90                 | Media (~400–800 μV)*       |
+| Abducción con carga elevada   | ~100–120               | Alta (~900–1500+ μV)*      |
+
 
 #### <blockquote> Prueba 01: Deltoides
 
