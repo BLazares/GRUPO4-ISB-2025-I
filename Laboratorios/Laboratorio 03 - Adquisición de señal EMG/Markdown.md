@@ -49,8 +49,18 @@ El patrón de la señal EMG producida puede variar según la actividad muscular.
 Se utilizó el EMG del bitalino
 ## **Resultados:**<a id="Resultados"></a>
 <a name="P1"></a>
-### 1. Actividad muscular del tríceps según la literatura:
-<p align="justify"> En el artículo de Villalba et al. (2024), el enfoque está en medir la actividad EMG del tríceps braquial (cabeza lateral y cabeza larga) durante un ejercicio de tríceps push-down en varias posiciones del antebrazo (supinada y pronada). También se menciona que la cabeza larga del tríceps muestra mayor actividad EMG cuando el antebrazo está en una posición supinada, lo que sugiere una mayor carga sobre este músculo en comparación con la posición pronada. Esto hace que sea importante medir la actividad EMG en ambas posiciones para entender cómo varía la activación muscular y mejorar la eficiencia del ejercicio [3] .
+### 1. Actividad muscular del bíceps según la literatura:
+<p align="justify">El bíceps braquial es un músculo biarticular que participa en movimientos de flexión del codo y supinación del antebrazo. Por su importancia funcional, ha sido ampliamente estudiado mediante electromiografía (EMG), permitiendo evaluar su actividad en condiciones de reposo, carga leve y carga máxima.
+
+En el trabajo de Domínguez Jiménez (2015), se analiza la señal EMG del bíceps durante la ejecución de ejercicios con mancuernas, encontrando un incremento progresivo en la amplitud y frecuencia de la señal conforme aumenta la carga. El estudio reporta una frecuencia media (MF) que va desde los 30–60 Hz en contracción leve, hasta valores superiores a los 100 Hz en contracciones máximas, con una amplitud promedio que puede superar los 1500 μV bajo carga intensa【6】.
+
+Por otro lado, el estudio de Khodadadi et al. (2023) explora el comportamiento del bíceps braquial bajo estimulación artificial utilizando la ecuación caótica de Rossler. En este caso, se genera una señal EMG con características no lineales y frecuencias superiores a 120 Hz, útiles para el análisis de patrones complejos en contextos como el desarrollo de prótesis inteligentes o clasificación de señales patológicas【5】.
+
+Además, las guías clínicas de Cleveland Clinic y Johns Hopkins Medicine confirman que el análisis EMG del bíceps es fundamental para diagnosticar lesiones musculares, evaluar el rendimiento motor y personalizar la rehabilitación【1】【2】.
+
+La colocación adecuada de los electrodos también es clave. Según Proença y Mrotzeck (2021), se recomienda ubicar los electrodos paralelos a las fibras musculares del bíceps, aproximadamente en el centro del vientre muscular, siguiendo lineamientos del proyecto SENIAM para garantizar registros fiables y comparables【7】.
+
+Por último, Guzmán-Muñoz y Méndez-Rebolledo (2018) subrayan el uso de EMG en ciencias de la rehabilitación, considerando al bíceps braquial como músculo clave en la restauración de funciones básicas del miembro superior en pacientes con daño neuromuscular【3】.
 
 <p align="justify"> En el artículo de Hussain et al., se observa que la fatiga afecta las señales EMG de diferentes maneras, reduciendo las frecuencias medias de potencia (MPF) y mediana (MDF) a medida que se avanza hacia la fatiga. También se observa un aumento en la amplitud del RMS bajo condiciones de fatiga, lo que indica un mayor esfuerzo muscular a medida que el músculo se acerca al fallo [4]. </p>
 
