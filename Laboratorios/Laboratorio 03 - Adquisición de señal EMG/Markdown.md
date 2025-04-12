@@ -64,7 +64,7 @@ Por último, Guzmán-Muñoz y Méndez-Rebolledo (2018) subrayan el uso de EMG en
 
 <p align="justify"> En el artículo de Hussain et al., se observa que la fatiga afecta las señales EMG de diferentes maneras, reduciendo las frecuencias medias de potencia (MPF) y mediana (MDF) a medida que se avanza hacia la fatiga. También se observa un aumento en la amplitud del RMS bajo condiciones de fatiga, lo que indica un mayor esfuerzo muscular a medida que el músculo se acerca al fallo [4]. </p>
 
-<p align="center"><img src="Anexos/Tricep paper.png" width="400"></p>
+<p align="center"><img src="Imágenes/biceps.jpg" width="400"></p>
 
 <p align="center"><i>Figura 2: Posición de los electrodos según el protocolo seguido en el paper [4].</i></p>
 
