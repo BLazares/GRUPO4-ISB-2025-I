@@ -15,7 +15,7 @@
 
 
 ## **Introducción** <a name="id1"></a>
-*fundamentos*
+*La electromiografía (EMG) es una técnica para registrar señales eléctricas biomédicas obtenidas de la actividad neuromuscular[1]*
 *emg sirve para ..*
 *emg funciona a partir de los principios...*
 
