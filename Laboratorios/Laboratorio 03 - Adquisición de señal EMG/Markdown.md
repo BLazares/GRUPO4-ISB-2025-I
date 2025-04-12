@@ -15,7 +15,7 @@
 
 
 ## **Introducción** <a name="id1"></a>
-*La electromiografía (EMG) es una técnica para registrar señales eléctricas biomédicas obtenidas de la actividad neuromuscular (conjunto de interacciones entre el sistema nervioso y los músculos esqueleticos del cuerpo humano) [1] Las señales registradas pueden utilizarse en aplicaciones clínicas y biomédicas si se dispone de métodos avanzados de detección, descomposición, procesamiento y clasificación [2].
+*La electromiografía (EMG) es una técnica para registrar señales eléctricas biomédicas obtenidas de la actividad neuromuscular (conjunto de interacciones entre el sistema nervioso y los músculos esqueleticos del cuerpo humano) [1] Las señales registradas pueden utilizarse en aplicaciones clínicas y biomédicas si se dispone de métodos avanzados de detección, descomposición, procesamiento y clasificación [2], pero las más comunes son monitorizar anomalías médicas y niveles de activación, así como para analizar la biomecánica [1].
 
 El patrón de la señal EMG producida puede variar según la actividad muscular. *
 *emg sirve para ..*
