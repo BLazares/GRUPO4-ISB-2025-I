@@ -69,7 +69,7 @@ Por último, Guzmán-Muñoz y Méndez-Rebolledo (2018) subrayan el uso de EMG en
 <p align="center"><i>Figura 2: Posición de los electrodos según el protocolo seguido en el paper [4].</i></p>
 
 
-#### <blockquote> Prueba 01: Tríceps
+#### <blockquote> Prueba 01: Biceps
 
 <p align="center"><img src="Anexos/IMG_tricep.PNG" width="450" height="300"></p>
 
