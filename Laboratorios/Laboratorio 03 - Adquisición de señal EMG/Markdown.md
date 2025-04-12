@@ -99,40 +99,33 @@ La señal EMG en el deltoides medial es fácil de registrar por su localización
 | **En reposo y ejerciendo fuerza**|<image src="Anexos/S_triceps.png">|
 <p align="center"><i>Tabla 3. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
 
-### 2. Actividad muscular del gastrocnemio según la literatura:
-<p align="justify"> En el estudio de Wang et al. (2021), se centra en la medición de la actividad EMG del gastrocnemio durante varias inclinaciones y tipos de marcha (caminar en plano, cuesta arriba, cuesta abajo, y subir/bajar escaleras). Se observa que la actividad EMG del gastrocnemio aumenta progresivamente al caminar cuesta arriba, sugiriendo una mayor activación muscular debido a la mayor demanda de fuerza en comparación con caminar en plano o cuesta abajo. Es importante medir la actividad EMG en estas diferentes condiciones para entender cómo varía la activación muscular y cómo optimizar los movimientos en la rehabilitación o el entrenamiento [5]. </p>
+### 3. Actividad muscular de la mano según la literatura:
+<p align="justify"> En el estudio de Dalkilic et al. (2017) se enfoca en la evaluación no invasiva de las ramas del nervio mediano en la mano mediante el método de seguimiento de umbral, una técnica avanzada para medir parámetros de excitabilidad neuronal. Los resultados indicaron alteraciones significativas en la excitabilidad del nervio mediano bajo distintas condiciones, lo que refleja cambios en la actividad neuromuscular que son de particular relevancia para el diagnóstico de neuropatías. Este enfoque es esencial para comprender cómo varía la respuesta electromiográfica (EMG) del nervio mediano durante movimientos funcionales de la mano, y proporciona una base sólida para optimizar estrategias terapéuticas y de rehabilitación. Al evaluar la actividad del nervio mediano, es posible identificar patrones específicos de activación muscular, lo que facilita el diseño de intervenciones más precisas en casos de disfunción neuromuscular [6].</p>
 
-<p align="center"><img src="Anexos/Gastrocnemio paper.png" width="400"></p>
+<p align="center"><img src="Anexos/Mano paper.png" width="400"></p>
 
-<p align="center"><i>Figura 4: Posición de los electrodos según el protocolo seguido en el paper [5].</i></p>
+<p align="center"><i>Figura 6: Posición de los electrodos según el protocolo seguido en el paper [6].</i></p>
 
-### 2.1. Diferencias metodológicas:
-<p align="justify"> Es importante mencionar que, para esta prueba, buscamos simplificar el análisis de la activación muscular del gastrocnemio imitando la marcha con un solo movimiento: la elevación de pantorrillas. A diferencia del estudio mencionado, nuestro enfoque se centró en capturar la actividad eléctrica del músculo gastrocnemio mediante la flexión plantar, utilizando una elevación controlada. Esta metodología nos permitió medir de manera eficiente la actividad muscular en un entorno controlado, manteniendo el tobillo en una posición neutral y relajada, con los electrodos colocados en la cabeza lateral del gastrocnemio para captar los datos durante el movimiento.</p>
-<a name="P2"></a>
+#### <blockquote> Prueba 03: Mano / Nervio mediano
 
-#### <blockquote> Prueba 02: BICEPS BRAQUIAL
+<p align="center"><img src="Anexos/IMG_mano.jpeg" width="450" height="300"></p>
 
-<p align="center"><img src="Anexos/IMG_pierna.PNG" width="450" height="300"></p>
-
-<p align="center"><i>Figura 5. La medición del EMG del gastrocnemio se realizó con el participante de pie, manteniendo el tobillo en una posición neutral y relajada. Se colocaron electrodos de superficie en la cabeza lateral del gastrocnemio para captar la actividad eléctrica del músculo durante la flexión plantar.</i></p>
+<p align="center"><i>Figura 7: La medición del EMG del nervio mediano se realizó con el participante en una posición sentada, manteniendo una postura natural con los codos apoyados en los reposabrazos y la cabeza en una posición neutral para minimizar la interferencia de otros movimientos.</i></p>
 
 <p align="center">
    
-|  **Actividad muscular - Biceps Braquial** | **Actividad Muscular - Gastrocnemio en movimiento (flexión plantar)** | **Actividad Muscular - Gastrocnemio ejerciendo fuerza** |
+|  **Actividad Muscular - Mano/nervio mediano en reposo** | **Actividad Muscular - Mano/nervio mediano en movimiento** | **Actividad Muscular - Mano/nervio mediano ejerciendo fuerza** |
 |:-----------------------------------------------------:|:--------------------------------------------------------:|:---------------------------------------------------------:|
-|<video src="https://github.com/user-attachments/assets/69bd1254-6af8-402e-9ef5-aaed76e18859"></video>|<video src="https://github.com/user-attachments/assets/1bd88350-0676-4097-b603-db53ae502012"></video>|<video src="https://github.com/user-attachments/assets/b8c96a19-02b9-4811-9cc9-4b1174248aca"> | 
-<p align="center"><i>
-Tabla 4. Videos de adquisición la señal EMG según las tres tomas: en reposo, sin oposición y con oposición del músculo bíceps braquial </i></p>
+| <video src="https://github.com/user-attachments/assets/e188c019-ad6a-4d4c-baf0-48036068a712"> | <video src="https://github.com/user-attachments/assets/750503ff-88bb-4193-a935-c3d0a1321b8b"> | <video src="https://github.com/user-attachments/assets/84ebebe4-5c92-4557-954f-179f88f1f5e8"> | 
+<p align="center"><i>Tabla 6. Videos de adquisición la señal EMG según las tres tomas: en reposo, sin oposición y con oposición del músculo bíceps braquial </i></p>
 </p>
 
 <p align="center">
    
 | **Posición** | **Señal** |
 |:------------:|:---------------:|
-| **En reposo, en movimiento y ejerciendo fuerza**|<image src="Anexos/S_gastro.png">|
-<p align="center"><i>Tabla 5. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
-
-<a name="P3"></a>
+| **En reposo, en movimiento y ejerciendo fuerza**|<image src="Anexos/S_mano.png">|
+<p align="center"><i>Tabla 7. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
 
 ## **Discusión:**<a id="Discusión"></a>
 <p align="justify">Para este laboratorio, se utilizó el sistema BITalino para la adquisición de señales EMG, capturando y analizando la actividad en distintos grupos musculares bajo diversas condiciones. La EMG de superficie ofrece una técnica no invasiva para medir la actividad eléctrica muscular, proporcionando información valiosa sobre la fisiología y función de los músculos. Al realizar las pruebas en cada músculo, se observó una variabilidad significativa en las características de activación y las respuestas, lo que demuestra que cada músculo tiene un comportamiento único frente a diferentes condiciones de esfuerzo. Además, cada señal obtenida fue graficada mediante un código en Python, permitiendo visualizar la señal a lo largo del tiempo y asi poder ver los distintos músculos. Estos resultados destacan la importancia de un análisis individual para comprender mejor la función de cada musculo.</p>
