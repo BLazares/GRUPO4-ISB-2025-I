@@ -106,7 +106,14 @@ La señal EMG en el deltoides medial es fácil de registrar por su localización
 
 <p align="center"><i>Figura 6: Posición de los electrodos según el protocolo seguido en el paper [6].</i></p>
 
-#### <blockquote> Prueba 03: Mano / Nervio mediano
+### 3. Actividad muscular del bíceps braquial según la literatura:
+<p align="justify"> En el estudio de Dalkilic et al. (2017) se enfoca en la evaluación no invasiva de las ramas del nervio mediano en la mano mediante el método de seguimiento de umbral, una técnica avanzada para medir parámetros de excitabilidad neuronal. Los resultados indicaron alteraciones significativas en la excitabilidad del nervio mediano bajo distintas condiciones, lo que refleja cambios en la actividad neuromuscular que son de particular relevancia para el diagnóstico de neuropatías. Este enfoque es esencial para comprender cómo varía la respuesta electromiográfica (EMG) del nervio mediano durante movimientos funcionales de la mano, y proporciona una base sólida para optimizar estrategias terapéuticas y de rehabilitación. Al evaluar la actividad del nervio mediano, es posible identificar patrones específicos de activación muscular, lo que facilita el diseño de intervenciones más precisas en casos de disfunción neuromuscular [6].</p>
+
+<p align="center"><img src="Anexos/Mano paper.png" width="400"></p>
+
+<p align="center"><i>Figura 6: Posición de los electrodos según el protocolo seguido en el paper [6].</i></p>
+
+#### <blockquote> Prueba 03: Bíceps braquial / Nervio mediano
 
 <p align="center"><img src="Anexos/IMG_mano.jpeg" width="450" height="300"></p>
 
@@ -114,8 +121,8 @@ La señal EMG en el deltoides medial es fácil de registrar por su localización
 
 <p align="center">
    
-|  **Actividad Muscular - Mano/nervio mediano en reposo** | **Actividad Muscular - Mano/nervio mediano en movimiento** | **Actividad Muscular - Mano/nervio mediano ejerciendo fuerza** |
-|:-----------------------------------------------------:|:--------------------------------------------------------:|:---------------------------------------------------------:|
+|  **Actividad Muscular - Bíceps braquial/nervio mediano en reposo** | **Actividad Muscular - Bíceps braquial/nervio mediano en movimiento** | **Actividad Muscular - Bíceps braquial/nervio mediano ejerciendo fuerza** |
+|:-----------------------------------------------------:|:--------------------------------------------------------:|:---------------------------------------------------------:|  
 | <video src="https://github.com/user-attachments/assets/e188c019-ad6a-4d4c-baf0-48036068a712"> | <video src="https://github.com/user-attachments/assets/750503ff-88bb-4193-a935-c3d0a1321b8b"> | <video src="https://github.com/user-attachments/assets/84ebebe4-5c92-4557-954f-179f88f1f5e8"> | 
 <p align="center"><i>Tabla 6. Videos de adquisición la señal EMG según las tres tomas: en reposo, sin oposición y con oposición del músculo bíceps braquial </i></p>
 </p>
@@ -124,8 +131,9 @@ La señal EMG en el deltoides medial es fácil de registrar por su localización
    
 | **Posición** | **Señal** |
 |:------------:|:---------------:|
-| **En reposo, en movimiento y ejerciendo fuerza**|<image src="Anexos/S_mano.png">|
+| **En reposo, en movimiento y ejerciendo fuerza**|<image src="Anexos/S_mano.png">|  
 <p align="center"><i>Tabla 7. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
+
 
 ## **Discusión:**<a id="Discusión"></a>
 <p align="justify">Para este laboratorio, se utilizó el sistema BITalino para la adquisición de señales EMG, capturando y analizando la actividad en distintos grupos musculares bajo diversas condiciones. La EMG de superficie ofrece una técnica no invasiva para medir la actividad eléctrica muscular, proporcionando información valiosa sobre la fisiología y función de los músculos. Al realizar las pruebas en cada músculo, se observó una variabilidad significativa en las características de activación y las respuestas, lo que demuestra que cada músculo tiene un comportamiento único frente a diferentes condiciones de esfuerzo. Además, cada señal obtenida fue graficada mediante un código en Python, permitiendo visualizar la señal a lo largo del tiempo y asi poder ver los distintos músculos. Estos resultados destacan la importancia de un análisis individual para comprender mejor la función de cada musculo.</p>
