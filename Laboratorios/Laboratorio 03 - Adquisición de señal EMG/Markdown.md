@@ -66,6 +66,7 @@ La señal EMG en el deltoides medial es fácil de registrar por su localización
 <p align="center"><img src="Imágenes/los 3 tipos.jpg" width="400"></p>
 <p align="center"><i>Figura 2: Posición de los electrodos según el protocolo seguido en el paper [4].</i></p>
 
+<div align="center">
 
 ### 📊 Datos fisiológicos del Deltoides Medial (según literatura)
 
