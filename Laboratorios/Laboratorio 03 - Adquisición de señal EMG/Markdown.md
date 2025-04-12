@@ -137,3 +137,4 @@ En la tercera prueba, el usuario estuvo en posición sentado y parado, y de las 
 6. https://www.sciencedirect.com/science/article/pii/S2352340923005383
 7. https://biblioteca.utb.edu.co/notas/tesis/0069071.pdf
 8. https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide1_EMG.pdf
+9. https://manuals.plus/es/biose%C3%B1ales/manual-del-sensor-de-electromiograf%C3%ADa-emg#axzz7y3EF2MKZ
