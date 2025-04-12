@@ -107,7 +107,17 @@ La señal EMG en el deltoides medial es fácil de registrar por su localización
 <p align="center"><i>Figura 6: Posición de los electrodos según el protocolo seguido en el paper [6].</i></p>
 
 ### 3. Actividad muscular del bíceps braquial según la literatura:
-<p align="justify"> En el estudio de Dalkilic et al. (2017) se enfoca en la evaluación no invasiva de las ramas del nervio mediano en la mano mediante el método de seguimiento de umbral, una técnica avanzada para medir parámetros de excitabilidad neuronal. Los resultados indicaron alteraciones significativas en la excitabilidad del nervio mediano bajo distintas condiciones, lo que refleja cambios en la actividad neuromuscular que son de particular relevancia para el diagnóstico de neuropatías. Este enfoque es esencial para comprender cómo varía la respuesta electromiográfica (EMG) del nervio mediano durante movimientos funcionales de la mano, y proporciona una base sólida para optimizar estrategias terapéuticas y de rehabilitación. Al evaluar la actividad del nervio mediano, es posible identificar patrones específicos de activación muscular, lo que facilita el diseño de intervenciones más precisas en casos de disfunción neuromuscular [6].</p>
+<p align="justify"> El bíceps braquial es un músculo biarticular que participa en movimientos de flexión del codo y supinación del antebrazo. Por su importancia funcional, ha sido ampliamente estudiado mediante electromiografía (EMG), permitiendo evaluar su actividad en condiciones de reposo, carga leve y carga máxima.
+
+En el trabajo de Domínguez Jiménez (2015), se analiza la señal EMG del bíceps durante la ejecución de ejercicios con mancuernas, encontrando un incremento progresivo en la amplitud y frecuencia de la señal conforme aumenta la carga. El estudio reporta una frecuencia media (MF) que va desde los 30–60 Hz en contracción leve, hasta valores superiores a los 100 Hz en contracciones máximas, con una amplitud promedio que puede superar los 1500 μV bajo carga intensa【6】.
+
+Por otro lado, el estudio de Khodadadi et al. (2023) explora el comportamiento del bíceps braquial bajo estimulación artificial utilizando la ecuación caótica de Rossler. En este caso, se genera una señal EMG con características no lineales y frecuencias superiores a 120 Hz, útiles para el análisis de patrones complejos en contextos como el desarrollo de prótesis inteligentes o clasificación de señales patológicas【5】.
+
+Además, las guías clínicas de Cleveland Clinic y Johns Hopkins Medicine confirman que el análisis EMG del bíceps es fundamental para diagnosticar lesiones musculares, evaluar el rendimiento motor y personalizar la rehabilitación【1】【2】.
+
+La colocación adecuada de los electrodos también es clave. Según Proença y Mrotzeck (2021), se recomienda ubicar los electrodos paralelos a las fibras musculares del bíceps, aproximadamente en el centro del vientre muscular, siguiendo lineamientos del proyecto SENIAM para garantizar registros fiables y comparables【7】.
+
+Por último, Guzmán-Muñoz y Méndez-Rebolledo (2018) subrayan el uso de EMG en ciencias de la rehabilitación, considerando al bíceps braquial como músculo clave en la restauración de funciones básicas del miembro superior en pacientes con daño neuromuscular【3】.</p>
 
 <p align="center"><img src="Anexos/Mano paper.png" width="400"></p>
 
