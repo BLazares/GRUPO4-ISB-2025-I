@@ -80,12 +80,12 @@ La señal EMG en el deltoides medial es fácil de registrar por su localización
 
 <p align="center"><img src="Anexos/IMG_tricep.PNG" width="450" height="300"></p>
 
-<p align="center"><i>Figura 3: MODIIIIIIIIIFICARRRRRRRLa medición del EMG del tríceps se realizó con el participante de pie, manteniendo el brazo relajado al costado del cuerpo. Se colocaron electrodos de superficie en la región del tríceps para captar la actividad eléctrica del músculo durante la contracción y el reposo.
+<p align="center"><i>Figura 3: MODIIIIIIIIIFICARRRRRRRLa medición del EMG del Deltoides se realizó con el participante de pie, manteniendo el brazo relajado al costado del cuerpo. Se colocaron electrodos de superficie en la región del Deltoides para captar la actividad eléctrica del músculo durante la contracción y el reposo.
 </i></p>
 
 <p align="center">
    
-|  **Actividad Muscular - Tríceps en reposo** | **Actividad Muscular - Tríceps ejerciendo fuerza** |
+|  **Actividad Muscular - Deltoides en reposo** | **Actividad Muscular - Delotides ejerciendo fuerza** |
 |:-----------------------------------------------------:|:--------------------------------------------------------:|
 |<video src="https://github.com/user-attachments/assets/b501a6a4-6002-4526-81b7-ce0dc513d36a"></video>|<video src="https://github.com/user-attachments/assets/8ff2246f-7f49-48b0-aa0b-53cf2bd35a6a">|
 <p align="center"><i>Tabla 2. Videos de adquisición de la señal EMG según dos tomas: en reposo y con el músculo ejerciendo fuerza. </i></p>
