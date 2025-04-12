@@ -116,9 +116,9 @@ La colocación adecuada de los electrodos también es clave. Según Proença y M
 
 Por último, Guzmán-Muñoz y Méndez-Rebolledo (2018) subrayan el uso de EMG en ciencias de la rehabilitación, considerando al bíceps braquial como músculo clave en la restauración de funciones básicas del miembro superior en pacientes con daño neuromuscular【3】.
 <p align="center"><img src="Imágenes/biceps position.jpg" width="400"></p>
-<p align="center"><i>Figura 6: Posición de los electrodos según el protocolo seguido en el paper [6].</i></p>
+<p align="center"><i>Figura 6. Disposición anatómica de los electrodos para el registro electromiográfico del bíceps braquial. Los electrodos activos se colocan paralelos a las fibras musculares, centrados en el vientre del músculo, con una separación de aproximadamente 2 cm entre ellos, tal como lo establece el protocolo SENIAM. El electrodo de referencia (masa) se posiciona en una zona ósea neutra del antebrazo.</i></p>
 <p align="center"><img src="Imágenes/biceps2.0.jpg" width="400"></p>
-<p align="center"><i>Figura 6: Posición de los electrodos según el protocolo seguido en el paper [6].</i></p>
+<p align="center"><i>Figura 7. Registro de la señal electromiográfica superficial del bíceps braquial durante una secuencia de contracción voluntaria, relajación y nueva contracción. Se evidencia un aumento significativo en la amplitud de la señal (hasta 0.125 V) durante las fases activas, con reducción casi total en los períodos de reposo, lo cual refleja un patrón de activación típico en ejercicios de flexión de codo bajo carga moderada.</i></p>
 
 ###   Datos fisiológicos del Bíceps Braquial (según literatura)
 | Condición muscular           | Frecuencia media (Hz) | Amplitud media (μV)       |
