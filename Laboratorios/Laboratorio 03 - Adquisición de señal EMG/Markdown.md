@@ -129,3 +129,9 @@ En la tercera prueba, el usuario estuvo en posición sentado y parado, y de las 
 <p align="center"><img src="/ISB/Laboratorios/Imagenes/Bitalino/EMG_Python_pantorrilla_sentado.jpg" width="800" height="500"></p>
 
 ## **Referencias** <a name="id9"></a>
+1. https://my.clevelandclinic.org/health/diagnostics/4825-emg-electromyography
+2. https://www.hopkinsmedicine.org/health/treatment-tests-and-therapies/electromyography-emg
+3. https://www.redalyc.org/journal/817/81759607022/html/ deltoides
+4. https://ri.conicet.gov.ar/bitstream/handle/11336/57638/CONICET_Digital_Nro.fc60ec59-4154-4aa8-91b4-e8fcf4184a4e_A.pdf?sequence=2&isAllowed=y
+5. https://www.redalyc.org/journal/817/81759607022/html/ deltoides 
+6. https://www.sciencedirect.com/science/article/pii/S2352340923005383
