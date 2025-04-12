@@ -62,9 +62,9 @@ La señal EMG en el deltoides medial es fácil de registrar por su localización
 
 <p align="center"><img src="Imágenes/biceps.jpg" width="400"></p>
 
-<p align="center"><i>Figura 1: Posición de los electrodos según el protocolo seguido en el paper [4].</i></p>
+<p align="center"><i>Figura 1. A) Ubicación de los electrodos de registro en el músculo deltoides, específicamente en sus porciones anterior (DA), medial (DM) y posterior (DP), siguiendo la disposición recomendada por el estudio de Roldán (2017), basada en protocolos SENIAM. B) Montaje experimental durante la ejecución de ejercicios de abducción con carga progresiva. C) Registro videográfico del gesto técnico en plano frontal para control postural y análisis cinemático complementario.</i></p>
 <p align="center"><img src="Imágenes/los 3 tipos.jpg" width="400"></p>
-<p align="center"><i>Figura 2: Posición de los electrodos según el protocolo seguido en el paper [4].</i></p>
+<p align="center"><i>Figura 2. Representación de la señal EMG registrada en el deltoides medial durante el movimiento de abducción del brazo en tres condiciones: i) sin peso, ii) con carga mínima, y iii) con carga máxima. Se observa un incremento progresivo tanto en la amplitud como en la densidad espectral de la señal EMG, lo cual refleja un mayor reclutamiento de unidades motoras ante el aumento de la carga..</i></p>
 
 <div align="center">
 
