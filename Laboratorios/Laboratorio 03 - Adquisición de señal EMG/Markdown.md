@@ -151,9 +151,9 @@ Por último, Guzmán-Muñoz y Méndez-Rebolledo (2018) subrayan el uso de EMG en
    
 | **Posición** | **Señal** |
 |:------------:|:---------:|
-| **Reposo** | <img src="Laboratorios/Laboratorio 03 - Adquisición de señal EMG/Imágenes/B-REST.jpeg" width="200"/> |
-| **Movimiento** | <img src="Laboratorios/Laboratorio 03 - Adquisición de señal EMG/Imágenes/B-MOV.jpeg" width="200"/> |
-| **Fuerza** | <img src="Laboratorios/Laboratorio 03 - Adquisición de señal EMG/Imágenes/B-MOV.jpeg" width="200"/> |
+| **Reposo** | <img src="Imágenes/B-REST.jpeg" width="200"/> |
+| **Movimiento** | <img src="Imágenes/B-MOV.jpeg" width="200"/> |
+| **Fuerza** | <img src="Imágenes/B-REST.jpeg" width="200"/> |
 
 <p align="center"><i>Tabla 7. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python</i></p>
 
