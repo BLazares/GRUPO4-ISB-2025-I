@@ -44,9 +44,15 @@
 
 </div>
 
-*insertar imagenes de los materiales*
-
-
+<p align="center"><img src="Imágenes/bitalino.jpg" width="400"></p>
+<p align="center"><img src="Imágenes/bitalino 2.jpg" width="400"></p>
+<p align="center"><i>Figura 1. Fotografías del bitalino, vista delantera y posterior.</i></p>
+<p align="center"><img src="Imágenes/laptop.jpg" width="400"></p>
+<p align="center"><i>Figura 2. Fotografías de la laptop con la aplicación instalada.</i></p>
+<p align="center"><img src="Imágenes/openSignalReader.png" width="400"></p>
+<p align="center"><i>Figura 3. Fotografías de la aplicación usada.</i></p>
+<p align="center"><img src="Imágenes/electrodo.jpg" width="400"></p>
+<p align="center"><i>Figura 2. Fotografías del tipo de electrodo a usar. Se utilizaron 5 de este tipo.</i></p>
 
 ### **Conexión usada** <a name="id4"></a>
 Se utilizó el EMG del bitalino
