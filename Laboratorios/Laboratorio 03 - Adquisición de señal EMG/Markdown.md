@@ -39,7 +39,7 @@
 | (R)EVOLUTION Kit BITalino |       1      |
 |           Laptop          |       1      |
 |          Aplicación -     |       1      |
-| Electrodos de superficie  |      5       |
+| Electrodos de superficie  |       5      |
 
 
 </div>
@@ -71,7 +71,7 @@ La señal EMG en el deltoides medial es fácil de registrar por su localización
 
 ### 🏋️‍♂️ Datos fisiológicos del Deltoides Medial (basados en Roldán, 2017 y Guzmán-Muñoz & Méndez-Rebolledo, 2020)
 
-| Condición muscular             | Frecuencia media (Hz) | Amplitud RMS estimada     |
+| Condición muscular            | Frecuencia media (Hz) | Amplitud RMS estimada     |
 |-------------------------------|------------------------|----------------------------|
 | Reposo                        | ~30–40                 | Baja (~100–300 μV)*        |
 | Abducción con carga moderada  | ~60–90                 | Media (~400–800 μV)*       |
@@ -89,7 +89,7 @@ La señal EMG en el deltoides medial es fácil de registrar por su localización
    
 | **Actividad Muscular - Deltoides en reposo** | **Actividad Muscular - Deltoides ejerciendo fuerza (Toma 1)** | **Actividad Muscular - Deltoides ejerciendo fuerza (Toma 2)** |
 |:-------------------------------------------:|:------------------------------------------------------------:|:------------------------------------------------------------:|
-| <video src="https://github.com/user-attachments/assets/b501a6a4-6002-4526-81b7-ce0dc513d36a"></video> | <video src="https://github.com/user-attachments/assets/8ff2246f-7f49-48b0-aa0b-53cf2bd35a6a"></video> | <video src="https://github.com/user-attachments/assets/8ff2246f-7f49-48b0-aa0b-53cf2bd35a6a"></video> |
+| <video src="https://github.com/user-attachments/assets/b501a6a4-6002-4526-81b7-ce0dc513d36a"></video> | <video src="https://youtu.be/L36ybCBTMZw"></video> | <video src="https://github.com/user-attachments/assets/8ff2246f-7f49-48b0-aa0b-53cf2bd35a6a"></video> |
 
 <p align="center"><i>Tabla 2. Videos de adquisición de la señal EMG del deltoides: reposo y dos tomas bajo contracción con carga.</i></p>
 
