@@ -48,14 +48,27 @@
 <p align="center"><img src="Imágenes/bitalino 2.jpg" width="400"></p>
 <p align="center"><i>Figura 1. Fotografías del bitalino, vista delantera y posterior.</i></p>
 <p align="center"><img src="Imágenes/laptop.jpg" width="400"></p>
-<p align="center"><i>Figura 2. Fotografías de la laptop con la aplicación instalada.</i></p>
+<p align="center"><i>Figura 2. Fotografía de la laptop con la aplicación instalada.</i></p>
 <p align="center"><img src="Imágenes/openSignalReader.png" width="400"></p>
-<p align="center"><i>Figura 3. Fotografías de la aplicación usada.</i></p>
+<p align="center"><i>Figura 3. Fotografía de la aplicación usada.</i></p>
 <p align="center"><img src="Imágenes/electrodo.jpg" width="400"></p>
-<p align="center"><i>Figura 2. Fotografías del tipo de electrodo a usar. Se utilizaron 5 de este tipo.</i></p>
+<p align="center"><i>Figura 4. Fotografía del tipo de electrodo a usar. Se utilizaron 5 de este tipo.</i></p>
 
 ### **Conexión usada** <a name="id4"></a>
+
+<p align="center"><img src="Imágenes/electrodo_referencia.jpg" width="400"></p>
+<p align="center"><i>Figura 5. Fotografía de la ubicación del electrodo de referencia.</i></p>
+<p align="center"><img src="Imágenes/electrodo_deltoides.jpg" width="400"></p>
+<p align="center"><i>Figura 6. Fotografía de la ubicación de los electrodos positivos y negativos en el músculo deltoides.</i></p>
+<p align="center"><img src="Imágenes/electrodo_biceps.jpg" width="400"></p>
+<p align="center"><i>Figura 7. Fotografía de la ubicación de los electrodos positivos y negativos en el músculo biceps.</i></p>
+
 Se utilizó el EMG del bitalino
+
+La señal EMG en el deltoides medial es fácil de registrar por su localización superficial y su forma relativamente constante. La correcta colocación del electrodo, recomendada por las guías de Plux y BITalino, se realiza en la parte más prominente del músculo, a medio camino entre el acromion y la inserción deltoidea en el húmero, con los electrodos colocados paralelos a las fibras musculares【7】【8】.
+
+La colocación adecuada de los electrodos también es clave en el biceps. Según Proença y Mrotzeck (2021), se recomienda ubicar los electrodos paralelos a las fibras musculares del bíceps, aproximadamente en el centro del vientre muscular, siguiendo lineamientos del proyecto SENIAM para garantizar registros fiables y comparables【7】.
+
 ## **Resultados:**<a id="Resultados"></a>
 <a name="P1"></a>
 ### 1. Actividad muscular del deltoides medial según la literatura:
@@ -64,9 +77,6 @@ Se utilizó el EMG del bitalino
 En el estudio de Roldán (2017), aunque se centra en el deltoides en general, se describe que durante el gesto técnico del placaje en rugby, la porción medial del deltoides presenta picos de activación significativos cuando el brazo se proyecta lateralmente. La actividad EMG se intensifica conforme aumenta la carga aplicada, con una frecuencia media (MF) que supera los 90 Hz en situaciones de esfuerzo máximo【4】.
 
 Por su parte, Guzmán-Muñoz y Méndez-Rebolledo (2018) destacan que el deltoides medial muestra una respuesta electromiográfica muy clara y robusta ante ejercicios funcionales de tipo isométrico o isotónico, como la elevación del brazo en abducción. Se reporta una progresión en la amplitud RMS y en la frecuencia mediana (MDF) desde estados de reposo (~30–40 Hz) hasta esfuerzos elevados (~100–120 Hz)【3】.
-
-La señal EMG en el deltoides medial es fácil de registrar por su localización superficial y su forma relativamente constante. La correcta colocación del electrodo, recomendada por las guías de Plux y BITalino, se realiza en la parte más prominente del músculo, a medio camino entre el acromion y la inserción deltoidea en el húmero, con los electrodos colocados paralelos a las fibras musculares【7】【8】.
-
 
 
 <p align="center"><img src="Imágenes/biceps.jpg" width="400"></p>
@@ -129,7 +139,7 @@ Por otro lado, el estudio de Khodadadi et al. (2023) explora el comportamiento d
 
 Además, las guías clínicas de Cleveland Clinic y Johns Hopkins Medicine confirman que el análisis EMG del bíceps es fundamental para diagnosticar lesiones musculares, evaluar el rendimiento motor y personalizar la rehabilitación【1】【2】.
 
-La colocación adecuada de los electrodos también es clave. Según Proença y Mrotzeck (2021), se recomienda ubicar los electrodos paralelos a las fibras musculares del bíceps, aproximadamente en el centro del vientre muscular, siguiendo lineamientos del proyecto SENIAM para garantizar registros fiables y comparables【7】.
+
 
 Por último, Guzmán-Muñoz y Méndez-Rebolledo (2018) subrayan el uso de EMG en ciencias de la rehabilitación, considerando al bíceps braquial como músculo clave en la restauración de funciones básicas del miembro superior en pacientes con daño neuromuscular【3】.
 <p align="center"><img src="Imágenes/biceps position.jpg" width="500"></p>
