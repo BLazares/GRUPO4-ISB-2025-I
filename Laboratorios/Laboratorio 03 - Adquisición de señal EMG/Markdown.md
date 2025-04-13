@@ -107,9 +107,9 @@ La señal EMG en el deltoides medial es fácil de registrar por su localización
    
 | **Posición** | **Señal** |
 |:------------:|:---------:|
-| **Reposo** | <img src="Imágenes/D_Reposo.png" width="200"/> |
-| **Movimiento** | <img src="Imágenes/D_Flexión.png" width="200"/> |
-| **Fuerza** | <img src="Imágenes/D_Carga.png" width="200"/> |
+| **Reposo** | <img src="Imágenes/D_Reposo.png" width="500"/> |
+| **Movimiento** | <img src="Imágenes/D_Flexión.png" width="500"/> |
+| **Fuerza** | <img src="Imágenes/D_Carga.png" width="500"/> |
 
 <p align="center"><i>Tabla 3. Señales del deltoides medial adquiridas en reposo, flexión y carga graficadas en matlab</i></p>
 
@@ -156,9 +156,9 @@ Por último, Guzmán-Muñoz y Méndez-Rebolledo (2018) subrayan el uso de EMG en
    
 | **Posición** | **Señal** |
 |:------------:|:---------:|
-| **Reposo** | <img src="Imágenes/B-REST.jpeg" width="200"/> |
-| **Movimiento** | <img src="Imágenes/B-MOV.jpeg" width="200"/> |
-| **Fuerza** | <img src="Imágenes/B-REST.jpeg" width="200"/> |
+| **Reposo** | <img src="Imágenes/B-REST.jpeg" width="500"/> |
+| **Movimiento** | <img src="Imágenes/B-MOV.jpeg" width="500"/> |
+| **Fuerza** | <img src="Imágenes/B-REST.jpeg" width="500"/> |
 
 <p align="center"><i>Tabla 7. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python</i></p>
 
