@@ -15,7 +15,7 @@
 
 
 ## **Introducción** <a name="id1"></a>
-*La electromiografía (EMG) es una técnica para registrar señales eléctricas biomédicas obtenidas de la actividad eléctrica neuromuscular (conjunto de interacciones entre el sistema nervioso y los músculos esqueleticos del cuerpo humano) durante su contracción [1] Las señales registradas pueden utilizarse en aplicaciones clínicas y biomédicas si se dispone de métodos de detección, descomposición, procesamiento y clasificación. Por ejemplo, a menudo se emplean con la velocidad de la conducción nerviosa para detectar problemas musculares o nerviosos [2], pero las más comunes son monitorizar anomalías médicas y niveles de activación, así como para analizar la biomecánica [1].*
+*La electromiografía (EMG) es una técnica para registrar señales eléctricas biomédicas obtenidas de la actividad eléctrica neuromuscular (conjunto de interacciones entre el sistema nervioso y los músculos esqueleticos del cuerpo humano) durante su contracción [1]. Las señales registradas pueden utilizarse en aplicaciones clínicas y biomédicas si se dispone de métodos de detección, descomposición, procesamiento y clasificación. Por ejemplo, a menudo se emplean con la velocidad de la conducción nerviosa para detectar problemas musculares o nerviosos [2], pero las más comunes son monitorizar anomalías médicas y niveles de activación, así como para analizar la biomecánica [1].*
 
 *En la electromiografía se mide la actividad eléctrica del músculo en reposo, con una contracción leve y con una contracción fuerte. El patrón de la señal EMG producida puede variar según la actividad muscular, por ello normalmente el tejido muscular no genera señales eléctricas mientras está en reposo [2].*
 
@@ -45,6 +45,9 @@
 </div>
 
 *insertar imagenes de los materiales*
+
+
+
 ### **Conexión usada** <a name="id4"></a>
 Se utilizó el EMG del bitalino
 ## **Resultados:**<a id="Resultados"></a>
