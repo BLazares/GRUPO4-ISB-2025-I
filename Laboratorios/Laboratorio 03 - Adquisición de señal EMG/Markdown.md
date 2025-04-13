@@ -62,6 +62,9 @@
 <p align="center"><i>Figura 5. Fotografía de la ubicación del electrodo de referencia.</i></p>
 <p align="center"><img src="Imágenes/electrodo_deltoides.jpg" width="400"></p>
 <p align="center"><i>Figura 6. Fotografía de la ubicación de los electrodos positivos y negativos en el músculo deltoides.</i></p>
+
+La medición del EMG del Deltoides se realizó con el participante de pie, manteniendo el brazo relajado al costado del cuerpo. Se colocaron electrodos de superficie en la región del Deltoides para captar la actividad eléctrica del músculo durante la contracción y el reposo.
+
 <p align="center"><img src="Imágenes/electrodo_biceps.jpg" width="400"></p>
 <p align="center"><i>Figura 7. Fotografía de la ubicación de los electrodos positivos y negativos en el músculo biceps.</i></p>
 
@@ -99,28 +102,13 @@ Por su parte, Guzmán-Muñoz y Méndez-Rebolledo (2018) destacan que el deltoide
 | Abducción con carga elevada   | ~100–120               | Alta (~900–1500+ μV)*      |
 
 
-#### <blockquote> Prueba 01: Deltoides
-
-<p align="center"><img src="Anexos/IMG_tricep.PNG" width="450" height="300"></p>
-
-<p align="center"><i>Figura 3: MODIIIIIIIIIFICARRRRRRRLa medición del EMG del Deltoides se realizó con el participante de pie, manteniendo el brazo relajado al costado del cuerpo. Se colocaron electrodos de superficie en la región del Deltoides para captar la actividad eléctrica del músculo durante la contracción y el reposo.
-</i></p>
-
-<p align="center">
-
 ### **Videos de los movimientos realizados para el deltoides:**<a name="id7"></a>
    
-| **Actividad Muscular - Deltoides en reposo** | **Actividad Muscular - Deltoides ejerciendo fuerza (Toma 1)** | **Actividad Muscular - Deltoides ejerciendo fuerza (Toma 2)** |
-|:-------------------------------------------:|:------------------------------------------------------------:|:------------------------------------------------------------:|
 
 [<img src="https://cdn.icon-icons.com/icons2/1713/PNG/512/iconfinder-videologoplayicon-3993847_112649.png" width="20%" height="20%">](https://studio.youtube.com/playlist/PLHik0dkb9Diq4v5iqql56KGi4RfUUNO6H/videos)
 
 </div>
 
-
-| <video src="https://github.com/user-attachments/assets/b501a6a4-6002-4526-81b7-ce0dc513d36a"></video> | <video src="https://youtu.be/L36ybCBTMZw"></video> | <video src="https://github.com/user-attachments/assets/8ff2246f-7f49-48b0-aa0b-53cf2bd35a6a"></video> |
-
-<p align="center"><i>Tabla 2. Videos de adquisición de la señal EMG del deltoides: reposo y dos tomas bajo contracción con carga.</i></p>
 
 ### **Ploteo de la señal en OpenSignal del deltoides:**<a name="id8"></a>
 <p align="center">
@@ -166,13 +154,9 @@ Por último, Guzmán-Muñoz y Méndez-Rebolledo (2018) subrayan el uso de EMG en
 
 ### **Videos de los movimientos realizados para el bíceps:**<a name="id10"></a>
 
-<p align="center">
-   
-|  **Actividad Muscular - Bíceps braquial/nervio mediano en reposo** | **Actividad Muscular - Bíceps braquial/nervio mediano en movimiento** | **Actividad Muscular - Bíceps braquial/nervio mediano ejerciendo fuerza** |
-|:-----------------------------------------------------:|:--------------------------------------------------------:|:---------------------------------------------------------:|  
-| <video src="https://github.com/user-attachments/assets/e188c019-ad6a-4d4c-baf0-48036068a712"> | <video src="https://github.com/user-attachments/assets/750503ff-88bb-4193-a935-c3d0a1321b8b"> | <video src="https://github.com/user-attachments/assets/84ebebe4-5c92-4557-954f-179f88f1f5e8"> | 
-<p align="center"><i>Tabla 6. Videos de adquisición la señal EMG según las tres tomas: en reposo, sin oposición y con oposición del músculo bíceps braquial </i></p>
-</p>
+[<img src="https://cdn.icon-icons.com/icons2/1713/PNG/512/iconfinder-videologoplayicon-3993847_112649.png" width="20%" height="20%">](https://www.youtube.com/playlist?list=PLHik0dkb9DipSQjDVaZyyESLbARTdc60Y)
+
+</div>
 
 ### **Ploteo de la señal en OpenSignal del bíceps:**<a name="id11"></a>
 
