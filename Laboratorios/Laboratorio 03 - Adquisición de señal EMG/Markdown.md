@@ -105,7 +105,7 @@ Por su parte, Guzmán-Muñoz y Méndez-Rebolledo (2018) destacan que el deltoide
 ### **Videos de los movimientos realizados para el deltoides:**<a name="id7"></a>
    
 
-[<img src="https://cdn.icon-icons.com/icons2/1713/PNG/512/iconfinder-videologoplayicon-3993847_112649.png" width="20%" height="20%">](https://studio.youtube.com/playlist/PLHik0dkb9Diq4v5iqql56KGi4RfUUNO6H/videos)
+[<img src="https://cdn.icon-icons.com/icons2/1713/PNG/512/iconfinder-videologoplayicon-3993847_112649.png" width="20%" height="20%">](https://www.youtube.com/playlist?list=PLHik0dkb9Diq4v5iqql56KGi4RfUUNO6H)
 
 </div>
 
