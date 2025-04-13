@@ -4,13 +4,15 @@
 2. [Propósito de la práctica](#id2)
 3. [Materiales y equipos](#id3)\
      3.1 [Conexión usada](#id4)\
-     3.2 [Mediciones en deltoides](#id5)\
-     3.3 [Mediciones en bíceps](#id6)
-5. [Resultados y limitaciones](#id7)\
-     4.1 [Ploteo de la señal en OpenSignal](#id6)\
-     4.2 [Archivos](#id7)\
-     3.3 [Ploteo de la señal en Python](#id8)
-7. [Referencias](#id9)
+4. [Resultados y limitaciones](#id5)\
+     4.1 [Actividad muscular del deltoides medial según la literatura](#id6)\
+     4.2 [Videos de los movimientos realizados para el deltoides](#id7)\
+     4.3 [Ploteo de la señal en OpenSignal del deltoides](#id8)\
+     4.4 [Actividad muscular del bíceps braquial según la literatura](#id9)\
+     4.5 [Videos de los movimientos realizados para el bíceps](#id10)\
+     4.6 [Ploteo de la señal en OpenSignal del bíceps](#id11)\
+     4.7 [Discusión](#id12)\
+7. [Referencias](#id13)
 
 
 
@@ -69,9 +71,9 @@ La señal EMG en el deltoides medial es fácil de registrar por su localización
 
 La colocación adecuada de los electrodos también es clave en el biceps. Según Proença y Mrotzeck (2021), se recomienda ubicar los electrodos paralelos a las fibras musculares del bíceps, aproximadamente en el centro del vientre muscular, siguiendo lineamientos del proyecto SENIAM para garantizar registros fiables y comparables【7】.
 
-## **Resultados:**<a id="Resultados"></a>
+## **Resultados y limitaciones:**<a name="id5"></a>
 <a name="P1"></a>
-### 1. Actividad muscular del deltoides medial según la literatura:
+### **1. Actividad muscular del deltoides medial según la literatura:**<a name="id6"></a>
 <p align="justify">El deltoides medial es el principal responsable de la abducción del hombro en el plano frontal. Su actividad electromiográfica (EMG) es especialmente relevante en ejercicios como elevaciones laterales, levantamientos con carga y gestos deportivos que implican separación del brazo del tronco.
 
 En el estudio de Roldán (2017), aunque se centra en el deltoides en general, se describe que durante el gesto técnico del placaje en rugby, la porción medial del deltoides presenta picos de activación significativos cuando el brazo se proyecta lateralmente. La actividad EMG se intensifica conforme aumenta la carga aplicada, con una frecuencia media (MF) que supera los 90 Hz en situaciones de esfuerzo máximo【4】.
@@ -105,6 +107,8 @@ Por su parte, Guzmán-Muñoz y Méndez-Rebolledo (2018) destacan que el deltoide
 </i></p>
 
 <p align="center">
+
+### **Videos de los movimientos realizados para el deltoides:**<a name="id7"></a>
    
 | **Actividad Muscular - Deltoides en reposo** | **Actividad Muscular - Deltoides ejerciendo fuerza (Toma 1)** | **Actividad Muscular - Deltoides ejerciendo fuerza (Toma 2)** |
 |:-------------------------------------------:|:------------------------------------------------------------:|:------------------------------------------------------------:|
@@ -118,7 +122,7 @@ Por su parte, Guzmán-Muñoz y Méndez-Rebolledo (2018) destacan que el deltoide
 
 <p align="center"><i>Tabla 2. Videos de adquisición de la señal EMG del deltoides: reposo y dos tomas bajo contracción con carga.</i></p>
 
-
+### **Ploteo de la señal en OpenSignal del deltoides:**<a name="id8"></a>
 <p align="center">
    
 | **Posición** | **Señal** |
@@ -130,7 +134,7 @@ Por su parte, Guzmán-Muñoz y Méndez-Rebolledo (2018) destacan que el deltoide
 <p align="center"><i>Tabla 3. Señales del deltoides medial adquiridas en reposo, flexión y carga graficadas en matlab</i></p>
 
 
-### 2. Actividad muscular del bíceps braquial según la literatura:
+### **2. Actividad muscular del bíceps braquial según la literatura:**<a name="id9"></a>
 <p align="justify"> El bíceps braquial es un músculo biarticular que participa en movimientos de flexión del codo y supinación del antebrazo. Por su importancia funcional, ha sido ampliamente estudiado mediante electromiografía (EMG), permitiendo evaluar su actividad en condiciones de reposo, carga leve y carga máxima.
 
 En el trabajo de Domínguez Jiménez (2015), se analiza la señal EMG del bíceps durante la ejecución de ejercicios con mancuernas, encontrando un incremento progresivo en la amplitud y frecuencia de la señal conforme aumenta la carga. El estudio reporta una frecuencia media (MF) que va desde los 30–60 Hz en contracción leve, hasta valores superiores a los 100 Hz en contracciones máximas, con una amplitud promedio que puede superar los 1500 μV bajo carga intensa【6】.
@@ -160,6 +164,8 @@ Por último, Guzmán-Muñoz y Méndez-Rebolledo (2018) subrayan el uso de EMG en
 
 <p align="center"><i>Figura 7: La medición del EMG del nervio mediano se realizó con el participante en una posición sentada, manteniendo una postura natural con los codos apoyados en los reposabrazos y la cabeza en una posición neutral para minimizar la interferencia de otros movimientos.</i></p>
 
+### **Videos de los movimientos realizados para el bíceps:**<a name="id10"></a>
+
 <p align="center">
    
 |  **Actividad Muscular - Bíceps braquial/nervio mediano en reposo** | **Actividad Muscular - Bíceps braquial/nervio mediano en movimiento** | **Actividad Muscular - Bíceps braquial/nervio mediano ejerciendo fuerza** |
@@ -167,6 +173,8 @@ Por último, Guzmán-Muñoz y Méndez-Rebolledo (2018) subrayan el uso de EMG en
 | <video src="https://github.com/user-attachments/assets/e188c019-ad6a-4d4c-baf0-48036068a712"> | <video src="https://github.com/user-attachments/assets/750503ff-88bb-4193-a935-c3d0a1321b8b"> | <video src="https://github.com/user-attachments/assets/84ebebe4-5c92-4557-954f-179f88f1f5e8"> | 
 <p align="center"><i>Tabla 6. Videos de adquisición la señal EMG según las tres tomas: en reposo, sin oposición y con oposición del músculo bíceps braquial </i></p>
 </p>
+
+### **Ploteo de la señal en OpenSignal del bíceps:**<a name="id11"></a>
 
 <p align="center">
    
@@ -180,10 +188,10 @@ Por último, Guzmán-Muñoz y Méndez-Rebolledo (2018) subrayan el uso de EMG en
 
 
 
-## **Discusión:**<a id="Discusión"></a>
+## **Discusión:**<a name="id12"></a>
 <p align="justify">Para este laboratorio, se utilizó el sistema BITalino para la adquisición de señales EMG, capturando y analizando la actividad en distintos grupos musculares bajo diversas condiciones. La EMG de superficie ofrece una técnica no invasiva para medir la actividad eléctrica muscular, proporcionando información valiosa sobre la fisiología y función de los músculos. Al realizar las pruebas en cada músculo, se observó una variabilidad significativa en las características de activación y las respuestas, lo que demuestra que cada músculo tiene un comportamiento único frente a diferentes condiciones de esfuerzo. Además, cada señal obtenida fue graficada mediante un código en Python, permitiendo visualizar la señal a lo largo del tiempo y asi poder ver los distintos músculos. Estos resultados destacan la importancia de un análisis individual para comprender mejor la función de cada musculo.</p>
 
-## **Referencias** <a id="*Referencias"></a>
+## **Referencias** <a name="id13"></a>
 1. Gohel V, Mehendale N. Review on electromyography signal acquisition and processing. Biophys Rev. 2020 Nov 10;12(6):1361–7. doi: 10.1007/s12551-020-00770-w. Epub ahead of print. PMID: 33169207; PMCID: PMC7755956. Disponible en: https://pmc.ncbi.nlm.nih.gov/articles/PMC7755956/
    
 2. Johns Hopkins Medicine. Electromyography (EMG) [Internet]. Johns Hopkins Medicine; [citado 12 abr 2025]. Disponible en: https://www.hopkinsmedicine.org/health/treatment-tests-and-therapies/electromyography-emg
