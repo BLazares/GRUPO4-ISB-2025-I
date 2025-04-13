@@ -155,7 +155,7 @@ Por último, Guzmán-Muñoz y Méndez-Rebolledo (2018) subrayan el uso de EMG en
 ## **Referencias** <a id="*Referencias"></a>
 1. Gohel V, Mehendale N. Review on electromyography signal acquisition and processing. Biophys Rev. 2020 Nov 10;12(6):1361–7. doi: 10.1007/s12551-020-00770-w. Epub ahead of print. PMID: 33169207; PMCID: PMC7755956. Disponible en: https://pmc.ncbi.nlm.nih.gov/articles/PMC7755956/
    
-2. 
+2. Johns Hopkins Medicine. Electromyography (EMG) [Internet]. Johns Hopkins Medicine; [citado 12 abr 2025]. Disponible en: https://www.hopkinsmedicine.org/health/treatment-tests-and-therapies/electromyography-emg
 
 1. Cleveland Clinic. EMG (Electromyography): What It Is, Purpose, Procedure & Results [Internet]. Cleveland Clinic; [citado 12 abr 2025]. Disponible en: https://my.clevelandclinic.org/health/diagnostics/4825-emg-electromyography
 
