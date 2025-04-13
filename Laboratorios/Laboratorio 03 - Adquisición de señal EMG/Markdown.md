@@ -103,10 +103,12 @@ La señal EMG en el deltoides medial es fácil de registrar por su localización
 <p align="center">
    
 | **Posición** | **Señal** |
-|:------------:|:---------------:|
-| **En reposo y ejerciendo fuerza**|<image src="Anexos/S_triceps.png">|
-<p align="center"><i>Tabla 3. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
-llllllllll{lllllllll
+|:------------:|:---------:|
+| **Reposo** | <img src="Imágenes/D_Reposo.png" width="200"/> |
+| **Movimiento** | <img src="Imágenes/D_Flexión.png" width="200"/> |
+| **Fuerza** | <img src="Imágenes/D_Carga.png" width="200"/> |
+
+<p align="center"><i>Tabla 3. Señales del deltoides medial adquiridas en reposo, flexión y carga graficadas en matlab</i></p>
 
 
 ### 2. Actividad muscular del bíceps braquial según la literatura:
