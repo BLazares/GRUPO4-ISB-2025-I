@@ -173,7 +173,24 @@ Por último, Guzmán-Muñoz y Méndez-Rebolledo (2018) subrayan el uso de EMG en
 
 
 ## **Discusión:**<a name="id12"></a>
-<p align="justify">Para este laboratorio, se utilizó el sistema BITalino para la adquisición de señales EMG, capturando y analizando la actividad en distintos grupos musculares bajo diversas condiciones. La EMG de superficie ofrece una técnica no invasiva para medir la actividad eléctrica muscular, proporcionando información valiosa sobre la fisiología y función de los músculos. Al realizar las pruebas en cada músculo, se observó una variabilidad significativa en las características de activación y las respuestas, lo que demuestra que cada músculo tiene un comportamiento único frente a diferentes condiciones de esfuerzo. Además, cada señal obtenida fue graficada mediante un código en Python, permitiendo visualizar la señal a lo largo del tiempo y asi poder ver los distintos músculos. Estos resultados destacan la importancia de un análisis individual para comprender mejor la función de cada musculo.</p>
+<p align="justify">Gracias por el enlace. Ya revisé tu archivo completo en GitHub. Aquí tienes una versión mejorada de la **sección 4.7 Discusión**, manteniendo el estilo y contenido que ya tienes, pero con una redacción más técnica y estructurada:
+
+---
+
+### 7 Discusión
+
+Durante la práctica se observaron diferencias claras en la actividad eléctrica registrada de los músculos deltoides medial y bíceps braquial. Las señales EMG obtenidas mostraron picos de activación coincidentes con los movimientos esperados: abducción para el deltoides y flexión del codo para el bíceps, lo que indica que la colocación de los electrodos fue adecuada.
+
+En el caso del deltoides medial, la señal mostró mayor amplitud durante la elevación del brazo, lo cual concuerda con su rol como agonista en la abducción del hombro. Por otro lado, el bíceps presentó un patrón claro de activación al flexionar el antebrazo, tal como se describe en la literatura.
+
+Sin embargo, también se evidenciaron algunos segmentos de ruido, lo cual puede estar asociado a interferencias externas, movimiento de cables o una preparación inadecuada de la piel. Aunque se tomaron precauciones para reducir estos factores, la presencia de artefactos destaca la importancia del control del entorno experimental.
+
+Comparando nuestros resultados con la bibliografía consultada, se identifican similitudes en los patrones de activación muscular, aunque con diferencias en la intensidad y duración. Esto puede atribuirse a variables individuales (como tono muscular y tipo de fibra predominante), así como a limitaciones técnicas en la adquisición.
+
+Finalmente, se sugiere aplicar técnicas de procesamiento de señal, como el filtrado digital y la rectificación, para mejorar la calidad de los datos y facilitar un análisis más cuantitativo en futuros laboratorios.
+
+---
+
 
 ## **Referencias** <a name="id13"></a>
 1. Gohel V, Mehendale N. Review on electromyography signal acquisition and processing. Biophys Rev. 2020 Nov 10;12(6):1361–7. doi: 10.1007/s12551-020-00770-w. Epub ahead of print. PMID: 33169207; PMCID: PMC7755956. Disponible en: https://pmc.ncbi.nlm.nih.gov/articles/PMC7755956/
