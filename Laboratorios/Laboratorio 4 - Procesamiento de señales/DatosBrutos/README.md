@@ -1,5 +1,4 @@
 # **LABORATORIO 4: – Uso de BiTalino para EMG y ECG**
-Realizado el 12 de abril de 2023
 <p align="center">
      <img width="500" height="300" src="https://i0.wp.com/prevencionsaludproactiv.com/wp-content/uploads/2019/02/723563_orig.gif?resize=620%2C324&ssl=1">
 </p>
