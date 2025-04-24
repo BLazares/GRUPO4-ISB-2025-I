@@ -115,23 +115,6 @@ La señal ECG se registró dos veces en cada uno de los siguientes estados:
 
 
 ## **Resultados** <a name="id4"></a>
-### 🎥 Videos de la adquisición organizados por condición
-
-| Condición               | Primer muestreo                                                                 | Segundo muestreo                                                                |
-|------------------------|----------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
-| **Estado basal**       | <video src="#" width="200" controls></video>                                    | <video src="#" width="200" controls></video>                                   |
-|                        | <video src="#" width="200" controls></video>                                    | <video src="#" width="200" controls></video>                                   |
-|                        | <video src="#" width="200" controls></video>                                    | <video src="#" width="200" controls></video>                                   |
-| **Resp. controlada**   | <video src="#" width="200" controls></video>                                    | <video src="#" width="200" controls></video>                                   |
-|                        | <video src="#" width="200" controls></video>                                    | <video src="#" width="200" controls></video>                                   |
-|                        | <video src="#" width="200" controls></video>                                    | <video src="#" width="200" controls></video>                                   |
-| **Ejercicio intenso**  | <video src="#" width="200" controls></video>                                    | <video src="#" width="200" controls></video>                                   |
-|                        | <video src="#" width="200" controls></video>                                    | <video src="#" width="200" controls></video>                                   |
-|                        | <video src="#" width="200" controls></video>                                    | <video src="#" width="200" controls></video>                                   |
-| **Resp. prolongada**   | <video src="#" width="200" controls></video>                                    | <video src="#" width="200" controls></video>                                   |
-|                        | <video src="#" width="200" controls></video>                                    | <video src="#" width="200" controls></video>                                   |
-|                        | <video src="#" width="200" controls></video>                                    | <video src="#" width="200" controls></video>                                   |
-
 
 ### **Conexión usada** <a name="id5"></a>
 #
@@ -144,7 +127,24 @@ Se posicionaron los electrodos en base las guías mencionadas:
 <p align="center"><img src="https://user-images.githubusercontent.com/55772705/231652569-8c111952-0d50-4b4b-83f3-a2abce33c01e.PNG" width="400" height="400"></p>
 <p align="center">Figura 7. Muestra una configuración del sensor de ECG BiTalino para la derivación I de Einthoven.
     
-### **Videos de la adquisisción  en estado basal de la primera derivada** <a name="id6"></a>
+
+### 🎥 Videos de la adquisición organizados por condición
+
+| Condición               | Primer muestreo                                                                 | Segundo muestreo                                                                |
+|------------------------|----------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
+| **Estado basal**       | <video src="https://user-images.githubusercontent.com/89707896/231572641-61aeebae-f397-4627-aebc-913bb9464915.mp4" width="200" controls></video> | <video src="https://user-images.githubusercontent.com/89707896/231574043-44222491-d595-4d5a-9ac8-112adb20757c.mp4" width="200" controls></video> |
+|                        | <video src="#" width="200" controls></video>                                    | <video src="#" width="200" controls></video>                                   |
+|                        | <video src="#" width="200" controls></video>                                    | <video src="#" width="200" controls></video>                                   |
+| **Resp. controlada**   | <video src="#" width="200" controls></video>                                    | <video src="#" width="200" controls></video>                                   |
+|                        | <video src="#" width="200" controls></video>                                    | <video src="#" width="200" controls></video>                                   |
+|                        | <video src="#" width="200" controls></video>                                    | <video src="#" width="200" controls></video>                                   |
+| **Ejercicio intenso**  | <video src="#" width="200" controls></video>                                    | <video src="#" width="200" controls></video>                                   |
+|                        | <video src="#" width="200" controls></video>                                    | <video src="#" width="200" controls></video>                                   |
+|                        | <video src="#" width="200" controls></video>                                    | <video src="#" width="200" controls></video>                                   |
+| **Resp. prolongada**   | <video src="#" width="200" controls></video>                                    | <video src="#" width="200" controls></video>                                   |
+|                        | <video src="#" width="200" controls></video>                                    | <video src="#" width="200" controls></video>                                   |
+|                        | <video src="#" width="200" controls></video>                                    | <video src="#" width="200" controls></video>                                   |
+
 
 
 
