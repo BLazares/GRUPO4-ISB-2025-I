@@ -57,93 +57,21 @@ El electrocardiograma (ECG) es una herramienta de diagnóstico que permite regis
 Figura 1. Componentes de un EKG
 </p>
 
-### ¿Cómo se interpreta el ECG?
+### ❓ ¿Cómo se interpreta el ECG?
+
 <p align="justify">
-El electrocardiograma (ECG) permite identificar la actividad eléctrica del corazón mediante la medición de diferentes ondas e intervalos. La imagen adjunta resume los valores fisiológicos normales asociados a cada componente del trazado electrocardiográfico, los cuales son fundamentales para detectar alteraciones cardíacas. A continuación, se describe la interpretación de cada uno:
+El electrocardiograma (ECG) permite identificar la actividad eléctrica del corazón mediante la medición de diferentes ondas e intervalos. La siguiente tabla resume la interpretación y valores fisiológicos normales de cada componente del ECG, junto con sus respectivas imágenes.
 </p>
 
-- **Onda P**
-     - Representa la despolarización auricular
-     - Duración aproximada: 0.12 s
-     - Amplitud promedio: 0.25 mV
-
-<p align="center">
-    <img src="datos/ONDAP.png" width="400">
-</p>
-<p align="center">
-Figura 2. Onda P [4]
-</p>
-
-- **Intervalo PR (o P-R)**
-     - Desde el inicio de la onda P hasta el inicio del QRS
-     - Duración normal: 0.12 – 0.20 segundos
-     - Evalúa la conducción auriculoventricular
-
-<p align="center">
-    <img src="datos/INTERVARLOPR.jpg" width="400">
-</p>
-<p align="center">
-Figura 3. Intervalo PR [4]
-</p>
-
-- **Complejo QRS**
-     - Refleja la despolarización de los ventrículos
-     - Duración normal: aproximadamente 0.10 s
-     - Análisis morfológico permite detectar bloqueos y arritmias
-
-<p align="center">
-    <img src="datos/PQRST.png" width="400">
-</p>
-<p align="center">
-Figura 4. Complejo QRS [4]
-</p>
-
-- **Segmento ST**
-     - Representa el periodo entre la despolarización y repolarización ventricular
-     - Debe ser isoeléctrico (plano)
-     - Alteraciones pueden indicar isquemia
-
-<p align="center">
-    <img src="datos/Segmento-ST.jpg" width="400">
-</p>
-<p align="center">
-Figura 5. Segmento ST [4]
-</p>
-
-- **Onda T**
-     - Representa la repolarización ventricular
-     - Altura < 5 mm en derivaciones frontales, < 15 mm en precordiales
-     - Análisis de forma y polaridad permite detectar alteraciones electrolíticas o isquemia
-
-<p align="center">
-    <img src="datos/ONDAT.jpg" width="400">
-</p>
-<p align="center">
-Figura 6. Onda T [4]
-</p>
-
-- **Intervalo RR**
-     - Tiempo entre dos ondas R consecutivas
-     - Usado para calcular frecuencia cardíaca
-
-<p align="center">
-    <img src="datos/INTERVALORR.png" width="400">
-</p>
-<p align="center">
-Figura 7. Intervalo RR [4]
-</p>
-
-- **Intervalo QT (o QT corregido, QTc)**
-     - Desde el inicio del QRS hasta el final de la onda T
-     - QTc: hasta 450 ms en hombres, 470 ms en mujeres
-     - Prolongación del QT puede asociarse a arritmias graves
-
-<p align="center">
-    <img src="datos/intervalo_qt.jpg" width="400">
-</p>
-<p align="center">
-Figura 8. Intervalo QT [4]
-</p>
+| Componente        | Interpretación                                                                                     | Imagen |
+|------------------|-----------------------------------------------------------------------------------------------------|--------|
+| **Onda P**        | - Despolarización auricular  <br> - Duración: ~0.12 s <br> - Amplitud: ~0.25 mV                     | <img src="datos/ONDAP.png" width="200"><br><sub>Figura 2. Onda P</sub> |
+| **Intervalo PR**  | - Desde el inicio de la onda P hasta el inicio del QRS  <br> - Duración: 0.12 – 0.20 s              | <img src="datos/INTERVARLOPR.jpg" width="200"><br><sub>Figura 3. Intervalo PR</sub> |
+| **Complejo QRS**  | - Despolarización ventricular  <br> - Duración: ~0.10 s  <br> - Evalúa bloqueos y arritmias         | <img src="datos/PQRST.png" width="200"><br><sub>Figura 4. Complejo QRS</sub> |
+| **Segmento ST**   | - Pausa entre despolarización y repolarización ventricular  <br> - Alteraciones indican isquemia    | <img src="datos/Segmento-ST.jpg" width="200"><br><sub>Figura 5. Segmento ST</sub> |
+| **Onda T**        | - Repolarización ventricular  <br> - Altura: &lt;5 mm (frontales), &lt;15 mm (precordiales)         | <img src="datos/ONDAT.jpg" width="200"><br><sub>Figura 6. Onda T</sub> |
+| **Intervalo RR**  | - Tiempo entre dos ondas R consecutivas  <br> - Se usa para calcular la frecuencia cardíaca         | <img src="datos/INTERVALORR.png" width="200"><br><sub>Figura 7. Intervalo RR</sub> |
+| **Intervalo QT**  | - Desde inicio del QRS hasta final de onda T  <br> - QTc normal: hasta 450 ms (H), 470 ms (M)       | <img src="datos/intervalo_qt.jpg" width="200"><br><sub>Figura 8. Intervalo QT</sub> |
 
 
 
