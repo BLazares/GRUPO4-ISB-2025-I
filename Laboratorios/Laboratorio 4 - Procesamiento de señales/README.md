@@ -130,22 +130,22 @@ Se posicionaron los electrodos en base las guías mencionadas:
 
 ### 🎥 Videos de la adquisición organizados por condición
 
-| Condición               | Primer muestreo                                                                 | Segundo muestreo                                                                |
-|------------------------|----------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
-| **Estado basal**       | <video src="https://user-images.githubusercontent.com/89707896/231572641-61aeebae-f397-4627-aebc-913bb9464915.mp4" width="200" controls></video> | <video src="https://user-images.githubusercontent.com/89707896/231574043-44222491-d595-4d5a-9ac8-112adb20757c.mp4" width="200" controls></video> |
-|                        | <video src="#" width="200" controls></video>                                    | <video src="#" width="200" controls></video>                                   |
-|                        | <video src="#" width="200" controls></video>                                    | <video src="#" width="200" controls></video>                                   |
-| **Resp. controlada**   | <video src="#" width="200" controls></video>                                    | <video src="#" width="200" controls></video>                                   |
-|                        | <video src="#" width="200" controls></video>                                    | <video src="#" width="200" controls></video>                                   |
-|                        | <video src="#" width="200" controls></video>                                    | <video src="#" width="200" controls></video>                                   |
-| **Ejercicio intenso**  | <video src="#" width="200" controls></video>                                    | <video src="#" width="200" controls></video>                                   |
-|                        | <video src="#" width="200" controls></video>                                    | <video src="#" width="200" controls></video>                                   |
-|                        | <video src="#" width="200" controls></video>                                    | <video src="#" width="200" controls></video>                                   |
-| **Resp. prolongada**   | <video src="#" width="200" controls></video>                                    | <video src="#" width="200" controls></video>                                   |
-|                        | <video src="#" width="200" controls></video>                                    | <video src="#" width="200" controls></video>                                   |
-|                        | <video src="#" width="200" controls></video>                                    | <video src="#" width="200" controls></video>                                   |
+### 🎥 Videos de la adquisición organizados por condición y derivada
 
-
+| Condición              | Derivada           | Primer muestreo                                               | Segundo muestreo                                              |
+|------------------------|--------------------|----------------------------------------------------------------|----------------------------------------------------------------|
+| **Estado basal**       | Primera derivada   | <video src="https://user-images.githubusercontent.com/89707896/231572641-61aeebae-f397-4627-aebc-913bb9464915.mp4" width="200" controls></video> | <video src="https://user-images.githubusercontent.com/89707896/231574043-44222491-d595-4d5a-9ac8-112adb20757c.mp4" width="200" controls></video>                  |
+|                        | Segunda derivada   | <video src="#" width="200" controls></video>                  | <video src="#" width="200" controls></video>                  |
+|                        | Tercera derivada   | <video src="#" width="200" controls></video>                  | <video src="#" width="200" controls></video>                  |
+| **Resp. controlada**   | Primera derivada   | <video src="#" width="200" controls></video>                  | <video src="#" width="200" controls></video>                  |
+|                        | Segunda derivada   | <video src="#" width="200" controls></video>                  | <video src="#" width="200" controls></video>                  |
+|                        | Tercera derivada   | <video src="#" width="200" controls></video>                  | <video src="#" width="200" controls></video>                  |
+| **Ejercicio intenso**  | Primera derivada   | <video src="#" width="200" controls></video>                  | <video src="#" width="200" controls></video>                  |
+|                        | Segunda derivada   | <video src="#" width="200" controls></video>                  | <video src="#" width="200" controls></video>                  |
+|                        | Tercera derivada   | <video src="#" width="200" controls></video>                  | <video src="#" width="200" controls></video>                  |
+| **Resp. prolongada**   | Primera derivada   | <video src="#" width="200" controls></video>                  | <video src="#" width="200" controls></video>                  |
+|                        | Segunda derivada   | <video src="#" width="200" controls></video>                  | <video src="#" width="200" controls></video>                  |
+|                        | Tercera derivada   | <video src="#" width="200" controls></video>                  | <video src="#" width="200" controls></video>                  |
 
 
 
