@@ -200,16 +200,84 @@ Se posicionaron los electrodos en base las guías mencionadas:
 <p align="center"><img src="https://user-images.githubusercontent.com/55772705/231652569-8c111952-0d50-4b4b-83f3-a2abce33c01e.PNG" width="400" height="400"></p>
 <p align="center">Figura 7. Muestra una configuración del sensor de ECG BiTalino para la derivación I de Einthoven.
      
-### **Videos de la señal** <a name="id6"></a>
+### **Videos de la adquisisción  en estado basal de la primera derivada** <a name="id6"></a>
 #
-| Estado Basal | Mantener la respiración por 10 segundos |
+| Primer muestreo  | Segundo muestreo |
+| ------------ |  :------------------------------------: |
+| <video src="https://user-images.githubusercontent.com/89707896/231572641-61aeebae-f397-4627-aebc-913bb9464915.mp4" width="200" /> | <video src="https://user-images.githubusercontent.com/89707896/231574043-44222491-d595-4d5a-9ac8-112adb20757c.mp4" width="200" /> |
+</div>
+### **Videos de la adquisisción de la 2 derivada en estado basal** <a name="id6"></a>
+#
+| Primer muestreo  | Segundo muestreo |
+| ------------ |  :------------------------------------: |
+| <video src="https://user-images.githubusercontent.com/89707896/231572641-61aeebae-f397-4627-aebc-913bb9464915.mp4" width="200" /> | <video src="https://user-images.githubusercontent.com/89707896/231574043-44222491-d595-4d5a-9ac8-112adb20757c.mp4" width="200" /> |
+</div>
+### **Videos de la adquisisción de la 3 derivada en estado basal** <a name="id6"></a>
+#
+| Primer muestreo  | Segundo muestreo |
+| ------------ |  :------------------------------------: |
+| <video src="https://user-images.githubusercontent.com/89707896/231572641-61aeebae-f397-4627-aebc-913bb9464915.mp4" width="200" /> | <video src="https://user-images.githubusercontent.com/89707896/231574043-44222491-d595-4d5a-9ac8-112adb20757c.mp4" width="200" /> |
+</div>
+### **Adquisisción de respiración controlada de 1 derivada ** <a name="id6"></a>
+#
+| Primer muestreo  | Segundo muestreo |
+| ------------ |  :------------------------------------: |
+| <video src="https://user-images.githubusercontent.com/89707896/231572641-61aeebae-f397-4627-aebc-913bb9464915.mp4" width="200" /> | <video src="https://user-images.githubusercontent.com/89707896/231574043-44222491-d595-4d5a-9ac8-112adb20757c.mp4" width="200" /> |
+</div>
+### **Adquisisción de respiración controlada de 2 derivada** <a name="id6"></a>
+#
+| Primer muestreo  | Segundo muestreo |
+| ------------ |  :------------------------------------: |
+| <video src="https://user-images.githubusercontent.com/89707896/231572641-61aeebae-f397-4627-aebc-913bb9464915.mp4" width="200" /> | <video src="https://user-images.githubusercontent.com/89707896/231574043-44222491-d595-4d5a-9ac8-112adb20757c.mp4" width="200" /> |
+</div>
+### **Adquisisción de respiración controlada de 3 derivada** <a name="id6"></a>
+#
+| Primer muestreo  | Segundo muestreo |
+| ------------ |  :------------------------------------: |
+| <video src="https://user-images.githubusercontent.com/89707896/231572641-61aeebae-f397-4627-aebc-913bb9464915.mp4" width="200" /> | <video src="https://user-images.githubusercontent.com/89707896/231574043-44222491-d595-4d5a-9ac8-112adb20757c.mp4" width="200" /> |
+</div>
+### **Videos de la adquisisción de la 3 derivada en estado basal** <a name="id6"></a>
+#
+| Primer muestreo  | Segundo muestreo |
+| ------------ |  :------------------------------------: |
+| <video src="https://user-images.githubusercontent.com/89707896/231572641-61aeebae-f397-4627-aebc-913bb9464915.mp4" width="200" /> | <video src="https://user-images.githubusercontent.com/89707896/231574043-44222491-d595-4d5a-9ac8-112adb20757c.mp4" width="200" /> |
+</div>
+### **Adquisisción de señal posterios al ejercicio intenso  de la 1 derivada ** <a name="id6"></a>
+#
+| Primer muestreo  | Segundo muestreo |
+| ------------ |  :------------------------------------: |
+| <video src="https://user-images.githubusercontent.com/89707896/231572641-61aeebae-f397-4627-aebc-913bb9464915.mp4" width="200" /> | <video src="https://user-images.githubusercontent.com/89707896/231574043-44222491-d595-4d5a-9ac8-112adb20757c.mp4" width="200" /> |
+</div>
+### **Adquisisción de señal posterios al ejercicio intenso  de la 2 derivada* <a name="id6"></a>
+#
+| Primer muestreo  | Segundo muestreo |
+| ------------ |  :------------------------------------: |
+| <video src="https://user-images.githubusercontent.com/89707896/231572641-61aeebae-f397-4627-aebc-913bb9464915.mp4" width="200" /> | <video src="https://user-images.githubusercontent.com/89707896/231574043-44222491-d595-4d5a-9ac8-112adb20757c.mp4" width="200" /> |
+</div>
+### **Adquisisción de señal posterios al ejercicio intenso  de la 3 derivada** <a name="id6"></a>
+#
+| Primer muestreo  | Segundo muestreo |
 | ------------ |  :------------------------------------: |
 | <video src="https://user-images.githubusercontent.com/89707896/231572641-61aeebae-f397-4627-aebc-913bb9464915.mp4" width="200" /> | <video src="https://user-images.githubusercontent.com/89707896/231574043-44222491-d595-4d5a-9ac8-112adb20757c.mp4" width="200" /> |
 </div>
 
-| Reposo Basal |     Después de una actividad física     |
+### **Adquisisción de señal durante respiración prolongada de la 1 derivada ** <a name="id6"></a>
+#
+| Primer muestreo  | Segundo muestreo |
 | ------------ |  :------------------------------------: |
-|<video src="https://user-images.githubusercontent.com/89707896/231574106-c6608652-e7dd-4194-b84f-53ea09ec712c.mp4" width="200"/> | <video src="https://user-images.githubusercontent.com/89707896/231574355-354b84ab-f131-4c7e-962c-d6c0341358ed.mp4" width="200" />  |
+| <video src="https://user-images.githubusercontent.com/89707896/231572641-61aeebae-f397-4627-aebc-913bb9464915.mp4" width="200" /> | <video src="https://user-images.githubusercontent.com/89707896/231574043-44222491-d595-4d5a-9ac8-112adb20757c.mp4" width="200" /> |
+</div>
+### **Adquisisción de señal durante respiración prolongada de la 2 derivada** <a name="id6"></a>
+#
+| Primer muestreo  | Segundo muestreo |
+| ------------ |  :------------------------------------: |
+| <video src="https://user-images.githubusercontent.com/89707896/231572641-61aeebae-f397-4627-aebc-913bb9464915.mp4" width="200" /> | <video src="https://user-images.githubusercontent.com/89707896/231574043-44222491-d595-4d5a-9ac8-112adb20757c.mp4" width="200" /> |
+</div>
+### **Adquisisción de señal durante respiración prolongada de la 3 derivada** <a name="id6"></a>
+#
+| Primer muestreo  | Segundo muestreo |
+| ------------ |  :------------------------------------: |
+| <video src="https://user-images.githubusercontent.com/89707896/231572641-61aeebae-f397-4627-aebc-913bb9464915.mp4" width="200" /> | <video src="https://user-images.githubusercontent.com/89707896/231574043-44222491-d595-4d5a-9ac8-112adb20757c.mp4" width="200" /> |
 </div>
 
 
