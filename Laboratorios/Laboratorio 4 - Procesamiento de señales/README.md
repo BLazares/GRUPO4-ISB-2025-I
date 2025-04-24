@@ -36,45 +36,21 @@ El trazado típico de un ECG consta de varias ondas y complejos que representan 
 El electrocardiograma (ECG) es una herramienta de diagnóstico que permite registrar la actividad eléctrica del corazón a través de un conjunto de ondas, segmentos e intervalos. Cada uno de estos componentes representa distintos eventos fisiológicos del ciclo cardíaco. Comprender su significado es esencial para interpretar correctamente el trazado del ECG.
 </p>
 
-- **Onda P**:  
-  <p align="justify">
-  Representa la despolarización auricular, es decir, el paso del impulso eléctrico a través de las aurículas, lo cual precede a su contracción (sístole auricular).
-  </p>
+### ⚡ Componentes del Electrocardiograma (ECG)
 
-- **Complejo QRS**:  
-  <p align="justify">
-  Conjunto de tres deflexiones que reflejan la despolarización de los ventrículos. La onda Q muestra la activación del tabique interventricular, la onda R refleja la despolarización de la masa principal ventricular, y la onda S representa la activación de las últimas regiones ventriculares.
-  </p>
+El electrocardiograma (ECG) registra la actividad eléctrica del corazón mediante distintas ondas e intervalos que representan eventos clave del ciclo cardíaco.
 
-- **Onda T**:  
-  <p align="justify">
-  Señala la repolarización de los ventrículos, un proceso de recuperación eléctrica previo a la siguiente contracción.
-  </p>
+| Componente     | Descripción |
+|----------------|-------------|
+| **Onda P**     | Representa la despolarización auricular, es decir, el impulso eléctrico que activa las aurículas. |
+| **Complejo QRS** | Refleja la despolarización ventricular. Incluye la activación del tabique interventricular (Q), masa ventricular principal (R), y regiones finales (S). |
+| **Onda T**     | Representa la repolarización de los ventrículos, preparándolos para el siguiente ciclo. |
+| **Segmento PR** | Tiempo entre el final de la onda P y el inicio del QRS; muestra la conducción desde aurículas a ventrículos. |
+| **Segmento ST** | Pausa eléctrica entre la despolarización y repolarización ventricular; útil para detectar isquemia. |
+| **Intervalo PR** | Desde el inicio de la onda P hasta el inicio del QRS; indica el tiempo total de conducción auriculoventricular. |
+| **Intervalo QT** | Incluye QRS, ST y T; muestra la duración total de la despolarización y repolarización ventricular. |
+| **Intervalo RR** | Distancia entre dos ondas R consecutivas; se utiliza para calcular la frecuencia cardíaca. |
 
-- **Segmento PR**:  
-  <p align="justify">
-  Corresponde al tiempo que tarda el impulso eléctrico en viajar desde las aurículas hasta los ventrículos, abarcando desde el final de la onda P hasta el inicio del complejo QRS.
-  </p>
-
-- **Segmento ST**:  
-  <p align="justify">
-  Es un periodo de pausa eléctrica entre la despolarización y la repolarización ventricular. Su elevación o depresión es un marcador clave de isquemia o infarto.
-  </p>
-
-- **Intervalo PR**:  
-  <p align="justify">
-  Abarca desde el inicio de la onda P hasta el inicio del complejo QRS. Representa el tiempo total de conducción auriculoventricular.
-  </p>
-
-- **Intervalo QT**:  
-  <p align="justify">
-  Incluye el complejo QRS, el segmento ST y la onda T. Representa la duración total de la despolarización y repolarización ventricular. Su prolongación puede asociarse a arritmias.
-  </p>
-
-- **Intervalo RR**:  
-  <p align="justify">
-  Es la distancia entre dos ondas R consecutivas y se usa para calcular la frecuencia cardíaca.
-  </p>
 
 
 <p align="center">
