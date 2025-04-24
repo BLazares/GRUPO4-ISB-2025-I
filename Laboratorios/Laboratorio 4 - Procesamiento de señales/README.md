@@ -26,24 +26,61 @@ El trazado típico de un ECG consta de varias ondas y complejos que representan 
 
 <p align="center">
      <p align="center"><img src="datos/CORAZON_PQRST.gif" width="400"></p>
+¡Perfecto! Entonces aquí tienes un **texto introductorio** que explica brevemente los **componentes principales del ECG**, incluyendo ondas, segmentos e intervalos, ideal para usar en la **introducción de tu laboratorio**.
+
+---
+
+### ⚡ Componentes del Electrocardiograma (ECG)
+
+<p align="justify">
+El electrocardiograma (ECG) es una herramienta de diagnóstico que permite registrar la actividad eléctrica del corazón a través de un conjunto de ondas, segmentos e intervalos. Cada uno de estos componentes representa distintos eventos fisiológicos del ciclo cardíaco. Comprender su significado es esencial para interpretar correctamente el trazado del ECG.
 </p>
 
+- **Onda P**:  
+  <p align="justify">
+  Representa la despolarización auricular, es decir, el paso del impulso eléctrico a través de las aurículas, lo cual precede a su contracción (sístole auricular).
+  </p>
 
-- Onda P: Representa la despolarización auricular.
-- <p align="justify"> Intervalo QRS: Este conjunto de ondas representan la despolarización ventricular, donde la onda Q corresponde a la despolarización del tabique intraventricular; la R refleja la despolarización con la masa principal de los ventrículos; y la onda S muestra la despolarización final de los ventrículos, en la base del corazón.</p>
-- Onda T: Representa la repolarización ventricular. [4]
+- **Complejo QRS**:  
+  <p align="justify">
+  Conjunto de tres deflexiones que reflejan la despolarización de los ventrículos. La onda Q muestra la activación del tabique interventricular, la onda R refleja la despolarización de la masa principal ventricular, y la onda S representa la activación de las últimas regiones ventriculares.
+  </p>
+
+- **Onda T**:  
+  <p align="justify">
+  Señala la repolarización de los ventrículos, un proceso de recuperación eléctrica previo a la siguiente contracción.
+  </p>
+
+- **Segmento PR**:  
+  <p align="justify">
+  Corresponde al tiempo que tarda el impulso eléctrico en viajar desde las aurículas hasta los ventrículos, abarcando desde el final de la onda P hasta el inicio del complejo QRS.
+  </p>
+
+- **Segmento ST**:  
+  <p align="justify">
+  Es un periodo de pausa eléctrica entre la despolarización y la repolarización ventricular. Su elevación o depresión es un marcador clave de isquemia o infarto.
+  </p>
+
+- **Intervalo PR**:  
+  <p align="justify">
+  Abarca desde el inicio de la onda P hasta el inicio del complejo QRS. Representa el tiempo total de conducción auriculoventricular.
+  </p>
+
+- **Intervalo QT**:  
+  <p align="justify">
+  Incluye el complejo QRS, el segmento ST y la onda T. Representa la duración total de la despolarización y repolarización ventricular. Su prolongación puede asociarse a arritmias.
+  </p>
+
+- **Intervalo RR**:  
+  <p align="justify">
+  Es la distancia entre dos ondas R consecutivas y se usa para calcular la frecuencia cardíaca.
+  </p>
+
 
 <p align="center">
   <img src="datos/PQRST.png" width="400">
 </p>
 
-<p align="center">
-Figura 2. Onda ECG con sus características generales [4]
-</p>
-
-<p align="justify">
-Para poder realizar estas mediciones, en el presente laboratorio, se empleó la placa de desarrollo BiTalino, la cual es una herramienta que permite registrar y analizar la actividad eléctrica de diversas zonas del cuerpo, entre ellas la del corazón, sin la necesidad de ser invasiva y permitiendo obtener resultados en tiempo real.
-</p>
 
 ### ¿Cómo se interpreta el ECG?
 <p align="justify">
