@@ -34,8 +34,9 @@ El trazado típico de un ECG consta de varias ondas y complejos que representan 
 - Onda T: Representa la repolarización ventricular. [4]
 
 <p align="center">
-     <p align="center"><img src="Imágenes/PQRST.png" width="400"></p>
+  <img src="datos/PQRST.png" width="400">
 </p>
+
 <p align="center">
 Figura 2. Onda ECG con sus características generales [4]
 </p>
