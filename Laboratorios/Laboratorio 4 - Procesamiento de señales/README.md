@@ -93,7 +93,7 @@ El electrocardiograma (ECG) permite identificar la actividad eléctrica del cora
      - Amplitud promedio: 0.25 mV
 
 <p align="center">
-    <img src="datos/ONDAP.PNG" width="700">
+    <img src="datos/ONDAP.png" width="700">
 </p>
 <p align="center">
 Figura 1. Onda P [4]
@@ -105,7 +105,7 @@ Figura 1. Onda P [4]
      - Evalúa la conducción auriculoventricular
 
 <p align="center">
-    <img src="datos/INTERVARLOPR.JPEG" width="700">
+    <img src="datos/INTERVARLOPR.jpg" width="700">
 </p>
 <p align="center">
 Figura 2. Intervalo PR [4]
@@ -117,7 +117,7 @@ Figura 2. Intervalo PR [4]
      - Análisis morfológico permite detectar bloqueos y arritmias
 
 <p align="center">
-    <img src="datos/complejoQRS.JPGE" width="700">
+    <img src="datos/PQRST.png" width="700">
 </p>
 <p align="center">
 Figura 3. Complejo QRS [4]
@@ -129,7 +129,7 @@ Figura 3. Complejo QRS [4]
      - Alteraciones pueden indicar isquemia
 
 <p align="center">
-    <img src="datos/Segmento-ST.JPEG" width="700">
+    <img src="datos/Segmento-ST.jpg" width="700">
 </p>
 <p align="center">
 Figura 4. Segmento ST [4]
@@ -141,7 +141,7 @@ Figura 4. Segmento ST [4]
      - Análisis de forma y polaridad permite detectar alteraciones electrolíticas o isquemia
 
 <p align="center">
-    <img src="datos/ONDAT.JPEG" width="700">
+    <img src="datos/ONDAT.jpg" width="700">
 </p>
 <p align="center">
 Figura 5. Onda T [4]
@@ -152,7 +152,7 @@ Figura 5. Onda T [4]
      - Usado para calcular frecuencia cardíaca
 
 <p align="center">
-    <img src="datos/INTERVARLOPR.jpg" width="700">
+    <img src="datos/INTERVALORR.png" width="700">
 </p>
 <p align="center">
 Figura 6. Intervalo RR [4]
@@ -164,11 +164,12 @@ Figura 6. Intervalo RR [4]
      - Prolongación del QT puede asociarse a arritmias graves
 
 <p align="center">
-    <img src="datos/intervalo_qt.JPEG" width="700">
+    <img src="datos/intervalo_qt.jpg" width="700">
 </p>
 <p align="center">
 Figura 7. Intervalo QT [4]
 </p>
+
 
 
 ## **Objetivos** <a name="id1"></a>
