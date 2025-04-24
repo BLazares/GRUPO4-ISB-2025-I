@@ -25,7 +25,7 @@ El trazado típico de un ECG consta de varias ondas y complejos que representan 
 
 
 <p align="center">
-     <img width="500" height="300" src="[https://i0.wp.com/prevencionsaludproactiv.com/wp-content/uploads/2019/02/723563_orig.gif?resize=620%2C324&ssl=1](https://www.researchgate.net/figure/Electrocardiograma-con-sus-ondas-intervalos-segmentos-y-su-relacion-con-el-ciclo_fig2_333649418)">
+     <p align="center"><img src="Imágenes/bitalino.jpg" width="400"></p>
 </p>
 
 
@@ -34,7 +34,7 @@ El trazado típico de un ECG consta de varias ondas y complejos que representan 
 - Onda T: Representa la repolarización ventricular. [4]
 
 <p align="center">
-     <img width="600" height="400" src="https://user-images.githubusercontent.com/89707896/231624484-29bb445b-f900-44dc-813e-313048c5e51c.png">
+     <p align="center"><img src="Imágenes/bitalino.jpg" width="400"></p>
 </p>
 <p align="center">
 Figura 2. Onda ECG con sus características generales [4]
