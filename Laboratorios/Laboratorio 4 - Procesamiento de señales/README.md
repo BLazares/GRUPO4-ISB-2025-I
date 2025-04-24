@@ -198,15 +198,21 @@ Los objetivos del laboratorio son:
 
 
 ## **Procedimiento** <a name="id3"></a>
--Para la conexión electrodos al cuerpo utilizamos la guía proporcionada por el propio Bitalino de nombre: "BITalino HOME-GUIDE #2 ELECTROCARDIOGRAPHY (ECG) Exploring Cardiac Signals at the Skin Surface".
+Claro, aquí tienes el texto más corto y mejor redactado:
 
--Registro de la señal ECG: Se grabó la señal en 3 momentos
-</p>
-Estado basal: Evaluar el estado de reposo
-</p>
-Respiración prolongada: Evaluar al mantener la respiración por 10 segundos y el estado basal
-</p>
-Ejercicio intenso:Se realizo dintintos ejercicios por 5 minutos.
+---
+
+Para la colocación de los electrodos se siguió la guía oficial de BITalino: *"BITalino HOME-GUIDE #2: ELECTROCARDIOGRAPHY (ECG) - Exploring Cardiac Signals at the Skin Surface"*.
+
+La señal ECG se registró dos veces en cada uno de los siguientes estados:
+
+- **Estado basal**: reposo completo.  
+- **Respiración controlada**: ciclos de inhalación y exhalación de 15 segundos.  
+- **Ejercicio intenso**: actividad física durante 6 minutos.  
+- **Respiración prolongada**: apnea voluntaria de 10 segundos.  
+
+---
+
 
 
 ## **Resultados** <a name="id4"></a>
