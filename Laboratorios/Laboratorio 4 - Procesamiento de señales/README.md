@@ -152,7 +152,7 @@ Figura 5. Onda T [4]
      - Usado para calcular frecuencia cardíaca
 
 <p align="center">
-    <img src="datos/INTERVALORR.PNG" width="700">
+    <img src="datos/INTERVARLOPR.jpg" width="700">
 </p>
 <p align="center">
 Figura 6. Intervalo RR [4]
