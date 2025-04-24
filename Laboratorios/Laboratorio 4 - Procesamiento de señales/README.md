@@ -20,8 +20,10 @@
 ## **Introducción al laboratorio** <a name="id0"></a>
 ---
 <p align="justify">
-El electrocardiograma (ECG) es un procedimiento simple, indoloro y rápido que registra la actividad eléctrica que realiza el corazón. [1] Para que la toma de las señales se de en las mejores condiciones posibles el paciente no debería hacer ejercicio ni tomar agua fría previo; ya que, ello puede generar datos erróneos [2], afectando la detección de anomalías, como:
+El electrocardiograma (ECG) es una herramienta fundamental en la medicina moderna que permite registrar la actividad eléctrica del corazón a lo largo del tiempo. Esta actividad eléctrica es esencial para la contracción coordinada del músculo cardíaco, y su análisis proporciona información valiosa sobre el estado fisiológico del corazón .
 </p>
+<p align="justify">
+El trazado típico de un ECG consta de varias ondas y complejos que representan diferentes fases del ciclo cardíaco: la onda P indica la despolarización auricular, el complejo QRS refleja la despolarización ventricular, y la onda T corresponde a la repolarización ventricular . La interpretación adecuada de estos componentes es crucial para el diagnóstico de diversas patologías cardíacas, como arritmias, infartos de miocardio y otras condiciones que afectan la conducción eléctrica del corazón.</p>
 
 - Infarto al miocardio previo
 - Ritmo cardíaco anómalo (arritmia)
@@ -324,19 +326,26 @@ En este caso las frecuencia cardiacas de interés son la frecuencia cardiaca má
 ## **Referencias** <a name="id11"></a>
 ----
 <p align="justify">
-1. Electrocardiograma. (2023, 28 de febrero). MedlinePlus. https://medlineplus.gov/spanish/pruebas-de-laboratorio/electrocardiograma/#:~:text=Un%20electrocardiograma%20(ECG)%20es%20un,circula%20a%20través%20de%20él.</p>
+1. Electrocardiograma. (2023, 28 de febrero). MedlinePlus. https://medlineplus.gov/spanish/pruebas-de-laboratorio/electrocardiograma/#:~:text=Un%20electrocardiograma%20(ECG)%20es%20un,circula%20a%20través%20de%20él.
+</p>
 <p align="justify">
-2. Electrocardiograma: MedlinePlus enciclopedia mÃ©dica. (2022, 5 de agosto). MedlinePlus - Health Information from the National Library of Medicine. https://medlineplus.gov/spanish/ency/article/003868.htm#:~:text=No%20haga%20ejercicio%20ni%20tome,acciones%20pueden%20causar%20resultados%20falsos.</p>
+2. Electrocardiograma: MedlinePlus enciclopedia médica. (2022, 5 de agosto). MedlinePlus - Health Information from the National Library of Medicine. https://medlineplus.gov/spanish/ency/article/003868.htm#:~:text=No%20haga%20ejercicio%20ni%20tome,acciones%20pueden%20causar%20resultados%20falsos.
+</p>
 <p align="justify">
-3. Cascino, T., & Shea, M. J. (2021, 6 de julio). Electrocardiografía - Trastornos del corazón y los vasos sanguíneos - Manual MSD versión para público general. Manual MSD versión para público general. https://www.msdmanuals.com/es-es/hogar/trastornos-del-corazón-y-los-vasos-sanguíneos/diagnóstico-de-las-enfermedades-cardiovasculares/electrocardiografía#:~:text=En%20un%20ECG%20pueden%20observarse,las%20pareces%20del%20músculo%20cardíaco.</p>
+3. Cascino, T., & Shea, M. J. (2021, 6 de julio). Electrocardiografía - Trastornos del corazón y los vasos sanguíneos - Manual MSD versión para público general. Manual MSD versión para público general. https://www.msdmanuals.com/es-es/hogar/trastornos-del-corazón-y-los-vasos-sanguíneos/diagnóstico-de-las-enfermedades-cardiovasculares/electrocardiografía#:~:text=En%20un%20ECG%20pueden%20observarse,las%20pareces%20del%20músculo%20cardíaco.
+</p>
 <p align="justify">
-4. ECG interpretation: Characteristics of the normal ECG (P-wave, QRS complex, ST segment, T-wave). (2019). ECG & ECHO. https://ecgwaves.com/topic/ecg-normal-p-wave-qrs-complex-st-segment-t-wave-j-point/</p>
+4. ECG interpretation: Characteristics of the normal ECG (P-wave, QRS complex, ST segment, T-wave). (2019). ECG & ECHO. https://ecgwaves.com/topic/ecg-normal-p-wave-qrs-complex-st-segment-t-wave-j-point/
+</p>
 <p align="justify">
-6. S. Kurisu, K. Nitta, Y. Sumimoto, H. Ikenaga, K. Ishibashi, Y. Fukuda, and Y. Kihara, “Effects of deep inspiration on QRS axis, T-wave axis and frontal QRS-T angle in the routine electrocardiogram,” Heart and Vessels, vol. 34, no. 9, pp. 1519–1523, 2019. </p>
+5. S. Kurisu, K. Nitta, Y. Sumimoto, H. Ikenaga, K. Ishibashi, Y. Fukuda, and Y. Kihara, “Effects of deep inspiration on QRS axis, T-wave axis and frontal QRS-T angle in the routine electrocardiogram,” Heart and Vessels, vol. 34, no. 9, pp. 1519–1523, 2019.
+</p>
 <p align="justify">
-7. G. P. Whyte and S. Sharma, Practical ECG for Exercise Science and Sports Medicine. Champaign, IL: Human Kinetics, 2010. </p>
+6. G. P. Whyte and S. Sharma, Practical ECG for Exercise Science and Sports Medicine. Champaign, IL: Human Kinetics, 2010.
+</p>
 <p align="justify">
-8.E. A. Rosas, Electrocardiografía Clínica. Ciudad de México: El Manual Moderno, 2017</p>
+7. E. A. Rosas, Electrocardiografía Clínica. Ciudad de México: El Manual Moderno, 2017.
+</p>
 <p align="justify">
-9.Guardado R. Vallín D., (2009, 2 de junio). Aplicación del Análisis Tiempo-Frecuencia en Electrocardiografía.https://laccei.org/LACCEI2009-Venezuela/Papers/IT117_GuardadoMedina.pdf
+8. Guardado R. Vallín D., (2009, 2 de junio). Aplicación del Análisis Tiempo-Frecuencia en Electrocardiografía. https://laccei.org/LACCEI2009-Venezuela/Papers/IT117_GuardadoMedina.pdf
 </p>
