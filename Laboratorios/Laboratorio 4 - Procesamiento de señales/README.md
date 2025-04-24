@@ -127,27 +127,9 @@ Se posicionaron los electrodos en base las guías mencionadas:
 
 <p align="center"><img src="https://user-images.githubusercontent.com/55772705/231652569-8c111952-0d50-4b4b-83f3-a2abce33c01e.PNG" width="400" height="400"></p>
 <p align="center">Figura 7. Muestra una configuración del sensor de ECG BiTalino para la derivación I de Einthoven.
-     
+    
 ### **Videos de la adquisisción  en estado basal de la primera derivada** <a name="id6"></a>
-#
-| Primer muestreo  | Segundo muestreo |
-| ------------ |  :---------------------------------: |
-| <video src="https://user-images.githubusercontent.com/89707896/231572641-61aeebae-f397-4627-aebc-913bb9464915.mp4" width="200" /> | <video src="https://user-images.githubusercontent.com/89707896/231574043-44222491-d595-4d5a-9ac8-112adb20757c.mp4" width="200" /> |
-</div>
-### **Videos de la adquisisción  en estado basal de la primera derivada** <a name="id6"></a>
-#
-| Primer muestreo  | Segundo muestreo |
-| ------------ |  :---------------------------------: |
-| <video src="https://user-images.githubusercontent.com/89707896/231572641-61aeebae-f397-4627-aebc-913bb9464915.mp4" width="200" /> | <video src="https://user-images.githubusercontent.com/89707896/231574043-44222491-d595-4d5a-9ac8-112adb20757c.mp4" width="200" /> |
-</div>
 
-
-### **Videos de la adquisisción de la 2 derivada en estado basal** <a name="id6"></a>
-#
-| Primer muestreo  | Segundo muestreo |
-| ------------ |  :------------------------------------: |
-| <video src="https://user-images.githubusercontent.com/89707896/231572641-61aeebae-f397-4627-aebc-913bb9464915.mp4" width="200" /> | <video src="https://user-images.githubusercontent.com/89707896/231574043-44222491-d595-4d5a-9ac8-112adb20757c.mp4" width="200" /> |
-</div>
 
 
 
@@ -160,7 +142,7 @@ Se posicionaron los electrodos en base las guías mencionadas:
 <p align="center">
 Figura 8. Ploteo de la señal en OpenSignal en estado basal
 </p>     
-     
+    
      b)   Manteniendo la respiración por 10 segundos
 <p align="center">
      <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231611939-2b79e311-fdce-487c-83f6-f0a795c2cbdf.PNG">
@@ -168,8 +150,7 @@ Figura 8. Ploteo de la señal en OpenSignal en estado basal
 <p align="center">
 Figura 9. Ploteo de la señal en OpenSignal manteniendo la respiración por 10 segundos
 </p>
-
-     
+ 
      c)   Reposo basal
 <p align="center">
      <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231611469-d7964526-ec59-44d6-ac3c-6fef92f0ee56.jpeg">
