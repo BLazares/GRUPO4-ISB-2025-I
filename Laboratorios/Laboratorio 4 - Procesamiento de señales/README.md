@@ -191,7 +191,7 @@ Los objetivos del laboratorio son:
 |:------------:|:---------------:|:------------:|
 | <img width="200" height="150" src="https://i.postimg.cc/VvLXqb8P/14022-01a.jpg"> |   Kit BITalino  |       1      |
 | <img width="200" height="150" src="https://i.postimg.cc/XNmdLX3Z/equipos.png"> |      Laptop     |       1      |
-| <img width="200" height="150" src="[https://i.postimg.cc/XNmdLX3Z/equipos.png](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrmAaRkerN8ih7QerpE558R7OLthwl_6bCaA&s)"> |      Electrodos    |       5     |
+| <img width="200" height="150" src="https://multimedia.3m.com/mws/media/277491J/eletrodo-2239.jpg?width=506"> |      Electrodos    |       5     |
 
 </div>
 
