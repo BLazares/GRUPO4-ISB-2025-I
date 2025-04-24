@@ -198,9 +198,7 @@ Los objetivos del laboratorio son:
 
 
 ## **Procedimiento** <a name="id3"></a>
-Claro, aquí tienes el texto más corto y mejor redactado:
 
----
 
 Para la colocación de los electrodos se siguió la guía oficial de BITalino: *"BITalino HOME-GUIDE #2: ELECTROCARDIOGRAPHY (ECG) - Exploring Cardiac Signals at the Skin Surface"*.
 
