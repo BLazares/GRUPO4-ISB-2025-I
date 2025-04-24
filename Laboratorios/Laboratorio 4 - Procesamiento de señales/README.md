@@ -36,9 +36,6 @@ El trazado típico de un ECG consta de varias ondas y complejos que representan 
 El electrocardiograma (ECG) es una herramienta de diagnóstico que permite registrar la actividad eléctrica del corazón a través de un conjunto de ondas, segmentos e intervalos. Cada uno de estos componentes representa distintos eventos fisiológicos del ciclo cardíaco. Comprender su significado es esencial para interpretar correctamente el trazado del ECG.
 </p>
 
-### ⚡ Componentes del Electrocardiograma (ECG)
-
-El electrocardiograma (ECG) registra la actividad eléctrica del corazón mediante distintas ondas e intervalos que representan eventos clave del ciclo cardíaco.
 
 | Componente     | Descripción |
 |----------------|-------------|
