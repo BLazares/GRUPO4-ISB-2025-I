@@ -1,7 +1,5 @@
 # **LABORATORIO 4: – Uso de BiTalino para EMG y ECG**
-<p align="center">
-     <img width="500" height="300" src="https://i0.wp.com/prevencionsaludproactiv.com/wp-content/uploads/2019/02/723563_orig.gif?resize=620%2C324&ssl=1">
-</p>
+
 
 # **Tabla de contenidos**
 1. [Introducción](#id0)
@@ -25,20 +23,11 @@ El electrocardiograma (ECG) es una herramienta fundamental en la medicina modern
 <p align="justify">
 El trazado típico de un ECG consta de varias ondas y complejos que representan diferentes fases del ciclo cardíaco: la onda P indica la despolarización auricular, el complejo QRS refleja la despolarización ventricular, y la onda T corresponde a la repolarización ventricular . La interpretación adecuada de estos componentes es crucial para el diagnóstico de diversas patologías cardíacas, como arritmias, infartos de miocardio y otras condiciones que afectan la conducción eléctrica del corazón.</p>
 
-- Infarto al miocardio previo
-- Ritmo cardíaco anómalo (arritmia)
-- Aporte inadecuado de sangre y oxígeno al corazón (isquemia)
-- Engrosamiento excesivo de las paredes del músculo del corazón (hipertrofia) [1]
+
 <p align="center">
      <img width="500" height="300" src="https://i0.wp.com/prevencionsaludproactiv.com/wp-content/uploads/2019/02/723563_orig.gif?resize=620%2C324&ssl=1">
 </p>
-<p align="center">
-Figura 1. ECG con anomalías [3]
-</p>
 
-<p align="justify">
-Como se aprecia a la derecha la señal está conformada por ondas con picos, los cuales presentan 3 segmentos:
-</p>
 
 - Onda P: Representa la despolarización auricular.
 - <p align="justify"> Intervalo QRS: Este conjunto de ondas representan la despolarización ventricular, donde la onda Q corresponde a la despolarización del tabique intraventricular; la R refleja la despolarización con la masa principal de los ventrículos; y la onda S muestra la despolarización final de los ventrículos, en la base del corazón.</p>
