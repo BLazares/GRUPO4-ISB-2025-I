@@ -84,44 +84,92 @@ El electrocardiograma (ECG) es una herramienta de diagnóstico que permite regis
 
 ### ¿Cómo se interpreta el ECG?
 <p align="justify">
-Para ello evaluamos las ondas respecto a lo categorizado como normal:
-</p>
-- Verificación de onda P
-     - La deflección negativa es normalmente < 1mm
-     - La duración de la onda P debe ser menor o igual a 0.12 segundos
-     - La amplitud de la onda P debe ser < 0.25 mm en las derivaciones de las extremidades
- <p align="center">
-     <img width="700" height="200" src="https://user-images.githubusercontent.com/89707896/231650199-b6f9eb24-ebb6-47c8-a5f1-4e44d4d1b342.png">
-</p>
-<p align="center">
-Figura 3. Onda P [4]
+El electrocardiograma (ECG) permite identificar la actividad eléctrica del corazón mediante la medición de diferentes ondas e intervalos. La imagen adjunta resume los valores fisiológicos normales asociados a cada componente del trazado electrocardiográfico, los cuales son fundamentales para detectar alteraciones cardíacas. A continuación, se describe la interpretación de cada uno:
 </p>
 
-- Verificación del intervalo PR
-     - Intervalo normal: 0.12 a 0.22 segundos; el límite superior de referencia es de 0.20 segundos en adultos jóvenes
-     - Un intervalo prolongado (>0.22s) es compatible con un bloqueo AV de priemr grado
-     - Un intervalo acortado (<0.12s) indica presencia de una vía accesoria
- <p align="center">
-     <img width="600" height="400" src="https://user-images.githubusercontent.com/89707896/231649284-d539ff9c-454f-40f7-8e34-6ebe87892adb.png">
+- **Onda P**
+     - Representa la despolarización auricular
+     - Duración aproximada: 0.12 s
+     - Amplitud promedio: 0.25 mV
+
+<p align="center">
+    <img src="datos/ONDAP.PNG" width="700">
 </p>
 <p align="center">
-Figura 4. Intervalo PR [4]
+Figura 1. Onda P [4]
 </p>
 
-- Complejo QRS
-     - La prolongación del complejo implica que la despolarización ventricular es más lenta de lo normal (<0.12s),  por el contrario, si es mayor se considera un complejo anormalmente ancho, relacionado con enfermedades como:
-          - Bloqueo de rama del haz
-          - Hiperpotasemia
-          - Medicamentos (arrítmicos de clase I, antidepresivos tricíclicos, etc)
-          - Ritmo ventricular, ectopia ventricular y marcapasos con estimulación ventricular
-          - Preexcitación (síndrome de Wolf-Parkinson-White)
-          - Conducción ventricular aberrante
- <p align="center">
-     <img width="600" height="400" src="https://user-images.githubusercontent.com/89707896/231650744-66bb11c3-ed7a-44ff-b08c-89250f45e1fc.png">
+- **Intervalo PR (o P-R)**
+     - Desde el inicio de la onda P hasta el inicio del QRS
+     - Duración normal: 0.12 – 0.20 segundos
+     - Evalúa la conducción auriculoventricular
+
+<p align="center">
+    <img src="datos/INTERVARLOPR.JPEG" width="700">
 </p>
 <p align="center">
-Figura 5. Complejo QRS [4]
+Figura 2. Intervalo PR [4]
 </p>
+
+- **Complejo QRS**
+     - Refleja la despolarización de los ventrículos
+     - Duración normal: aproximadamente 0.10 s
+     - Análisis morfológico permite detectar bloqueos y arritmias
+
+<p align="center">
+    <img src="datos/complejoQRS.JPGE" width="700">
+</p>
+<p align="center">
+Figura 3. Complejo QRS [4]
+</p>
+
+- **Segmento ST**
+     - Representa el periodo entre la despolarización y repolarización ventricular
+     - Debe ser isoeléctrico (plano)
+     - Alteraciones pueden indicar isquemia
+
+<p align="center">
+    <img src="datos/Segmento-ST.JPEG" width="700">
+</p>
+<p align="center">
+Figura 4. Segmento ST [4]
+</p>
+
+- **Onda T**
+     - Representa la repolarización ventricular
+     - Altura < 5 mm en derivaciones frontales, < 15 mm en precordiales
+     - Análisis de forma y polaridad permite detectar alteraciones electrolíticas o isquemia
+
+<p align="center">
+    <img src="datos/ONDAT.JPEG" width="700">
+</p>
+<p align="center">
+Figura 5. Onda T [4]
+</p>
+
+- **Intervalo RR**
+     - Tiempo entre dos ondas R consecutivas
+     - Usado para calcular frecuencia cardíaca
+
+<p align="center">
+    <img src="datos/INTERVALORR.PNG" width="700">
+</p>
+<p align="center">
+Figura 6. Intervalo RR [4]
+</p>
+
+- **Intervalo QT (o QT corregido, QTc)**
+     - Desde el inicio del QRS hasta el final de la onda T
+     - QTc: hasta 450 ms en hombres, 470 ms en mujeres
+     - Prolongación del QT puede asociarse a arritmias graves
+
+<p align="center">
+    <img src="datos/intervalo_qt.JPEG" width="700">
+</p>
+<p align="center">
+Figura 7. Intervalo QT [4]
+</p>
+
 
 ## **Objetivos** <a name="id1"></a>
 ---
