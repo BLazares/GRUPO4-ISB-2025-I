@@ -30,7 +30,7 @@ El trazado típico de un ECG consta de varias ondas y complejos que representan 
 - Aporte inadecuado de sangre y oxígeno al corazón (isquemia)
 - Engrosamiento excesivo de las paredes del músculo del corazón (hipertrofia) [1]
 <p align="center">
-     <img width="500" height="300" src="https://user-images.githubusercontent.com/89707896/231624436-12893b5c-e62a-44d9-b5b8-714867acc55d.png">
+     <img width="500" height="300" src="https://i0.wp.com/prevencionsaludproactiv.com/wp-content/uploads/2019/02/723563_orig.gif?resize=620%2C324&ssl=1">
 </p>
 <p align="center">
 Figura 1. ECG con anomalías [3]
