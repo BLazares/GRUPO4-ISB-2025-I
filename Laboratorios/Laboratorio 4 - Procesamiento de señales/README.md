@@ -26,7 +26,7 @@ El trazado típico de un ECG consta de varias ondas y complejos que representan 
 
 <p align="center">
      <p align="center"><img src="datos/CORAZON_PQRST.gif" width="400"></p>
-¡Perfecto! Entonces aquí tienes un **texto introductorio** que explica brevemente los **componentes principales del ECG**, incluyendo ondas, segmentos e intervalos, ideal para usar en la **introducción de tu laboratorio**.
+
 
 ---
 
@@ -80,7 +80,9 @@ El electrocardiograma (ECG) es una herramienta de diagnóstico que permite regis
 <p align="center">
   <img src="datos/PQRST.png" width="400">
 </p>
-
+<p align="center">
+Figura 1. Componentes de un EKG
+</p>
 
 ### ¿Cómo se interpreta el ECG?
 <p align="justify">
@@ -96,7 +98,7 @@ El electrocardiograma (ECG) permite identificar la actividad eléctrica del cora
     <img src="datos/ONDAP.png" width="400">
 </p>
 <p align="center">
-Figura 1. Onda P [4]
+Figura 2. Onda P [4]
 </p>
 
 - **Intervalo PR (o P-R)**
@@ -108,7 +110,7 @@ Figura 1. Onda P [4]
     <img src="datos/INTERVARLOPR.jpg" width="400">
 </p>
 <p align="center">
-Figura 2. Intervalo PR [4]
+Figura 3. Intervalo PR [4]
 </p>
 
 - **Complejo QRS**
@@ -120,7 +122,7 @@ Figura 2. Intervalo PR [4]
     <img src="datos/PQRST.png" width="400">
 </p>
 <p align="center">
-Figura 3. Complejo QRS [4]
+Figura 4. Complejo QRS [4]
 </p>
 
 - **Segmento ST**
@@ -132,7 +134,7 @@ Figura 3. Complejo QRS [4]
     <img src="datos/Segmento-ST.jpg" width="400">
 </p>
 <p align="center">
-Figura 4. Segmento ST [4]
+Figura 5. Segmento ST [4]
 </p>
 
 - **Onda T**
@@ -144,7 +146,7 @@ Figura 4. Segmento ST [4]
     <img src="datos/ONDAT.jpg" width="400">
 </p>
 <p align="center">
-Figura 5. Onda T [4]
+Figura 6. Onda T [4]
 </p>
 
 - **Intervalo RR**
@@ -155,7 +157,7 @@ Figura 5. Onda T [4]
     <img src="datos/INTERVALORR.png" width="400">
 </p>
 <p align="center">
-Figura 6. Intervalo RR [4]
+Figura 7. Intervalo RR [4]
 </p>
 
 - **Intervalo QT (o QT corregido, QTc)**
@@ -167,7 +169,7 @@ Figura 6. Intervalo RR [4]
     <img src="datos/intervalo_qt.jpg" width="400">
 </p>
 <p align="center">
-Figura 7. Intervalo QT [4]
+Figura 8. Intervalo QT [4]
 </p>
 
 
