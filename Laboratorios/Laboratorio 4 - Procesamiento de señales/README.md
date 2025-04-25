@@ -1,19 +1,22 @@
 # **LABORATORIO 4: – Uso de BiTalino para EMG y ECG**
 
 
-# **Tabla de contenidos**
-1. [Introducción](#id0)
-2. [Objetivos](#id1)
-3. [Materiales y equipos](#id2)
-4. [Procedimiento](#id3)
-5. [Resultados](#id4)\
-     4.1 [Conexión usada](#id5)\
-     4.2 [Video de la señal](#id6)\
-     4.3 [Ploteo de la señal en OpenSignal](#id7)\
-     4.4 [Archivos](#id8)\
-     4.5 [Ploteo de la señal en Python](#id9)
-6. [Conclusiones](#id10)
-7. [Referencias](#id11)
+## 📑 Tabla de contenidos
+
+1. [Introducción](#introducción)
+2. [Fundamento teórico del ECG](#fundamento-teórico-del-ecg)
+3. [Interpretación de ondas e intervalos del ECG](#interpretación-de-ondas-e-intervalos-del-ecg)
+4. [Adquisición de la señal ECG](#adquisición-de-la-señal-ecg)
+5. [Instalación y preparación del sistema BITalino](#instalación-y-preparación-del-sistema-bitalino)
+6. [Conexión de electrodos y registros](#conexión-de-electrodos-y-registros)
+7. [Videos de adquisición](#videos-de-adquisición)
+8. [Ploteo de la señal en Python](#ploteo-de-la-señal-en-python)
+   - [8.1 Estado basal](#1-estado-basal)
+   - [8.1.1 Primera derivada](#11-primera-derivada)
+   - [8.1.2 Segunda derivada](#12-segunda-derivada)
+   - [8.1.3 Tercera derivada](#13-tercera-derivada)
+9. [Referencias](#referencias)
+
 
 ## **Introducción al laboratorio** <a name="id0"></a>
 ---
