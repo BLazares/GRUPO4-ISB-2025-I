@@ -167,11 +167,12 @@ Se posicionaron los electrodos en base las guías mencionadas:
 |                        | Tercera derivada   | <video src="#" width="200" controls></video>                  | <video src="#" width="200" controls></video>                  |
 
 ### **Archivos** <a name="id8"></a>
-     a)   Estado basal
+   
 ### **Ploteo de la señal en Python** <a name="id9"></a>
 
 <p align="justify">
-a) Estado basal  </p>
+1) Estado basal  </p>
+     1.1 Primera derivada </p>
 Se observa el complejo QRS el cual indica un tiempo corto de despolarización de los ventrículos, lo que indicaría un corto periodo de movimiento dentro de estas cavidades. Asimismo, se observa una alta presencia de ruido en la región del ST, además existe una especie de pendiente en el segmento isoeléctrico lo que indicaría algo de actividad en el ventrículo incluso cuando no hay electricidad fluyendo a través de él. Por último también se llegaría a notar una onda T, representativa de la repolarización de los ventrículos. [5]
 </p>
 
