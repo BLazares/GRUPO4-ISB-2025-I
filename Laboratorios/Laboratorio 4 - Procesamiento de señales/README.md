@@ -202,86 +202,102 @@ Se observa el complejo QRS el cual indica un tiempo corto de despolarización de
 |---------------------------|----------------------------|
 | <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231612373-866789aa-8ddd-477b-8046-dcdd2fb0a006.jpeg"><br><sub>Figura 16. Tercera derivada</sub> | <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231654224-cf1270e8-7896-4804-8997-df66e2c907c8.jpeg"><br><sub>Figura 17. Tercera derivada (FFT)</sub> |
 
+### 2) Respiración Controlada
 
-     
+#### 2.1 Primera derivada
 
-
-     b)   Manteniendo la respiración por 10 segundos
-La inspiración profunda puede generar cambios tanto en la posición como en la orientación del corazón a través de un desplazamiento hacia abajo del diafragma que afectan la señal ECG. Estos cambios pueden observarse entre los 35 a 45 segundos en la siguiente gráfica [6].
- 
-<p align="center">
-     <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231612494-7170cc27-7967-43cf-8a9a-4b9723d330b5.jpeg">
-</p>
-<p align="center">
-Figura 14. Ploteo de la señal en Python manteniendo la respiración por 10 segundos
-</p>           
-<p align="center">
-<img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231654465-896baf32-5ccf-4387-bcfe-8d5befcd8ab7.jpeg">
-</p>
-<p align="center">
-Figura 15. Ploteo de la señal en Python manteniendo la respiración por 10 segundos FFT.
-</p> 
-
-     c)   Reposo basal
-En la interpretación de la señal en el reposo basal tras la respiración se puede observar una onda P superior al estado basal por lo que se puede deducir que en este caso existe una mayor despolarización auricular indicando mayor movimiento en estas cavidades debido a la recepción de sangre por parte del corazón. Posteriormente observamos una mayor amplitud entre los picos R y S dentro del complejo QRS lo que indicaría que existiría una mayor actividad en las ventriculas esto debido al mayor volumen de sangre que habían recibido las aurículas previamente antes de pasar por las válvulas. Por último, también son visibles las ondas T teniendo una alta actividad debido a la gran actividad llevada a cabo por los ventrículos previamente [5]  
-<p align="center">
-     <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231618112-00da6811-468e-44a0-b59b-3a21ff3e670c.jpeg">
-</p>
-<p align="center">
-Figura 16. Ploteo de la señal en Python en reposo basal
-</p>     
-     
-  
-     d)   Después de una actividad física
-El aumento de frecuencia cardiaca debido al ejercicio físico desencadena cambios en la señal ECG como una mayor amplitud de la onda Q, disminución del intervalo RR, ondas T altas y puntiagudas, superposición de ondas P y ondas T [7].
-<p align="center">
-     <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231612958-916cd9ab-8c21-4a5a-b14c-873c48aaed8d.jpeg">
-</p>
-<p align="center">
-Figura 17. Ploteo de la señal en Python después de una actividad física
+<p align="justify">
+Se observa el complejo QRS el cual indica un tiempo corto de despolarización de los ventrículos, lo que indicaría un corto periodo de movimiento dentro de estas cavidades. Asimismo, se observa una alta presencia de ruido en la región del ST, además existe una especie de pendiente en el segmento isoeléctrico lo que indicaría algo de actividad en el ventrículo incluso cuando no hay electricidad fluyendo a través de él. Por último, también se llegaría a notar una onda T, representativa de la repolarización de los ventrículos. [5]
 </p>
 
-<p align="center">
-     <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231613142-dc8be0b0-f355-47f7-a7de-9e24b72ab6c3.jpeg">
-</p>
-<p align="center">
-Figura 18. Ploteo de la señal en Python después de una actividad física
-</p>
-   
-  
-<p align="center">
-<img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231654949-05231391-82a7-4dbd-87be-86b448262199.jpeg">
-</p>
-<p align="center">
-Figura 19. Ploteo de la señal en Python despues de una actividad física FFT.
-</p> 
+| Ploteo del primer intento | Ploteo del segundo intento |
+|---------------------------|----------------------------|
+| <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231612373-866789aa-8ddd-477b-8046-dcdd2fb0a006.jpeg"><br><sub>Figura 12. Señal en estado basal</sub> | <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231654224-cf1270e8-7896-4804-8997-df66e2c907c8.jpeg"><br><sub>Figura 13. Señal en estado basal (FFT)</sub> |
 
+#### 2.2 Segunda derivada
 
-      e)Simulacion
-En la simulación del ejercicio son visibles la mayoría de segmentos y ondas de los dos estados anteriores, sin embargo, en este es visible, además de la falta de ruido, existe una menor diferencia entre los picos R y el  S dentro del complejo QRS en comparación a los datos obtenidos de la voluntaria en cuyo caso la diferencia es mucho mayor. También se puede notar una bastante visible y prolongada, que va de acuerdo a los altos picos dentro del segmento QRS. [5]
-<p align="center">
-     <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231618251-0bdaa1b1-8cef-4617-b91a-030c0d1a37d3.jpeg">
-</p>
-<p align="center">
-Figura 20. Ploteo de la simulación.
+<p align="justify">
+Se observa el complejo QRS el cual indica un tiempo corto de despolarización de los ventrículos, lo que indicaría un corto periodo de movimiento dentro de estas cavidades. Asimismo, se observa una alta presencia de ruido en la región del ST, además existe una especie de pendiente en el segmento isoeléctrico lo que indicaría algo de actividad en el ventrículo incluso cuando no hay electricidad fluyendo a través de él. Por último, también se llegaría a notar una onda T, representativa de la repolarización de los ventrículos. [5]
 </p>
 
-<p align="center">
-<img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231655079-c854059d-2adf-4521-9d37-49811f2a2b9b.jpeg">
-</p>
-<p align="center">
-Figura 21. Ploteo de la señal en Python de la simulación FFT.
-</p> 
+| Ploteo del primer intento | Ploteo del segundo intento |
+|---------------------------|----------------------------|
+| <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231612373-866789aa-8ddd-477b-8046-dcdd2fb0a006.jpeg"><br><sub>Figura 14. Segunda derivada</sub> | <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231654224-cf1270e8-7896-4804-8997-df66e2c907c8.jpeg"><br><sub>Figura 15. Segunda derivada (FFT)</sub> |
 
-## Analisis de las gráficas FFT 
-Las gráficas de FFT obtenidas experimentalmente (estado de reposo, respiración profunda y post ejercicio) son muy similares entre sí. Sin embargo, al compararlas con el simulador se puede observar la diferencia en el rango inicial del espectro. Aproximadamente, entre 0-25 Hz. Se ha comprobado que esta respuesta a la frecuencia es la que se debería obtener al filtrar la señal de forma correcta. Artículos indican que la forma de la densidad espectral es similar. Como se puede observar en la tercera gráfica, en la que se realizó un estudio acerca de la fft de la señal ECG en la primera derivación (DI).
+#### 2.3 Tercera derivada
 
-<p align="center">
-<img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231656084-6ae8dd1b-83f4-4a09-a60f-dd0eefe56aad.PNG">
+<p align="justify">
+Se observa el complejo QRS el cual indica un tiempo corto de despolarización de los ventrículos, lo que indicaría un corto periodo de movimiento dentro de estas cavidades. Asimismo, se observa una alta presencia de ruido en la región del ST, además existe una especie de pendiente en el segmento isoeléctrico lo que indicaría algo de actividad en el ventrículo incluso cuando no hay electricidad fluyendo a través de él. Por último, también se llegaría a notar una onda T, representativa de la repolarización de los ventrículos. [5]
 </p>
-<p align="center">
-Figura 22. Representación de la densidad espectral de Potencia en DI [9].
-</p> 
+
+| Ploteo del primer intento | Ploteo del segundo intento |
+|---------------------------|----------------------------|
+| <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231612373-866789aa-8ddd-477b-8046-dcdd2fb0a006.jpeg"><br><sub>Figura 16. Tercera derivada</sub> | <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231654224-cf1270e8-7896-4804-8997-df66e2c907c8.jpeg"><br><sub>Figura 17. Tercera derivada (FFT)</sub> |
+
+### 3) Ejercicio intenso
+
+#### 3.1 Primera derivada
+
+<p align="justify">
+Se observa el complejo QRS el cual indica un tiempo corto de despolarización de los ventrículos, lo que indicaría un corto periodo de movimiento dentro de estas cavidades. Asimismo, se observa una alta presencia de ruido en la región del ST, además existe una especie de pendiente en el segmento isoeléctrico lo que indicaría algo de actividad en el ventrículo incluso cuando no hay electricidad fluyendo a través de él. Por último, también se llegaría a notar una onda T, representativa de la repolarización de los ventrículos. [5]
+</p>
+
+| Ploteo del primer intento | Ploteo del segundo intento |
+|---------------------------|----------------------------|
+| <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231612373-866789aa-8ddd-477b-8046-dcdd2fb0a006.jpeg"><br><sub>Figura 12. Señal en estado basal</sub> | <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231654224-cf1270e8-7896-4804-8997-df66e2c907c8.jpeg"><br><sub>Figura 13. Señal en estado basal (FFT)</sub> |
+
+#### 3.2 Segunda derivada
+
+<p align="justify">
+Se observa el complejo QRS el cual indica un tiempo corto de despolarización de los ventrículos, lo que indicaría un corto periodo de movimiento dentro de estas cavidades. Asimismo, se observa una alta presencia de ruido en la región del ST, además existe una especie de pendiente en el segmento isoeléctrico lo que indicaría algo de actividad en el ventrículo incluso cuando no hay electricidad fluyendo a través de él. Por último, también se llegaría a notar una onda T, representativa de la repolarización de los ventrículos. [5]
+</p>
+
+| Ploteo del primer intento | Ploteo del segundo intento |
+|---------------------------|----------------------------|
+| <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231612373-866789aa-8ddd-477b-8046-dcdd2fb0a006.jpeg"><br><sub>Figura 14. Segunda derivada</sub> | <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231654224-cf1270e8-7896-4804-8997-df66e2c907c8.jpeg"><br><sub>Figura 15. Segunda derivada (FFT)</sub> |
+
+#### 3.3 Tercera derivada
+
+<p align="justify">
+Se observa el complejo QRS el cual indica un tiempo corto de despolarización de los ventrículos, lo que indicaría un corto periodo de movimiento dentro de estas cavidades. Asimismo, se observa una alta presencia de ruido en la región del ST, además existe una especie de pendiente en el segmento isoeléctrico lo que indicaría algo de actividad en el ventrículo incluso cuando no hay electricidad fluyendo a través de él. Por último, también se llegaría a notar una onda T, representativa de la repolarización de los ventrículos. [5]
+</p>
+
+| Ploteo del primer intento | Ploteo del segundo intento |
+|---------------------------|----------------------------|
+| <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231612373-866789aa-8ddd-477b-8046-dcdd2fb0a006.jpeg"><br><sub>Figura 16. Tercera derivada</sub> | <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231654224-cf1270e8-7896-4804-8997-df66e2c907c8.jpeg"><br><sub>Figura 17. Tercera derivada (FFT)</sub> |
+### 4) Respiración Prolongada
+
+#### 4.1 Primera derivada
+
+<p align="justify">
+Se observa el complejo QRS el cual indica un tiempo corto de despolarización de los ventrículos, lo que indicaría un corto periodo de movimiento dentro de estas cavidades. Asimismo, se observa una alta presencia de ruido en la región del ST, además existe una especie de pendiente en el segmento isoeléctrico lo que indicaría algo de actividad en el ventrículo incluso cuando no hay electricidad fluyendo a través de él. Por último, también se llegaría a notar una onda T, representativa de la repolarización de los ventrículos. [5]
+</p>
+
+| Ploteo del primer intento | Ploteo del segundo intento |
+|---------------------------|----------------------------|
+| <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231612373-866789aa-8ddd-477b-8046-dcdd2fb0a006.jpeg"><br><sub>Figura 12. Señal en estado basal</sub> | <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231654224-cf1270e8-7896-4804-8997-df66e2c907c8.jpeg"><br><sub>Figura 13. Señal en estado basal (FFT)</sub> |
+
+#### 4.2 Segunda derivada
+
+<p align="justify">
+Se observa el complejo QRS el cual indica un tiempo corto de despolarización de los ventrículos, lo que indicaría un corto periodo de movimiento dentro de estas cavidades. Asimismo, se observa una alta presencia de ruido en la región del ST, además existe una especie de pendiente en el segmento isoeléctrico lo que indicaría algo de actividad en el ventrículo incluso cuando no hay electricidad fluyendo a través de él. Por último, también se llegaría a notar una onda T, representativa de la repolarización de los ventrículos. [5]
+</p>
+
+| Ploteo del primer intento | Ploteo del segundo intento |
+|---------------------------|----------------------------|
+| <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231612373-866789aa-8ddd-477b-8046-dcdd2fb0a006.jpeg"><br><sub>Figura 14. Segunda derivada</sub> | <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231654224-cf1270e8-7896-4804-8997-df66e2c907c8.jpeg"><br><sub>Figura 15. Segunda derivada (FFT)</sub> |
+
+#### 4.3 Tercera derivada
+
+<p align="justify">
+Se observa el complejo QRS el cual indica un tiempo corto de despolarización de los ventrículos, lo que indicaría un corto periodo de movimiento dentro de estas cavidades. Asimismo, se observa una alta presencia de ruido en la región del ST, además existe una especie de pendiente en el segmento isoeléctrico lo que indicaría algo de actividad en el ventrículo incluso cuando no hay electricidad fluyendo a través de él. Por último, también se llegaría a notar una onda T, representativa de la repolarización de los ventrículos. [5]
+</p>
+
+| Ploteo del primer intento | Ploteo del segundo intento |
+|---------------------------|----------------------------|
+| <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231612373-866789aa-8ddd-477b-8046-dcdd2fb0a006.jpeg"><br><sub>Figura 16. Tercera derivada</sub> | <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231654224-cf1270e8-7896-4804-8997-df66e2c907c8.jpeg"><br><sub>Figura 17. Tercera derivada (FFT)</sub> |
+
+    
 
 
 ## **Conclusiones** <a name="id10"></a>
