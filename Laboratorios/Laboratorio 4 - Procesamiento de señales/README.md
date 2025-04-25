@@ -150,58 +150,21 @@ Se posicionaron los electrodos en base las guías mencionadas:
 
 
 ### **Ploteo de la señal en OpenSignal** <a name="id7"></a>
-#
-     a)   Estado basal
-<p align="center">
-     <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231611835-3ffa0a24-5e16-4ac8-97a3-a59e8c0362e2.PNG">
-</p>
-<p align="center">
-Figura 8. Ploteo de la señal en OpenSignal en estado basal
-</p>     
-    
-     b)   Manteniendo la respiración por 10 segundos
-<p align="center">
-     <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231611939-2b79e311-fdce-487c-83f6-f0a795c2cbdf.PNG">
-</p>
-<p align="center">
-Figura 9. Ploteo de la señal en OpenSignal manteniendo la respiración por 10 segundos
-</p>
- 
-     c)   Reposo basal
-<p align="center">
-     <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231611469-d7964526-ec59-44d6-ac3c-6fef92f0ee56.jpeg">
-</p>
-<p align="center">
-Figura 10. Ploteo de la señal en OpenSignal en reposo basal
-</p>
 
-
-     d)   Después de una actividad física
-<p align="center">
-     <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231612030-69c201ca-2f29-4105-8a93-d0597b2e2084.PNG">
-</p>
-<p align="center">
-Figura 11. Ploteo de la señal en OpenSignal después de la actividad física
-</p>
-
-     
-     e)  Simulacion 
-
-| Paso 1 | Paso 2 |
-| ------------ |  :------------------------------------: |
-| <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231613380-bc4d1eea-9a53-4a95-bbf3-8b3c3bdf9f80.jpeg"> | <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231613426-d45de00e-70c8-4039-ac58-63dbafafc010.jpeg"> |
-</div>
-
-| Paso 3 | Paso 4 |
-| ------------ |  :------------------------------------: |
-| <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231613472-04e57e10-6166-4e07-8003-f49d39aedff1.jpeg"> | <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231613509-5cf80abe-d415-4e6e-a7e5-8639b53577d6.jpeg"> |
-</div>
-
-| Paso 5 | Paso 6 |
-| ------------ |  :------------------------------------: |
-| <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231613554-b43c19d7-3913-409f-a09c-b13a39376668.jpeg"> | <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231613604-e7f6adeb-2bd4-42c0-a769-8ee06ff7e381.jpeg"> |
-</div>
-
+| Condición              | Derivada           | Primer muestreo                                               | Segundo muestreo                                              |
+|------------------------|--------------------|----------------------------------------------------------------|----------------------------------------------------------------|
+| **Estado basal**       | Primera derivada   | <video src="https://user-images.githubusercontent.com/89707896/231572641-61aeebae-f397-4627-aebc-913bb9464915.mp4" width="200" controls></video> | <video src="https://user-images.githubusercontent.com/89707896/231574043-44222491-d595-4d5a-9ac8-112adb20757c.mp4" width="200" controls></video>                  |
+|                        | Segunda derivada   | <video src="#" width="200" controls></video>                  | <video src="#" width="200" controls></video>                  |
+|                        | Tercera derivada   | <video src="#" width="200" controls></video>                  | <video src="#" width="200" controls></video>                  |
+| **Resp. controlada**   | Primera derivada   | <video src="#" width="200" controls></video>                  | <video src="#" width="200" controls></video>                  |
+|                        | Segunda derivada   | <video src="#" width="200" controls></video>                  | <video src="#" width="200" controls></video>                  |
+|                        | Tercera derivada   | <video src="#" width="200" controls></video>                  | <video src="#" width="200" controls></video>                  |
+| **Ejercicio intenso**  | Primera derivada   | <video src="#" width="200" controls></video>                  | <video src="#" width="200" controls></video>                  |
+|                        | Segunda derivada   | <video src="#" width="200" controls></video>                  | <video src="#" width="200" controls></video>                  |
+|                        | Tercera derivada   | <video src="#" width="200" controls></video>                  | <video src="#" width="200" controls></video>                  |
+| **Resp. prolongada**   | Primera derivada   | <video src="#" width="200" controls></video>                  | <video src="#" width="200" controls></video>                  |
+|                        | Segunda derivada   | <video src="#" width="200" controls></video>                  | <video src="#" width="200" controls></video>                  |
+|                        | Tercera derivada   | <video src="#" width="200" controls></video>                  | <video src="#" width="200" controls></video>                  |
 
 ### **Archivos** <a name="id8"></a>
 Se encuentran en la carpeta del laboratorio 4.
