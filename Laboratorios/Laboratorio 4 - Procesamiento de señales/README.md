@@ -170,21 +170,16 @@ Se posicionaron los electrodos en base las guías mencionadas:
 Se encuentran en la carpeta del laboratorio 4.
 #
 ### **Ploteo de la señal en Python** <a name="id9"></a>
-#
-     a)   Estado basal
-Se observa el complejo QRS el cual indica un tiempo corto de despolarización de los ventrículos, lo que indicaría un corto periodo de movimiento dentro de estas cavidades. Asimismo, se observa una alta presencia de ruido en la región del ST, además existe una especie de pendiente en el segmento isoeléctrico lo que indicaría algo de actividad en el ventrículo incluso cuando no hay electricidad fluyendo a través de él.  Por último también se llegaría a notar una onda T, representativa de la repolarización de los ventrículos. [5]
-<p align="center">
-     <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231612373-866789aa-8ddd-477b-8046-dcdd2fb0a006.jpeg">
+
+<p align="justify">
+a) Estado basal  
+Se observa el complejo QRS el cual indica un tiempo corto de despolarización de los ventrículos, lo que indicaría un corto periodo de movimiento dentro de estas cavidades. Asimismo, se observa una alta presencia de ruido en la región del ST, además existe una especie de pendiente en el segmento isoeléctrico lo que indicaría algo de actividad en el ventrículo incluso cuando no hay electricidad fluyendo a través de él. Por último también se llegaría a notar una onda T, representativa de la repolarización de los ventrículos. [5]
 </p>
-<p align="center">
-Figura 12. Ploteo de la señal en Python en estado basal
-</p>    
-<p align="center">
-<img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231654224-cf1270e8-7896-4804-8997-df66e2c907c8.jpeg">
-</p>
-<p align="center">
-Figura 13. Ploteo de la señal en Python en estado basal FFT.
-</p> 
+
+| Ploteo del primer intento | Ploteo del segundo intento |
+|---------------------------|----------------------------|
+| <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231612373-866789aa-8ddd-477b-8046-dcdd2fb0a006.jpeg"><br><sub>Figura 12. Señal en estado basal</sub> | <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231654224-cf1270e8-7896-4804-8997-df66e2c907c8.jpeg"><br><sub>Figura 13. Señal en estado basal (FFT)</sub> |
+
      
 
 
