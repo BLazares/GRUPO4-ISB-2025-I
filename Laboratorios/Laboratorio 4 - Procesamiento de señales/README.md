@@ -151,8 +151,8 @@ Se posicionaron los electrodos en base las guías mencionadas:
 |                        | Tercera derivada   | <video src="#" width="200" controls></video>                  | <video src="#" width="200" controls></video>                  |
 
 
+## **Ploteo de la señal en OpenSignal** <a name="id11"></a>
 
-### **Ploteo de la señal en OpenSignal** <a name="id7"></a>
 
 | Condición              | Derivada           | Primer muestreo                                               | Segundo muestreo                                              |
 |------------------------|--------------------|----------------------------------------------------------------|----------------------------------------------------------------|
@@ -171,8 +171,8 @@ Se posicionaron los electrodos en base las guías mencionadas:
 
 ### **Archivos** <a name="id8"></a>
    
-### **Ploteo de la señal en Python** <a name="id9"></a>
 
+## **Ploteo de la señal en Pythonl** <a name="id12"></a>
 ### 1) Estado basal
 
 #### 1.1 Primera derivada
