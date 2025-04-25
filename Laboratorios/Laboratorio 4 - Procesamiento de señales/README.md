@@ -138,7 +138,7 @@ Se posicionaron los electrodos en base las guías mencionadas:
 | Condición              | Derivada           | Primer muestreo                                               | Segundo muestreo                                              |
 |------------------------|--------------------|----------------------------------------------------------------|----------------------------------------------------------------|
 | **Estado basal**       | Primera derivada   | <video src="https://user-images.githubusercontent.com/89707896/231572641-61aeebae-f397-4627-aebc-913bb9464915.mp4" width="200" controls></video> | <video src="https://user-images.githubusercontent.com/89707896/231574043-44222491-d595-4d5a-9ac8-112adb20757c.mp4" width="200" controls></video>                  |
-|                        | Segunda derivada   | <video src="#" width="200" controls></video>                  | <video src="#" width="200" controls></video>                  |
+|                        | Segunda derivada   |<video src="datos/video1.mp4" width="200" controls></video><br><sub>Figura 8. Intervalo QT</sub>| <video src="datos/video1.mp4" width="200" controls></video><br><sub>Figura 8. Intervalo QT</sub>|
 |                        | Tercera derivada   | <video src="#" width="200" controls></video>                  | <video src="#" width="200" controls></video>                  |
 | **Resp. controlada**   | Primera derivada   | <video src="#" width="200" controls></video>                  | <video src="#" width="200" controls></video>                  |
 |                        | Segunda derivada   | <video src="#" width="200" controls></video>                  | <video src="#" width="200" controls></video>                  |
