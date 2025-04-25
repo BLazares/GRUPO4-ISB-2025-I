@@ -182,10 +182,9 @@ Se posicionaron los electrodos en base las guías mencionadas:
 <p align="justify">
 Se observa el complejo QRS el cual indica un tiempo corto de despolarización de los ventrículos, lo que indicaría un corto periodo de movimiento dentro de estas cavidades. Asimismo, se observa una alta presencia de ruido en la región del ST, además existe una especie de pendiente en el segmento isoeléctrico lo que indicaría algo de actividad en el ventrículo incluso cuando no hay electricidad fluyendo a través de él. Por último, también se llegaría a notar una onda T, representativa de la repolarización de los ventrículos. [5]
 </p>
-
 | Ploteo del primer intento | Ploteo del segundo intento |
 |---------------------------|----------------------------|
-| <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231612373-866789aa-8ddd-477b-8046-dcdd2fb0a006.jpeg"><br><sub>Figura 12. Señal en estado basal</sub> | <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231654224-cf1270e8-7896-4804-8997-df66e2c907c8.jpeg"><br><sub>Figura 13. Señal en estado basal (FFT)</sub> |
+| <img src="datos/imagen1.jpg" width="200"><br><sub>Figura 8. Intervalo QT</sub> | <img width="500" height="300" <img src="datos/imagen1.1.jpg" width="200"><br><sub>Figura 8. Intervalo QT</sub>|
 
 #### 1.2 Segunda derivada
 
@@ -195,7 +194,7 @@ Se observa el complejo QRS el cual indica un tiempo corto de despolarización de
 
 | Ploteo del primer intento | Ploteo del segundo intento |
 |---------------------------|----------------------------|
-| <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231612373-866789aa-8ddd-477b-8046-dcdd2fb0a006.jpeg"><br><sub>Figura 14. Segunda derivada</sub> | <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231654224-cf1270e8-7896-4804-8997-df66e2c907c8.jpeg"><br><sub>Figura 15. Segunda derivada (FFT)</sub> |
+| <img src="datos/imagen2.1.jpg" width="200"><br><sub>Figura 8. Intervalo QT</sub> | <img width="500" height="300" <img src="datos/imagen1.2.jpg" width="200"><br><sub>Figura 8. Intervalo QT</sub>|
 
 #### 1.3 Tercera derivada
 
@@ -205,7 +204,7 @@ Se observa el complejo QRS el cual indica un tiempo corto de despolarización de
 
 | Ploteo del primer intento | Ploteo del segundo intento |
 |---------------------------|----------------------------|
-| <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231612373-866789aa-8ddd-477b-8046-dcdd2fb0a006.jpeg"><br><sub>Figura 16. Tercera derivada</sub> | <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231654224-cf1270e8-7896-4804-8997-df66e2c907c8.jpeg"><br><sub>Figura 17. Tercera derivada (FFT)</sub> |
+| <img src="datos/imagen3.1.jpg" width="200"><br><sub>Figura 8. Intervalo QT</sub> | <img width="500" height="300" <img src="datos/imagen3.2.jpg" width="200"><br><sub>Figura 8. Intervalo QT</sub>|
 
 ### 2) Respiración Controlada
 
@@ -217,7 +216,7 @@ Se observa el complejo QRS el cual indica un tiempo corto de despolarización de
 
 | Ploteo del primer intento | Ploteo del segundo intento |
 |---------------------------|----------------------------|
-| <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231612373-866789aa-8ddd-477b-8046-dcdd2fb0a006.jpeg"><br><sub>Figura 12. Señal en estado basal</sub> | <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231654224-cf1270e8-7896-4804-8997-df66e2c907c8.jpeg"><br><sub>Figura 13. Señal en estado basal (FFT)</sub> |
+| <img src="datos/imagen4.1.jpg" width="200"><br><sub>Figura 8. Intervalo QT</sub> | <img width="500" height="300" <img src="datos/imagen4.2.jpg" width="200"><br><sub>Figura 8. Intervalo QT</sub>|
 
 #### 2.2 Segunda derivada
 
@@ -227,7 +226,7 @@ Se observa el complejo QRS el cual indica un tiempo corto de despolarización de
 
 | Ploteo del primer intento | Ploteo del segundo intento |
 |---------------------------|----------------------------|
-| <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231612373-866789aa-8ddd-477b-8046-dcdd2fb0a006.jpeg"><br><sub>Figura 14. Segunda derivada</sub> | <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231654224-cf1270e8-7896-4804-8997-df66e2c907c8.jpeg"><br><sub>Figura 15. Segunda derivada (FFT)</sub> |
+| <img src="datos/imagen5.1.jpg" width="200"><br><sub>Figura 8. Intervalo QT</sub> | <img width="500" height="300" <img src="datos/imagen5.2.jpg" width="200"><br><sub>Figura 8. Intervalo QT</sub>|
 
 #### 2.3 Tercera derivada
 
@@ -237,7 +236,7 @@ Se observa el complejo QRS el cual indica un tiempo corto de despolarización de
 
 | Ploteo del primer intento | Ploteo del segundo intento |
 |---------------------------|----------------------------|
-| <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231612373-866789aa-8ddd-477b-8046-dcdd2fb0a006.jpeg"><br><sub>Figura 16. Tercera derivada</sub> | <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231654224-cf1270e8-7896-4804-8997-df66e2c907c8.jpeg"><br><sub>Figura 17. Tercera derivada (FFT)</sub> |
+| <img src="datos/imagen6.1.jpg" width="200"><br><sub>Figura 8. Intervalo QT</sub> | <img width="500" height="300" <img src="datos/imagen6.2.jpg" width="200"><br><sub>Figura 8. Intervalo QT</sub>|
 
 ### 3) Ejercicio intenso
 
@@ -249,8 +248,7 @@ Se observa el complejo QRS el cual indica un tiempo corto de despolarización de
 
 | Ploteo del primer intento | Ploteo del segundo intento |
 |---------------------------|----------------------------|
-| <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231612373-866789aa-8ddd-477b-8046-dcdd2fb0a006.jpeg"><br><sub>Figura 12. Señal en estado basal</sub> | <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231654224-cf1270e8-7896-4804-8997-df66e2c907c8.jpeg"><br><sub>Figura 13. Señal en estado basal (FFT)</sub> |
-
+| <img src="datos/imagen7.1.jpg" width="200"><br><sub>Figura 8. Intervalo QT</sub> | <img width="500" height="300" <img src="datos/imagen7.2.jpg" width="200"><br><sub>Figura 8. Intervalo QT</sub>|
 #### 3.2 Segunda derivada
 
 <p align="justify">
@@ -259,8 +257,7 @@ Se observa el complejo QRS el cual indica un tiempo corto de despolarización de
 
 | Ploteo del primer intento | Ploteo del segundo intento |
 |---------------------------|----------------------------|
-| <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231612373-866789aa-8ddd-477b-8046-dcdd2fb0a006.jpeg"><br><sub>Figura 14. Segunda derivada</sub> | <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231654224-cf1270e8-7896-4804-8997-df66e2c907c8.jpeg"><br><sub>Figura 15. Segunda derivada (FFT)</sub> |
-
+| <img src="datos/imagen8.1.jpg" width="200"><br><sub>Figura 8. Intervalo QT</sub> | <img width="500" height="300" <img src="datos/imagen8.2.jpg" width="200"><br><sub>Figura 8. Intervalo QT</sub>|
 #### 3.3 Tercera derivada
 
 <p align="justify">
@@ -269,7 +266,7 @@ Se observa el complejo QRS el cual indica un tiempo corto de despolarización de
 
 | Ploteo del primer intento | Ploteo del segundo intento |
 |---------------------------|----------------------------|
-| <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231612373-866789aa-8ddd-477b-8046-dcdd2fb0a006.jpeg"><br><sub>Figura 16. Tercera derivada</sub> | <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231654224-cf1270e8-7896-4804-8997-df66e2c907c8.jpeg"><br><sub>Figura 17. Tercera derivada (FFT)</sub> |
+| <img src="datos/imagen9.1.jpg" width="200"><br><sub>Figura 8. Intervalo QT</sub> | <img width="500" height="300" <img src="datos/imagen9.2.jpg" width="200"><br><sub>Figura 8. Intervalo QT</sub>|
 ### 4) Respiración Prolongada
 
 #### 4.1 Primera derivada
@@ -280,7 +277,7 @@ Se observa el complejo QRS el cual indica un tiempo corto de despolarización de
 
 | Ploteo del primer intento | Ploteo del segundo intento |
 |---------------------------|----------------------------|
-| <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231612373-866789aa-8ddd-477b-8046-dcdd2fb0a006.jpeg"><br><sub>Figura 12. Señal en estado basal</sub> | <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231654224-cf1270e8-7896-4804-8997-df66e2c907c8.jpeg"><br><sub>Figura 13. Señal en estado basal (FFT)</sub> |
+| <img src="datos/imagen10.1.jpg" width="200"><br><sub>Figura 8. Intervalo QT</sub> | <img width="500" height="300" <img src="datos/imagen10.2.jpg" width="200"><br><sub>Figura 8. Intervalo QT</sub>|
 
 #### 4.2 Segunda derivada
 
@@ -290,7 +287,7 @@ Se observa el complejo QRS el cual indica un tiempo corto de despolarización de
 
 | Ploteo del primer intento | Ploteo del segundo intento |
 |---------------------------|----------------------------|
-| <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231612373-866789aa-8ddd-477b-8046-dcdd2fb0a006.jpeg"><br><sub>Figura 14. Segunda derivada</sub> | <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231654224-cf1270e8-7896-4804-8997-df66e2c907c8.jpeg"><br><sub>Figura 15. Segunda derivada (FFT)</sub> |
+| <img src="datos/imagen11.1.jpg" width="200"><br><sub>Figura 8. Intervalo QT</sub> | <img width="500" height="300" <img src="datos/imagen11.2.jpg" width="200"><br><sub>Figura 8. Intervalo QT</sub>|
 
 #### 4.3 Tercera derivada
 
@@ -300,7 +297,7 @@ Se observa el complejo QRS el cual indica un tiempo corto de despolarización de
 
 | Ploteo del primer intento | Ploteo del segundo intento |
 |---------------------------|----------------------------|
-| <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231612373-866789aa-8ddd-477b-8046-dcdd2fb0a006.jpeg"><br><sub>Figura 16. Tercera derivada</sub> | <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231654224-cf1270e8-7896-4804-8997-df66e2c907c8.jpeg"><br><sub>Figura 17. Tercera derivada (FFT)</sub> |
+| <img src="datos/imagen12.1.jpg" width="200"><br><sub>Figura 8. Intervalo QT</sub> | <img width="500" height="300" <img src="datos/imagen12.2.jpg" width="200"><br><sub>Figura 8. Intervalo QT</sub>|
 
     
 
