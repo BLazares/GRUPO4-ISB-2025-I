@@ -131,9 +131,9 @@ Se posicionaron los electrodos en base las guías mencionadas:
 <p align="center">Figura 7. Muestra una configuración del sensor de ECG BiTalino para la derivación I de Einthoven.
     
 
-### 🎥 Videos de la adquisición organizados por condición
 
-### 🎥 Videos de la adquisición organizados por condición y derivada
+## **Videos de la adquisición organizados por condición y derivada** <a name="id10"></a>
+
 
 | Condición              | Derivada           | Primer muestreo                                               | Segundo muestreo                                              |
 |------------------------|--------------------|----------------------------------------------------------------|----------------------------------------------------------------|
