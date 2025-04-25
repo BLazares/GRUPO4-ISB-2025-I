@@ -167,8 +167,7 @@ Se posicionaron los electrodos en base las guías mencionadas:
 |                        | Tercera derivada   | <video src="#" width="200" controls></video>                  | <video src="#" width="200" controls></video>                  |
 
 ### **Archivos** <a name="id8"></a>
-Se encuentran en la carpeta del laboratorio 4.
-a)   Estado basal
+     a)   Estado basal
 ### **Ploteo de la señal en Python** <a name="id9"></a>
 
 <p align="justify">
