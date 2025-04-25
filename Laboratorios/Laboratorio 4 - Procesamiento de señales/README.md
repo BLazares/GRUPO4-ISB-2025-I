@@ -179,14 +179,14 @@ Se observa el complejo QRS el cual indica un tiempo corto de despolarización de
 | Ploteo del primer intento | Ploteo del segundo intento |
 |---------------------------|----------------------------|
 | <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231612373-866789aa-8ddd-477b-8046-dcdd2fb0a006.jpeg"><br><sub>Figura 12. Señal en estado basal</sub> | <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231654224-cf1270e8-7896-4804-8997-df66e2c907c8.jpeg"><br><sub>Figura 13. Señal en estado basal (FFT)</sub> |
-     1.2 Segunda derivada </p>
+     1.2 </p>Segunda derivada </p>
 Se observa el complejo QRS el cual indica un tiempo corto de despolarización de los ventrículos, lo que indicaría un corto periodo de movimiento dentro de estas cavidades. Asimismo, se observa una alta presencia de ruido en la región del ST, además existe una especie de pendiente en el segmento isoeléctrico lo que indicaría algo de actividad en el ventrículo incluso cuando no hay electricidad fluyendo a través de él. Por último también se llegaría a notar una onda T, representativa de la repolarización de los ventrículos. [5]
 </p>
 
 | Ploteo del primer intento | Ploteo del segundo intento |
 |---------------------------|----------------------------|
 | <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231612373-866789aa-8ddd-477b-8046-dcdd2fb0a006.jpeg"><br><sub>Figura 12. Señal en estado basal</sub> | <img width="500" height="300" src="https://user-images.githubusercontent.com/55772705/231654224-cf1270e8-7896-4804-8997-df66e2c907c8.jpeg"><br><sub>Figura 13. Señal en estado basal (FFT)</sub> |
-     1.3 Tercera derivada </p>
+     1.3 </p>Tercera derivada </p>
 Se observa el complejo QRS el cual indica un tiempo corto de despolarización de los ventrículos, lo que indicaría un corto periodo de movimiento dentro de estas cavidades. Asimismo, se observa una alta presencia de ruido en la región del ST, además existe una especie de pendiente en el segmento isoeléctrico lo que indicaría algo de actividad en el ventrículo incluso cuando no hay electricidad fluyendo a través de él. Por último también se llegaría a notar una onda T, representativa de la repolarización de los ventrículos. [5]
 </p>
 
