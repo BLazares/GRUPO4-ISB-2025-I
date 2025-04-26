@@ -143,18 +143,18 @@ Se posicionaron los electrodos en base las guías mencionadas:
 
 | Condición              | Derivada           | Primer muestreo                                                    |
 |------------------------|--------------------|--------------------------------------------------------------------|
-| **Estado basal**       | Primera derivada   | [Watch Basal_D2](Videos/Basal_D1)|
-|                        | Segunda derivada   | [Watch Basal_D2](Videos/Basal_D2) |
-|                        | Tercera derivada   | [Watch Basal_D2](Videos/Basal_D3) |
-| **Resp. controlada**   | Primera derivada   | [Watch Basal_D2](Videos/Respiracion_D2) | 
-|                        | Segunda derivada   | [Watch Basal_D2](Videos/Respiracion_D2) | 
-|                        | Tercera derivada   | [Watch Basal_D2](Videos/Respiracion_D2) |
-| **Ejercicio intenso**  | Primera derivada   | [Watch Basal_D2](Videos/Ejercicio_D1) | 
-|                        | Segunda derivada   | [Watch Basal_D2](Videos/Ejercicio_D2) |
-|                        | Tercera derivada   | [Watch Basal_D2](Videos/Ejercicio_D3) |
-| **Resp. prolongada**   | Primera derivada   | [Watch Basal_D2](Videos/Resp_prolongada_D1) |
-|                        | Segunda derivada   | [Watch Basal_D2](Videos/Resp_prolongada_D2) |
-|                        | Tercera derivada   | [Watch Basal_D2](Videos/Resp_prolongada_D3) |
+| **Estado basal**       | Primera derivada   | [Watch Basal 1](Videos/Basal_D1)|
+|                        | Segunda derivada   | [Watch Basal_2](Videos/Basal_D2) |
+|                        | Tercera derivada   | [Watch Basal_3](Videos/Basal_D3) |
+| **Resp. controlada**   | Primera derivada   | [Watch Respiracion controlada 1](Videos/Respiracion_D2) | 
+|                        | Segunda derivada   | [Watch Respiracion controlada 2](Videos/Respiracion_D2) | 
+|                        | Tercera derivada   | [Watch Respiracion controlada 3](Videos/Respiracion_D2) |
+| **Ejercicio intenso**  | Primera derivada   | [Watch Ejercicio 1](Videos/Ejercicio_D1) | 
+|                        | Segunda derivada   | [Watch Ejercicio 2](Videos/Ejercicio_D2) |
+|                        | Tercera derivada   | [Watch Ejercicio 3](Videos/Ejercicio_D3) |
+| **Resp. prolongada**   | Primera derivada   | [Watch Respiracion prolongada 1](Videos/Resp_prolongada_D1) |
+|                        | Segunda derivada   | [Watch Respiracion prolongada 2](Videos/Resp_prolongada_D2) |
+|                        | Tercera derivada   | [Watch Respiracion prolongada 3](Videos/Resp_prolongada_D3) |
 
 
 ## **Ploteo de la señal en OpenSignal** <a name="id11"></a>
