@@ -174,17 +174,7 @@ Se posicionaron los electrodos en base las guías mencionadas:
 ### **Archivos** <a name="id8"></a>
 
 
-#### 1.1 Primera derivada
 
-<p align="justify">
-Se observa el complejo QRS el cual indica un tiempo corto de despolarización de los ventrículos, lo que indicaría un corto periodo de movimiento dentro de estas cavidades. Asimismo, se observa una alta presencia de ruido en la región del ST, además existe una especie de pendiente en el segmento isoeléctrico lo que indicaría algo de actividad en el ventrículo incluso cuando no hay electricidad fluyendo a través de él. Por último, también se llegaría a notar una onda T, representativa de la repolarización de los ventrículos. [5]
-</p>
-
-| Ploteo del primer intento | Ploteo del segundo intento |
-|---------------------------|----------------------------|
-| <img src="datos/imagen1.1.jpg" width="200"><br><sub>Figura 8. Intervalo QT</sub> | <img width="500" height="300" <img src="datos/imagen1.2.jpg" width="200"><br><sub>Figura 8. Intervalo QT</sub>|
-
-   
 
 ## **Ploteo de la señal en Pythonl** <a name="id12"></a>
 ### 1) Estado basal
