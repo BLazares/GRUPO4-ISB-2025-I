@@ -141,20 +141,20 @@ Se posicionaron los electrodos en base las guías mencionadas:
 
 
 
-| Condición              | Derivada           | Primer muestreo                                               | Segundo muestreo                                              |
-|------------------------|--------------------|----------------------------------------------------------------|----------------------------------------------------------------|
-| **Estado basal**       | Primera derivada   | <video src="datos/video1.1.mp4" width="200" controls></video><br><sub>Figura 1.1</sub> | <video src="datos/video1.2.mp4" width="200" controls></video><br><sub>Figura 1.2</sub> |
-|                        | Segunda derivada   | <video src="datos/video2.1.mp4" width="200" controls></video><br><sub>Figura 2.1</sub> | <video src="datos/video2.2.mp4" width="200" controls></video><br><sub>Figura 2.2</sub> |
-|                        | Tercera derivada   | <video src="datos/video3.1.mp4" width="200" controls></video><br><sub>Figura 3.1</sub> | <video src="datos/video3.2.mp4" width="200" controls></video><br><sub>Figura 3.2</sub> |
-| **Resp. controlada**   | Primera derivada   | <video src="datos/video4.1.mp4" width="200" controls></video><br><sub>Figura 4.1</sub> | <video src="datos/video4.2.mp4" width="200" controls></video><br><sub>Figura 4.2</sub> |
-|                        | Segunda derivada   | <video src="datos/video5.1.mp4" width="200" controls></video><br><sub>Figura 5.1</sub> | <video src="datos/video5.2.mp4" width="200" controls></video><br><sub>Figura 5.2</sub> |
-|                        | Tercera derivada   | <video src="datos/video6.1.mp4" width="200" controls></video><br><sub>Figura 6.1</sub> | <video src="datos/video6.2.mp4" width="200" controls></video><br><sub>Figura 6.2</sub> |
-| **Ejercicio intenso**  | Primera derivada   | <video src="datos/video7.1.mp4" width="200" controls></video><br><sub>Figura 7.1</sub> | <video src="datos/video7.2.mp4" width="200" controls></video><br><sub>Figura 7.2</sub> |
-|                        | Segunda derivada   | <video src="datos/video8.1.mp4" width="200" controls></video><br><sub>Figura 8.1</sub> | <video src="datos/video8.2.mp4" width="200" controls></video><br><sub>Figura 8.2</sub> |
-|                        | Tercera derivada   | <video src="datos/video9.1.mp4" width="200" controls></video><br><sub>Figura 9.1</sub> | <video src="datos/video9.2.mp4" width="200" controls></video><br><sub>Figura 9.2</sub> |
-| **Resp. prolongada**   | Primera derivada   | <video src="datos/video10.1.mp4" width="200" controls></video><br><sub>Figura 10.1</sub> | <video src="datos/video10.2.mp4" width="200" controls></video><br><sub>Figura 10.2</sub> |
-|                        | Segunda derivada   | <video src="datos/video11.1.mp4" width="200" controls></video><br><sub>Figura 11.1</sub> | <video src="datos/video11.2.mp4" width="200" controls></video><br><sub>Figura 11.2</sub> |
-|                        | Tercera derivada   | <video src="datos/video12.1.mp4" width="200" controls></video><br><sub>Figura 12.1</sub> | <video src="datos/video12.2.mp4" width="200" controls></video><br><sub>Figura 12.2</sub> |
+| Condición              | Derivada           | Primer muestreo                                               |                                               |
+|------------------------|--------------------|----------------------------------------------------------------|
+| **Estado basal**       | Primera derivada   | <video src="Videos/Basal_D1" width="200" controls></video><br> |
+|                        | Segunda derivada   | <video src="Videos/Basal_D2" width="200" controls></video><br> |
+|                        | Tercera derivada   | <video src="Videos/Basal_D3" width="200" controls></video><br> |
+| **Resp. controlada**   | Primera derivada   | <video src="Videos/_D1" width="200" controls></video><br> | 
+|                        | Segunda derivada   | <video src="Videos/_D1" width="200" controls></video><br> | 
+|                        | Tercera derivada   | <video src="Videos/_D1" width="200" controls></video><br> |
+| **Ejercicio intenso**  | Primera derivada   | <video src="Videos/_D1" width="200" controls></video><br> | 
+|                        | Segunda derivada   | <video src="datos/video8.1.mp4" width="200" controls></video><br> |
+|                        | Tercera derivada   | <video src="datos/video9.1.mp4" width="200" controls></video><br> |
+| **Resp. prolongada**   | Primera derivada   | <video src="datos/video10.1.mp4" width="200" controls></video><br> |
+|                        | Segunda derivada   | <video src="datos/video11.1.mp4" width="200" controls></video><br> |
+|                        | Tercera derivada   | <video src="datos/video12.1.mp4" width="200" controls></video><br> |
 
 
 ## **Ploteo de la señal en OpenSignal** <a name="id11"></a>
