@@ -141,8 +141,8 @@ Se posicionaron los electrodos en base las guías mencionadas:
 
 
 
-| Condición              | Derivada           | Primer muestreo                                               |                                               |
-|------------------------|--------------------|----------------------------------------------------------------|
+| Condición              | Derivada           | Primer muestreo                                                    |
+|------------------------|--------------------|--------------------------------------------------------------------|
 | **Estado basal**       | Primera derivada   | <video src="Videos/Basal_D1" width="200" controls></video><br> |
 |                        | Segunda derivada   | <video src="Videos/Basal_D2" width="200" controls></video><br> |
 |                        | Tercera derivada   | <video src="Videos/Basal_D3" width="200" controls></video><br> |
