@@ -1,4 +1,4 @@
-# **LABORATORIO 5: – Uso de BiTalino para  EKG**
+# **LABORATORIO 4: – Uso de BiTalino para  EKG**
 
 
 ## 📑 Tabla de contenidos
