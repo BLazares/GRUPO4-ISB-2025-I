@@ -143,10 +143,10 @@ Se posicionaron los electrodos en base las guías mencionadas:
 
 | Condición              | Derivada           | Primer muestreo                                                    |
 |------------------------|--------------------|--------------------------------------------------------------------|
-| **Estado basal**       | Primera derivada   | <video src="Videos/Basal_D1" width="200" controls></video><br> |
+| **Estado basal**       | Primera derivada   | <video src="Videos/Basal_D1" controls></video><br> |
 |                        | Segunda derivada   | <video src="Videos/Basal_D2" width="200" controls></video><br> |
 |                        | Tercera derivada   | <video src="Videos/Basal_D3" width="200" controls></video><br> |
-| **Resp. controlada**   | Primera derivada   | <video src="Videos/_D1" width="200" controls></video><br> | 
+| **Resp. controlada**   | Primera derivada   | <video src="Videos/Respiracion_D1" width="200" controls></video><br> | 
 |                        | Segunda derivada   | <video src="Videos/_D1" width="200" controls></video><br> | 
 |                        | Tercera derivada   | <video src="Videos/_D1" width="200" controls></video><br> |
 | **Ejercicio intenso**  | Primera derivada   | <video src="Videos/_D1" width="200" controls></video><br> | 
