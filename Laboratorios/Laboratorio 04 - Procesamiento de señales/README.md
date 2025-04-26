@@ -90,8 +90,9 @@ Los objetivos del laboratorio son:
 
 ---
 Materiales completos
-<img src ="datos/Materiales1.png" width="200"><br><sub>Figura 9. Materiales</sub> 
-<img src ="datos/Materiales2.png" width="200"><br><sub>Figura 10. Materiales</sub>
+
+<img src ="datos/Materiales1" width="200"><br><sub>Figura 9. Kit bitalino y electrodos</sub> 
+<img src ="datos/Materiales2" width="200"><br><sub>Figura 10. Bitalino y electrodos</sub>
 
 
 |  **Imagen**  | **Producto** | **Cantidad** |
