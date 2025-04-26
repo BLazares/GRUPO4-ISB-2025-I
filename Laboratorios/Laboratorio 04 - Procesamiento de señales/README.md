@@ -89,13 +89,16 @@ Los objetivos del laboratorio son:
 ## **Materiales y equipos** <a name="id2"></a>
 
 ---
-<div align="center">
+Materiales completos
+<img src ="datos/Materiales1.png" width="200"><br><sub>Figura 9. Materiales</sub> 
+<img src ="datos/Materiales2.png" width="200"><br><sub>Figura 10. Materiales</sub>
+
 
 |  **Imagen**  | **Producto** | **Cantidad** |
 |:------------:|:---------------:|:------------:|
 | <img width="200" height="150" src="https://i.postimg.cc/VvLXqb8P/14022-01a.jpg"> |   Kit BITalino  |       1      |
 | <img width="200" height="150" src="https://i.postimg.cc/XNmdLX3Z/equipos.png"> |      Laptop     |       1      |
-| <img width="200" height="150" src="https://multimedia.3m.com/mws/media/277491J/eletrodo-2239.jpg?width=506"> |      Electrodos    |       5     |
+| <img width="200" height="150" src="https://multimedia.3m.com/mws/media/277491J/eletrodo-2239.jpg?width=506"> |      Electrodos    |       4     |
 
 </div>
 
