@@ -184,7 +184,7 @@ Se observa el complejo QRS el cual indica un tiempo corto de despolarización de
 </p>
 | Ploteo del primer intento | Ploteo del segundo intento |
 |---------------------------|----------------------------|
-| <img src="datos/imagen1.jpg" width="200"><br><sub>Figura 8. Intervalo QT</sub> | <img width="500" height="300" <img src="datos/imagen1.1.jpg" width="200"><br><sub>Figura 8. Intervalo QT</sub>|
+| <img src="datos/PQRST.png" width="200"><br><sub>Figura 8. Intervalo QT</sub> | <img width="500" height="300" <img src="datos/PQRST.png" width="200"><br><sub>Figura 8. Intervalo QT</sub>|
 
 #### 1.2 Segunda derivada
 
