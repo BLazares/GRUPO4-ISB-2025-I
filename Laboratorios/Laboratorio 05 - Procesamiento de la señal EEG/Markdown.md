@@ -98,16 +98,14 @@ En el laboratorio  de EEG se utilizo el kit de bitalino   y 3 electrodos
 
 ## **Materiales y equipos** <a name="id6"></a>
 
-<center>
-| Descripción     | Cantidad |
-|---------------------|:------------:|
-| Kit BITalino        |      1       |
-| Laptop              |      1       |
-| Electrodos con gel  |      3       |
-
-
+| **Descripción**       | **Cantidad** |
+|------------------------|:------------:|
+| Kit BITalino           |      1       |
+| Laptop                 |      1       |
+| Electrodos con gel     |      3       |
 
 ## **Procedimiento** <a name="id7"></a>
+
 
 ### **Medición y Adquisición por electrodos** <a name="id8"></a>
 De manera general, los métodos de adquisición de señales EEG diseñados en el presente laboratorio utilizarán el estándar de posicionamiento 10/20 el cual se describe a continuación:
