@@ -89,8 +89,7 @@ En el laboratorio utilizaremos el sistema **BITalino** para registrar la activid
 
 ### ¿De qué forma obtenemos la señal? <a name="id4"></a>
 ---
-En el presente laboratorio se utilizará el Ultracortex Mark IV EEG 
-    
+En el laboratorio  de EEG se utilizo el kit de bitalino   y 3 electrodos
 ## **Objetivos** <a name="id5"></a>
 - Establecer un conocimiento teórico y práctico sobre la utilización y adquisición de señales EEG.
 - Adquirir señales EEG biomédicas
@@ -100,14 +99,11 @@ En el presente laboratorio se utilizará el Ultracortex Mark IV EEG
 ## **Materiales y equipos** <a name="id6"></a>
 
 <center>
-    
-|  **Modelo**  | **Descripción** | **Cantidad** |
-|:------------:|:---------------:|:------------:|
-| (R)EVOLUTION |  Kit BITalino   |      1       |
-|      -       |     Laptop      |      1       |
-|      OpenBCI       |     Ultracortex Mark IV EEG Headset      |      1       |
-|      OpenBCI       |     OpenBCI Cyton 8-channel Board      |      1       |
-|      Inkafarma       |     Electrodos con gel      |      3       |
+| **Descripción**     | **Cantidad** |
+|---------------------|:------------:|
+| Kit BITalino        |      1       |
+| Laptop              |      1       |
+| Electrodos con gel  |      3       |
 
 </center>
 
