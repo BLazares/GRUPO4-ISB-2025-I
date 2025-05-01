@@ -112,16 +112,22 @@ En el laboratorio  de EEG se utilizo el kit de bitalino   y 3 electrodos
 
 
 
-### **Medición y Adquisición por electrodos** <a name="id8"></a>
-De manera general, los métodos de adquisición de señales EEG diseñados en el presente laboratorio utilizarán el estándar de posicionamiento 10/20 el cual se describe a continuación:
+### **Procedimiento <a name="id7"></a>
+A continuación se describen los pasos realizados durante el laboratorio para la adquisición de señales EEG utilizando el sistema BITalino:
 
-<p align="center"> Sistema 10/20 <img src="https://i.imgur.com/0O6KnqV.jpg" width="100%" /> </p>
-<p align="center"> Figura 5. Distribución de electrodos. [8] </p>
+Se preparó el área de trabajo, asegurando un entorno sin ruidos eléctricos ni movimientos innecesarios.
 
-**Tipo de electrodo:** El electrodo del Bitalino es un sensor bipolar (conjuntos de dos pines de medición más una referencia) que mide las diferencias de potencial entre dos electrodos adyacente.Algunas consideraciones son:</p>
-    - La alta amplificación (ganancia=40000) lo hace muy sensible a los artefactos circundantes como la luz, los movimientos y las fuentes de alimentación (ruido de línea de 50/60 Hz).</p>
-    - La señal medida es la diferencia amplificada entre las dos señales de medición, que se filtra con un paso de banda de 0,8 a 48 Hz para eliminar las señales comunes no deseadas.</p>
-    - La piel debe estar debidamente preparada antes de la adherencia de los electrodos.Para ello, es necesario una desinfección de la piel para eliminar las partículas viejas así como la eliminación del vello.
+Se limpió con alcohol la piel en los puntos de colocación de los electrodos para mejorar la conductividad.
+
+Se conectó el sensor EEG de BITalino al módulo principal mediante los pines correspondientes (IN+, IN− y referencia).
+
+Se colocaron dos electrodos en la frente (zona FP1 o FP2, según la prueba) y un electrodo de referencia detrás de la oreja.
+
+Se conectó el dispositivo BITalino a la laptop mediante Bluetooth y se abrió el software OpenSignals (r)evolution.
+
+Se configuró el software con una frecuencia de muestreo de al menos 100 Hz, adecuada para capturar ondas cerebrales hasta 50 Hz.
+
+Se inició la grabación con el sujeto relajado, en posición cómoda, evitando movimientos faciales, parpadeos o tensión muscular.
 
 
 
