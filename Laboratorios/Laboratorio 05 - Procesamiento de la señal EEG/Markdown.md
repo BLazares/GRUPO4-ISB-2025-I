@@ -52,7 +52,23 @@ El análisis de estas ondas proporciona información valiosa sobre el estado fun
 
 ### Aplicaciones <a name="id2"></a>
 ---
-<p align="justify"> Las ondas cerebrales pueden ser estudiadas gracias a la colocación específica de electrodos por métodos no invasivos e invasivos en el cuero cabelludo. Estos se utilizan para diagnosticar los trastornos como el Alzheimer Parkinson enfermedad mental, tumores cerebrales, demencia y epilepsia, trastornos y cambios en el patrón del sueño, etc. [2]</p>
+<p align="justify"> El electroencefalograma (EEG) es una herramienta diagnóstica no invasiva que registra la actividad eléctrica cerebral a través de electrodos colocados en el cuero cabelludo. Su capacidad para detectar alteraciones en los patrones de ondas cerebrales lo convierte en un recurso valioso en diversas aplicaciones :
+
+1. Diagnóstico de epilepsia y trastornos convulsivos
+   El EEG es fundamental para identificar descargas epileptiformes y diferenciar entre tipos de crisis epilépticas, facilitando un tratamiento adecuado.
+
+2. Evaluación de trastornos del sueño
+   Integrado en estudios de sueño (polisomnografía), ayuda a diagnosticar condiciones como apnea del sueño, insomnio y narcolepsia.
+
+3. Monitoreo en unidades de cuidados intensivos (UCI)
+   Se utiliza para detectar convulsiones no evidentes clínicamente y evaluar el estado cerebral en pacientes comatosos o bajo anestesia.
+
+4. Diagnóstico de encefalopatías y demencias
+   Puede mostrar patrones anormales asociados con enfermedades como el Alzheimer o encefalopatías metabólicas e infecciosas.
+
+5. Evaluación de lesiones cerebrales
+   Tras un traumatismo craneoencefálico, el EEG permite estimar la extensión del daño y monitorear la recuperación neurológica.
+.</p>
 <p align="center"> <img src="https://i.imgur.com/5Nirdvp.png" width="60%" /></p>
 <p align="center"> Figura 3. Aplicación clínica del EEG.</p>
 
