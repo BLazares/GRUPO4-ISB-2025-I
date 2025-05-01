@@ -99,13 +99,13 @@ En el laboratorio  de EEG se utilizo el kit de bitalino   y 3 electrodos
 ## **Materiales y equipos** <a name="id6"></a>
 
 <center>
-| **Descripción**     | **Cantidad** |
+| *Sescripción     | Cantidad |
 |---------------------|:------------:|
 | Kit BITalino        |      1       |
 | Laptop              |      1       |
 | Electrodos con gel  |      3       |
 
-</center>
+
 
 ## **Procedimiento** <a name="id7"></a>
 
