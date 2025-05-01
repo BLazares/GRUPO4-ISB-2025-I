@@ -73,17 +73,16 @@ El análisis de estas ondas proporciona información valiosa sobre el estado fun
 <p align="center"> Figura 3. Aplicación clínica del EEG.</p>
 
 ### Tipos de medición de EEG <a name="id3"></a>
-___
-En el laboratorio utilizaremos el sistema BITalino para registrar la actividad eléctrica del cerebro (EEG). Dependiendo de cómo se coloquen los electrodos, existen tres tipos principales de medición:
+En el laboratorio utilizaremos el sistema **BITalino** para registrar la actividad eléctrica del cerebro (EEG). Dependiendo de cómo se coloquen los electrodos, existen tres tipos principales de medición:
 
-Monopolar:
-Se mide la diferencia de voltaje entre un electrodo colocado en una zona del cerebro (electrodo activo) y otro en una zona neutra, como el lóbulo de la oreja (electrodo de referencia). Es la forma más común y sencilla de registro, y la que usaremos en el laboratorio.
+* Monopolar:
+  Se mide la diferencia de voltaje entre un electrodo colocado en una zona del cerebro (electrodo activo) y otro en una zona neutra, como el lóbulo de la oreja (electrodo de referencia). Es la forma más común y sencilla de registro, y la que usaremos en el laboratorio.
 
-Bipolar:
-Se colocan dos electrodos en diferentes zonas del cerebro y se mide la diferencia de voltaje entre ellos. Sirve para comparar la actividad entre dos áreas.
+* Bipolar:
+  Se colocan dos electrodos en diferentes zonas del cerebro y se mide la diferencia de voltaje entre ellos. Sirve para comparar la actividad entre dos áreas.
 
-Laplaciana:
-Es parecida a la monopolar, pero en lugar de usar un solo electrodo de referencia, se usa el promedio de varios que rodean al electrodo activo. Esto da una señal más precisa, pero es más compleja y no se usará en esta práctica.
+* Laplaciana:
+  Es parecida a la monopolar, pero en lugar de usar un solo electrodo de referencia, se usa el promedio de varios que rodean al electrodo activo. Esto da una señal más precisa, pero es más compleja y no se usará en esta práctica.
 <p align="center"> <img src="https://i.imgur.com/qgZ7UsC.jpg" width="60%" /></p>
 <p align="center"> Figura 4. Montaje para registro: (a) Monopolar (b) Bipolar.[5]</p>
 
