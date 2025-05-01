@@ -113,21 +113,21 @@ En el laboratorio  de EEG se utilizo el kit de bitalino   y 3 electrodos
 
 
 ### **Procedimiento <a name="id7"></a>
-A continuación se describen los pasos realizados durante el laboratorio para la adquisición de señales EEG utilizando el sistema BITalino:
+*A continuación se describen los pasos realizados durante el laboratorio para la adquisición de señales EEG utilizando el sistema BITalino:
 
-Se preparó el área de trabajo, asegurando un entorno sin ruidos eléctricos ni movimientos innecesarios.
+*-Se preparó el área de trabajo, asegurando un entorno sin ruidos eléctricos ni movimientos innecesarios.
 
-Se limpió con alcohol la piel en los puntos de colocación de los electrodos para mejorar la conductividad.
+*-Se limpió con alcohol la piel en los puntos de colocación de los electrodos para mejorar la conductividad.
 
-Se conectó el sensor EEG de BITalino al módulo principal mediante los pines correspondientes (IN+, IN− y referencia).
+*-Se conectó el sensor EEG de BITalino al módulo principal mediante los pines correspondientes (IN+, IN− y referencia).
 
-Se colocaron dos electrodos en la frente (zona FP1 o FP2, según la prueba) y un electrodo de referencia detrás de la oreja.
+*-Se colocaron dos electrodos en la frente (zona FP1 o FP2, según la prueba) y un electrodo de referencia detrás de la oreja.
 
-Se conectó el dispositivo BITalino a la laptop mediante Bluetooth y se abrió el software OpenSignals (r)evolution.
+*-Se conectó el dispositivo BITalino a la laptop mediante Bluetooth y se abrió el software OpenSignals (r)evolution.
 
-Se configuró el software con una frecuencia de muestreo de al menos 100 Hz, adecuada para capturar ondas cerebrales hasta 50 Hz.
+*-Se configuró el software con una frecuencia de muestreo de al menos 100 Hz, adecuada para capturar ondas cerebrales hasta 50 Hz.
 
-Se inició la grabación con el sujeto relajado, en posición cómoda, evitando movimientos faciales, parpadeos o tensión muscular.
+*-Se inició la grabación con el sujeto relajado, en posición cómoda, evitando movimientos faciales, parpadeos o tensión muscular.
 
 
 
