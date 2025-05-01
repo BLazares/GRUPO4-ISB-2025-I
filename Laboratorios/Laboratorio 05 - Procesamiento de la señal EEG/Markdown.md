@@ -115,24 +115,24 @@ En el laboratorio  de EEG se utilizo el kit de bitalino   y 3 electrodos
 ### **Procedimiento <a name="id7"></a>
 *A continuación se describen los pasos realizados durante el laboratorio para la adquisición de señales EEG utilizando el sistema BITalino:
 
-*-Se preparó el área de trabajo, asegurando un entorno sin ruidos eléctricos ni movimientos innecesarios.
-
-*-Se limpió con alcohol la piel en los puntos de colocación de los electrodos para mejorar la conductividad.
-
-*-Se conectó el sensor EEG de BITalino al módulo principal mediante los pines correspondientes (IN+, IN− y referencia).
-
-*-Se colocaron dos electrodos en la frente (zona FP1 o FP2, según la prueba) y un electrodo de referencia detrás de la oreja.
-
-*-Se conectó el dispositivo BITalino a la laptop mediante Bluetooth y se abrió el software OpenSignals (r)evolution.
-
-*-Se configuró el software con una frecuencia de muestreo de al menos 100 Hz, adecuada para capturar ondas cerebrales hasta 50 Hz.
-
-*-Se inició la grabación con el sujeto relajado, en posición cómoda, evitando movimientos faciales, parpadeos o tensión muscular.
+-Se preparó el área de trabajo, asegurando un entorno sin ruidos eléctricos ni movimientos innecesarios.
+-Se limpió con alcohol la piel en los puntos de colocación de los electrodos para mejorar la conductividad.
+-Se conectó el sensor EEG de BITalino al módulo principal mediante los pines correspondientes (IN+, IN− y referencia).
+*Se colocaron dos electrodos en la frente (zona FP1 o FP2, según la prueba) y un electrodo de referencia detrás de la oreja.
+-Se conectó el dispositivo BITalino a la laptop mediante Bluetooth y se abrió el software OpenSignals (r)evolution.
+-Se configuró el software con una frecuencia de muestreo de al menos 100 Hz, adecuada para capturar ondas cerebrales hasta 50 Hz.
+-Se inició la grabación con el sujeto relajado, en posición cómoda, evitando movimientos faciales, parpadeos o tensión muscular.
 
 
 
 ### **Protocolo de adquisición** <a name="id9"></a>
-La adquisición y medición de señal EEG  en BITalino es un proceso que implica la utilización de un dispositivo de adquisición de datos llamado BITalino y el conjunto de sensores EEG los cuales son capaces de adquirir señales bioeléctricas del cerebro y convertirlas en señales digitales que pueden ser analizadas por el software especializado OpenSignal. A continuación se detalla el procedimiento realizado para la adquisición y medición de la señal:
+La adquisición de señales EEG con el sistema BITalino se llevó a cabo utilizando electrodos de gel autoadhesivos conectados al sensor EEG ensamblado y gestionado a través del software OpenSignals. El objetivo fue registrar la actividad cerebral bajo diferentes condiciones controladas, siguiendo una secuencia experimental definida.
+    A continuación, se describe detalladamente el procedimiento realizado:
+    Configuración inicial
+        Se conectó el sensor EEG al canal correspondiente del BITalino.
+        Se colocaron dos electrodos activos en la región frontal de la cabeza: FP1 y FP2, de acuerdo con el sistema 10-20 internacional.
+        Se colocó el electrodo de referencia en la región ósea detrás de la oreja (mastoides).
+        Se verificó la conectividad vía Bluetooth con el software OpenSignals y se ajustó la frecuencia de muestreo.
 
 1. **Posición de electrodo bipolar (fp1-fp2)**
     <p align="center"> <img src="https://i.imgur.com/8IGiiIx.png" width="50%" /></p>
