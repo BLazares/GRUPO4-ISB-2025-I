@@ -32,7 +32,7 @@
 <p align="center"> Figura 1. Actividad cerebral.[7]</p>
 
 ### ¿Qué es EEG? <a name="id1"></a>
-<p align="justify">El **electroencefalograma (EEG)** es una herramienta fundamental en neurofisiología que permite registrar la actividad eléctrica del cerebro mediante electrodos colocados en el cuero cabelludo. Esta técnica no invasiva capta las oscilaciones eléctricas generadas por las neuronas corticales, reflejando distintos estados funcionales del cerebro.
+<p align="justify">El electroencefalograma (EEG) es una herramienta fundamental en neurofisiología que permite registrar la actividad eléctrica del cerebro mediante electrodos colocados en el cuero cabelludo. Esta técnica no invasiva capta las oscilaciones eléctricas generadas por las neuronas corticales, reflejando distintos estados funcionales del cerebro.
 
 Las señales EEG se clasifican en diferentes bandas de frecuencia, cada una asociada a funciones cognitivas y estados de conciencia específicos. A continuación, se describen estas bandas en orden descendente de frecuencia:
 
@@ -48,8 +48,7 @@ El análisis de estas ondas proporciona información valiosa sobre el estado fun
 <p align="center"> Figura 1. Actividad cerebral.[7]</p>
     
 
-<p align="center"> <img src="https://i.imgur.com/VJE3Qq9.png" width="60%" /> </p>
-<p align="center"> Figura 2. Clasificación de onda.[7]</p>
+
 
 ### Aplicaciones <a name="id2"></a>
 ---
@@ -59,11 +58,16 @@ El análisis de estas ondas proporciona información valiosa sobre el estado fun
 
 ### Tipos de medición de EEG <a name="id3"></a>
 ___
-Según la configuración del montaje de los electrodos, se pueden clasificar en tres tipos:
+En el laboratorio utilizaremos el sistema BITalino para registrar la actividad eléctrica del cerebro (EEG). Dependiendo de cómo se coloquen los electrodos, existen tres tipos principales de medición:
 
-- Monopolar: En este tipo se registran las diferencias de potencial entre los electrodos ubicados en las zonas de interés y un electrodo de referencia. Este último se coloca generalmente en la oreja, la cual es una zona que refleja la menor actividad posible.
-- Bipolar: Los electrodos son situados en diferentes zonas de interés y se adquieren diferencias de potenciales entre ellos.
-- Laplaciana: Al igual que el primer tipo, se obtienen los valores con electrodos en zonas de interés (activos) y uno de referencia; sin embargo, la referencia viene a ser el promedio de varios electrodos posicionados alrededor del electrodo activo. Esto puede realizarse tanto de forma analógica como de forma digital.
+Monopolar:
+Se mide la diferencia de voltaje entre un electrodo colocado en una zona del cerebro (electrodo activo) y otro en una zona neutra, como el lóbulo de la oreja (electrodo de referencia). Es la forma más común y sencilla de registro, y la que usaremos en el laboratorio.
+
+Bipolar:
+Se colocan dos electrodos en diferentes zonas del cerebro y se mide la diferencia de voltaje entre ellos. Sirve para comparar la actividad entre dos áreas.
+
+Laplaciana:
+Es parecida a la monopolar, pero en lugar de usar un solo electrodo de referencia, se usa el promedio de varios que rodean al electrodo activo. Esto da una señal más precisa, pero es más compleja y no se usará en esta práctica.
 <p align="center"> <img src="https://i.imgur.com/qgZ7UsC.jpg" width="60%" /></p>
 <p align="center"> Figura 4. Montaje para registro: (a) Monopolar (b) Bipolar.[5]</p>
 
