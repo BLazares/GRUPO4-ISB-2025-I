@@ -32,26 +32,21 @@
 <p align="center"> Figura 1. Actividad cerebral.[7]</p>
 
 ### ¿Qué es EEG? <a name="id1"></a>
-<p align="justify"> El electroencefalograma (EEG) es un procedimiento de estudio de actividad electrica cerebral producida por la interfaz de
-neuronas en el cerebro y la interacción de dichas neuronas produciendo señales electroquímicas.[1] </p>
+<p align="justify">El **electroencefalograma (EEG)** es una herramienta fundamental en neurofisiología que permite registrar la actividad eléctrica del cerebro mediante electrodos colocados en el cuero cabelludo. Esta técnica no invasiva capta las oscilaciones eléctricas generadas por las neuronas corticales, reflejando distintos estados funcionales del cerebro.
 
-<p align="center"> 
-    
-| **_Tipos de Frecuencia de Ondas Cerebrales_** | **_Frecuencia (Hz)_** |Estado del cerebro|
-|:---------------------------------------------:|:---------------------:|:------------:|
-|                     Delta                     |      0.50 - 4.00      |Dormir|
-|                     Theta                     |      4.00 - 8.00      |Relajamiendo profundo y estar enfocado |
-|                     Alpha                     | 8.00 - 13.00          |Muy relajado y atento|
-|                      Beta                     | 13.00 - 22.00         |Ansioso,activo|
-|                     Gamma                     | 22.00 - 30.00         |Concentrado|
+Las señales EEG se clasifican en diferentes bandas de frecuencia, cada una asociada a funciones cognitivas y estados de conciencia específicos. A continuación, se describen estas bandas en orden descendente de frecuencia:
 
-</p>
+* Ondas Gamma (>30 Hz): Relacionadas con procesos cognitivos de alto nivel, como la percepción consciente, la integración sensorial y la memoria de trabajo.
+* Ondas Beta (13–30 Hz): Asociadas con la atención activa, el pensamiento lógico y la resolución de problemas.
+* Ondas Alfa (8–12 Hz): Presentes en estados de relajación y calma mental, especialmente con los ojos cerrados.
+* Ondas Theta (4–7 Hz): Relacionadas con estados de somnolencia, meditación profunda y procesamiento emocional.
+* Ondas Delta (0.5–4 Hz): Predominan durante el sueño profundo y están asociadas con procesos de reparación y regeneración.
+
+El análisis de estas ondas proporciona información valiosa sobre el estado funcional del cerebro, permitiendo la identificación de patrones normales y anómalos. Por ejemplo, alteraciones en la actividad de las ondas gamma han sido observadas en trastornos como la esquizofrenia y el Alzheimer. </p>
+
+<p align="center"> <img src="https://i.imgur.com/Uup0v26.png" width="50%" /></p>
+<p align="center"> Figura 1. Actividad cerebral.[7]</p>
     
--**Delta** : el ritmo delta se observa fisiológicamente en el sueño profundo y es prominente en las regiones frontocentrales de la cabeza. El ritmo delta patológico se presenta en estados de vigilia en caso de encefalopatía generalizada y disfunción cerebral focal.</p>
--**Theta**: este es el ritmo provocado por la somnolencia y las primeras etapas del sueño, como N1 y N2. Es más prominente en las regiones frontocentrales de la cabeza y migra lentamente hacia atrás reemplazando el ritmo alfa debido a la somnolencia temprana. Los estados emocionales elevados también pueden mejorar el ritmo theta rítmico frontal en niños y adultos jóvenes. La actividad theta focal durante los estados de vigilia sugiere una disfunción cerebral focal.</p>
--**Alfa**: el ritmo alfa dominante posterior está presente de forma característica en los registros de EEG normales despiertos en la región occipital de la cabeza. Es la característica definitoria del ritmo de fondo normal de la grabación de EEG de adultos. El ritmo posterior alcanza el rango alfa de 8 Hz a la edad de 3 años y no decae incluso hasta la novena década de vida en individuos sanos. En la población normal se observan variantes rápidas del ritmo alfa de fondo. La ralentización del ritmo alfa de fondo se considera un signo de disfunción cerebral generalizada.</p>
--**Beta**:el ritmo Beta es el ritmo que se observa con mayor frecuencia en adultos y niños normales. Es más prominente en las regiones frontal y central de la cabeza y se atenúa a medida que avanza hacia atrás. La amplitud de la actividad beta suele ser de 10 a 20 microvoltios, que rara vez aumenta por encima de los 30 microvoltios. </p>
--**Gamma**:Se encuentra en al clasificación de ondas de alta frecuencia. La importancia de los ritmos gamma en una gran variedad de funciones cognitivas ha sido bien establecidaPueden ayudar en la detección temprana de desmielinización y otros trastornos de la integridad cortical.[6]</p>
 
 <p align="center"> <img src="https://i.imgur.com/VJE3Qq9.png" width="60%" /> </p>
 <p align="center"> Figura 2. Clasificación de onda.[7]</p>
