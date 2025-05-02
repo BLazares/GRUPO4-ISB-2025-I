@@ -208,12 +208,6 @@ ___
 | **Preguntas complejas (6 minutos)** | Predominio de actividad beta con variaciones posibles por fatiga o distracción (aparición de theta). Puede observarse menor regularidad en la señal. | <p align="center"><img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="50%"></p>                   |
 
 
-<p align="center"><img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="50%"></p>
-<p align="center"><img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="50%"></p>
-<p align="center"><img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="50%"></p>
-<p align="center"><img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="50%"></p>
-<p align="center"><img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="50%"></p>
-
 releeeeeeeeeeeeeeeennnnnnnnnnnnnnnnnnnnnnnar con eustra dataaaaaaaaaaaaaaaaaaaaaaaaaEn el Bitalino, al realizar la medición, trabajan con un sensor de EEG el cuál brinda la señal medida como la diferencia amplificada entre las dos señales de medición que se filtra con un paso de banda de 0,8-48Hz para eliminar la señales no deseadas.[3]
 Asimismo, al considerar la posición de los electrodos del Bitalino los cuales fueron en fp1 y fp2, estas regiones están relacionadas con diversas funciones cognitivas y emocionales.
 De las 5 gráficas la que tiene mayor amplitud es en la que se expone al sujeto a una luz parpadeante luego de tener los ojos vendados por un periodo de tiempo.
