@@ -26,7 +26,7 @@
 6. [Conclusiones](#id17)
 7. [Referencias](#id18)
 
-## **Introducción al laboratorio** <a name="id0"></a>
+## **Introducción al laboratorio 5 EEG** <a name="id0"></a>
 
 <p align="center"> 
   <img src="IMÁGENES Y VIDEOS/cefalograma.gif" width="50%" />
