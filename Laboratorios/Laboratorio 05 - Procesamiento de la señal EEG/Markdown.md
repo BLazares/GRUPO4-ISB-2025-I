@@ -47,7 +47,7 @@ Las señales EEG se clasifican en diferentes bandas de frecuencia, cada una asoc
 
 El análisis de estas ondas proporciona información valiosa sobre el estado funcional del cerebro, permitiendo la identificación de patrones normales y anómalos. Por ejemplo, alteraciones en la actividad de las ondas gamma han sido observadas en trastornos como la esquizofrenia y el Alzheimer. </p>
 
-<p align="center"> <img src="https://i.imgur.com/Uup0v26.png" width="50%" /></p>
+<p align="center"> <img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="50%" /></p>
 <p align="center"> Figura 1. Actividad cerebral.[7]</p>
     
 
