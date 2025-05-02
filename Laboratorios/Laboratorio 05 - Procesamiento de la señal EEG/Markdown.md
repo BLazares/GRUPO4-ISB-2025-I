@@ -190,18 +190,13 @@ ___
 <p align="center"><img src="/ISB/Laboratorios/Imagenes/entregable5/IMG_20230419_115202.jpg" width="400" height="600"></p>
 <p align="center">Figura 11. Posición de los electrodos del ULTRACORTEX "MARK IV" (vista posterior).</p>
 
-### 1
-
-### 3. **Señal con Bitalino** <a name="id14"></a>
-#### **Videos utilizando el Bitalino** <a name="id15"></a>
-
-| **Fase**                                               | **Visualización**                                                                 |
-|--------------------------------------------------------|-----------------------------------------------------------------------------------|
-| **Fase de referencia de 30 segundos**                  | <p align="center"><img src="../IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="60%"></p> |
-| **Realizando secuencia de OJOS ABIERTOS - OJOS CERRADOS** | <p align="center"><img src="../IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="60%"></p> |
-| **Respondiendo preguntas categoría simple**            | <p align="center"><img src="../IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="60%"></p> |
-| **Respondiendo preguntas categoría cultura general**   | <p align="center"><img src="../IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="60%"></p> |
-
+### 2. **Señal con Bitalino** <a name="id14"></a>
+| Etapa                 | Indicaciones                                                                                                       | Toma             |
+|-----------------------|--------------------------------------------------------------------------------------------------------------------|-------------------|
+| Reposo (30 segundos)  | Registrar una línea base de señal con poco ruido y sin movimientos (respiración normal, sin movimientos oculares/ojos cerrados) durante 30 segundos. |<video src="https://github.com/AndreaRazuriMadrid/intro-senales-biomedicas/assets/157930025/82d554cf-76bf-4a84-bcb8-3286cde2dcd5" width="80%" height="80%"></video> |
+| Abrir y cerrar ojos   | Repetir un ciclo de OJOS ABIERTOS - OJOS CERRADOS cinco veces, manteniendo ambas fases durante cinco segundos.       | <video src="https://github.com/AndreaRazuriMadrid/intro-senales-biomedicas/assets/157930025/8a0fa139-4ad7-46d0-9675-700ebbd0c155" width="50%" height="50%"></video> |
+| Reposo (30 segundos)  | Registre otra fase de referencia de 30 segundos                                                              | <video src="https://github.com/AndreaRazuriMadrid/intro-senales-biomedicas/assets/157930025/ad29e4ad-b436-4184-9fb4-75859c0570c3" width="50%" height="50%"></video> |
+| Preguntas matemáticas  | Que uno de tus compañeros lea en voz alta una serie de ejercicios matemáticos (*) y resuelve cada uno de ellos mentalmente enfocando tu mirada en un punto específico para evitar artefactos. | <video src="https://github.com/AndreaRazuriMadrid/intro-senales-biomedicas/assets/157930025/e48396e2-c8de-45c2-9273-54a04c8cb4a1" width="50%" height="50%"></video> |
 
 ####  **Análisis de las gráficas** <a name="id16"></a>
 <p align="center"><img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="50%"></p>
