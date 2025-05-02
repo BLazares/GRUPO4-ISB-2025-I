@@ -177,29 +177,30 @@ Cabe mencionar que el procedimiento se repitió en diferentes sujetos de estudio
 ## **Resultados** <a name="id10"></a>
 ### 1. <strong>Fotos de conexión usada</strong> <a name="id11"></a>
 
-<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
 
-  <div align="center">
-    <img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="50%">
-    <p>Figura 8. Posición de los electrodos en el Bitalino (vista frontal).</p>
+  <div style="flex: 1 1 40%; text-align: center;">
+    <img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="100%">
+    <p><strong>Figura 8.</strong> Posición de los electrodos en el Bitalino (vista frontal).</p>
   </div>
 
-  <div align="center">
-    <img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="50%">
-    <p>Figura 9. Posición de los electrodos en el Bitalino (vista lateral).</p>
+  <div style="flex: 1 1 40%; text-align: center;">
+    <img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="100%">
+    <p><strong>Figura 9.</strong> Posición de los electrodos en el Bitalino (vista lateral).</p>
   </div>
 
-  <div align="center">
-    <img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="50%">
-    <p>Figura 10. Electrodos del ULTRACORTEX "MARK IV" (vista posterior).</p>
+  <div style="flex: 1 1 40%; text-align: center;">
+    <img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="100%">
+    <p><strong>Figura 10.</strong> Electrodos del ULTRACORTEX "MARK IV" (vista posterior).</p>
   </div>
 
-  <div align="center">
-    <img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="50%">
-    <p>Figura 11. Electrodos del ULTRACORTEX "MARK IV" (vista posterior).</p>
+  <div style="flex: 1 1 40%; text-align: center;">
+    <img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="100%">
+    <p><strong>Figura 11.</strong> Electrodos del ULTRACORTEX "MARK IV" (vista posterior).</p>
   </div>
 
 </div>
+
 
 ___
 ### 1. **Fotos de conexión usada** <a name="id11"></a>
