@@ -170,18 +170,8 @@ A continuación, se describe detalladamente el procedimiento realizado:
 - En la fase **libre**, el grupo diseñó una condición personalizada, la cual fue utilizada para comparar los efectos en distintas bandas de frecuencia cerebral.
 
 
-
-
-
-Cabe mencionar que el procedimiento se repitió en diferentes sujetos de estudio.
-
- 
-## **Resultados** <a name="id10"></a>
-
-
-___
-### 1. **Fotos de conexión usada** <a name="id11"></a>
-### 1. <strong>Fotos de conexión usada</strong> <a name="id11"></a>
+### **Fotos de conexión usada** <a name="id11"></a>
+### <strong>Fotos de conexión usada</strong> <a name="id11"></a>
 
 <p align="center"> <img src="IMÁGENES Y VIDEOS/Electrodos_lateral" width="60%" /></p>
 <p align="center">Figura 8. Posición de los electrodos en el sujeto de prueba - Vista lateral).</p>
@@ -202,6 +192,12 @@ ___
 <p align="center">Figura 11. Posición de los electrodos del ULTRACORTEX "MARK IV" (vista posterior).</p>
 
 
+
+ 
+## **Resultados** <a name="id10"></a>
+
+
+___
 
 
 ### 2. **Señal con Bitalino** <a name="id14"></a>
