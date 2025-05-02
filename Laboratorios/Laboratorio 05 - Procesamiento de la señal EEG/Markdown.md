@@ -145,14 +145,17 @@ A continuación, se describe detalladamente el procedimiento realizado:
 
 #### **Secuencia de registro (12 minutos)**
 
-| **Minuto** | **Condición**      | **Detalle**                                                              |
-|------------|--------------------|---------------------------------------------------------------------------|
-| 0–1        | Basal 1            | Ojos abiertos, fijar la vista en un punto fijo                           |
-| 1–2        | Basal 2            | Ojos cerrados                                                             |
-| 2–4        | Tarea cognitiva    | Restar 7 desde 100 en silencio o realizar cálculos mentales              |
-| 4–6        | Artefactos         | Parpadear cada 2 segundos y masticar                                     |
-| 6–12       | Libre              | Actividad de preguntas de cultura general de todo tipo                   |
+<div align="center">
 
+| **Minuto** | **Condición**      | **Detalle**                                                        |
+|:----------:|:------------------:|:------------------------------------------------------------------:|
+| 0–1        | Basal 1            | Ojos abiertos, fijar la vista en un punto fijo                     |
+| 1–2        | Basal 2            | Ojos cerrados                                                      |
+| 2–4        | Tarea cognitiva    | Restar 7 desde 100 en silencio o realizar cálculos mentales        |
+| 4–6        | Artefactos         | Parpadear cada 2 segundos y masticar                               |
+| 6–12       | Libre              | Actividad de preguntas de cultura general de todo tipo             |
+
+</div>
 #### **Notas importantes durante la adquisición**
 
 - Durante las condiciones **basales**, se buscó registrar actividad con la menor cantidad posible de artefactos musculares y oculares.
