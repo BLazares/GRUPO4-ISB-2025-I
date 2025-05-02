@@ -110,8 +110,8 @@ En el laboratorio  de EEG se utilizo el kit de bitalino   y 3 electrodos
 | Electrodos con gel    |      3       |
 
 </div>
-<p align="center"> <img src="IMÁGENES Y VIDEOS/Electrodos_lateral" width="60%" /></p>
-<p align="center"> <img src="IMÁGENES Y VIDEOS/Electrodos_total" width="60%" /></p>
+<p align="center"> <img src="IMÁGENES Y VIDEOS/kit_bitalino" width="60%" /></p>
+
 
 <h2><a name="id7"></a>Procedimiento</h2>
 
@@ -182,6 +182,12 @@ Cabe mencionar que el procedimiento se repitió en diferentes sujetos de estudio
 ___
 ### 1. **Fotos de conexión usada** <a name="id11"></a>
 ### 1. <strong>Fotos de conexión usada</strong> <a name="id11"></a>
+
+<p align="center"> <img src="IMÁGENES Y VIDEOS/Electrodos_lateral" width="60%" /></p>
+<p align="center">Figura 8. Posición de los electrodos en el sujeto de prueba - Vista lateral).</p>
+
+<p align="center"> <img src="IMÁGENES Y VIDEOS/Electrodos_total" width="60%" /></p>
+<p align="center">Figura 8. Posición de los electrodos en el  sujeto de prueba - Vista general.</p>
 
 <p align="center"><img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="40%"></p>
 <p align="center">Figura 8. Posición de los electrodos en el Bitalino (vista frontal).</p>
