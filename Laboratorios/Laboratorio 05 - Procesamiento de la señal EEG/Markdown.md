@@ -187,34 +187,7 @@ ___
 <p align="center"><img src="/ISB/Laboratorios/Imagenes/entregable5/IMG_20230419_115202.jpg" width="400" height="600"></p>
 <p align="center">Figura 11. Posición de los electrodos del ULTRACORTEX "MARK IV" (vista posterior).</p>
 
-### 2. **Señal con MarckOpenBCI4** <a name="id12"></a>
-
-#### **Videos con Ultracortex "Mark IV** <a name="id13"></a>
-
-|                 **Fase**                 | **Video** |
-|:------------------------------------------:|:---------:|
-| **Fase de referencia de 30 segundos**                     |<video src="https://user-images.githubusercontent.com/128627001/233262542-abe3f2d1-9a1c-4e73-bcf2-d244204a3a26.mp4">|
-| **Realizando secuencia de OJOS ABIERTOS - OJOS CERRADOS** |<video src="https://user-images.githubusercontent.com/128627001/233263555-8cf4f756-8c59-486e-9940-6db5c5b835cc.mp4">|
-|                **Respondiendo preguntas categoría simple** |<video src="https://user-images.githubusercontent.com/128627001/233265792-14ec51f3-7390-4b74-82d9-f2054a0887cf.mp4">|
-|                **Respondiendo preguntas categoría compleja (parte 1)** |<video src="https://user-images.githubusercontent.com/128627001/233266949-0d0af3dc-0e56-472a-ab08-0d0c0a24689f.mp4">|
-|                **Respondiendo preguntas categoría compleja (parte 2)** |<video src="https://user-images.githubusercontent.com/128627001/233267165-a7fe473c-ae95-4366-bc09-a43da290e3de.mp4">|  
-
-####  **Gráficas del OpenBCI**
-
-<p align="center"><img src="/ISB/Laboratorios/Imagenes/FP1-FP3/1.jpg" width="100%"></p>
-<p align="center"><img src="/ISB/Laboratorios/Imagenes/FP1-FP3/2.jpg" width="100%"></p>
-<p align="center"><img src="/ISB/Laboratorios/Imagenes/FP1-FP3/3.jpg" width="100%"></p>
-<p align="center"><img src="/ISB/Laboratorios/Imagenes/FP1-FP3/4.jpg" width="100%"></p>
-
-<p align="justify">Si analizamos los canales, estos guardan relación con la ubicación 10/20 de un EEG, los canales que van del Fp1-F3-C3-P3-O1 corresponden al hemisferio izquierdo y los canales Fp2-F4-C4-P4-O2 al hemisferio derecho.
-Podemos observar que el canal 5 y 6 contiene una mayor amplitud que el resto, estos se encuentran ubicados en el lóbulo frontal derecho, cabe resaltar que el hemisferio derecho izquierdo  lobulo frontal se encarga del pensamiento consciente, atención e inteligencia [9], por ello en los ultimos segundos cuando se empezo a desarrollar la ronde de preguntas se ve un mayor incremento en la amplitud.</p> 
-Un caso contrario ocurrió para el canal 1 y 2 donde se observa una mínima amplitud, estos corresponden al FP1-F3-C3 los cuáles se ubican en el lóbulo frontal izquierdo.</p>
-
-<p align="center"><img src="https://i.imgur.com/0MHKduk.png" width="70%"></p>
-<p align="center">Figura 12. Explicación de lo que se encarga el hemisferio derecho e izquierdo. [10]</p>
-
-<p align="center"><img src="https://i.imgur.com/I3K4YSs.jpg" width="100%"></p>   
-<p align="center">Figura 13. Frecuencias de los 8 canales.</p>
+### 1
 
 ### 3. **Señal con Bitalino** <a name="id14"></a>
 ####  **Videos utilizando el Bitalino** <a name="id15"></a>
@@ -222,9 +195,9 @@ Un caso contrario ocurrió para el canal 1 y 2 donde se observa una mínima ampl
 |:------------------------------------------:|:---------:|
 | **Fase de referencia de 30 segundos**                     |<video src="https://user-images.githubusercontent.com/128627001/233433130-74e1f631-57b8-41d9-8dc4-dcd53a9f2d0f.mp4">|
 | **Realizando secuencia de OJOS ABIERTOS - OJOS CERRADOS** |<video src="https://user-images.githubusercontent.com/128627001/233433248-e4648f16-ceac-4c42-b650-0853c8717613.mp4">|
-|                **Respondiendo preguntas categoría simple** |<video src="https://user-images.githubusercontent.com/128627001/233433318-5b2c0ddb-5e23-4794-8f56-6cc35eefba0e.mp4">|
-|                **Respondiendo preguntas categoría compleja** |<video src="https://user-images.githubusercontent.com/128627001/233433394-42610a9a-4101-4d07-a59d-6cc748af243c.mp4">|
-|                **Reacción a la luz artificial** |<video src="https://user-images.githubusercontent.com/128627001/233433534-2aebb116-354d-4ba0-9717-40c2a81b055b.mp4">|
+|          **Respondiendo preguntas categoría simple** |<video src="https://user-images.githubusercontent.com/128627001/233433318-5b2c0ddb-5e23-4794-8f56-6cc35eefba0e.mp4">|
+|          **Respondiendo preguntas categoría cultura general** |<video src="https://user-images.githubusercontent.com/128627001/233433394-42610a9a-4101-4d07-a59d-6cc748af243c.mp4">|
+
 ####  **Análisis de las gráficas** <a name="id16"></a>
 <p align="center"><img src="/ISB/Laboratorios/Imagenes/entregable5/S1.png" width="100%"></p>
 <p align="center"><img src="/ISB/Laboratorios/Imagenes/entregable5/S2.png" width="100%"></p>
@@ -232,7 +205,7 @@ Un caso contrario ocurrió para el canal 1 y 2 donde se observa una mínima ampl
 <p align="center"><img src="/ISB/Laboratorios/Imagenes/entregable5/S4.png" width="100%"></p>
 <p align="center"><img src="/ISB/Laboratorios/Imagenes/entregable5/S5.png" width="100%"></p>
 
-En el Bitalino, al realizar la medición, trabajan con un sensor de EEG el cuál brinda la señal medida como la diferencia amplificada entre las dos señales de medición que se filtra con un paso de banda de 0,8-48Hz para eliminar la señales no deseadas.[3]
+releeeeeeeeeeeeeeeennnnnnnnnnnnnnnnnnnnnnnar con eustra dataaaaaaaaaaaaaaaaaaaaaaaaaEn el Bitalino, al realizar la medición, trabajan con un sensor de EEG el cuál brinda la señal medida como la diferencia amplificada entre las dos señales de medición que se filtra con un paso de banda de 0,8-48Hz para eliminar la señales no deseadas.[3]
 Asimismo, al considerar la posición de los electrodos del Bitalino los cuales fueron en fp1 y fp2, estas regiones están relacionadas con diversas funciones cognitivas y emocionales.
 De las 5 gráficas la que tiene mayor amplitud es en la que se expone al sujeto a una luz parpadeante luego de tener los ojos vendados por un periodo de tiempo.
 
@@ -244,15 +217,12 @@ Las ondas beta se generan en las regiones posterior y frontal. se correlacionan 
 - Con respecto al bitalino, la mayor amplitud en las señales EEG durante la exposición a la luz parpadeante después de tener los ojos vendados podría deberse a la respuesta de frecuencia de parpadeo y la mayor sensibilidad del sistema visual debido a la privación sensorial previa.
     
 ## **Referencias** <a name="id18"></a>
-1.  J. M. Kumar and V. K. Mittal, "EEG Data Acquisition System and Analysis of EEG Signals," 2021 2nd International Conference for Emerging Technology (INCET), Belagavi, India, 2021, pp. 1-5, doi: 10.1109/INCET51464.2021.9456431.</p>
-2.   Tomasz Piotrowski, Jan Nikadon, Alexander Moiseev c, “Localization of brain activity from EEG/MEG using MV-PURE framework”, Biomedical Signal Processing and control, Elsevier, 21st,oct,2020,pp- 1-14.</p>
-3.   BITalino, “BITalino HOME-GUIDE #3 ELECTROENCEPHALOGRAPHY (EEG) Exploring Brain signals” 2020 Accessed: Apr. 19, 2023. [Online]. Available from:https://bitalino.com/storage/uploads/media/homeguide3-eeg.pdf </p>
-4.   D. De Electrotecnia, A. Noelia, and B. Cicchino, “UNIVERSIDAD NACIONAL DE LA PLATA FACULTAD DE INGENIERÍA Tesis presentada para la obtención del grado de MAGISTER EN INGENIERÍA.” Available: http://sedici.unlp.edu.ar/bitstream/handle/10915/32602/Documento_completo__.pdf?sequence=3&isAllowed=y</p>
-5. D. De Electrónica, “UNIVERSIDAD DE ALCALÁ Tema 5 Electroencefalografía.” Available: http://www.hca.es/huca/web/enfermeria/html/f_archivos/electroencefalografia.pdf?fbclid=IwAR3phj1ifwaCuPO8-udtqTg3AEHP716M-DzemN_ohP1RP7v9dXYLeBK76wQ</p>
-6. C. S. Nayak and A. C. Anilkumar, “EEG Normal Waveforms,” Nih.gov, Jan. 21, 2023. https://www.ncbi.nlm.nih.gov/books/NBK539805/#:~:text=However%2C%20the%20most%20frequently%20used,beta%20(13%20to%2030Hz) (accessed Apr. 19, 2023).</p>
-7. Priyanka A. Abhang, Bharti W. Gawali, Suresh C. Mehrotra, "Chapter 2 - Technological Basics of EEG Recording and Operation of Apparatus", Introduction to EEG- and Speech-Based Emotion Recognition, Academic Press, 2016, pp. 19-50, doi: 10.1016/B978-0-12-804490-2.00002-6.</p>
-‌8. AnestesiaR, “Electroencefalografí­a en Cuidados Crí­ticos,” AnestesiaR, Sep. 28, 2012. https://anestesiar.org/2012/electroencefalografia-en-cuidados-criticos/ (accessed Apr. 20, 2023).</p>
-‌9. “Cerebral Cortex: What It Is, Function & Location,” Cleveland Clinic, 2022. https://my.clevelandclinic.org/health/articles/23073-cerebral-cortex (accessed Apr. 20, 2023).</p>
-‌10. “Left and Right Hemisphere of the Brain | Functions & Characteristics,” The Human Memory, Oct. 29, 2019. https://human-memory.net/left-and-right-hemisphere-of-the-brain/ (accessed Apr. 20, 2023).
+1. Maimon NB, Molcho L, Intrator N, Lamy D. Single-channel EEG features during n-back task correlate with working memory load. *arXiv preprint* arXiv:2008.04987. 2020. Disponible en: https://arxiv.org/abs/2008.04987
+2. Pagnotta MF, Riddle J, D'Esposito M. Multiplexed levels of cognitive control through delta and theta neural oscillations. *J Cogn Neurosci.* 2024 May 1;36(5):916–935. Disponible en: https://pubmed.ncbi.nlm.nih.gov/38319885/
+3. Martínez-Molina MP, Valdebenito-Oyarzo G, Soto-Icaza P, Zamorano F, Figueroa-Vargas A. Lateral prefrontal theta oscillations causally drive a computational mechanism underlying conflict expectation and adaptation. *Nat Commun.* 2024;15(1):9858. Disponible en: https://www.nature.com/articles/s41467-024-54244-8
+4. Zheng J, Yebra M, Schjetnan AGP, Mosher C, Kalia A, Chung JM, et al. Theta phase precession supports memory formation and retrieval of naturalistic experience in humans. *Nat Hum Behav.* 2024;8(12):1801–1810. Disponible en: https://www.nature.com/articles/s41562-024-01983-9
+5. 6. PLUX Wireless Biosignals. EEG Home Guide. *BITalino Documentation* [Internet]. 2022 [citado 2025 may 1]. Disponible en: [https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide3_EEG.pdf](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide3_EEG.pdf)
+
+
 ‌
 ‌
