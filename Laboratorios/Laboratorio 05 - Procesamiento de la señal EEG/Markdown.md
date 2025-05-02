@@ -194,19 +194,19 @@ ___
 
 ### 3. **Señal con Bitalino** <a name="id14"></a>
 ####  **Videos utilizando el Bitalino** <a name="id15"></a>
-|                 **Fase**                 | **Video** |
+|                 **Fase**                 | **Video** | IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg
 |:------------------------------------------:|:---------:|
-| **Fase de referencia de 30 segundos**                     |<video src="https://user-images.githubusercontent.com/128627001/233433130-74e1f631-57b8-41d9-8dc4-dcd53a9f2d0f.mp4">|
-| **Realizando secuencia de OJOS ABIERTOS - OJOS CERRADOS** |<video src="https://user-images.githubusercontent.com/128627001/233433248-e4648f16-ceac-4c42-b650-0853c8717613.mp4">|
-|          **Respondiendo preguntas categoría simple** |<video src="https://user-images.githubusercontent.com/128627001/233433318-5b2c0ddb-5e23-4794-8f56-6cc35eefba0e.mp4">|
-|          **Respondiendo preguntas categoría cultura general** |<video src="https://user-images.githubusercontent.com/128627001/233433394-42610a9a-4101-4d07-a59d-6cc748af243c.mp4">|
+| **Fase de referencia de 30 segundos**                     |<video src=" IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg">|
+| **Realizando secuencia de OJOS ABIERTOS - OJOS CERRADOS** |<video src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg">|
+|          **Respondiendo preguntas categoría simple** |<video src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg">|
+|          **Respondiendo preguntas categoría cultura general** |<video src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg">|
 
 ####  **Análisis de las gráficas** <a name="id16"></a>
-<p align="center"><img src="/ISB/Laboratorios/Imagenes/entregable5/S1.png" width="100%"></p>
-<p align="center"><img src="/ISB/Laboratorios/Imagenes/entregable5/S2.png" width="100%"></p>
-<p align="center"><img src="/ISB/Laboratorios/Imagenes/entregable5/S3.png" width="100%"></p>
-<p align="center"><img src="/ISB/Laboratorios/Imagenes/entregable5/S4.png" width="100%"></p>
-<p align="center"><img src="/ISB/Laboratorios/Imagenes/entregable5/S5.png" width="100%"></p>
+<p align="center"><img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="100%"></p>
+<p align="center"><img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="100%"></p>
+<p align="center"><img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="100%"></p>
+<p align="center"><img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="100%"></p>
+<p align="center"><img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="100%"></p>
 
 releeeeeeeeeeeeeeeennnnnnnnnnnnnnnnnnnnnnnar con eustra dataaaaaaaaaaaaaaaaaaaaaaaaaEn el Bitalino, al realizar la medición, trabajan con un sensor de EEG el cuál brinda la señal medida como la diferencia amplificada entre las dos señales de medición que se filtra con un paso de banda de 0,8-48Hz para eliminar la señales no deseadas.[3]
 Asimismo, al considerar la posición de los electrodos del Bitalino los cuales fueron en fp1 y fp2, estas regiones están relacionadas con diversas funciones cognitivas y emocionales.
