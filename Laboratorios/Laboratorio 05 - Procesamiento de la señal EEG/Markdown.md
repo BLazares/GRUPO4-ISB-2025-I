@@ -29,7 +29,7 @@
 ## **Introducción al laboratorio** <a name="id0"></a>
 
 <p align="center"> 
-  <img src="../IMÁGENES%20Y%20VIDEOS/cefalograma.gif" width="50%" />
+  <img src="IMÁGENES Y VIDEOS/cefalograma.gif" width="50%" />
 </p>
 
 
