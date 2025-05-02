@@ -193,13 +193,15 @@ ___
 ### 1
 
 ### 3. **Señal con Bitalino** <a name="id14"></a>
-####  **Videos utilizando el Bitalino** <a name="id15"></a>
-|                 **Fase**                 | **Video** | IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg
-|:------------------------------------------:|:---------:|
-| **Fase de referencia de 30 segundos**                     |<p align="center"><img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="100%"></p>|
-| **Realizando secuencia de OJOS ABIERTOS - OJOS CERRADOS** |<video src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg">|
-|          **Respondiendo preguntas categoría simple** |<video src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg">|
-|          **Respondiendo preguntas categoría cultura general** |<video src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg">|
+#### **Videos utilizando el Bitalino** <a name="id15"></a>
+
+| **Fase**                                               | **Visualización**                                                                 |
+|--------------------------------------------------------|-----------------------------------------------------------------------------------|
+| **Fase de referencia de 30 segundos**                  | <p align="center"><img src="../IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="60%"></p> |
+| **Realizando secuencia de OJOS ABIERTOS - OJOS CERRADOS** | <p align="center"><img src="../IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="60%"></p> |
+| **Respondiendo preguntas categoría simple**            | <p align="center"><img src="../IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="60%"></p> |
+| **Respondiendo preguntas categoría cultura general**   | <p align="center"><img src="../IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="60%"></p> |
+
 
 ####  **Análisis de las gráficas** <a name="id16"></a>
 <p align="center"><img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="100%"></p>
