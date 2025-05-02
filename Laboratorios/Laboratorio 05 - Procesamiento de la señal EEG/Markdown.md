@@ -179,23 +179,22 @@ Cabe mencionar que el procedimiento se repitió en diferentes sujetos de estudio
 
 ___
 ### 1. **Fotos de conexión usada** <a name="id11"></a>
-<p align="center"><img src="/ISB/Laboratorios/Imagenes/entregable5/IMG_20230419_112630.jpg" width=60%></p>
+### 1. <strong>Fotos de conexión usada</strong> <a name="id11"></a>
+
+<p align="center"><img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="40%"></p>
 <p align="center">Figura 8. Posición de los electrodos en el Bitalino (vista frontal).</p>
 
-<p align="center"><img src="/ISB/Laboratorios/Imagenes/entregable5/IMG_20230419_112617.jpg" width=60% ></p>
+<p align="center"><img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="40%"></p>
+<p align="center">Figura 9. Posición de los electrodos en el Bitalino (vista lateral).</p>
 
-<p align="center">Figura 9. Posición de los electrodos en el vitalino (vista lateral).</p>
-
-<p align="center"><img src="/ISB/Laboratorios/Imagenes/entregable5/IMG_20230419_115212.jpg" width="400" height="600"></p>
+<p align="center"><img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="40%"></p>
 <p align="center">Figura 10. Posición de los electrodos del ULTRACORTEX "MARK IV" (vista posterior).</p>
 
-<p align="center"><img src="/ISB/Laboratorios/Imagenes/entregable5/IMG_20230419_115202.jpg" width="400" height="600"></p>
+<p align="center"><img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="40%"></p>
 <p align="center">Figura 11. Posición de los electrodos del ULTRACORTEX "MARK IV" (vista posterior).</p>
-### 1. **Fotos de conexión usada** <a name="id11"></a>
 
-| ![Figura 8](IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg) <br> *Figura 8. Vista frontal del Bitalino* | ![Figura 9](IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg) <br> *Figura 9. Vista lateral del Bitalino* |
-|:-------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------:|
-| ![Figura 10](IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg) <br> *Figura 10. ULTRACORTEX vista posterior* | ![Figura 11](IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg) <br> *Figura 11. ULTRACORTEX vista posterior* |
+
+
 
 ### 2. **Señal con Bitalino** <a name="id14"></a>
 | Etapa                 | Indicaciones                                                                                                       | Toma             |
