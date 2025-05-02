@@ -112,16 +112,17 @@ En el laboratorio  de EEG se utilizo el kit de bitalino   y 3 electrodos
 
 
 
-### **Procedimiento <a name="id7"></a>
-*A continuación se describen los pasos realizados durante el laboratorio para la adquisición de señales EEG utilizando el sistema BITalino:
+### **Procedimiento** <a name="id7"></a>
 
--Se preparó el área de trabajo, asegurando un entorno sin ruidos eléctricos ni movimientos innecesarios.
--Se limpió con alcohol la piel en los puntos de colocación de los electrodos para mejorar la conductividad.
--Se conectó el sensor EEG de BITalino al módulo principal mediante los pines correspondientes (IN+, IN− y referencia).
-*Se colocaron dos electrodos en la frente (zona FP1 o FP2, según la prueba) y un electrodo de referencia detrás de la oreja.
--Se conectó el dispositivo BITalino a la laptop mediante Bluetooth y se abrió el software OpenSignals (r)evolution.
--Se configuró el software con una frecuencia de muestreo de al menos 100 Hz, adecuada para capturar ondas cerebrales hasta 50 Hz.
--Se inició la grabación con el sujeto relajado, en posición cómoda, evitando movimientos faciales, parpadeos o tensión muscular.
+*A continuación se describen los pasos realizados durante el laboratorio para la adquisición de señales EEG utilizando el sistema BITalino:*
+
+1. Se preparó el área de trabajo, asegurando un entorno sin ruidos eléctricos ni movimientos innecesarios.  
+2. Se limpió con alcohol la piel en los puntos de colocación de los electrodos para mejorar la conductividad.  
+3. Se conectó el sensor EEG de BITalino al módulo principal mediante los pines correspondientes (IN+, IN− y referencia).  
+4. Se colocaron dos electrodos en la frente (zona **FP1 o FP2**, según la prueba) y un electrodo de referencia detrás de la oreja.  
+5. Se conectó el dispositivo BITalino a la laptop mediante Bluetooth y se abrió el software **OpenSignals (r)evolution**.  
+6. Se configuró el software con una frecuencia de muestreo de al menos **100 Hz**, adecuada para capturar ondas cerebrales hasta 50 Hz.  
+7. Se inició la grabación con el sujeto relajado, en posición cómoda, evitando movimientos faciales, parpadeos o tensión muscular.
 
 
 
@@ -156,7 +157,7 @@ A continuación, se describe detalladamente el procedimiento realizado:
 | 6–12       | Libre              | Actividad de preguntas de cultura general de todo tipo             |
 
 </div>
-#### **Notas importantes durante la adquisición**
+#### Notas importantes durante la adquisición**
 
 - Durante las condiciones **basales**, se buscó registrar actividad con la menor cantidad posible de artefactos musculares y oculares.
 - En la **tarea cognitiva**, se esperó un incremento en la actividad beta asociada al esfuerzo mental.
