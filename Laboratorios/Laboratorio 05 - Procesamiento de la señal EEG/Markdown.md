@@ -196,7 +196,7 @@ ___
 ####  **Videos utilizando el Bitalino** <a name="id15"></a>
 |                 **Fase**                 | **Video** | IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg
 |:------------------------------------------:|:---------:|
-| **Fase de referencia de 30 segundos**                     |<video src=" IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg">|
+| **Fase de referencia de 30 segundos**                     |<p align="center"><img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="100%"></p>|
 | **Realizando secuencia de OJOS ABIERTOS - OJOS CERRADOS** |<video src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg">|
 |          **Respondiendo preguntas categoría simple** |<video src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg">|
 |          **Respondiendo preguntas categoría cultura general** |<video src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg">|
