@@ -126,37 +126,42 @@ En el laboratorio  de EEG se utilizo el kit de bitalino   y 3 electrodos
 
 
 ### **Protocolo de adquisición** <a name="id9"></a>
+
+
+
 La adquisición de señales EEG con el sistema BITalino se llevó a cabo utilizando electrodos de gel autoadhesivos conectados al sensor EEG ensamblado y gestionado a través del software OpenSignals. El objetivo fue registrar la actividad cerebral bajo diferentes condiciones controladas, siguiendo una secuencia experimental definida.
-    A continuación, se describe detalladamente el procedimiento realizado:
-    Configuración inicial
-        Se conectó el sensor EEG al canal correspondiente del BITalino.
-        Se colocaron dos electrodos activos en la región frontal de la cabeza: FP1 y FP2, de acuerdo con el sistema 10-20 internacional.
-        Se colocó el electrodo de referencia en la región ósea detrás de la oreja (mastoides).
-        Se verificó la conectividad vía Bluetooth con el software OpenSignals y se ajustó la frecuencia de muestreo.
 
-1. **Posición de electrodo bipolar (fp1-fp2)**
-    <p align="center"> <img src="https://i.imgur.com/8IGiiIx.png" width="50%" /></p>
+A continuación, se describe detalladamente el procedimiento realizado:
+ <p align="center"> <img src="https://i.imgur.com/8IGiiIx.png" width="50%" /></p>
     
-    <p align="center"> Figura 6. Colocación de electrodos EEG del Bitalino. </p>
+<p align="center"> Figura 6. Colocación de electrodos EEG del Bitalino. </p>
 
-2. **Adquisición de datos**
-    1. Abrir el software OpenSignals y conectar el Bitalino
-    2. Conectar el sensor EEG al canal especificado del Bitalino según la ficha técnica.
-    3. Colocar los electrodos húmedos con el debido gel en los pines de los sensores EEG.
-    4. Colocar los electrodos instalados en la zona fp1 y fp2 de la cabeza del participante. Tener en cuenta las recomendaciones del tipo de electrodo detallado en la sección anterior.
-    5. Color el electrodo de referencia en la zona interoposterior de la oreja.
-    6. Empezar con el procedimiento de registro:</p>
-        a. Registrar una línea base de señal con poco ruido y sin movimientos (respiración normal,sin movimientos oculares/ojos cerrados) durante 30 segundos.</p>
-        b.  Repetir un ciclo de OJOS ABIERTOS - OJOS CERRADOS cinco veces, manteniendo ambasfases durante cinco segundos.</p>
-        c. Registre otra fase de referencia de 30 segundos (paso 1).</p>
-        d. Que uno de tus compañeros lea en voz alta una serie de ejercicios matemáticos (verindicaciones abajo) y resuelve cada uno de ellos mentalmente enfocando tu mirada en unpunto específico para evitar artefactos.</p>
-        <p align="center"> <img src="https://i.imgur.com/Ulv3Rrn.jpg" width="100%" /></p>
-        <p align="center"> Figura 7. Preguntas de distinta complejidad. </p>
-        e. Detenga la grabación y guarde sus datos.</p>
-    7. Como una adquisición extra de señales, seguir los siguientes pasos:</p>
-        a. Vendar los ojos al sujeto de estudio por 30 segundos.</p>
-        b. Usar una luz intermitente y ver la reacción de la vista del sujeto.</p>
-        c. Recolectar las señales y guardar la información.</p>
+#### **Configuración inicial**
+
+- Se conectó el sensor EEG al canal correspondiente del BITalino.
+- Se colocaron **dos electrodos activos** en la región frontal de la cabeza: **FP1 y FP2**, de acuerdo con el sistema 10-20 internacional.
+- Se colocó el **electrodo de referencia** en la región ósea detrás de la oreja (mastoides).
+- Se verificó la conectividad vía **Bluetooth** con el software OpenSignals y se ajustó la frecuencia de muestreo.
+
+#### **Secuencia de registro (12 minutos)**
+
+| **Minuto** | **Condición**      | **Detalle**                                                              |
+|------------|--------------------|---------------------------------------------------------------------------|
+| 0–1        | Basal 1            | Ojos abiertos, fijar la vista en un punto fijo                           |
+| 1–2        | Basal 2            | Ojos cerrados                                                             |
+| 2–4        | Tarea cognitiva    | Restar 7 desde 100 en silencio o realizar cálculos mentales              |
+| 4–6        | Artefactos         | Parpadear cada 2 segundos y masticar                                     |
+| 6–12       | Libre              | Actividad de preguntas de cultura general de todo tipo                   |
+
+#### **Notas importantes durante la adquisición**
+
+- Durante las condiciones **basales**, se buscó registrar actividad con la menor cantidad posible de artefactos musculares y oculares.
+- En la **tarea cognitiva**, se esperó un incremento en la actividad beta asociada al esfuerzo mental.
+- En la fase de **artefactos**, se introdujeron movimientos controlados (parpadeo y masticación) para identificar su efecto en la señal.
+- En la fase **libre**, el grupo diseñó una condición personalizada, la cual fue utilizada para comparar los efectos en distintas bandas de frecuencia cerebral.
+
+
+
 
 
 Cabe mencionar que el procedimiento se repitió en diferentes sujetos de estudio.
