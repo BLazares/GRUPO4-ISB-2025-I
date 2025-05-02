@@ -1,4 +1,4 @@
-# **LABORATORIO 5: – Uso de BiTalino para  Electroencefalograma (EEG)**
+F# **LABORATORIO 5: – Uso de BiTalino para  Electroencefalograma (EEG)**
 
 
 
