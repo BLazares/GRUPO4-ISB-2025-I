@@ -110,6 +110,8 @@ En el laboratorio  de EEG se utilizo el kit de bitalino   y 3 electrodos
 | Electrodos con gel    |      3       |
 
 </div>
+<p align="center"> <img src="IMÁGENES Y VIDEOS/Electrodos_lateral" width="60%" /></p>
+<p align="center"> <img src="IMÁGENES Y VIDEOS/Electrodos_total" width="60%" /></p>
 
 <h2><a name="id7"></a>Procedimiento</h2>
 
