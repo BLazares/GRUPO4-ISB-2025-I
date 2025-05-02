@@ -175,6 +175,32 @@ Cabe mencionar que el procedimiento se repitió en diferentes sujetos de estudio
 
  
 ## **Resultados** <a name="id10"></a>
+### 1. <strong>Fotos de conexión usada</strong> <a name="id11"></a>
+
+<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+
+  <div align="center">
+    <img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="50%">
+    <p>Figura 8. Posición de los electrodos en el Bitalino (vista frontal).</p>
+  </div>
+
+  <div align="center">
+    <img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="50%">
+    <p>Figura 9. Posición de los electrodos en el Bitalino (vista lateral).</p>
+  </div>
+
+  <div align="center">
+    <img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="50%">
+    <p>Figura 10. Electrodos del ULTRACORTEX "MARK IV" (vista posterior).</p>
+  </div>
+
+  <div align="center">
+    <img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="50%">
+    <p>Figura 11. Electrodos del ULTRACORTEX "MARK IV" (vista posterior).</p>
+  </div>
+
+</div>
+
 ___
 ### 1. **Fotos de conexión usada** <a name="id11"></a>
 <p align="center"><img src="/ISB/Laboratorios/Imagenes/entregable5/IMG_20230419_112630.jpg" width=60%></p>
