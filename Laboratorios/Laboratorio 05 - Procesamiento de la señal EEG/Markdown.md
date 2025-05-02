@@ -48,7 +48,7 @@ Las señales EEG se clasifican en diferentes bandas de frecuencia, cada una asoc
 El análisis de estas ondas proporciona información valiosa sobre el estado funcional del cerebro, permitiendo la identificación de patrones normales y anómalos. Por ejemplo, alteraciones en la actividad de las ondas gamma han sido observadas en trastornos como la esquizofrenia y el Alzheimer. </p>
 
 <p align="center"> <img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="50%" /></p>
-<p align="center"> Figura 1. Actividad cerebral.[7]</p>
+<p align="center"> Figura 1. Actividad cerebral.</p>
     
 
 
@@ -72,7 +72,7 @@ El análisis de estas ondas proporciona información valiosa sobre el estado fun
 5. Evaluación de lesiones cerebrales
    Tras un traumatismo craneoencefálico, el EEG permite estimar la extensión del daño y monitorear la recuperación neurológica.
 .</p>
-<p align="center"> <img src="https://i.imgur.com/5Nirdvp.png" width="60%" /></p>
+<p align="center"> <img src="IMÁGENES Y VIDEOS/imagen_2.jpg" width="60%" /></p>
 <p align="center"> Figura 3. Aplicación clínica del EEG.</p>
 
 ### Tipos de medición de EEG <a name="id3"></a>
