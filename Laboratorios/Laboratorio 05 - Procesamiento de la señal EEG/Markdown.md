@@ -28,8 +28,11 @@
 
 ## **Introducción al laboratorio** <a name="id0"></a>
 
-<p align="center"> <img src="https://i.imgur.com/Uup0v26.png" width="50%" /></p>
-<p align="center"> Figura 1. Actividad cerebral.[7]</p>
+<p align="center"> 
+  <img src="../IMÁGENES%20Y%20VIDEOS/cefalograma.gif" width="50%" />
+</p>
+
+
 
 ### ¿Qué es EEG? <a name="id1"></a>
 <p align="justify">El electroencefalograma (EEG) es una herramienta fundamental en neurofisiología que permite registrar la actividad eléctrica del cerebro mediante electrodos colocados en el cuero cabelludo. Esta técnica no invasiva capta las oscilaciones eléctricas generadas por las neuronas corticales, reflejando distintos estados funcionales del cerebro.
