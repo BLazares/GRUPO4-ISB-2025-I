@@ -86,7 +86,7 @@ En el laboratorio utilizaremos el sistema **BITalino** para registrar la activid
 
 * Laplaciana:
   Es parecida a la monopolar, pero en lugar de usar un solo electrodo de referencia, se usa el promedio de varios que rodean al electrodo activo. Esto da una señal más precisa, pero es más compleja y no se usará en esta práctica.
-<p align="center"> <img src="https://i.imgur.com/qgZ7UsC.jpg" width="60%" /></p>
+<p align="center"> <img src="IMÁGENES Y VIDEOS/imagen_3.jpg" width="60%" /></p>
 <p align="center"> Figura 4. Montaje para registro: (a) Monopolar (b) Bipolar.[5]</p>
 
 
@@ -136,7 +136,7 @@ En el laboratorio  de EEG se utilizo el kit de bitalino   y 3 electrodos
 La adquisición de señales EEG con el sistema BITalino se llevó a cabo utilizando electrodos de gel autoadhesivos conectados al sensor EEG ensamblado y gestionado a través del software OpenSignals. El objetivo fue registrar la actividad cerebral bajo diferentes condiciones controladas, siguiendo una secuencia experimental definida.
 
 A continuación, se describe detalladamente el procedimiento realizado:
- <p align="center"> <img src="https://i.imgur.com/8IGiiIx.png" width="50%" /></p>
+ <p align="center"> <img src="IMÁGENES Y VIDEOS/imagen_1.jpg" width="50%" /></p>
     
 <p align="center"> Figura 6. Colocación de electrodos EEG del Bitalino. </p>
 
