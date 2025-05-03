@@ -108,6 +108,7 @@ En el laboratorio  de EEG se utilizo el kit de bitalino   y 3 electrodos
 |-----------------------|:------------:|
 | Kit BITalino          |      1       |
 | Laptop                |      1       |
+| Software OpenSignals  |      1       |
 | Electrodos con gel    |      3       |
 
 </div>
@@ -147,20 +148,20 @@ A continuación, se describe detalladamente el procedimiento realizado:
 
 - Se conectó el sensor EEG al canal correspondiente del BITalino.
 - Se colocaron **dos electrodos activos** en la región frontal de la cabeza: **FP1 y FP2**, de acuerdo con el sistema 10-20 internacional.
-- Se colocó el **electrodo de referencia** en la región ósea detrás de la oreja (mastoides).
+- Se colocó el **electrodo de referencia** en la región ósea detrás de la oreja derecha (mastoides).
 - Se verificó la conectividad vía **Bluetooth** con el software OpenSignals y se ajustó la frecuencia de muestreo.
 
 #### **Secuencia de registro (12 minutos)**
 
 <div align="center">
 
-| **Minuto** | **Condición**      | **Detalle**                                                        |
-|:----------:|:------------------:|:------------------------------------------------------------------:|
-| 0–1        | Basal 1            | Ojos abiertos, fijar la vista en un punto fijo                     |
-| 1–2        | Basal 2            | Ojos cerrados                                                      |
-| 2–4        | Tarea cognitiva    | Restar 7 desde 100 en silencio o realizar cálculos mentales        |
-| 4–6        | Artefactos         | Parpadear cada 2 segundos y masticar                               |
-| 6–12       | Libre              | Actividad de preguntas de cultura general de todo tipo             |
+| **Minuto** | **Condición**      | **Detalle**                                                   |
+|:----------:|:------------------:|:-------------------------------------------------------------:|
+| 0–1        | Basal 1            | Ojos abiertos, fijar la vista en un punto fijo                |
+| 1–2        | Basal 2            | Ojos cerrados                                                 |
+| 2–4        | Tarea cognitiva    | Restar 7 desde 100 en silencio                                |
+| 4–6        | Artefactos         | Parpadear cada 2 segundos y masticar                          |
+| 6–12       | Libre              | Actividad de preguntas de cultura general de todo tipo        |
 
 </div>
 #### Notas importantes durante la adquisición**
@@ -171,8 +172,7 @@ A continuación, se describe detalladamente el procedimiento realizado:
 - En la fase **libre**, el grupo diseñó una condición personalizada, la cual fue utilizada para comparar los efectos en distintas bandas de frecuencia cerebral.
 
 
-### **Fotos de conexión usada** <a name="id11"></a>
-### <strong>Fotos de conexión usada</strong> <a name="id11"></a>
+### <strong>Fotos de conexión usada</strong> <a name="id10"></a>
 
 <p align="center"> <img src="IMÁGENES Y VIDEOS/Electrodos_lateral" width="60%" /></p>
 <p align="center">Figura 8. Posición de los electrodos en el sujeto de prueba - Vista lateral).</p>
@@ -195,7 +195,7 @@ A continuación, se describe detalladamente el procedimiento realizado:
 
 
  
-## **Resultados** <a name="id10"></a>
+## **Resultados** <a name="id11"></a>
 
 
 ___
