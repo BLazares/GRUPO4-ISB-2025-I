@@ -15,14 +15,14 @@ F# **LABORATORIO 5: – Uso de BiTalino para  Electroencefalograma (EEG)**
 3. [Materiales y equipos](#id6)
 4. [Procedimiento](#id7)\
 4.1 [Medición y Adquisición por electrodos](#id8)\
-4.2 [Protocolo de adquisición](#id9)
-5. [Resultados](#id10)\
-5.1 [Fotos de conexión usada](#id11)\
-5.2 [Señal con MarckOpenBCI4](#id12)\
-    5.2.1 [Gráficas del OpenBCI](#id13)\
-5.3 [Señal con Bitalino](#id14)\
-    5.3.1 [Videos utilizando el Bitalino](#id15)\
-    5.3.2 [Análisis de gráficas](#id16)
+4.2 [Protocolo de adquisición](#id9)\
+4.3 [Fotos de conexión usada](#id10)
+5. [Resultados](#id11)\
+5.1[Señal con MarckOpenBCI4](#id12)\
+    5.1.1 [Gráficas del OpenBCI](#id13)\
+5.2 [Señal con Bitalino](#id14)\
+    5.2.1 [Videos utilizando el Bitalino](#id15)\
+    5.2.2 [Análisis de gráficas](#id16)
 6. [Conclusiones](#id17)
 7. [Referencias](#id18)
 
@@ -55,7 +55,7 @@ El análisis de estas ondas proporciona información valiosa sobre el estado fun
 
 ### Aplicaciones <a name="id2"></a>
 ---
-<p align="justify"> El electroencefalograma (EEG) es una herramienta diagnóstica no invasiva que registra la actividad eléctrica cerebral a través de electrodos colocados en el cuero cabelludo. Su capacidad para detectar alteraciones en los patrones de ondas cerebrales lo convierte en un recurso valioso en diversas aplicaciones :
+<p align="justify"> Su capacidad para detectar alteraciones en los patrones de ondas cerebrales lo convierte en un recurso valioso en diversas aplicaciones :
 
 1. Diagnóstico de epilepsia y trastornos convulsivos
    El EEG es fundamental para identificar descargas epileptiformes y diferenciar entre tipos de crisis epilépticas, facilitando un tratamiento adecuado.
@@ -93,9 +93,10 @@ En el laboratorio utilizaremos el sistema **BITalino** para registrar la activid
 ### ¿De qué forma obtenemos la señal? <a name="id4"></a>
 ---
 En el laboratorio  de EEG se utilizo el kit de bitalino   y 3 electrodos
+
 ## **Objetivos** <a name="id5"></a>
 - Establecer un conocimiento teórico y práctico sobre la utilización y adquisición de señales EEG.
-- Adquirir señales EEG biomédicas
+- Adquirir señales EEG biomédicas usando el kit BITalino
 
 ---
 
@@ -121,12 +122,12 @@ En el laboratorio  de EEG se utilizo el kit de bitalino   y 3 electrodos
 
 *A continuación se describen los pasos realizados durante el laboratorio para la adquisición de señales EEG utilizando el sistema BITalino:*
 
-1. Se preparó el área de trabajo, asegurando un entorno sin ruidos eléctricos ni movimientos innecesarios.  
+1. Se preparó el área de trabajo, asegurando un entorno sin ruidos eléctricos ni movimientos innecesarios. Se le coloco audifonos sin música y se le tapa con una manta.
 2. Se limpió con alcohol la piel en los puntos de colocación de los electrodos para mejorar la conductividad.  
 3. Se conectó el sensor EEG de BITalino al módulo principal mediante los pines correspondientes (IN+, IN− y referencia).  
-4. Se colocaron dos electrodos en la frente (zona **FP1 o FP2**, según la prueba) y un electrodo de referencia detrás de la oreja.  
+4. Se colocaron dos electrodos en la frente (zona **FP1 o FP2**, según la prueba) y un electrodo de referencia detrás de la oreja derecha.  
 5. Se conectó el dispositivo BITalino a la laptop mediante Bluetooth y se abrió el software **OpenSignals (r)evolution**.  
-6. Se configuró el software con una frecuencia de muestreo de al menos **100 Hz**, adecuada para capturar ondas cerebrales hasta 50 Hz.  
+6. Se configuró el software con una frecuencia de muestreo de al menos **100 Hz**, adecuada para capturar ondas cerebrales hasta 50 Hz en la función de EEG.  
 7. Se inició la grabación con el sujeto relajado, en posición cómoda, evitando movimientos faciales, parpadeos o tensión muscular.
 
 
