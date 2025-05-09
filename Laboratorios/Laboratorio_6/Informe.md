@@ -76,15 +76,14 @@ Se tomó registro de la señal en el usuario en estado de reposo o silencio elé
 
 | Posicionamiento de los electrodos |
 |:--------------:|
-| <img src="image-1.png" alt="Descripción de la imagen" width="300"/> |
+| <img src="imagenyvideos/image-1.png" alt="Descripción de la imagen" width="300"/> |
 | Figura 1 |
-
 
 | Campo | Señal Cruda | Filtro IRR | Filtro FIR |
 |:--------------:|:--------------:|:--------------:|:--------------:|
-| Figura 2. Señal completa| ![alt text](image-19.png)|![alt text](image-5.png)|![alt text](image-32.png)|
-| Figura 3. Reposo | ![alt text](image-18.png)| ![alt text](image-17.png)| ![alt text](image-31.png)|
-| Figura 4. Contracción muscular | ![alt text](image-10.png)| ![alt text](image-6.png)| ![alt text](image-30.png)|
+| Figura 2. Señal completa| ![alt text](imagenyvideos/image-19.png)|![alt text](imagenyvideos/image-5.png)|![alt text](imagenyvideos/image-32.png)|
+| Figura 3. Reposo | ![alt text](imagenyvideos/image-18.png)| ![alt text](imagenyvideos/image-17.png)| ![alt text](imagenyvideos/image-31.png)|
+| Figura 4. Contracción muscular | ![alt text](imagenyvideos/image-10.png)| ![alt text](imagenyvideos/image-6.png)| ![alt text](imagenyvideos/image-30.png)|
 
 ### ECG
 
@@ -94,14 +93,14 @@ Se tomó registro de la señal en el usuario en estado de reposo, hiperventilaci
 
 | Posicionamiento de los electrodos |
 |:--------------:|
-| <img src="image-2.png" alt="Descripción de la imagen" width="300"/> |
+| <img src="imagenyvideos/image-2.png" alt="Descripción de la imagen" width="300"/> |
 | Figura 5 |
 
 | Campo | Señal Cruda | Filtro IRR | Filtro FIR |
 |:--------------:|:--------------:|:--------------:|:--------------:|
-| Figura 6. Estado Basal | ![alt text](image-7.png)| ![alt text](image-20.png) | ![alt text](image-25.png) |
-| Figura 7. Después de ejercicio| ![alt text](image-8.png)| ![alt text](image-21.png)| ![alt text](image-24.png) |
-| Figura 8. Respiraciones largas | ![alt text](image-9.png)| ![alt text](image-22.png)| ![alt text](image-23.png)|
+| Figura 6. Estado Basal | ![alt text](imagenyvideos/image-7.png)| ![alt text](imagenyvideos/image-20.png) | ![alt text](imagenyvideos/image-25.png) |
+| Figura 7. Después de ejercicio| ![alt text](imagenyvideos/image-8.png)| ![alt text](imagenyvideos/image-21.png)| ![alt text](imagenyvideos/image-24.png) |
+| Figura 8. Respiraciones largas | ![alt text](imagenyvideos/image-9.png)| ![alt text](imagenyvideos/image-22.png)| ![alt text](imagenyvideos/image-23.png)|
 
 ### EEG
 
@@ -111,15 +110,16 @@ Se tomó registro de la señal en el usuario en una primera y segunda fase de re
 
 | Posicionamiento de los electrodos |
 |:--------------:|
-| <img src="image-3.png" alt="Descripción de la imagen" width="300"/> |
+| <img src="imagenyvideos/image-3.png" alt="Descripción de la imagen" width="300"/> |
 | Figura X |
 
 | Campo| Señal Cruda | Filtro IRR | Filtro FIR |
 |:--------------:|:--------------:|:--------------:|:--------------:|
-| Figura X. Primera fase de referencia |![alt text](image-36.png) | ![alt text](image-15.png) | ![alt text](image-16.png) |
-| Figura X. Fase 2 - Ciclo de "ojos cerrados-abiertos" |![alt text](image-12.png) |![alt text](image-11.png)|![alt text](image-35.png)|
-| Figura X. Ejercicios mentales simples | ![alt text](image-27.png)| ![alt text](image-26.png)|![alt text](image-33.png) |
-| Figura X. Ejercicios mentales complejo |![alt text](image-29.png)| ![alt text](image-28.png) |![alt text](image-34.png)|
+| Figura X. Primera fase de referencia |![alt text](imagenyvideos/image-36.png) | ![alt text](imagenyvideos/image-15.png) | ![alt text](imagenyvideos/image-16.png) |
+| Figura X. Fase 2 - Ciclo de "ojos cerrados-abiertos" |![alt text](imagenyvideos/image-12.png) |![alt text](imagenyvideos/image-11.png)|![alt text](imagenyvideos/image-35.png)|
+| Figura X. Ejercicios mentales simples | ![alt text](imagenyvideos/image-27.png)| ![alt text](imagenyvideos/image-26.png)|![alt text](imagenyvideos/image-33.png) |
+| Figura X. Ejercicios mentales complejo |![alt text](imagenyvideos/image-29.png)| ![alt text](imagenyvideos/image-28.png) |![alt text](imagenyvideos/image-34.png)|
+
 
 
 ## Código en Python
