@@ -15,18 +15,6 @@
 - Aplicar filtros IRR y FIR a señales de EMG, ECG y EEG.
 - Analizar las señales tras aplicar los filtros.
 
-
-
-<h2 align="center">Materiales</h2>
-
-<div align="center">
-
-| Material | Cantidad |
-|:--------------:|:--------------:|
-| Programa *Python* | N.A |
-
-</div>
-
 <h2 align="center">Materiales</h2>
 
 <div align="center">
