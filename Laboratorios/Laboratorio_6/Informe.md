@@ -88,7 +88,7 @@ Se tomó registro de la señal en el usuario en estado de reposo, hiperventilaci
 | Campo | Señal Cruda | Filtro IRR | Filtro FIR |
 |:--------------:|:--------------:|:--------------:|:--------------:|
 | Figura 6. Estado Basal | ![alt text](imagenyvideos/image-7.png)| ![alt text](imagenyvideos/image-20.png) | ![alt text](imagenyvideos/image-25.png) |
-| Figura 7. Respiración controlada ![alt text](imagenyvideos/image-8.png)| ![alt text](imagenyvideos/image-21.png)| ![alt text](imagenyvideos/image-24.png) |
+| Figura 7. Respiración controlada |![alt text](imagenyvideos/image-8.png)| ![alt text](imagenyvideos/image-21.png)| ![alt text](imagenyvideos/image-24.png) |
 | Figura 8. Ejercicio intenso| ![alt text](imagenyvideos/image-9.png)| ![alt text](imagenyvideos/image-22.png)| ![alt text](imagenyvideos/image-23.png)|
 | Figura 8. Respiración prolongada | ![alt text](imagenyvideos/image-9.png)| ![alt text](imagenyvideos/image-22.png)| ![alt text](imagenyvideos/image-23.png)|
 ### EEG
