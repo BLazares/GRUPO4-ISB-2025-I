@@ -199,19 +199,7 @@ ___
 | Tarea cognitiva( 2 minutos) | Registre otra fase de referencia de 30 segundos                                                              | <video src="https://github.com/AndreaRazuriMadrid/intro-senales-biomedicas/assets/157930025/ad29e4ad-b436-4184-9fb4-75859c0570c3" width="50%" height="50%"></video> |
 | Artefactos(2 minutos) | Que uno de tus compañeros lea en voz alta una serie de ejercicios matemáticos (*) y resuelve cada uno de ellos mentalmente enfocando tu mirada en un punto específico para evitar artefactos. | <video src="https://github.com/AndreaRazuriMadrid/intro-senales-biomedicas/assets/157930025/e48396e2-c8de-45c2-9273-54a04c8cb4a1" width="50%" height="50%"></video> |
 | Preguntas complejas(6 minutos) | Que uno de tus compañeros lea en voz alta una serie de ejercicios matemáticos (*) y resuelve cada uno de ellos mentalmente enfocando tu mirada en un punto específico para evitar artefactos. | <video src="https://github.com/AndreaRazuriMadrid/intro-senales-biomedicas/assets/157930025/e48396e2-c8de-45c2-9273-54a04c8cb4a1" width="50%" height="50%"></video> |
-####  **Análisis de las gráficas** <a name="id16"></a>
-| **Etapa**                    | **Análisis de las gráficas**                                                                                                                 | **Resultado**                                                                                       |
-|-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
-| **Basal 1 (60 segundos)**    | Se observarán ondas alfa predominantes (8–12 Hz) con patrón rítmico y baja interferencia muscular. Ideal para establecer una línea base.     | <p align="center"><img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="50%"></p>                   |
-| **Basal 2 (60 segundos)**    | Se observará un cambio claro en la señal: al abrir los ojos, disminuye la actividad alfa (bloqueo), al cerrarlos vuelve a incrementarse.     | <p align="center"><img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="50%"></p>                   |
-| **Tarea cognitiva (2 minutos)** | Aumenta la actividad beta (13–30 Hz) debido al esfuerzo mental. Picos más irregulares y frecuencia más alta en regiones frontales.             | <p align="center"><img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="50%"></p>                   |
-| **Artefactos (2 minutos)**   | Se detectarán señales contaminadas por parpadeo (oscilaciones lentas) y masticación (ruido de alta frecuencia), no vinculadas a ondas cerebrales. | <p align="center"><img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="50%"></p>                   |
-| **Preguntas complejas (6 minutos)** | Predominio de actividad beta con variaciones posibles por fatiga o distracción (aparición de theta). Puede observarse menor regularidad en la señal. | <p align="center"><img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="50%"></p>                   |
 
-
-releeeeeeeeeeeeeeeennnnnnnnnnnnnnnnnnnnnnnar con eustra dataaaaaaaaaaaaaaaaaaaaaaaaaEn el Bitalino, al realizar la medición, trabajan con un sensor de EEG el cuál brinda la señal medida como la diferencia amplificada entre las dos señales de medición que se filtra con un paso de banda de 0,8-48Hz para eliminar la señales no deseadas.[3]
-Asimismo, al considerar la posición de los electrodos del Bitalino los cuales fueron en fp1 y fp2, estas regiones están relacionadas con diversas funciones cognitivas y emocionales.
-De las 5 gráficas la que tiene mayor amplitud es en la que se expone al sujeto a una luz parpadeante luego de tener los ojos vendados por un periodo de tiempo.
 
 
 ## **Conclusiones** <a name="id17"></a>
