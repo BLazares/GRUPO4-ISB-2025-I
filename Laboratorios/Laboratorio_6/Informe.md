@@ -1,6 +1,6 @@
 # Laboratorio 6 - Filtros digitales
 <p align="center"> <img src="imagenyvideos/FILTROS.png" width="50%" /></p>
-<p align="center"> Figura 1. Diferencia fILTRO FIR VS IRR</p>
+<p align="center"> Figura 1. Diferencia entre los filtros FIR VS IRR</p>
 
 ## Tabla de contenidos
 1. [Objetivos](#objetivos)
@@ -12,7 +12,7 @@
 7. [Referencias](#referencias)
   
 ##  Objetivos<a name="objetivos"></a>
-- Comprender los fundamentos de filtros digitales, especialmente los IRR y FIR
+- Comprender los fundamentos de filtros digitales, especialmente los IRR y FIR.
 - Aplicar filtros IRR y FIR a señales de EMG, ECG y EEG.
 - Analizar las señales tras aplicar los filtros.
 
@@ -33,7 +33,7 @@
 ### Filtros digitales
 Actualmente, los filtros digitales ofrecen una mayor flexibilidad frente a sus equivalentes analógicos, principalmente porque se implementan mediante software en lugar de hardware, lo que permite adaptar sus parámetros con facilidad en tiempo real. Esto es especialmente útil en aplicaciones donde las condiciones de operación varían constantemente. A diferencia de los filtros analógicos, los digitales no están condicionados por las tolerancias de los componentes electrónicos, eliminando la necesidad de ajustes físicos para su calibración. Como resultado, el comportamiento de los algoritmos digitales es altamente predecible y repetible. Además, los filtros digitales permiten trabajar con señales de frecuencias extremadamente bajas, sin los inconvenientes que suelen presentar los sistemas analógicos en este rango.
 
-En aplicaciones biomédicas como el electromiograma (EMG), electrocardiograma (ECG) y electroencefalograma (EEG), se han desarrollado estrategias para eliminar interferencias de la red eléctrica y variaciones en el nivel de referencia de las señales. Estas estrategias emplean filtrado digital en tiempo real, favorecidas por la disponibilidad de microcontroladores y microprocesadores de bajo costo que facilitan la implementación eficiente de algoritmos de filtrado.
+En aplicaciones biomédicas como en: el electromiograma (EMG), el electrocardiograma (ECG) y el electroencefalograma (EEG), se han desarrollado estrategias para eliminar interferencias de la red eléctrica y variaciones en el nivel de referencia de las señales. Estas estrategias emplean filtrado digital en tiempo real, favorecidas por la disponibilidad de microcontroladores y microprocesadores de bajo costo que facilitan la implementación eficiente de algoritmos de filtrado.
 
 Dentro del procesamiento digital de señales, los filtros más comúnmente utilizados son los FIR (Finite Impulse Response) y los IIR (Infinite Impulse Response). Ambos se diferencian no solo en su estructura matemática, sino también en sus métodos de diseño. Los filtros IIR se caracterizan por utilizar una combinación de ceros y polos en su función de transferencia, mientras que los FIR se construyen únicamente con ceros y se definen por un polinomio en términos de la variable z, lo que les confiere propiedades de estabilidad y linealidad en fase útiles en diversas aplicaciones.
 
@@ -51,15 +51,15 @@ El objetivo en su diseño es aproximar lo mejor posible una respuesta en frecuen
 
 
 ### Diseño del Filtro para Señales EMG
-Para el tratamiento de señales electromiográficas, se optó por un filtro digital IIR del tipo Butterworth, debido a su amplio uso en el procesamiento de señales biológicas y su eficacia demostrada en la supresión de ruidos de alta y baja frecuencia. El diseño seleccionado replica las características utilizadas en estudios previos exitosos, incluyendo un filtro pasa altas de segundo orden con una frecuencia de corte de 10 Hz, un filtro pasa bajas de octavo orden con una frecuencia de corte de 400 Hz, y una serie de seis filtros notch o rechaza banda de segundo orden para eliminar la interferencia de 60 Hz y sus armónicos hasta los 360 Hz.
+Para el tratamiento de señales electromiográficas, se optó por un filtro digital IIR del tipo *Butterworth*, debido a su amplio uso en el procesamiento de señales biológicas y su eficacia demostrada en la supresión de ruidos de alta y baja frecuencia. El diseño seleccionado replica las características utilizadas en estudios previos exitosos, incluyendo un filtro pasa altas de segundo orden con una frecuencia de corte de 10 Hz, un filtro pasa bajas de octavo orden con una frecuencia de corte de 400 Hz, y una serie de seis filtros notch o rechaza banda de segundo orden para eliminar la interferencia de 60 Hz y sus armónicos hasta los 360 Hz.
 
-Adicionalmente, se incorporó un filtro FIR con ventana de tipo Hamming y una frecuencia de corte de 30 Hz, cuyo objetivo es mitigar la contaminación generada por la actividad eléctrica cardíaca. Esta configuración ha sido recomendada en investigaciones que analizan la superposición del ECG en la señal EMG, particularmente en estudios donde se requiere un alto grado de limpieza para fines de análisis biomecánico o clínico.
+Adicionalmente, se incorporó un filtro FIR con ventana de tipo *Hamming* y una frecuencia de corte de 30 Hz, cuyo objetivo es mitigar la contaminación generada por la actividad eléctrica cardíaca. Esta configuración ha sido recomendada en investigaciones que analizan la superposición del ECG en la señal EMG, particularmente en estudios donde se requiere un alto grado de limpieza para fines de análisis biomecánico o clínico.
 
 ### Diseño del Filtro para Señales ECG
-En el caso de las señales electrocardiográficas, se realizó una evaluación comparativa de filtros IIR, incluyendo los de tipo Butterworth y Chebyshev. Los resultados más consistentes en cuanto a supresión de ruido y preservación de la señal se obtuvieron mediante un filtro Butterworth pasa bajas de octavo orden, con una frecuencia de corte de 60 Hz. Este tipo de filtro ha demostrado generar una alta relación señal-ruido (SNR), lo que asegura una adecuada conservación de las características morfológicas del ECG. Por tanto, esta configuración fue seleccionada para el diseño del filtro IIR, dado su balance entre atenuación de interferencias y fidelidad de la señal cardíaca.
+En el caso de las señales electrocardiográficas, se realizó una evaluación comparativa de filtros IIR, incluyendo los de tipo *Butterworth* y *Chebyshev*. Los resultados más consistentes en cuanto a supresión de ruido y preservación de la señal se obtuvieron mediante un filtro Butterworth pasa bajas de octavo orden, con una frecuencia de corte de 60 Hz. Este tipo de filtro ha demostrado generar una alta relación señal-ruido (SNR), lo que asegura una adecuada conservación de las características morfológicas del ECG. Por tanto, esta configuración fue seleccionada para el diseño del filtro IIR, dado su balance entre atenuación de interferencias y fidelidad de la señal cardíaca.
 
 ### Diseño del Filtro para Señales EEG
-Las señales electroencefalográficas suelen verse afectadas por artefactos generados por movimientos musculares, como los producidos al hablar, parpadear o mover los ojos. Estos artefactos tienden a contaminar la banda de interés neurológica, dificultando el análisis de patrones cerebrales. Para minimizar este tipo de interferencia, se implementó un filtro Butterworth pasa bajas de octavo orden con una frecuencia de corte de 35 Hz. Esta elección permite preservar las componentes útiles del EEG, especialmente en bandas como alfa y beta, mientras se eliminan frecuencias más altas típicamente asociadas a actividad muscular.
+Las señales electroencefalográficas suelen verse afectadas por artefactos generados por movimientos musculares, como los producidos al hablar, parpadear o mover los ojos. Estos artefactos tienden a contaminar la banda de interés neurológica, dificultando el análisis de patrones cerebrales. Para minimizar este tipo de interferencia, se implementó un filtro *Butterworth* pasa bajas de octavo orden con una frecuencia de corte de 35 Hz. Esta elección permite preservar las componentes útiles del EEG, especialmente en bandas como alfa y beta, mientras se eliminan frecuencias más altas típicamente asociadas a actividad muscular.
 
 
 ## Resultados <a name="resultados"></a>
