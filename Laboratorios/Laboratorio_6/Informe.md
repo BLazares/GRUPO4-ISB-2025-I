@@ -27,6 +27,16 @@
 
 </div>
 
+<h2 align="center">Materiales</h2>
+
+<div align="center">
+
+| Material | Cantidad | Imagen |
+|:--------------:|:--------------:|:--------------:|
+| Programa *Python* | N.A | ![alt text](imagenyvideos/Python.png) |
+
+</div>
+
 ## Introducción
 
 <div style="text-align: justify;">
