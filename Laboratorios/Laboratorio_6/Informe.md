@@ -23,19 +23,19 @@
 
 <div style="text-align: justify;">
 
-__Filtros digitales__
+###Filtros digitales
 Actualmente, los filtros digitales ofrecen una mayor flexibilidad frente a sus equivalentes analógicos, principalmente porque se implementan mediante software en lugar de hardware, lo que permite adaptar sus parámetros con facilidad en tiempo real. Esto es especialmente útil en aplicaciones donde las condiciones de operación varían constantemente. A diferencia de los filtros analógicos, los digitales no están condicionados por las tolerancias de los componentes electrónicos, eliminando la necesidad de ajustes físicos para su calibración. Como resultado, el comportamiento de los algoritmos digitales es altamente predecible y repetible. Además, los filtros digitales permiten trabajar con señales de frecuencias extremadamente bajas, sin los inconvenientes que suelen presentar los sistemas analógicos en este rango.
 
 En aplicaciones biomédicas como el electromiograma (EMG), electrocardiograma (ECG) y electroencefalograma (EEG), se han desarrollado estrategias para eliminar interferencias de la red eléctrica y variaciones en el nivel de referencia de las señales. Estas estrategias emplean filtrado digital en tiempo real, favorecidas por la disponibilidad de microcontroladores y microprocesadores de bajo costo que facilitan la implementación eficiente de algoritmos de filtrado.
 
 Dentro del procesamiento digital de señales, los filtros más comúnmente utilizados son los FIR (Finite Impulse Response) y los IIR (Infinite Impulse Response). Ambos se diferencian no solo en su estructura matemática, sino también en sus métodos de diseño. Los filtros IIR se caracterizan por utilizar una combinación de ceros y polos en su función de transferencia, mientras que los FIR se construyen únicamente con ceros y se definen por un polinomio en términos de la variable z, lo que les confiere propiedades de estabilidad y linealidad en fase útiles en diversas aplicaciones.
 
-__Filtros IIR__
+###Filtros IIR
 El enfoque más utilizado para diseñar filtros IIR es la transformación bilineal, que adapta filtros analógicos clásicos, como el Butterworth, al dominio digital. Esta técnica permite aprovechar expresiones analíticas establecidas para obtener funciones de transferencia estables. Sin embargo, una de sus limitaciones radica en que, en muchos casos, el número de ceros y polos es igual, lo que puede restringir el rendimiento del filtro en ciertos escenarios. En algunos diseños, es preferible contar con más ceros que polos para obtener un mejor compromiso entre precisión y eficiencia computacional.
 
 El filtro pasabajos de Butterworth sigue siendo una elección popular en el análisis de señales biomecánicas debido a su respuesta uniforme en la banda de paso y su capacidad para suavizar señales con transiciones suaves. No obstante, su naturaleza subamortiguada puede inducir errores durante cambios rápidos en la señal, lo que implica que podría sobreestimar o subestimar los valores reales en dichos eventos.
 
-__Filtros FIR__
+###Filtros FIR
 Los filtros FIR destacan por su estabilidad inherente y por no requerir retroalimentación, ya que su salida depende únicamente de las entradas actuales y pasadas, pero no de salidas anteriores. No obstante, esta característica también los hace más complejos desde el punto de vista computacional, ya que requieren un mayor número de coeficientes y operaciones para replicar una respuesta deseada. A diferencia de los IIR, los FIR no tienen una metodología de diseño directa basada en el dominio del tiempo continuo, por lo que su construcción suele implicar métodos numéricos como la ventana de Hamming, algoritmos iterativos de optimización, o técnicas como Parks-McClellan.
 
 El objetivo en su diseño es aproximar lo mejor posible una respuesta en frecuencia deseada, minimizando el error entre la respuesta ideal y la implementada con un número limitado de coeficientes. Este enfoque los convierte en una herramienta poderosa en contextos donde se requiere una respuesta de fase lineal y una gran precisión, a costa de una mayor demanda computacional.
