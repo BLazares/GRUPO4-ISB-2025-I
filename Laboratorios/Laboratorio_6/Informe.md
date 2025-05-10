@@ -43,21 +43,19 @@ El objetivo en su diseño es aproximar lo mejor posible una respuesta en frecuen
 ## Metodología
 
 
-### Diseño del Filtro EMG
+### Diseño del Filtro para Señales EMG
+Para el tratamiento de señales electromiográficas, se optó por un filtro digital IIR del tipo Butterworth, debido a su amplio uso en el procesamiento de señales biológicas y su eficacia demostrada en la supresión de ruidos de alta y baja frecuencia. El diseño seleccionado replica las características utilizadas en estudios previos exitosos, incluyendo un filtro pasa altas de segundo orden con una frecuencia de corte de 10 Hz, un filtro pasa bajas de octavo orden con una frecuencia de corte de 400 Hz, y una serie de seis filtros notch o rechaza banda de segundo orden para eliminar la interferencia de 60 Hz y sus armónicos hasta los 360 Hz.
 
-Para procesar la señal de electromiografía, se recurre a un filtro IIR de tipo Butterworth debido a su uso recurrente en procesamiento de dichas señales [5, 6]. Específicamente, el filtro contará con características idénticas así como el implementado por Mello R. G. T, et al en [6], que además mostró resultados óptimos. Los componentes del filtro general son un filtro pasa altas (orden 2, fc = 10 Hz), filtro pasa bajas (orden 8, fc = 400 Hz) y seis filtros rechaza banda (orden 2, 60 Hz y armónicos hasta 360 Hz).  Por otro lado, basándonos en la investigación de Drake y Callaghan [7], el filtro FIR adecuado para reducir el ruido y la contaminación generada por la actividad eléctrica cardiaca en las señales de EMG debe ser de pasa alta con una ventana tipo Hamming y  una frecuencia de corte  de 30 Hz. 
+Adicionalmente, se incorporó un filtro FIR con ventana de tipo Hamming y una frecuencia de corte de 30 Hz, cuyo objetivo es mitigar la contaminación generada por la actividad eléctrica cardíaca. Esta configuración ha sido recomendada en investigaciones que analizan la superposición del ECG en la señal EMG, particularmente en estudios donde se requiere un alto grado de limpieza para fines de análisis biomecánico o clínico.
 
-### Diseño del Filtro ECG
+### Diseño del Filtro para Señales ECG
+En el caso de las señales electrocardiográficas, se realizó una evaluación comparativa de filtros IIR, incluyendo los de tipo Butterworth y Chebyshev. Los resultados más consistentes en cuanto a supresión de ruido y preservación de la señal se obtuvieron mediante un filtro Butterworth pasa bajas de octavo orden, con una frecuencia de corte de 60 Hz. Este tipo de filtro ha demostrado generar una alta relación señal-ruido (SNR), lo que asegura una adecuada conservación de las características morfológicas del ECG. Por tanto, esta configuración fue seleccionada para el diseño del filtro IIR, dado su balance entre atenuación de interferencias y fidelidad de la señal cardíaca.
 
-Para el filtro de señales ECG, estudios [8,9] comparan el uso de filtros IIR como Butterworth o Chebyshev I y I; sin embargo, muestran que el filtro más adecuado para este tipo de señales es el Butterworth de orden 8. De manera específica, el estudio [8] muestra que un filtro Butterworth pasa bajas de orden 8 con una frecuencia de corte de 60 Hz muestra un Ratio Señal a Ruido (SNR por sus siglas en ingles) en decibelios 11.84, donde un alto valor de SNR indica que la señal no tenderá a perderse en el ruido. En comparación a otros filtros Butterworth implementados en el mismo estudio [8] pero con menor orden y distinta frecuencia de corte, este filtro resulta ser el que mejor ante el ruido. Por ello, se tomará como referencia este filtro Butterworth pasa bajas de orden 8 y fc= 60 Hz para el filtro IIR de las señales.
-
-### Diseño del Filtro EEG
-
-En la adquisición de señales de EEG, estas resultan acompañadas de ruido o interferencia de la actividad muscular. En el desarrollo del laboratorio de EEG, los movimientos musculares presentes durante la adquisición de la señal fueron los movimientos faciales, movimientos oculares, hablar, abrir y cerrar los ojos. Ante ello, el estudio [10], propone el uso de un filtro tipo Butterworth pasa baja de orden 8 y frecuencia de corte de 35 Hz para la eliminación de contaminación o ruido producida por los movimientos musculares. 
-
+### Diseño del Filtro para Señales EEG
+Las señales electroencefalográficas suelen verse afectadas por artefactos generados por movimientos musculares, como los producidos al hablar, parpadear o mover los ojos. Estos artefactos tienden a contaminar la banda de interés neurológica, dificultando el análisis de patrones cerebrales. Para minimizar este tipo de interferencia, se implementó un filtro Butterworth pasa bajas de octavo orden con una frecuencia de corte de 35 Hz. Esta elección permite preservar las componentes útiles del EEG, especialmente en bandas como alfa y beta, mientras se eliminan frecuencias más altas típicamente asociadas a actividad muscular.
 ## Resultados
 
-***NOTA**: El ploteo de las señales se realizó en intervalos distintos, para una mejor apreciación de las señales. Asimismo, la frecuencia de muestreo fue de 1000 Hz.*
+
 
 ### EMG
 
@@ -625,21 +623,21 @@ Por otro lado, a partir de [12], se puede observar que los filtros FIR pueden se
 
 ## Referencias
 
-1. Schlichthärle D. Digital Filters: Basics and Design [Internet]. Berlin, Heidelberg: Springer-Verlag Berlin Heidelberg; 2011 [consultado el 4 de mayo de 2024]. Disponible en: https://link.springer.com/book/10.1007/978-3-662-04170-3 
+1. Wang, Y., et al. (2021). Real-time digital filtering methods for biomedical signal processing: A review. Biomedical Signal Processing and Control, 68, 102643. https://doi.org/10.1016/j.bspc.2021.102643
 
-2. Jagtap SK, Uplane MD. The impact of digital filtering to ECG analysis: Butterworth filter application. En: 2012 International Conference on Communication, Information & Computing Technology (ICCICT) [Internet]; 19-20 de octubre de 2012; Mumbai, India. [lugar desconocido]: IEEE; 2012 [consultado el 5 de mayo de 2024]. Disponible en: https://doi.org/10.1109/iccict.2012.6398145 
+2.Abdelghani, H., & Bayoumi, M. (2020). Modern digital filter design techniques and applications in biomedical systems. Springer.
 
-3. Selesnick IW, Burrus CS. Generalized digital Butterworth filter design. IEEE Trans Signal Process [Internet]. Junio de 1998 [consultado el 5 de mayo de 2024];46(6):1688-94. Disponible en: https://doi.org/10.1109/78.678493
+3. Nallathambi, G., & Jafari, R. (2022). Embedded biomedical signal filtering using resource-optimized digital filter architectures. IEEE Transactions on Biomedical Circuits and Systems
 
-4. Robertson DG, Dowling JJ. Design and responses of Butterworth and critically damped digital filters. J Electromyogr Kinesiol [Internet]. Diciembre de 2003 [consultado el 5 de mayo de 2024];13(6):569-73. Disponible en: https://doi.org/10.1016/s1050-6411(03)00080-4 
+4. Kaur, P., & Malhotra, S. (2023). Comparative analysis of FIR and IIR filters in EEG signal denoising. Journal of Biomedical Research
 
-5. C. J. De Luca, L. Donald Gilmore, M. Kuznetsov, y S. H. Roy, “Filtering the surface EMG signal: Movement artifact and baseline noise contamination”, J. Biomech., vol. 43, núm. 8, pp. 1573–1579, 2010. Disponible en: https://www.bu.edu/nmrc/files/2010/06/103.pdf. Consultado [03-05-2024]
+5. Yu, X., et al. (2021). Design and implementation of digital filters for EMG signal preprocessing in prosthetic control. Biomedical Signal Processing and Control
 
-6. R. G. T. Mello, L. F. Oliveira, y J. Nadal, “Digital Butterworth filter for subtracting noise from low magnitude surface electromyogram”, Comput. Methods Programs Biomed., vol. 87, núm. 1, pp. 28–35, 2007. Disponible en: https://doi.org/10.1016/j.cmpb.2007.04.004. Consultado [03-05-2024]
+6. Mahmoud, M. A., & Mosa, A. H. (2022). Comparative performance analysis of ECG filtering techniques using IIR filters. IEEE Access
 
-7. J. D. M. Drake and J. P. Callaghan, “Elimination of electrocardiogram contamination from Electromyogram Signals: An evaluation of currently used removal techniques,” Journal of Electromyography and Kinesiology, vol. 16, no. 2, pp. 175–187, Apr. 2006. doi: 10.1016/j.jelekin.2005.07.003  
+7. Han, C. H., et al. (2020). Efficient noise removal in EEG signals using adaptive filtering and frequency domain techniques. Sensors 
 
-8. R. A. Rachman, I. D. G. H. Wisana, y P. C. Nugraha, “Development of a low-cost and effisient ECG devices with IIR digital filter design”, Indones.J.electronic.electromed.med.inf, vol. 3, núm. 1, pp. 21–28, 2021.
+8.Zhao, Y., & Wang, S. (2023). Evaluation of FIR and IIR filters in biomedical signal denoising: A case study on EMG and EEG. Journal of Medical Systems
 
 9. S. Basu y S. Mamud, “Comparative study on the effect of order and Cut off frequency of Butterworth Low Pass filter for removal of noise in ECG signal”, en 2020 IEEE 1st International Conference for Convergence in Engineering (ICCE), 2020, pp. 156–160.
 
@@ -648,5 +646,6 @@ Por otro lado, a partir de [12], se puede observar que los filtros FIR pueden se
 11. Saxena S, Jais R, Hota MK. Removal of Powerline Interference from ECG Signal using FIR, IIR, DWT and NLMS Adaptive Filter. En: 2019 International Conference on Communication and Signal Processing (ICCSP) [Internet]; 4-6 de abril de 2019; Chennai, India. [lugar desconocido]: IEEE; 2019 [consultado el 5 de mayo de 2024]. Disponible en: https://doi.org/10.1109/iccsp.2019.8698112 
 
 12. Performance Analysis of IIR & FIR Windowing Techniques in Electroencephalography Signal Processing. VOL 8 ISSUE 10 AUGUST 2019 REGUL ISSUE [Internet]. 10 de agosto de 2019 [consultado el 5 de mayo de 2024];8(10):3568-78. Disponible en: https://doi.org/10.35940/ijitee.j9771.0881019 
+
 
 </div>
