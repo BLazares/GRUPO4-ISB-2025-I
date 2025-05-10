@@ -63,7 +63,7 @@ Los resultados analizados en la siguiente tabla se obtuvieron al realizar el EMG
 Los electrodos fueron colocados como se observa en la figura 1. Los electrodos positivo y negativo será colocados en el músculo de interés, en este caso el bíceps mientras que el electrodo de referencia será colocado en una zona neutra como la muñeca.
 Se tomó registro de la señal en el usuario en estado de reposo o silencio eléctrico y realizando la contracción muscular.
 
-| Posicionamiento de los electrodos |
+
 
 <p align="center">
   <img src="imagenyvideos/electrodo_biceps.jpg" alt="Posicionamiento de los electrodos" width="300"/>
@@ -82,7 +82,7 @@ Los resultados analizados en la siguiente tabla se obtuvieron al realizar el ECG
 Los electrodos fueron colocados como se observa en la figura 2. El electrodo positivo se posicionó en la clavícula izquierda, electrodo negativo en la clavícula derecha y electrodo de referencia en la cresta iliaca. 
 Se tomó registro de la señal en el usuario en estado de reposo, hiperventilación, después de hacer ejercicio y al realizar respiraciones largas.
 
-| Posicionamiento de los electrodos |
+
 <p align="center">
   <img src="imagenyvideos/image-2.png" alt="Descripción de la imagen" width="300"/>
 </p>
@@ -101,7 +101,7 @@ Los resultados analizados en la siguiente tabla se obtuvieron al realizar el EEG
 Los electrodos fueron colocados como se observa en la figura 3 de acuerdo a la configuración del sistema internacional 10-20.
 Se tomó registro de la señal en el usuario en una primera y segunda fase de referencia, en ciclos de ojos cerrados y abierto y realizando ejercicios mentales simples y complejos.
 
-| Posicionamiento de los electrodos |
+
 <p align="center">
   <img src="imagenyvideos/electrodoOreja.jpg" alt="Descripción de la imagen" width="300"/>
 </p>
