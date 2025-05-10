@@ -639,7 +639,7 @@ Por otro lado, a partir de [12], se puede observar que los filtros FIR pueden se
 
 1. Wang, Y., et al. (2021). Real-time digital filtering methods for biomedical signal processing: A review. Biomedical Signal Processing and Control, 68, 102643. https://doi.org/10.1016/j.bspc.2021.102643
 
-2.Abdelghani, H., & Bayoumi, M. (2020). Modern digital filter design techniques and applications in biomedical systems. Springer.
+2. Abdelghani, H., & Bayoumi, M. (2020). Modern digital filter design techniques and applications in biomedical systems. Springer.
 
 3. Nallathambi, G., & Jafari, R. (2022). Embedded biomedical signal filtering using resource-optimized digital filter architectures. IEEE Transactions on Biomedical Circuits and Systems
 
@@ -651,13 +651,14 @@ Por otro lado, a partir de [12], se puede observar que los filtros FIR pueden se
 
 7. Han, C. H., et al. (2020). Efficient noise removal in EEG signals using adaptive filtering and frequency domain techniques. Sensors 
 
-8.Zhao, Y., & Wang, S. (2023). Evaluation of FIR and IIR filters in biomedical signal denoising: A case study on EMG and EEG. Journal of Medical Systems
+8. Zhao, Y., & Wang, S. (2023). Evaluation of FIR and IIR filters in biomedical signal denoising: A case study on EMG and EEG. Journal of Medical Systems
 
 9. S. Basu y S. Mamud, “Comparative study on the effect of order and Cut off frequency of Butterworth Low Pass filter for removal of noise in ECG signal”, en 2020 IEEE 1st International Conference for Convergence in Engineering (ICCE), 2020, pp. 156–160.
 
 10. P. V. Dutande, S. L. Nalbalwar, y S. V. Khobragade, “FPGA implementation of filters for removing muscle artefacts from EEG signals”, en 2018 Second International Conference on Intelligent Computing and Control Systems (ICICCS), 2018, pp. 728–732.
 
-11. Saxena S, Jais R, Hota MK. Removal of Powerline Interference from ECG Signal using FIR, IIR, DWT and NLMS Adaptive Filter. En: 2019 International Conference on Communication and Signal Processing (ICCSP) [Internet]; 4-6 de abril de 2019; Chennai, India. [lugar desconocido]: IEEE; 2019 [consultado el 5 de mayo de 2024]. Disponible en: https://doi.org/10.1109/iccsp.2019.8698112 
+11. Saxena S, Jais R, Hota MK. Removal of Powerline Interference from ECG Signal using FIR, IIR, DWT and NLMS Adaptive Filter. En: 2019 International Conference on Communication and Signal Processing (ICCSP) [Internet]; 4-6 de abril de 2019; Chennai, India. [lugar 
+    desconocido]: IEEE; 2019 [consultado el 5 de mayo de 2024]. Disponible en: https://doi.org/10.1109/iccsp.2019.8698112 
 
 12. Performance Analysis of IIR & FIR Windowing Techniques in Electroencephalography Signal Processing. VOL 8 ISSUE 10 AUGUST 2019 REGUL ISSUE [Internet]. 10 de agosto de 2019 [consultado el 5 de mayo de 2024];8(10):3568-78. Disponible en: https://doi.org/10.35940/ijitee.j9771.0881019 
 
