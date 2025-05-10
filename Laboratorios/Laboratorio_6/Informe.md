@@ -1,5 +1,6 @@
 # Lab 6 - Filtros digitales
-
+<p align="center"> <img src="imagenyvideos/FILTROS.png" width="50%" /></p>
+<p align="center"> Figura 1. Diferencia fILTRO FIR VS IRR</p>
 ## Tabla de contenidos
 - [Objetivos](#objetivos)
 - [Materiales](#materiales)
