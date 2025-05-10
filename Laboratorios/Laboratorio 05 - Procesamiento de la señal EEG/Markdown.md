@@ -180,17 +180,7 @@ A continuación, se describe detalladamente el procedimiento realizado:
 <p align="center"> <img src="IMÁGENES Y VIDEOS/Electrodos_total" width="60%" /></p>
 <p align="center">Figura 8. Posición de los electrodos en el  sujeto de prueba - Vista general.</p>
 
-<p align="center"><img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="40%"></p>
-<p align="center">Figura 8. Posición de los electrodos en el Bitalino (vista frontal).</p>
 
-<p align="center"><img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="40%"></p>
-<p align="center">Figura 9. Posición de los electrodos en el Bitalino (vista lateral).</p>
-
-<p align="center"><img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="40%"></p>
-<p align="center">Figura 10. Posición de los electrodos del ULTRACORTEX "MARK IV" (vista posterior).</p>
-
-<p align="center"><img src="IMÁGENES Y VIDEOS/IMAGEN_ONDAS.jpg" width="40%"></p>
-<p align="center">Figura 11. Posición de los electrodos del ULTRACORTEX "MARK IV" (vista posterior).</p>
 
 
 
