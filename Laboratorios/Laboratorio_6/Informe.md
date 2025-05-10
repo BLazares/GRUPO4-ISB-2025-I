@@ -19,6 +19,16 @@
 |:--------------:|:--------------:|
 | Programa *Python* | N.A | 
 
+<h2 align="center">Materiales</h2>
+
+<div align="center">
+
+| Material | Cantidad |
+|:--------------:|:--------------:|
+| Programa *Python* | N.A |
+
+</div>
+
 ## Introducción
 
 <div style="text-align: justify;">
