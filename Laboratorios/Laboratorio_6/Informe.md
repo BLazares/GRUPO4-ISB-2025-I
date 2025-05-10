@@ -6,7 +6,7 @@
 1. [Objetivos](#objetivos)
 2. [Materiales](#materiales)
 3. [Introducción](#introduccion)
-4. [Metolodogía](#metodología)
+4. [Metolodogía](#metodologia)
 5. [Resultados](#resultados)
 6. [Discusión de resultados](#Explicación/-Discusión-de-resultados)
 7. [Referencias](#referencias)
@@ -16,7 +16,7 @@
 - Aplicar filtros IRR y FIR a señales de EMG, ECG y EEG.
 - Analizar las señales tras aplicar los filtros.
 
-<h2 align="center">Materiales</h2>
+<h2 align="center">Materiales</h2><a name="materiales"></a>
 
 <div align="center">
 
@@ -26,11 +26,11 @@
 
 </div>
 
-## Introducción
+## Introducción <a name="introduccion"></a>
 
 <div style="text-align: justify;">
 
-### iltros digitales
+### Filtros digitales
 Actualmente, los filtros digitales ofrecen una mayor flexibilidad frente a sus equivalentes analógicos, principalmente porque se implementan mediante software en lugar de hardware, lo que permite adaptar sus parámetros con facilidad en tiempo real. Esto es especialmente útil en aplicaciones donde las condiciones de operación varían constantemente. A diferencia de los filtros analógicos, los digitales no están condicionados por las tolerancias de los componentes electrónicos, eliminando la necesidad de ajustes físicos para su calibración. Como resultado, el comportamiento de los algoritmos digitales es altamente predecible y repetible. Además, los filtros digitales permiten trabajar con señales de frecuencias extremadamente bajas, sin los inconvenientes que suelen presentar los sistemas analógicos en este rango.
 
 En aplicaciones biomédicas como el electromiograma (EMG), electrocardiograma (ECG) y electroencefalograma (EEG), se han desarrollado estrategias para eliminar interferencias de la red eléctrica y variaciones en el nivel de referencia de las señales. Estas estrategias emplean filtrado digital en tiempo real, favorecidas por la disponibilidad de microcontroladores y microprocesadores de bajo costo que facilitan la implementación eficiente de algoritmos de filtrado.
@@ -47,7 +47,7 @@ Los filtros FIR destacan por su estabilidad inherente y por no requerir retroali
 
 El objetivo en su diseño es aproximar lo mejor posible una respuesta en frecuencia deseada, minimizando el error entre la respuesta ideal y la implementada con un número limitado de coeficientes. Este enfoque los convierte en una herramienta poderosa en contextos donde se requiere una respuesta de fase lineal y una gran precisión, a costa de una mayor demanda computacional.
 
-## Metodología
+## Metodología <a name="metodologia"></a>
 
 
 ### Diseño del Filtro para Señales EMG
@@ -60,9 +60,9 @@ En el caso de las señales electrocardiográficas, se realizó una evaluación c
 
 ### Diseño del Filtro para Señales EEG
 Las señales electroencefalográficas suelen verse afectadas por artefactos generados por movimientos musculares, como los producidos al hablar, parpadear o mover los ojos. Estos artefactos tienden a contaminar la banda de interés neurológica, dificultando el análisis de patrones cerebrales. Para minimizar este tipo de interferencia, se implementó un filtro Butterworth pasa bajas de octavo orden con una frecuencia de corte de 35 Hz. Esta elección permite preservar las componentes útiles del EEG, especialmente en bandas como alfa y beta, mientras se eliminan frecuencias más altas típicamente asociadas a actividad muscular.
-## Resultados
 
 
+## Resultados <a name="resultados"></a>
 
 ### EMG
 
@@ -601,7 +601,7 @@ plt.grid(True)
 plt.margins(0, 0.05)
 ```
 
-## Discusión de resultados
+## Discusión de resultados <a name="Explicación/-Discusión-de-resultados"></a>
 
 ### EMG
 
@@ -636,7 +636,7 @@ Las señales de EEG son señales de muy baja frecuencia que pueden ser contamina
 Por otro lado, a partir de [12], se puede observar que los filtros FIR pueden ser mas efectivos que los IIR al momento de purificar las señales. Esto se puede apreciar claramente en los _ploteos_ mostrados; en ellos se observa que las señal procesada por los filtros FIR posee menos picos locales y menos artefactos.
 
 
-## Referencias
+## Referencias <a name="referencias"></a>
 
 1. Wang, Y., et al. (2021). Real-time digital filtering methods for biomedical signal processing: A review. Biomedical Signal Processing and Control, 68, 102643. https://doi.org/10.1016/j.bspc.2021.102643
 
