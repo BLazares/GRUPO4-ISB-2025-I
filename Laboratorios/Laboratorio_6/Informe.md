@@ -65,7 +65,7 @@ Se tomó registro de la señal en el usuario en estado de reposo o silencio elé
 
 | Posicionamiento de los electrodos |
 |:--------------:|
-| <img src="imagenyvideos/Electrodos_total.jpg" alt="Descripción de la imagen" width="300"/> |
+| <img src="imagenyvideos/electrodo_biceps.jpg" alt="Descripción de la imagen" width="300"/> |
 | Figura 1 |
 
 | Campo | Señal Cruda | Filtro IRR | Filtro FIR |
