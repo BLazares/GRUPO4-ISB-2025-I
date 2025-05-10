@@ -1,16 +1,17 @@
-# Lab 6 - Filtros digitales
+# Laboratorio 6 - Filtros digitales
 <p align="center"> <img src="imagenyvideos/FILTROS.png" width="50%" /></p>
 <p align="center"> Figura 1. Diferencia fILTRO FIR VS IRR</p>
+
 ## Tabla de contenidos
-- [Objetivos](#objetivos)
-- [Materiales](#materiales)
-- [Introducción](#introduccion)
-- [Metolodogía](#metodología)
-- [Resultados](#resultados)
-- [Discusión de resultados](#Explicación/-Discusión-de-resultados)
-- [Referencias](#referencias)
+1. [Objetivos](#objetivos)
+2. [Materiales](#materiales)
+3. [Introducción](#introduccion)
+4. [Metolodogía](#metodología)
+5. [Resultados](#resultados)
+6. [Discusión de resultados](#Explicación/-Discusión-de-resultados)
+7. [Referencias](#referencias)
   
-##  Objetivos
+##  Objetivos<a name="objetivos"></a>
 - Comprender los fundamentos de filtros digitales, especialmente los IRR y FIR
 - Aplicar filtros IRR y FIR a señales de EMG, ECG y EEG.
 - Analizar las señales tras aplicar los filtros.
