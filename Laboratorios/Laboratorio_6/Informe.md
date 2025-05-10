@@ -8,7 +8,7 @@
 3. [Introducción](#introduccion)
 4. [Metolodogía](#metodologia)
 5. [Resultados](#resultados)
-6. [Discusión de resultados](#Explicación/-Discusión-de-resultados)
+6. [Discusión de resultados](#discusion)
 7. [Referencias](#referencias)
   
 ##  Objetivos<a name="objetivos"></a>
@@ -601,7 +601,7 @@ plt.grid(True)
 plt.margins(0, 0.05)
 ```
 
-## Discusión de resultados <a name="Explicación/-Discusión-de-resultados"></a>
+## Discusión de resultados <a name="discusion"></a>
 
 ### EMG
 
