@@ -65,7 +65,7 @@ Se tomó registro de la señal en el usuario en estado de reposo o silencio elé
 
 | Posicionamiento de los electrodos |
 |:--------------:|
-| <img src="imagenyvideos/image-1.png" alt="Descripción de la imagen" width="300"/> |
+| <img src="imagenyvideos/Electrodos_total.jpg" alt="Descripción de la imagen" width="300"/> |
 | Figura 1 |
 
 | Campo | Señal Cruda | Filtro IRR | Filtro FIR |
@@ -99,7 +99,7 @@ Se tomó registro de la señal en el usuario en una primera y segunda fase de re
 
 | Posicionamiento de los electrodos |
 |:--------------:|
-| <img src="imagenyvideos/image-3.png" alt="Descripción de la imagen" width="300"/> |
+| <img src="imagenyvideos/electrodoOreja.jpg" alt="Descripción de la imagen" width="300"/> |
 | Figura X |
 
 | Campo| Señal Cruda | Filtro IRR | Filtro FIR |
