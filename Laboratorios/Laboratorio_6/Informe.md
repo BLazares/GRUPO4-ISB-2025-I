@@ -64,9 +64,7 @@ Los electrodos fueron colocados como se observa en la figura 1. Los electrodos p
 Se tomó registro de la señal en el usuario en estado de reposo o silencio eléctrico y realizando la contracción muscular.
 
 | Posicionamiento de los electrodos |
-|:--------------:|
-| <img src="imagenyvideos/electrodo_biceps.jpg" alt="Descripción de la imagen" width="300"/> |
-| Figura 1 |
+
 <p align="center">
   <img src="imagenyvideos/electrodo_biceps.jpg" alt="Posicionamiento de los electrodos" width="300"/>
 </p>
@@ -84,9 +82,11 @@ Los electrodos fueron colocados como se observa en la figura 2. El electrodo pos
 Se tomó registro de la señal en el usuario en estado de reposo, hiperventilación, después de hacer ejercicio y al realizar respiraciones largas.
 
 | Posicionamiento de los electrodos |
-|:--------------:|
-| <img src="imagenyvideos/image-2.png" alt="Descripción de la imagen" width="300"/> |
-| Figura 5 |
+<p align="center">
+  <img src="imagenyvideos/image-2.png" alt="Descripción de la imagen" width="300"/>
+</p>
+<p align="center"><b>Figura 5:</b> [Descripción de la imagen]</p>
+
 
 | Campo | Señal Cruda | Filtro IRR | Filtro FIR |
 |:--------------:|:--------------:|:--------------:|:--------------:|
@@ -101,9 +101,11 @@ Los electrodos fueron colocados como se observa en la figura 3 de acuerdo a la c
 Se tomó registro de la señal en el usuario en una primera y segunda fase de referencia, en ciclos de ojos cerrados y abierto y realizando ejercicios mentales simples y complejos.
 
 | Posicionamiento de los electrodos |
-|:--------------:|
-| <img src="imagenyvideos/electrodoOreja.jpg" alt="Descripción de la imagen" width="300"/> |
-| Figura X |
+<p align="center">
+  <img src="imagenyvideos/electrodoOreja.jpg" alt="Descripción de la imagen" width="300"/>
+</p>
+<p align="center"><b>Figura X:</b> [Descripción de la imagen]</p>
+
 
 | Campo| Señal Cruda | Filtro IRR | Filtro FIR |
 |:--------------:|:--------------:|:--------------:|:--------------:|
