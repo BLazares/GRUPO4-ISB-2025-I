@@ -33,7 +33,7 @@
 
 | Material | Cantidad | Imagen |
 |:--------------:|:--------------:|:--------------:|
-| Programa *Python* | N.A | <img src="imagenyvideos/python_logo.png" alt="Python Logo" width="100"/> |
+| Programa *Python* | N.A | <img src="imagenyvideos/python.png" alt="Python Logo" width="100"/> |
 
 </div>
 
