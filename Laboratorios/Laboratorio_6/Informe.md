@@ -70,9 +70,9 @@ Se tomó registro de la señal en el usuario en estado de reposo o silencio elé
 
 | Campo | Señal Cruda | Filtro IRR | Filtro FIR |
 |:--------------:|:--------------:|:--------------:|:--------------:|
-| Figura 2. Señal completa| ![alt text](imagenyvideos/image-19.png)|![alt text](imagenyvideos/image-5.png)|![alt text](imagenyvideos/image-32.png)|
-| Figura 3. Reposo | ![alt text](imagenyvideos/image-18.png)| ![alt text](imagenyvideos/image-17.png)| ![alt text](imagenyvideos/image-31.png)|
-| Figura 4. Contracción muscular | ![alt text](imagenyvideos/image-10.png)| ![alt text](imagenyvideos/image-6.png)| ![alt text](imagenyvideos/image-30.png)|
+| Figura 2. Descanso| ![alt text](imagenyvideos/image-19.png)|![alt text](imagenyvideos/image-5.png)|![alt text](imagenyvideos/image-32.png)|
+| Figura 3. Contracción leve | ![alt text](imagenyvideos/image-18.png)| ![alt text](imagenyvideos/image-17.png)| ![alt text](imagenyvideos/image-31.png)|
+| Figura 4. Contracción fuerte | ![alt text](imagenyvideos/image-10.png)| ![alt text](imagenyvideos/image-6.png)| ![alt text](imagenyvideos/image-30.png)|
 
 ### ECG
 
@@ -88,9 +88,9 @@ Se tomó registro de la señal en el usuario en estado de reposo, hiperventilaci
 | Campo | Señal Cruda | Filtro IRR | Filtro FIR |
 |:--------------:|:--------------:|:--------------:|:--------------:|
 | Figura 6. Estado Basal | ![alt text](imagenyvideos/image-7.png)| ![alt text](imagenyvideos/image-20.png) | ![alt text](imagenyvideos/image-25.png) |
-| Figura 7. Después de ejercicio| ![alt text](imagenyvideos/image-8.png)| ![alt text](imagenyvideos/image-21.png)| ![alt text](imagenyvideos/image-24.png) |
-| Figura 8. Respiraciones largas | ![alt text](imagenyvideos/image-9.png)| ![alt text](imagenyvideos/image-22.png)| ![alt text](imagenyvideos/image-23.png)|
-
+| Figura 7. Respiración controlada ![alt text](imagenyvideos/image-8.png)| ![alt text](imagenyvideos/image-21.png)| ![alt text](imagenyvideos/image-24.png) |
+| Figura 8. Ejercicio intenso| ![alt text](imagenyvideos/image-9.png)| ![alt text](imagenyvideos/image-22.png)| ![alt text](imagenyvideos/image-23.png)|
+| Figura 8. Respiración prolongada | ![alt text](imagenyvideos/image-9.png)| ![alt text](imagenyvideos/image-22.png)| ![alt text](imagenyvideos/image-23.png)|
 ### EEG
 
 Los resultados analizados en la siguiente tabla se obtuvieron al realizar el EEG. 
@@ -104,10 +104,12 @@ Se tomó registro de la señal en el usuario en una primera y segunda fase de re
 
 | Campo| Señal Cruda | Filtro IRR | Filtro FIR |
 |:--------------:|:--------------:|:--------------:|:--------------:|
-| Figura X. Primera fase de referencia |![alt text](imagenyvideos/image-36.png) | ![alt text](imagenyvideos/image-15.png) | ![alt text](imagenyvideos/image-16.png) |
-| Figura X. Fase 2 - Ciclo de "ojos cerrados-abiertos" |![alt text](imagenyvideos/image-12.png) |![alt text](imagenyvideos/image-11.png)|![alt text](imagenyvideos/image-35.png)|
-| Figura X. Ejercicios mentales simples | ![alt text](imagenyvideos/image-27.png)| ![alt text](imagenyvideos/image-26.png)|![alt text](imagenyvideos/image-33.png) |
-| Figura X. Ejercicios mentales complejo |![alt text](imagenyvideos/image-29.png)| ![alt text](imagenyvideos/image-28.png) |![alt text](imagenyvideos/image-34.png)|
+| Figura X. Basal 1 (60 segundos) |![alt text](imagenyvideos/image-36.png) | ![alt text](imagenyvideos/image-15.png) | ![alt text](imagenyvideos/image-16.png) |
+| Figura X. Basal 2 (60 segundos) |![alt text](imagenyvideos/image-12.png) |![alt text](imagenyvideos/image-11.png)|![alt text](imagenyvideos/image-35.png)|
+| Figura X. Tarea cognitiva (2 minutos) | ![alt text](imagenyvideos/image-27.png)| ![alt text](imagenyvideos/image-26.png)|![alt text](imagenyvideos/image-33.png) |
+| Figura X. Artefactos (2 minutos) |![alt text](imagenyvideos/image-29.png)| ![alt text](imagenyvideos/image-28.png) |![alt text](imagenyvideos/image-34.png)|
+| Figura X. Preguntas complejas (6 minutos) |![alt text](imagenyvideos/image-29.png)| ![alt text](imagenyvideos/image-28.png) |![alt text](imagenyvideos/image-34.png)|
+
 
 
 
