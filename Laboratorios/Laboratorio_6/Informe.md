@@ -676,12 +676,12 @@ filename = "REPOSO_ECG_EB1.1.txt"
 # Leer datos, ignorando el encabezado
 data = np.loadtxt(filename, skiprows=3)  # El header ocupa 3 líneas
 
-x = data[:, 5]  # Columna A1 (EMG)
+x = data[:, 5] 
 t = np.arange(len(x)) / fs
 
 # Graficar
 plt.figure(figsize=(10, 4))
-plt.plot(t, x, label='Señal EMG original')
+plt.plot(t, x, label='Señal ECG original')
 plt.title('ECG Señal Cruda (Estado Basal) ')
 plt.xlabel('Tiempo (s)')
 plt.ylabel('Amplitud')
