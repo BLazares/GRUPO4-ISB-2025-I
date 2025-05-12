@@ -716,6 +716,69 @@ plt.ylabel('Amplitud')
 ```
 Se usa el mismo filtro para las otras 3 señales de ECG
 
+------------------
+
+Obtener la señal EEG de Estado Basal 1
+``` python
+from scipy.signal import firwin, remez, firls, freqz
+from scipy.signal import lfilter, filtfilt
+import numpy as np
+import matplotlib.pyplot as plt
+from google.colab import files
+uploaded = files.upload()
+
+fs = 1000  # Frecuencia de muestreo
+nyq = fs / 2  # Frecuencia de Nyquist
+
+filename = "Basal_1.0.txt"
+
+# Leer datos, ignorando el encabezado
+data = np.loadtxt(filename, skiprows=3)  # El header ocupa 3 líneas
+
+x = data[:, 5] 
+t = np.arange(len(x)) / fs
+
+# Graficar
+plt.figure(figsize=(10, 4))
+plt.plot(t, x, label='Señal EEG original')
+plt.title('EEG Señal Cruda (Basal 1) ')
+plt.xlabel('Tiempo (s)')
+plt.ylabel('Amplitud')
+plt.xlim(5, 10)
+plt.grid(True)
+plt.legend()
+plt.show()
+```
+Diseño del filtro Hanning pasa banda entre 8 Hz - 12 Hz
+``` python
+fs = 250  # Frecuencia de muestreo
+nyq = fs / 2  # Frecuencia de Nyquist
+
+# Frecuencias de corte normalizadas (entre 0 y 1)
+low_cutoff = 8 / nyq
+high_cutoff = 12 / nyq
+
+# Orden del filtro
+N = 101  # Debe ser impar para firwin con pasa banda
+
+# Crear el filtro FIR con ventana Hanning
+b_firwin = firwin(numtaps=N, cutoff=[low_cutoff, high_cutoff], window='hann', pass_zero=False)
+```
+Usando el filtro creado FIR
+``` python
+# filtrar con FIR (lfilter)
+y_l = lfilter(b_firwin, 1, x)
+
+# filtrar con zero-phase (filtfilt)
+y_ff = filtfilt(b_firwin, 1, x)
+plt.plot(t[:-50], y_ff[:-50], label='Señal filtrada')
+plt.title('EEG Señal filtrada con filtro FIR (Basal 1)')
+plt.xlabel('Tiempo (s)')
+plt.xlim(5, 10)
+plt.ylabel('Amplitud')
+```
+Se usa el mismo filtro para las otras 4 señales de EEG 
+
 ## Discusión de resultados <a name="discusion"></a>
 
 ### EMG
