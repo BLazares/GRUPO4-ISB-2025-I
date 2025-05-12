@@ -88,9 +88,9 @@ Usando filtro FIR: Blackman Fc=40Hz Y FILTRO IRR:
 
 | Campo | Señal Cruda | Filtro IRR | Filtro FIR |
 |:--------------:|:--------------:|:--------------:|:--------------:|
-| Figura 2. Descanso| ![alt text](imagenyvideos/1.1.1.png)|![alt text](imagenyvideos/1.1.2.png)|![alt text](imagenyvideos/1.1.3.png)|
-| Figura 3. Contracción leve | ![alt text](imagenyvideos/1.2.1.png)| ![alt text](imagenyvideos/1.2.2.png)| ![alt text](imagenyvideos/1.2.3.png)|
-| Figura 4. Contracción fuerte | ![alt text](imagenyvideos/1.3.1.png)| ![alt text](imagenyvideos/1.3.2.png)| ![alt text](imagenyvideos/1.3.3.png)|
+| Figura 2. Descanso| ![alt text](imagenyvideos/1.1.1.png)|![alt text](imagenyvideos/1.1.2.png)|![alt text](imagenyvideos/1.1.3.jpg)|
+| Figura 3. Contracción leve | ![alt text](imagenyvideos/1.2.1.png)| ![alt text](imagenyvideos/1.2.2.png)| ![alt text](imagenyvideos/1.2.3.jpg)|
+| Figura 4. Contracción fuerte | ![alt text](imagenyvideos/1.3.1.png)| ![alt text](imagenyvideos/1.3.2.png)| ![alt text](imagenyvideos/1.3.3.jpg)|
 
 ### ECG
 
@@ -115,10 +115,10 @@ Usando Filtro FIR:Hamming Fc=50 Hz y filtro IRR: ...
 Usando Filtro FIR:Blackman pasa bajos Fc=60 Hz y filtro IRR: 
 | Campo | Señal Cruda | Filtro FIR | Filtro IRR |
 |:--------------:|:--------------:|:--------------:|:--------------:|
-| Figura 6. Estado Basal | ![alt text](imagenyvideos/2.1.1.png)| ![alt text](imagenyvideos/2.1.2.png) | ![alt text](imagenyvideos/2.1.3.png) |
-| Figura 7. Respiración controlada |![alt text](imagenyvideos/2.2.1.png)| ![alt text](imagenyvideos/2.2.2.png)| ![alt text](imagenyvideos/2.2.3.png) |
-| Figura 8. Ejercicio intenso| ![alt text](imagenyvideos/2.3.1.png)| ![alt text](imagenyvideos/2.3.2.png)| ![alt text](imagenyvideos/2.3.3.png)|
-| Figura 8. Respiración prolongada | ![alt text](imagenyvideos/2.4.1.png)| ![alt text](imagenyvideos/2.4.2.png)| ![alt text](imagenyvideos/2.4.3.png)|
+| Figura 6. Estado Basal | ![alt text](imagenyvideos/2.1.1.png)| ![alt text](imagenyvideos/2.1.2.png) | ![alt text](imagenyvideos/2.1.3.jpg) |
+| Figura 7. Respiración controlada |![alt text](imagenyvideos/2.2.1.png)| ![alt text](imagenyvideos/2.2.2.png)| ![alt text](imagenyvideos/2.2.3.jpg) |
+| Figura 8. Ejercicio intenso| ![alt text](imagenyvideos/2.3.1.png)| ![alt text](imagenyvideos/2.3.2.png)| ![alt text](imagenyvideos/2.3.3.jpg)|
+| Figura 8. Respiración prolongada | ![alt text](imagenyvideos/2.4.1.png)| ![alt text](imagenyvideos/2.4.2.png)| ![alt text](imagenyvideos/2.4.3.jpg)|
 
 ### EEG
 
@@ -144,11 +144,11 @@ Usando el filtro FIR: Blackman y el filtro IRR: Butterworth
 Usando el filtro FIR: Hanning pasa banda (8-12 Hz) y Bartlett (8-12 Hz) y el filtro IRR:
 | Campo| Señal Cruda | Filtro FIR Hanning | Filtro FIR Bartlett | Filtro IRR |
 |:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|
-| Figura X. Basal 1 (60 segundos) |![alt text](imagenyvideos/3.1.1.png) | ![alt text](imagenyvideos/3.1.2.png) |![alt text](imagenyvideos/3.1.2.2.png) | ![alt text](imagenyvideos/3.1.3.png) |
-| Figura X. Basal 2 (60 segundos) |![alt text](imagenyvideos/3.2.1.png) |![alt text](imagenyvideos/3.2.2.png)|![alt text](imagenyvideos/3.2.2.2.png) |![alt text](imagenyvideos/3.2.3.png)|
-| Figura X. Tarea cognitiva (2 minutos) | ![alt text](imagenyvideos/3.3.1.png)| ![alt text](imagenyvideos/3.3.2.png)|![alt text](imagenyvideos/3.3.2.2.png) |![alt text](imagenyvideos/3.3.3.png) |
-| Figura X. Artefactos (2 minutos) |![alt text](imagenyvideos/3.4.1.png)| ![alt text](imagenyvideos/3.4.2.png) |![alt text](imagenyvideos/3.4.2.2.png) |![alt text](imagenyvideos/3.4.3.png)|
-| Figura X. Preguntas complejas (6 minutos) |![alt text](imagenyvideos/3.5.1.png)| ![alt text](imagenyvideos/3.5.2.png) |![alt text](imagenyvideos/3.5.2.2.png) |![alt text](imagenyvideos/3.5.3.png)|
+| Figura X. Basal 1 (60 segundos) |![alt text](imagenyvideos/3.1.1.png) | ![alt text](imagenyvideos/3.1.2.png) |![alt text](imagenyvideos/3.1.2.2.png) | ![alt text](imagenyvideos/3.1.3.jpg) |
+| Figura X. Basal 2 (60 segundos) |![alt text](imagenyvideos/3.2.1.png) |![alt text](imagenyvideos/3.2.2.png)|![alt text](imagenyvideos/3.2.2.2.png) |![alt text](imagenyvideos/3.2.3.jpg)|
+| Figura X. Tarea cognitiva (2 minutos) | ![alt text](imagenyvideos/3.3.1.png)| ![alt text](imagenyvideos/3.3.2.png)|![alt text](imagenyvideos/3.3.2.2.png) |![alt text](imagenyvideos/3.3.3.jpg) |
+| Figura X. Artefactos (2 minutos) |![alt text](imagenyvideos/3.4.1.png)| ![alt text](imagenyvideos/3.4.2.png) |![alt text](imagenyvideos/3.4.2.2.png) |![alt text](imagenyvideos/3.4.3.jpg)|
+| Figura X. Preguntas complejas (6 minutos) |![alt text](imagenyvideos/3.5.1.png)| ![alt text](imagenyvideos/3.5.2.png) |![alt text](imagenyvideos/3.5.2.2.png) |![alt text](imagenyvideos/3.5.3.jpg)|
 
 
 ## Código en Python
