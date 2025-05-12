@@ -779,6 +779,23 @@ plt.ylabel('Amplitud')
 ```
 Se usa el mismo filtro para las otras 4 señales de EEG 
 
+Diseño del filtro Bartlett pasa banda entre 8 Hz - 12 Hz
+``` python
+fs = 250  # Frecuencia de muestreo
+nyq = fs / 2  # Frecuencia de Nyquist
+
+# Frecuencias de corte normalizadas (entre 0 y 1)
+low_cutoff = 8 / nyq
+high_cutoff = 12 / nyq
+
+# Orden del filtro
+N = 101  # Debe ser impar para firwin con pasa banda
+
+# Crear el filtro FIR con ventana Hanning
+b_firwin = firwin(numtaps=N, cutoff=[low_cutoff, high_cutoff], window='hann', pass_zero=False)
+```
+Se usa el filtro en las 5 señales de EEG
+
 ## Discusión de resultados <a name="discusion"></a>
 
 ### EMG
