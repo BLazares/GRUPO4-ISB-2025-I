@@ -73,9 +73,9 @@ Se tomó registro de la señal en el usuario en estado de reposo o silencio elé
 
 
 <p align="center">
-  <img src="imagenyvideos/electrodo_biceps.jpg" alt="Posicionamiento de los electrodos" width="300"/>
+  <img src="imagenyvideos/electrodo_biceps.jpg" alt="Posicionamiento de los electrodos en el EMG" width="300"/>
 </p>
-<p align="center"><b>Figura 1:</b> Posicionamiento de los electrodos</p>
+<p align="center"><b>Figura 1:</b> Posicionamiento de los electrodos en el EMG</p>
 
 | Campo | Señal Cruda | Filtro IRR | Filtro FIR |
 |:--------------:|:--------------:|:--------------:|:--------------:|
@@ -101,7 +101,7 @@ Se tomó registro de la señal en el usuario en estado de reposo, hiperventilaci
 <p align="center">
   <img src="imagenyvideos/image-2.png" alt="Descripción de la imagen" width="300"/>
 </p>
-<p align="center"><b>Figura 5:</b> [Descripción de la imagen]</p>
+<p align="center"><b>Figura 5:</b> Posicionamiento de los electrodos en el ECG</p>
 
 
 | Campo | Señal Cruda | Filtro IRR | Filtro FIR |
@@ -127,9 +127,9 @@ Se tomó registro de la señal en el usuario en una primera y segunda fase de re
 
 
 <p align="center">
-  <img src="imagenyvideos/electrodoOreja.jpg" alt="Descripción de la imagen" width="300"/>
+  <img src="imagenyvideos/electrodoOreja.jpg" alt="Posissssssssssss" width="300"/>
 </p>
-<p align="center"><b>Figura X:</b> [Descripción de la imagen]</p>
+<p align="center"><b>Figura X:</b> Posi</p>
 
 
 | Campo| Señal Cruda | Filtro FIR | Filtro IRR |
