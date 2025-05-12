@@ -141,13 +141,13 @@ Se tomó registro de la señal en el usuario en una primera y segunda fase de re
 | Figura X. Preguntas complejas (6 minutos) |![alt text](imagenyvideos/image-29.png)| ![alt text](imagenyvideos/image-28.png) |![alt text](imagenyvideos/image-34.png)|
 
 Usando el filtro FIR: Hanning pasa banda (8-12 Hz) y Bartlett (8-12 Hz) y el filtro IRR:
-| Campo| Señal Cruda | Filtro FIR | Filtro IRR |
-|:--------------:|:--------------:|:--------------:|:--------------:|
-| Figura X. Basal 1 (60 segundos) |![alt text](imagenyvideos/3.1.1.png) | ![alt text](imagenyvideos/3.1.2.png) | ![alt text](imagenyvideos/3.1.3.png) |
-| Figura X. Basal 2 (60 segundos) |![alt text](imagenyvideos/3.2.1.png) |![alt text](imagenyvideos/3.2.2.png)|![alt text](imagenyvideos/3.2.3.png)|
-| Figura X. Tarea cognitiva (2 minutos) | ![alt text](imagenyvideos/3.3.1.png)| ![alt text](imagenyvideos/3.3.2.png)|![alt text](imagenyvideos/3.3.3.png) |
-| Figura X. Artefactos (2 minutos) |![alt text](imagenyvideos/3.4.1.png)| ![alt text](imagenyvideos/3.4.2.png) |![alt text](imagenyvideos/3.4.3.png)|
-| Figura X. Preguntas complejas (6 minutos) |![alt text](imagenyvideos/3.5.1.png)| ![alt text](imagenyvideos/3.5.2.png) |![alt text](imagenyvideos/3.5.3.png)|
+| Campo| Señal Cruda | Filtro FIR Hanning | Filtro FIR Hanning | Filtro IRR |
+|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|
+| Figura X. Basal 1 (60 segundos) |![alt text](imagenyvideos/3.1.1.png) | ![alt text](imagenyvideos/3.1.2.png) |![alt text](imagenyvideos/3.1.2.2.png) | ![alt text](imagenyvideos/3.1.3.png) |
+| Figura X. Basal 2 (60 segundos) |![alt text](imagenyvideos/3.2.1.png) |![alt text](imagenyvideos/3.2.2.png)|![alt text](imagenyvideos/3.2.2.2.png) |![alt text](imagenyvideos/3.2.3.png)|
+| Figura X. Tarea cognitiva (2 minutos) | ![alt text](imagenyvideos/3.3.1.png)| ![alt text](imagenyvideos/3.3.2.png)|![alt text](imagenyvideos/3.3.2.2.png) |![alt text](imagenyvideos/3.3.3.png) |
+| Figura X. Artefactos (2 minutos) |![alt text](imagenyvideos/3.4.1.png)| ![alt text](imagenyvideos/3.4.2.png) |![alt text](imagenyvideos/3.4.2.2.png) |![alt text](imagenyvideos/3.4.3.png)|
+| Figura X. Preguntas complejas (6 minutos) |![alt text](imagenyvideos/3.5.1.png)| ![alt text](imagenyvideos/3.5.2.png) |![alt text](imagenyvideos/3.5.2.2.png) |![alt text](imagenyvideos/3.5.3.png)|
 
 
 ## Código en Python
