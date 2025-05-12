@@ -77,13 +77,14 @@ Se tomó registro de la señal en el usuario en estado de reposo o silencio elé
 </p>
 <p align="center"><b>Figura 1:</b> Posicionamiento de los electrodos para el EMG</p>
 
+Usando filtro FIR: Hamming con Fc = 30Hz Y filtro IRR: Butter.....
 | Campo | Señal Cruda | Filtro IRR | Filtro FIR |
 |:--------------:|:--------------:|:--------------:|:--------------:|
 | Figura 2. Descanso| ![alt text](imagenyvideos/image-19.png)|![alt text](imagenyvideos/image-5.png)|![alt text](imagenyvideos/image-32.png)|
 | Figura 3. Contracción leve | ![alt text](imagenyvideos/image-18.png)| ![alt text](imagenyvideos/image-17.png)| ![alt text](imagenyvideos/image-31.png)|
 | Figura 4. Contracción fuerte | ![alt text](imagenyvideos/image-10.png)| ![alt text](imagenyvideos/image-6.png)| ![alt text](imagenyvideos/image-30.png)|
 
-USANDO FILTRO FIR: Blackman pasa bajos Fc=40Hz Y FILTRO IRR: 
+Usando filtro FIR: Blackman Fc=40Hz Y FILTRO IRR: 
 
 | Campo | Señal Cruda | Filtro IRR | Filtro FIR |
 |:--------------:|:--------------:|:--------------:|:--------------:|
@@ -103,7 +104,7 @@ Se tomó registro de la señal en el usuario en estado de reposo, hiperventilaci
 </p>
 <p align="center"><b>Figura 5:</b> Posicionamiento de los electrodos para el ECG</p>
 
-
+Usando Filtro FIR:Hamming Fc=50 Hz y filtro IRR: ...
 | Campo | Señal Cruda | Filtro IRR | Filtro FIR |
 |:--------------:|:--------------:|:--------------:|:--------------:|
 | Figura 6. Estado Basal | ![alt text](imagenyvideos/image-7.png)| ![alt text](imagenyvideos/image-20.png) | ![alt text](imagenyvideos/image-25.png) |
@@ -131,7 +132,7 @@ Se tomó registro de la señal en el usuario en una primera y segunda fase de re
 </p>
 <p align="center"><b>Figura X:</b> Posi</p>
 
-
+Usando el filtro FIR: Blackman y el filtro IRR: Butter ....
 | Campo| Señal Cruda | Filtro FIR | Filtro IRR |
 |:--------------:|:--------------:|:--------------:|:--------------:|
 | Figura X. Basal 1 (60 segundos) |![alt text](imagenyvideos/image-36.png) | ![alt text](imagenyvideos/image-15.png) | ![alt text](imagenyvideos/image-16.png) |
