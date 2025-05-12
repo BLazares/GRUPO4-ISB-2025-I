@@ -88,8 +88,8 @@ USANDO FILTRO FIR --- Y FILTRO IRR:
 | Campo | Señal Cruda | Filtro IRR | Filtro FIR |
 |:--------------:|:--------------:|:--------------:|:--------------:|
 | Figura 2. Descanso| ![alt text](imagenyvideos/1.1.1)|![alt text](imagenyvideos/1.1.2)|![alt text](imagenyvideos/1.1.3)|
-| Figura 3. Contracción leve | ![alt text](imagenyvideos/1.2.1)| ![alt text](imagenyvideos/1.2.2)| ![alt text](imagenyvideos/1.2.3)|
-| Figura 4. Contracción fuerte | ![alt text](imagenyvideos/1.3.1)| ![alt text](imagenyvideos/1.3.2)| ![alt text](imagenyvideos/1.3.3)|
+| Figura 3. Contracción leve | ![alt text](imagenyvideos/1.2.1.png)| ![alt text](imagenyvideos/1.2.2.png)| ![alt text](imagenyvideos/1.2.3.png)|
+| Figura 4. Contracción fuerte | ![alt text](imagenyvideos/1.3.1.png)| ![alt text](imagenyvideos/1.3.2.png)| ![alt text](imagenyvideos/1.3.3.png)|
 
 ### ECG
 
@@ -115,9 +115,9 @@ Usando Filtro FIR: y filtro IRR:
 | Campo | Señal Cruda | Filtro IRR | Filtro FIR |
 |:--------------:|:--------------:|:--------------:|:--------------:|
 | Figura 6. Estado Basal | ![alt text](imagenyvideos/2.1.1)| ![alt text](imagenyvideos/2.1.2) | ![alt text](imagenyvideos/2.1.3) |
-| Figura 7. Respiración controlada |![alt text](imagenyvideos/2.2.1)| ![alt text](imagenyvideos/2.2.2)| ![alt text](imagenyvideos/2.2.3) |
-| Figura 8. Ejercicio intenso| ![alt text](imagenyvideos/2.3.1)| ![alt text](imagenyvideos/2.3.2)| ![alt text](imagenyvideos/2.3.3)|
-| Figura 8. Respiración prolongada | ![alt text](imagenyvideos/2.4.1)| ![alt text](imagenyvideos/2.4.2)| ![alt text](imagenyvideos/2.4.3)|
+| Figura 7. Respiración controlada |![alt text](imagenyvideos/2.2.1.png)| ![alt text](imagenyvideos/2.2.2.png)| ![alt text](imagenyvideos/2.2.3.png) |
+| Figura 8. Ejercicio intenso| ![alt text](imagenyvideos/2.3.1.png)| ![alt text](imagenyvideos/2.3.2.png)| ![alt text](imagenyvideos/2.3.3.png)|
+| Figura 8. Respiración prolongada | ![alt text](imagenyvideos/2.4.1.png)| ![alt text](imagenyvideos/2.4.2.png)| ![alt text](imagenyvideos/2.4.3.png)|
 
 ### EEG
 
@@ -143,11 +143,11 @@ Se tomó registro de la señal en el usuario en una primera y segunda fase de re
 Usando el filtro FIR: y el filtro IRR:
 | Campo| Señal Cruda | Filtro IRR | Filtro FIR |
 |:--------------:|:--------------:|:--------------:|:--------------:|
-| Figura X. Basal 1 (60 segundos) |![alt text](imagenyvideos/3.1.1) | ![alt text](imagenyvideos/3.1.2) | ![alt text](imagenyvideos/3.1.3) |
-| Figura X. Basal 2 (60 segundos) |![alt text](imagenyvideos/3.2.1) |![alt text](imagenyvideos/3.2.2)|![alt text](imagenyvideos/3.2.3)|
-| Figura X. Tarea cognitiva (2 minutos) | ![alt text](imagenyvideos/3.3.1)| ![alt text](imagenyvideos/3.3.2)|![alt text](imagenyvideos/3.3.3) |
-| Figura X. Artefactos (2 minutos) |![alt text](imagenyvideos/3.4.1)| ![alt text](imagenyvideos/3.4.2) |![alt text](imagenyvideos/3.4.3)|
-| Figura X. Preguntas complejas (6 minutos) |![alt text](imagenyvideos/3.5.1)| ![alt text](imagenyvideos/3.5.2) |![alt text](imagenyvideos/3.5.3)|
+| Figura X. Basal 1 (60 segundos) |![alt text](imagenyvideos/3.1.1.png) | ![alt text](imagenyvideos/3.1.2.png) | ![alt text](imagenyvideos/3.1.3.png) |
+| Figura X. Basal 2 (60 segundos) |![alt text](imagenyvideos/3.2.1.png) |![alt text](imagenyvideos/3.2.2.png)|![alt text](imagenyvideos/3.2.3.png)|
+| Figura X. Tarea cognitiva (2 minutos) | ![alt text](imagenyvideos/3.3.1.png)| ![alt text](imagenyvideos/3.3.2.png)|![alt text](imagenyvideos/3.3.3.png) |
+| Figura X. Artefactos (2 minutos) |![alt text](imagenyvideos/3.4.1.png)| ![alt text](imagenyvideos/3.4.2.png) |![alt text](imagenyvideos/3.4.3.png)|
+| Figura X. Preguntas complejas (6 minutos) |![alt text](imagenyvideos/3.5.1.png)| ![alt text](imagenyvideos/3.5.2.png) |![alt text](imagenyvideos/3.5.3.png)|
 
 
 ## Código en Python
