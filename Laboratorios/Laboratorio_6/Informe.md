@@ -77,7 +77,7 @@ Se tomó registro de la señal en el usuario en estado de reposo o silencio elé
 </p>
 <p align="center"><b>Figura 1:</b> Posicionamiento de los electrodos para el EMG</p>
 
-Usando filtro FIR: Hamming con Fc = 30Hz Y filtro IRR: Butter.....
+Usando filtro FIR: Hamming con Fc = 30Hz Y filtro IRR: Butterworth
 | Campo | Señal Cruda | Filtro IRR | Filtro FIR |
 |:--------------:|:--------------:|:--------------:|:--------------:|
 | Figura 2. Descanso| ![alt text](imagenyvideos/image-19.png)|![alt text](imagenyvideos/image-5.png)|![alt text](imagenyvideos/image-32.png)|
@@ -132,7 +132,7 @@ Se tomó registro de la señal en el usuario en una primera y segunda fase de re
 </p>
 <p align="center"><b>Figura X:</b> Posi</p>
 
-Usando el filtro FIR: Blackman y el filtro IRR: Butter ....
+Usando el filtro FIR: Blackman y el filtro IRR: Butterworth
 | Campo| Señal Cruda | Filtro FIR | Filtro IRR |
 |:--------------:|:--------------:|:--------------:|:--------------:|
 | Figura X. Basal 1 (60 segundos) |![alt text](imagenyvideos/image-36.png) | ![alt text](imagenyvideos/image-15.png) | ![alt text](imagenyvideos/image-16.png) |
