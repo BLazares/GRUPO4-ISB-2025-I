@@ -603,7 +603,7 @@ plt.margins(0, 0.05)
 
 Usando Colab
 
-Obtener la señal EMG de contracción fuerte
+Obtener la señal EMG de contracción fuerte 
 ``` python
 from scipy.signal import firwin, remez, firls, freqz
 from scipy.signal import lfilter, filtfilt
@@ -635,7 +635,7 @@ plt.grid(True)
 plt.legend()
 plt.show()
 ```
-diseño del filtro Blackman pasa bajos de 40 Hz
+Diseño del filtro Blackman pasa bajos de 40 Hz FIR
 ``` python
 fs = 1000           # frecuencia de muestreo
 nyq = fs/2          # frecuencia de Nyquist
@@ -657,6 +657,64 @@ plt.title('EMG Señal filtrada con filtro FIR (Contracción fuerte)')
 ```
 
 Se realizan los mismos pasos para los datos de Reposo y contracción Leve
+
+-------
+Obtener la señal ECG de Estado Basal
+``` python
+from scipy.signal import firwin, remez, firls, freqz
+from scipy.signal import lfilter, filtfilt
+import numpy as np
+import matplotlib.pyplot as plt
+from google.colab import files
+uploaded = files.upload()
+
+fs = 1000  # Frecuencia de muestreo
+nyq = fs / 2  # Frecuencia de Nyquist
+
+filename = "REPOSO_ECG_EB1.1.txt"
+
+# Leer datos, ignorando el encabezado
+data = np.loadtxt(filename, skiprows=3)  # El header ocupa 3 líneas
+
+x = data[:, 5]  # Columna A1 (EMG)
+t = np.arange(len(x)) / fs
+
+# Graficar
+plt.figure(figsize=(10, 4))
+plt.plot(t, x, label='Señal EMG original')
+plt.title('ECG Señal Cruda (Estado Basal) ')
+plt.xlabel('Tiempo (s)')
+plt.ylabel('Amplitud')
+plt.xlim(2.6, 4.5)
+plt.grid(True)
+plt.legend()
+plt.show()
+```
+diseño del filtro Blackman pasa bajos de 60 Hz
+``` python
+fs = 1000           # frecuencia de muestreo
+nyq = fs/2          # frecuencia de Nyquist
+
+N = 90             # orden (número de coeficientes = N+1)
+cutoff = 60        # Hz
+
+#w = firwin(numtaps=M, cutoff=Fc, window='blackman', fs=Fs)
+b_firwin = firwin(numtaps=N, cutoff=cutoff,pass_zero='lowpass', window='blackman', fs=fs) #cutoff/nyq
+```
+Usando el filtro creado FIR
+``` python
+# filtrar con FIR (lfilter)
+y_l = lfilter(b_firwin, 1, x)
+
+# filtrar con zero-phase (filtfilt)
+y_ff = filtfilt(b_firwin, 1, x)
+plt.plot(t[:-50], y_ff[:-50], label='Señal filtrada')
+plt.title('ECG Señal filtrada con filtro FIR (Estado Basal)')
+plt.xlabel('Tiempo (s)')
+plt.xlim(2.6, 4.5)
+plt.ylabel('Amplitud')
+```
+Se usa el mismo filtro para las otras 3 señales de ECG
 
 ## Discusión de resultados <a name="discusion"></a>
 
