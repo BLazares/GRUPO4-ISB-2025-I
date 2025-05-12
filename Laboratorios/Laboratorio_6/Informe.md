@@ -87,7 +87,7 @@ USANDO FILTRO FIR --- Y FILTRO IRR:
 
 | Campo | Señal Cruda | Filtro IRR | Filtro FIR |
 |:--------------:|:--------------:|:--------------:|:--------------:|
-| Figura 2. Descanso| ![alt text](imagenyvideos/1.1.1)|![alt text](imagenyvideos/1.1.2)|![alt text](imagenyvideos/1.1.3)|
+| Figura 2. Descanso| ![alt text](imagenyvideos/1.1.1.png)|![alt text](imagenyvideos/1.1.2.png)|![alt text](imagenyvideos/1.1.3.png)|
 | Figura 3. Contracción leve | ![alt text](imagenyvideos/1.2.1.png)| ![alt text](imagenyvideos/1.2.2.png)| ![alt text](imagenyvideos/1.2.3.png)|
 | Figura 4. Contracción fuerte | ![alt text](imagenyvideos/1.3.1.png)| ![alt text](imagenyvideos/1.3.2.png)| ![alt text](imagenyvideos/1.3.3.png)|
 
@@ -114,7 +114,7 @@ Se tomó registro de la señal en el usuario en estado de reposo, hiperventilaci
 Usando Filtro FIR: y filtro IRR: 
 | Campo | Señal Cruda | Filtro IRR | Filtro FIR |
 |:--------------:|:--------------:|:--------------:|:--------------:|
-| Figura 6. Estado Basal | ![alt text](imagenyvideos/2.1.1)| ![alt text](imagenyvideos/2.1.2) | ![alt text](imagenyvideos/2.1.3) |
+| Figura 6. Estado Basal | ![alt text](imagenyvideos/2.1.1.png)| ![alt text](imagenyvideos/2.1.2.png) | ![alt text](imagenyvideos/2.1.3.png) |
 | Figura 7. Respiración controlada |![alt text](imagenyvideos/2.2.1.png)| ![alt text](imagenyvideos/2.2.2.png)| ![alt text](imagenyvideos/2.2.3.png) |
 | Figura 8. Ejercicio intenso| ![alt text](imagenyvideos/2.3.1.png)| ![alt text](imagenyvideos/2.3.2.png)| ![alt text](imagenyvideos/2.3.3.png)|
 | Figura 8. Respiración prolongada | ![alt text](imagenyvideos/2.4.1.png)| ![alt text](imagenyvideos/2.4.2.png)| ![alt text](imagenyvideos/2.4.3.png)|
