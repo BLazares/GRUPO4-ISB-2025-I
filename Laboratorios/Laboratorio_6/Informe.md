@@ -75,7 +75,7 @@ Se tomó registro de la señal en el usuario en estado de reposo o silencio elé
 <p align="center">
   <img src="imagenyvideos/electrodo_biceps.jpg" alt="Posicionamiento de los electrodos en el EMG" width="300"/>
 </p>
-<p align="center"><b>Figura 1:</b> Posicionamiento de los electrodos en el EMG</p>
+<p align="center"><b>Figura 1:</b> Posicionamiento de los electrodos para el EMG</p>
 
 | Campo | Señal Cruda | Filtro IRR | Filtro FIR |
 |:--------------:|:--------------:|:--------------:|:--------------:|
@@ -101,7 +101,7 @@ Se tomó registro de la señal en el usuario en estado de reposo, hiperventilaci
 <p align="center">
   <img src="imagenyvideos/image-2.png" alt="Descripción de la imagen" width="300"/>
 </p>
-<p align="center"><b>Figura 5:</b> Posicionamiento de los electrodos en el ECG</p>
+<p align="center"><b>Figura 5:</b> Posicionamiento de los electrodos para el ECG</p>
 
 
 | Campo | Señal Cruda | Filtro IRR | Filtro FIR |
@@ -127,7 +127,7 @@ Se tomó registro de la señal en el usuario en una primera y segunda fase de re
 
 
 <p align="center">
-  <img src="imagenyvideos/electrodoOreja.jpg" alt="Posissssssssssss" width="300"/>
+  <img src="imagenyvideos/electrodoOreja.jpg" alt="Posicionamiento de los electros para el EEG" width="300"/>
 </p>
 <p align="center"><b>Figura X:</b> Posi</p>
 
@@ -141,7 +141,7 @@ Se tomó registro de la señal en el usuario en una primera y segunda fase de re
 | Figura X. Preguntas complejas (6 minutos) |![alt text](imagenyvideos/image-29.png)| ![alt text](imagenyvideos/image-28.png) |![alt text](imagenyvideos/image-34.png)|
 
 Usando el filtro FIR: Hanning pasa banda (8-12 Hz) y Bartlett (8-12 Hz) y el filtro IRR:
-| Campo| Señal Cruda | Filtro FIR Hanning | Filtro FIR Hanning | Filtro IRR |
+| Campo| Señal Cruda | Filtro FIR Hanning | Filtro FIR Bartlett | Filtro IRR |
 |:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|
 | Figura X. Basal 1 (60 segundos) |![alt text](imagenyvideos/3.1.1.png) | ![alt text](imagenyvideos/3.1.2.png) |![alt text](imagenyvideos/3.1.2.2.png) | ![alt text](imagenyvideos/3.1.3.png) |
 | Figura X. Basal 2 (60 segundos) |![alt text](imagenyvideos/3.2.1.png) |![alt text](imagenyvideos/3.2.2.png)|![alt text](imagenyvideos/3.2.2.2.png) |![alt text](imagenyvideos/3.2.3.png)|
