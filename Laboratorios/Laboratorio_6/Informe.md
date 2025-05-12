@@ -83,6 +83,14 @@ Se tomó registro de la señal en el usuario en estado de reposo o silencio elé
 | Figura 3. Contracción leve | ![alt text](imagenyvideos/image-18.png)| ![alt text](imagenyvideos/image-17.png)| ![alt text](imagenyvideos/image-31.png)|
 | Figura 4. Contracción fuerte | ![alt text](imagenyvideos/image-10.png)| ![alt text](imagenyvideos/image-6.png)| ![alt text](imagenyvideos/image-30.png)|
 
+USANDO FILTRO FIR --- Y FILTRO IRR: 
+
+| Campo | Señal Cruda | Filtro IRR | Filtro FIR |
+|:--------------:|:--------------:|:--------------:|:--------------:|
+| Figura 2. Descanso| ![alt text](imagenyvideos/1.1.1)|![alt text](imagenyvideos/1.1.2)|![alt text](imagenyvideos/1.1.3)|
+| Figura 3. Contracción leve | ![alt text](imagenyvideos/1.2.1)| ![alt text](imagenyvideos/1.2.2)| ![alt text](imagenyvideos/1.2.3)|
+| Figura 4. Contracción fuerte | ![alt text](imagenyvideos/1.3.1)| ![alt text](imagenyvideos/1.3.2)| ![alt text](imagenyvideos/1.3.3)|
+
 ### ECG
 
 Los resultados analizados en la siguiente tabla se obtuvieron al realizar el ECG. 
@@ -102,6 +110,15 @@ Se tomó registro de la señal en el usuario en estado de reposo, hiperventilaci
 | Figura 7. Respiración controlada |![alt text](imagenyvideos/image-8.png)| ![alt text](imagenyvideos/image-21.png)| ![alt text](imagenyvideos/image-24.png) |
 | Figura 8. Ejercicio intenso| ![alt text](imagenyvideos/image-9.png)| ![alt text](imagenyvideos/image-22.png)| ![alt text](imagenyvideos/image-23.png)|
 | Figura 8. Respiración prolongada | ![alt text](imagenyvideos/image-9.png)| ![alt text](imagenyvideos/image-22.png)| ![alt text](imagenyvideos/image-23.png)|
+
+Usando Filtro FIR: y filtro IRR: 
+| Campo | Señal Cruda | Filtro IRR | Filtro FIR |
+|:--------------:|:--------------:|:--------------:|:--------------:|
+| Figura 6. Estado Basal | ![alt text](imagenyvideos/2.1.1)| ![alt text](imagenyvideos/2.1.2) | ![alt text](imagenyvideos/2.1.3) |
+| Figura 7. Respiración controlada |![alt text](imagenyvideos/2.2.1)| ![alt text](imagenyvideos/2.2.2)| ![alt text](imagenyvideos/2.2.3) |
+| Figura 8. Ejercicio intenso| ![alt text](imagenyvideos/2.3.1)| ![alt text](imagenyvideos/2.3.2)| ![alt text](imagenyvideos/2.3.3)|
+| Figura 8. Respiración prolongada | ![alt text](imagenyvideos/2.4.1)| ![alt text](imagenyvideos/2.4.2)| ![alt text](imagenyvideos/2.4.3)|
+
 ### EEG
 
 Los resultados analizados en la siguiente tabla se obtuvieron al realizar el EEG. 
@@ -123,7 +140,14 @@ Se tomó registro de la señal en el usuario en una primera y segunda fase de re
 | Figura X. Artefactos (2 minutos) |![alt text](imagenyvideos/image-29.png)| ![alt text](imagenyvideos/image-28.png) |![alt text](imagenyvideos/image-34.png)|
 | Figura X. Preguntas complejas (6 minutos) |![alt text](imagenyvideos/image-29.png)| ![alt text](imagenyvideos/image-28.png) |![alt text](imagenyvideos/image-34.png)|
 
-
+Usando el filtro FIR: y el filtro IRR:
+| Campo| Señal Cruda | Filtro IRR | Filtro FIR |
+|:--------------:|:--------------:|:--------------:|:--------------:|
+| Figura X. Basal 1 (60 segundos) |![alt text](imagenyvideos/3.1.1) | ![alt text](imagenyvideos/3.1.2) | ![alt text](imagenyvideos/3.1.3) |
+| Figura X. Basal 2 (60 segundos) |![alt text](imagenyvideos/3.2.1) |![alt text](imagenyvideos/3.2.2)|![alt text](imagenyvideos/3.2.3)|
+| Figura X. Tarea cognitiva (2 minutos) | ![alt text](imagenyvideos/3.3.1)| ![alt text](imagenyvideos/3.3.2)|![alt text](imagenyvideos/3.3.3) |
+| Figura X. Artefactos (2 minutos) |![alt text](imagenyvideos/3.4.1)| ![alt text](imagenyvideos/3.4.2) |![alt text](imagenyvideos/3.4.3)|
+| Figura X. Preguntas complejas (6 minutos) |![alt text](imagenyvideos/3.5.1)| ![alt text](imagenyvideos/3.5.2) |![alt text](imagenyvideos/3.5.3)|
 
 
 ## Código en Python
