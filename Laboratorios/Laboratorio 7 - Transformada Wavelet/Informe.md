@@ -3,13 +3,18 @@
 <p align="center"> Figura 1. Diferencia entre los filtros FIR VS IRR</p>
 
 ## Tabla de contenidos
-1. [Objetivos](#objetivos)
-2. [Materiales](#materiales)
-3. [Introducción](#introduccion)
-4. [Metolodogía](#metodologia)
-5. [Resultados](#resultados)
-6. [Discusión de resultados](#discusion)
-7. [Referencias](#referencias)
+1. [Introducción](#introduccion)
+2. [Objetivos](#objetivos)
+3. [Transformada Wavelet](#wavelet)
+5. [Filtrado en señal ECG](#filtroECG)
+6. [Filtrado en señal EMG](#filtroEMG)
+7. [Filtrado en señal EEG](#filtroEEG)
+8. [Resultados](#resultados)
+9. [Discusión de resultados](#discusion)
+10. [Referencias](#referencias)
+
+##  Introducción<a name="introduccion"></a>
+
   
 ##  Objetivos<a name="objetivos"></a>
 - Comprender los fundamentos de filtros digitales, especialmente los IRR y FIR.
@@ -26,9 +31,9 @@
 
 </div>
 
-## Introducción <a name="introduccion"></a>
+##  Transformada Wavelet<a name="objetivos"></a>
 
-<div style="text-align: justify;">
+
 
 ### Filtros digitales
 Actualmente, los filtros digitales brindan una mayor flexibilidad frente a sus equivalentes analógicos, principalmente porque se implementan mediante software en lugar de hardware, lo que permite adaptar sus parámetros con facilidad en tiempo real. Es útil en aplicaciones donde las condiciones de operación varían constantemente. A diferencia de los filtros analógicos, los digitales no están condicionados por las tolerancias de los componentes electrónicos, eliminando la necesidad de ajustes físicos para su calibración. Como resultado, el comportamiento de los algoritmos digitales es altamente predecible y repetible. Además, los filtros digitales permiten trabajar con señales de frecuencias extremadamente bajas, sin los inconvenientes que suelen presentar los sistemas analógicos en este rango.
