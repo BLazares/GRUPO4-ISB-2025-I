@@ -13,11 +13,13 @@ El propósito es observar el impacto de diferentes niveles de desbalance muscula
 
 ### ⚙️ Metodología
 
-1. Se simuló una señal EMG base con las siguientes condiciones:
-   - Duración: `10 segundos`
-   - Frecuencia de muestreo: `1000 Hz`
-   - Ráfagas musculares: `10 bursts`
-   - Ruido blanco: `0.01`
+| Parámetro                | Valor              |
+|--------------------------|--------------------|
+| Duración                 | `10 segundos`      |
+| Frecuencia de muestreo   | `1000 Hz`          |
+| Número de ráfagas        | `10 bursts`        |
+| Nivel de ruido blanco    | `0.01`             |
+
    
 2. A partir de esta señal, se generaron cinco pares de señales. El **Canal 1** se mantuvo constante (100 % de amplitud), mientras que el **Canal 2** se escaló al **20 %, 40 %, 60 %, 80 % y 100 %**.
 
