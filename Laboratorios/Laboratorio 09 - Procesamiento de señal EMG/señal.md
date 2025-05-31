@@ -82,7 +82,11 @@ plt.show()
 
 🖼️ **Ejemplo de señal EMG simulada y escalada**
 
-![Señales EMG](./Imágenes%20en%20el%20anexo/Senales_EMG.png)
+| Descripción                                | Imagen de referencia                           |
+|--------------------------------------------|-------------------------------------------------|
+| Ejemplo de señal EMG simulada y escalada   | [📷 Señales EMG](./Imágenes%20en%20el%20anexo/Senales_EMG.png) |
+| Gráfico de comparación Symmetry Ratio      | [📊 Comparación](./Imágenes%20en%20el%20anexo/Comparacion.png) |
+| 👉 FALTA insertar imagen canal escalado     | [🔗 Añadir aquí](./ruta/a/la/imagen_faltante.png) |
 
 ---
 
@@ -137,7 +141,13 @@ plt.show()
 
 🖼️ **Gráfico de comparación final**
 
-![Gráfico de comparación](./Imágenes%20en%20el%20anexo/Comparacion.png)
+### 🖼️ Imágenes de Resultados
+
+| Descripción                              | Imagen / Enlace de referencia                                      |
+|------------------------------------------|--------------------------------------------------------------------|
+| 📷 Señal EMG simulada y escalada         | [Ver imagen](./Imágenes%20en%20el%20anexo/Senales_EMG.png)         |
+| 📊 Gráfico de comparación final          | [Ver imagen](./Imágenes%20en%20el%20anexo/Comparacion.png)         |
+| ⛔ Falta insertar señal escalada canal 2 | [🔗 Añadir imagen aquí](./ruta/a/imagen_faltante.png)              |
 
 ---
 
