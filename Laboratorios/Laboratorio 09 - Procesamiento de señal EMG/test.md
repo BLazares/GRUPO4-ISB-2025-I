@@ -5,10 +5,7 @@
 ## Tabla de contenidos
 1. [Introducción](#introduccion)
 2. [Objetivos](#objetivos)
-3. [Transformada Wavelet](#wavelet)
-5. [Filtrado en señal ECG](#filtroECG)
-6. [Filtrado en señal EMG](#filtroEMG)
-7. [Filtrado en señal EEG](#filtroEEG)
+
 8. [Resultados](#resultados)
 9. [Discusión de resultados](#discusion)
 10. [Referencias](#referencias)
