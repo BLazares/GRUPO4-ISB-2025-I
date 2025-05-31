@@ -13,12 +13,16 @@ El propósito es observar el impacto de diferentes niveles de desbalance muscula
 
 ### ⚙️ Metodología
 
-| Parámetro                | Valor              |
-|--------------------------|--------------------|
-| Duración                 | `10 segundos`      |
-| Frecuencia de muestreo   | `1000 Hz`          |
-| Número de ráfagas        | `10 bursts`        |
-| Nivel de ruido blanco    | `0.01`             |
+<div align="center">
+
+| 🧪 Parámetro              | 🔧 Valor         |
+|--------------------------|------------------|
+| Duración                 | `10 segundos`    |
+| Frecuencia de muestreo   | `1000 Hz`        |
+| Número de ráfagas        | `10 bursts`      |
+| Nivel de ruido blanco    | `0.01`           |
+
+</div>
 
    
 2. A partir de esta señal, se generaron cinco pares de señales. El **Canal 1** se mantuvo constante (100 % de amplitud), mientras que el **Canal 2** se escaló al **20 %, 40 %, 60 %, 80 % y 100 %**.
@@ -81,13 +85,14 @@ plt.show()
 ```
 
 🖼️ **Ejemplo de señal EMG simulada y escalada**
+<div align="center">
 
 | Descripción                                | Imagen de referencia                           |
 |--------------------------------------------|-------------------------------------------------|
 | Ejemplo de señal EMG simulada y escalada   | [📷 Señales EMG](./Imágenes%20en%20el%20anexo/Senales_EMG.png) |
 | Gráfico de comparación Symmetry Ratio      | [📊 Comparación](./Imágenes%20en%20el%20anexo/Comparacion.png) |
 | 👉 FALTA insertar imagen canal escalado     | [🔗 Añadir aquí](./ruta/a/la/imagen_faltante.png) |
-
+<div >
 ---
 
 ### 🧮 Cálculo del Symmetry Ratio
@@ -143,11 +148,15 @@ plt.show()
 
 ### 🖼️ Imágenes de Resultados
 
-| Descripción                              | Imagen / Enlace de referencia                                      |
-|------------------------------------------|--------------------------------------------------------------------|
-| 📷 Señal EMG simulada y escalada         | [Ver imagen](./Imágenes%20en%20el%20anexo/Senales_EMG.png)         |
-| 📊 Gráfico de comparación final          | [Ver imagen](./Imágenes%20en%20el%20anexo/Comparacion.png)         |
-| ⛔ Falta insertar señal escalada canal 2 | [🔗 Añadir imagen aquí](./ruta/a/imagen_faltante.png)              |
+<div align="center">
+
+| 📌 Descripción                           | 📎 Imagen / Enlace de referencia                                |
+|-----------------------------------------|------------------------------------------------------------------|
+| 📷 Señal EMG simulada y escalada        | [Ver imagen](./Imágenes%20en%20el%20anexo/Senales_EMG.png)       |
+| 📊 Gráfico de comparación final         | [Ver imagen](./Imágenes%20en%20el%20anexo/Comparacion.png)       |
+| ⚠️ Falta insertar señal escalada canal 2| [🔗 Añadir imagen aquí](./ruta/a/imagen_faltante.png)            |
+
+</div>
 
 ---
 
