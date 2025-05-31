@@ -92,7 +92,7 @@ plt.show()
 | Ejemplo de señal EMG simulada y escalada   | [📷 Señales EMG](./Imágenes%20en%20el%20anexo/Senales_EMG.png) |
 | Gráfico de comparación Symmetry Ratio      | [📊 Comparación](./Imágenes%20en%20el%20anexo/Comparacion.png) |
 | 👉 FALTA insertar imagen canal escalado     | [🔗 Añadir aquí](./ruta/a/la/imagen_faltante.png) |
-<div >
+</div >
 ---
 
 ### 🧮 Cálculo del Symmetry Ratio
