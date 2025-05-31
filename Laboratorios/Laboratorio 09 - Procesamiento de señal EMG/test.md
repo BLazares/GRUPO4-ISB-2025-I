@@ -65,13 +65,6 @@ Las señales electroencefalográficas suelen verse afectadas por artefactos gene
 
 Simula cinco pares de señales EMG idénticas (burst_number=10, noise=0.01) y escala el segundo canal al 20 %, 40 %, 60 %, 80 % y 100 % de la amplitud original.
 
-<p align="center">
-  <img src="imagenyvideos/electrodo_biceps.jpg" alt="Posicionamiento de los electrodos en el EMG" width="300"/>
-</p>
-<p align="center"><b>Figura 1:</b> Posicionamiento de los electrodos para el EMG</p>
-
----
-
 ## Simulación de señales EMG escaladas
 
 <p align="center">
