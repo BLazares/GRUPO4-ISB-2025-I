@@ -61,7 +61,7 @@ Las señales electroencefalográficas suelen verse afectadas por artefactos gene
 
 ## Resultados <a name="resultados"></a>
 
-### EMG
+### Simulación de distintos grados de asimetría
 
 Simula cinco pares de señales EMG idénticas (burst_number=10, noise=0.01) y escala el segundo canal al 20 %, 40 %, 60 %, 80 % y 100 % de la amplitud original.
 
@@ -72,31 +72,114 @@ Simula cinco pares de señales EMG idénticas (burst_number=10, noise=0.01) y es
 
 ---
 
-Simulación de señales EMG escaladas (burst_number = 10, noise = 0.01).  
-El segundo canal se escaló al 20 %, 40 %, 60 %, 80 % y 100 % de la amplitud original.  
-Se aplicó `nk.emg_clean()`, `nk.emg_amplitude()` y se calculó el *Symmetry Ratio*.
+## Simulación de señales EMG escaladas
 
-| Campo | Comparación de Amplitudes (Canal 1 vs Canal Escalado) |
-|:-----:|:-----------------------------------------------------:|
-| Figura 5. Escala 20 %  | ![alt text](imagenyvideos/comparacion_emg_20.png) |
-| Figura 6. Escala 40 %  | ![alt text](imagenyvideos/comparacion_emg_40.png) |
-| Figura 7. Escala 60 %  | ![alt text](imagenyvideos/comparacion_emg_60.png) |
-| Figura 8. Escala 80 %  | ![alt text](imagenyvideos/comparacion_emg_80.png) |
-| Figura 9. Escala 100 % | ![alt text](imagenyvideos/comparacion_emg_100.png) |
-
-<p align="center"><b>Tabla 1:</b> Comparación entre el canal original y canal escalado</p>
+Se simularon 5 señales EMG independientes (`burst_number = 10`, `noise = 0.01`).  
+En cada una, el segundo canal fue escalado al 20 %, 40 %, 60 %, 80 % y 100 % de la amplitud original.  
+Se aplicaron los siguientes pasos:
+- Limpieza con `nk.emg_clean()`
+- Extracción de la envolvente con `nk.emg_amplitude()`
+- Cálculo del **Symmetry Ratio**
 
 ---
 
-| Escala de Canal 2 | Symmetry Ratio |
-|:-----------------:|:---------------:|
-| 20 %              | 0.20            |
-| 40 %              | 0.40            |
-| 60 %              | 0.60            |
-| 80 %              | 0.80            |
-| 100 %             | 1.00            |
+### 🔹 Señal 1
 
+| Campo | Comparación Canal 1 vs Canal 2 Escalado |
+|:-----:|:----------------------------------------:|
+| Figura 2. Escala 20 %  | ![sim1_20](imagenyvideos/simulacion1_escala20.png) |
+| Figura 3. Escala 40 %  | ![sim1_40](imagenyvideos/simulacion1_escala40.png) |
+| Figura 4. Escala 60 %  | ![sim1_60](imagenyvideos/simulacion1_escala60.png) |
+| Figura 5. Escala 80 %  | ![sim1_80](imagenyvideos/simulacion1_escala80.png) |
+| Figura 6. Escala 100 % | ![sim1_100](imagenyvideos/simulacion1_escala100.png) |
 
+| Escala Canal 2 | Symmetry Ratio |
+|:--------------:|:---------------:|
+| 20 %           | 0.20            |
+| 40 %           | 0.40            |
+| 60 %           | 0.60            |
+| 80 %           | 0.80            |
+| 100 %          | 1.00            |
+
+---
+
+### 🔹 Señal 2
+
+| Campo | Comparación Canal 1 vs Canal 2 Escalado |
+|:-----:|:----------------------------------------:|
+| Figura 7. Escala 20 %  | ![sim2_20](imagenyvideos/simulacion2_escala20.png) |
+| Figura 8. Escala 40 %  | ![sim2_40](imagenyvideos/simulacion2_escala40.png) |
+| Figura 9. Escala 60 %  | ![sim2_60](imagenyvideos/simulacion2_escala60.png) |
+| Figura 10. Escala 80 % | ![sim2_80](imagenyvideos/simulacion2_escala80.png) |
+| Figura 11. Escala 100 %| ![sim2_100](imagenyvideos/simulacion2_escala100.png) |
+
+| Escala Canal 2 | Symmetry Ratio |
+|:--------------:|:---------------:|
+| 20 %           | 0.22            |
+| 40 %           | 0.43            |
+| 60 %           | 0.61            |
+| 80 %           | 0.82            |
+| 100 %          | 1.01            |
+
+---
+
+### 🔹 Señal 3
+
+| Campo | Comparación Canal 1 vs Canal 2 Escalado |
+|:-----:|:----------------------------------------:|
+| Figura 12. Escala 20 %  | ![sim3_20](imagenyvideos/simulacion3_escala20.png) |
+| Figura 13. Escala 40 %  | ![sim3_40](imagenyvideos/simulacion3_escala40.png) |
+| Figura 14. Escala 60 %  | ![sim3_60](imagenyvideos/simulacion3_escala60.png) |
+| Figura 15. Escala 80 %  | ![sim3_80](imagenyvideos/simulacion3_escala80.png) |
+| Figura 16. Escala 100 % | ![sim3_100](imagenyvideos/simulacion3_escala100.png) |
+
+| Escala Canal 2 | Symmetry Ratio |
+|:--------------:|:---------------:|
+| 20 %           | 0.19            |
+| 40 %           | 0.39            |
+| 60 %           | 0.58            |
+| 80 %           | 0.79            |
+| 100 %          | 0.98            |
+
+---
+
+### 🔹 Señal 4
+
+| Campo | Comparación Canal 1 vs Canal 2 Escalado |
+|:-----:|:----------------------------------------:|
+| Figura 17. Escala 20 %  | ![sim4_20](imagenyvideos/simulacion4_escala20.png) |
+| Figura 18. Escala 40 %  | ![sim4_40](imagenyvideos/simulacion4_escala40.png) |
+| Figura 19. Escala 60 %  | ![sim4_60](imagenyvideos/simulacion4_escala60.png) |
+| Figura 20. Escala 80 %  | ![sim4_80](imagenyvideos/simulacion4_escala80.png) |
+| Figura 21. Escala 100 % | ![sim4_100](imagenyvideos/simulacion4_escala100.png) |
+
+| Escala Canal 2 | Symmetry Ratio |
+|:--------------:|:---------------:|
+| 20 %           | 0.21            |
+| 40 %           | 0.41            |
+| 60 %           | 0.61            |
+| 80 %           | 0.80            |
+| 100 %          | 1.02            |
+
+---
+
+### 🔹 Señal 5
+
+| Campo | Comparación Canal 1 vs Canal 2 Escalado |
+|:-----:|:----------------------------------------:|
+| Figura 22. Escala 20 %  | ![sim5_20](imagenyvideos/simulacion5_escala20.png) |
+| Figura 23. Escala 40 %  | ![sim5_40](imagenyvideos/simulacion5_escala40.png) |
+| Figura 24. Escala 60 %  | ![sim5_60](imagenyvideos/simulacion5_escala60.png) |
+| Figura 25. Escala 80 %  | ![sim5_80](imagenyvideos/simulacion5_escala80.png) |
+| Figura 26. Escala 100 % | ![sim5_100](imagenyvideos/simulacion5_escala100.png) |
+
+| Escala Canal 2 | Symmetry Ratio |
+|:--------------:|:---------------:|
+| 20 %           | 0.18            |
+| 40 %           | 0.37            |
+| 60 %           | 0.59            |
+| 80 %           | 0.77            |
+| 100 %          | 0.99            |
 
 ## Discusión de resultados <a name="discusion"></a>
 
