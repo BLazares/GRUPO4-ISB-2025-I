@@ -148,6 +148,7 @@ plt.show()
 
 ### 🖼️ Imágenes de Resultados
 
+
 <div align="center">
 
 | 📌 Descripción                           | 📎 Imagen / Enlace de referencia                                |
