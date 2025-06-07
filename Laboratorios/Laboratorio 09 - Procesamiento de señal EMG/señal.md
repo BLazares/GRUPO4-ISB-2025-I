@@ -35,7 +35,7 @@ Evaluar la separabilidad entre señales EKG simuladas a partir de señales origi
 
 <p align="center"><b>Señales EKG simuladas (3 por clase)</b></p>
 
-### 🔸 Simulaciones de Señan 1
+### 🔸 Simulaciones de Señal 1
 
 <div align="center">
 
