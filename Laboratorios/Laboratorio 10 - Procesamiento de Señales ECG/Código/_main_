@@ -1,0 +1,27 @@
+# @title Programa principal
+
+#Generación de Señales
+grp1 = gen_signs(param1,duration1,bpm1,mod1,N) #Generacón
+grp2 = gen_signs(param2,duration2,bpm2,mod2,N) #Generacón
+grp3 = gen_signs(param3,duration3,bpm3,mod3,N) #Generacón
+plot_signs(grp1, "Grupo 1")
+plot_signs(grp2, "Grupo 2")
+plot_signs(grp3, "Grupo 3")
+
+#Obtención de características
+car_grp1 = get_caract(grp1)
+car_grp2 = get_caract(grp2)
+car_grp3 = get_caract(grp3)
+
+#Dataframe de cada señal
+tab1 = get_dataframe(grp1,car_grp1,"Señal 1")
+tab2 = get_dataframe(grp2,car_grp2,"Señal 2")
+tab3 = get_dataframe(grp3,car_grp3,"Señal 3")
+
+#PCA
+all_signals_df = [tab1,tab2,tab3]
+final_df = pd.concat(all_signals_df,ignore_index=True)
+print(final_df)
+pca_df = do_pca(final_df)
+plot_PCA(pca_df)
+
