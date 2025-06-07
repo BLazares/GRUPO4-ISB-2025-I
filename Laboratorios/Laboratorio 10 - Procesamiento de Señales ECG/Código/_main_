@@ -25,3 +25,17 @@ print(final_df)
 pca_df = do_pca(final_df)
 plot_PCA(pca_df)
 
+#Wavelet coeff
+lvl = 3
+Fs = 1000/(pow(2,lvl))
+
+coeff1 = pywt.wavedec(grp1[0], 'db4', level = lvl)
+coeff2 = pywt.wavedec(grp2[0], 'db4', level = lvl)
+coeff3 = pywt.wavedec(grp3[0], 'db4', level = lvl)
+
+cAs = (coeff1[0], coeff2[0], coeff3[0])
+cDs = (coeff1[-1], coeff2[-1], coeff3[-1])
+
+plot_signs(cAs,"Aproximación de nivel " + str(lvl),Fs)
+plot_signs(cDs, str(lvl) + "° Coeficientes de Detalle ",Fs)
+
