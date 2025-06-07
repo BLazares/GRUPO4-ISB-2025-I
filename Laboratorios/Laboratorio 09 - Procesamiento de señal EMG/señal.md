@@ -6,16 +6,14 @@ Evaluar si señales EKG simuladas pueden agruparse en clases diferenciables tras
 
 ---
 
-## ⚙️ Metodología
+### 🧪 Metodología
 
-<div align="center">
-
-| Etapa                           | Descripción                                                                 |
-|--------------------------------|-----------------------------------------------------------------------------|
-| 1️⃣ Señales originales          | Se simulan 3 señales EKG base                                              |
-| 2️⃣ Señales simuladas           | Se generan 3 señales adicionales (variaciones de las originales)           |
-| 3️⃣ Extracción de características | Análisis con `neurokit2`, valores extraídos y organizados en un DataFrame |
-| 4️⃣ Reducción de dimensionalidad | Uso de PCA para proyección 2D y evaluación visual de separabilidad        |
+1. Se generaron **3 señales EKG base** simuladas usando `neurokit2`.
+2. Se crearon **3 señales adicionales** modificando ligeramente las originales.
+3. Se procesaron con `ecg_process()` y se extrajeron características.
+4. Se almacenaron en un `DataFrame` con etiquetas por clase.
+5. Se aplicó **PCA** para reducir a 2 dimensiones.
+6. Se visualizaron los datos para identificar **separabilidad entre clases**.
 
 </div>
 
