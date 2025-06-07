@@ -6,18 +6,14 @@ Evaluar la separabilidad entre señales EKG simuladas a partir de señales origi
 
 ---
 
-## ⚙️ Metodología
+### 🧪 Metodología
 
-<div align="center">
-
-| Etapa | Descripción |
-|-------|-------------|
-| 1️⃣ Señales originales | Se simulan 3 señales EKG base (clases 0, 1, 2) |
-| 2️⃣ Señales simuladas | Se generan 3 señales adicionales por cada original (total 9) |
-| 3️⃣ Extracción de características | Se calcula un vector de atributos por señal |
-| 4️⃣ Reducción de dimensionalidad | PCA en 2D para evaluar visualmente la separabilidad |
-
-</div>
+1. Se generaron **3 señales EKG base** simuladas usando `neurokit2`.
+2. Se crearon **3 señales adicionales** modificando ligeramente las originales.
+3. Se procesaron con `ecg_process()` y se extrajeron características.
+4. Se almacenaron en un `DataFrame` con etiquetas por clase.
+5. Se aplicó **PCA** para reducir a 2 dimensiones.
+6. Se visualizaron los datos para identificar **separabilidad entre clases**.
 
 ---
 
@@ -39,31 +35,31 @@ Evaluar la separabilidad entre señales EKG simuladas a partir de señales origi
 
 <p align="center"><b>Señales EKG simuladas (3 por clase)</b></p>
 
-### 🔸 Simulaciones de Clase 0
-
-<div align="center">
-
-| Simulada 0.1 | Simulada 0.2 | Simulada 0.3 |
-|-------------|--------------|--------------|
-| <img src="./imagenes_actividad4/simulada_0_1.png" width="90%"/> | <img src="./imagenes_actividad4/simulada_0_2.png" width="90%"/> | <img src="./imagenes_actividad4/simulada_0_3.png" width="90%"/> |
-
-</div>
-
-### 🔹 Simulaciones de Clase 1
+### 🔸 Simulaciones de Señan 1
 
 <div align="center">
 
 | Simulada 1.1 | Simulada 1.2 | Simulada 1.3 |
 |-------------|--------------|--------------|
-| <img src="./imagenes_actividad4/simulada_1_1.png" width="90%"/> | <img src="./imagenes_actividad4/simulada_1_2.png" width="90%"/> | <img src="./imagenes_actividad4/simulada_1_3.png" width="90%"/> |
+| <img src="./imagenes_actividad4/simulada_0_1.png" width="90%"/> | <img src="./imagenes_actividad4/simulada_0_2.png" width="90%"/> | <img src="./imagenes_actividad4/simulada_0_3.png" width="90%"/> |
 
 </div>
 
-### 🔸 Simulaciones de Clase 2
+### 🔹 Simulaciones de Señal 2
 
 <div align="center">
 
 | Simulada 2.1 | Simulada 2.2 | Simulada 2.3 |
+|-------------|--------------|--------------|
+| <img src="./imagenes_actividad4/simulada_1_1.png" width="90%"/> | <img src="./imagenes_actividad4/simulada_1_2.png" width="90%"/> | <img src="./imagenes_actividad4/simulada_1_3.png" width="90%"/> |
+
+</div>
+
+### 🔸 Simulaciones de Señal 3
+
+<div align="center">
+
+| Simulada 3.1 | Simulada 3.2 | Simulada 3.3 |
 |-------------|--------------|--------------|
 | <img src="./imagenes_actividad4/simulada_2_1.png" width="90%"/> | <img src="./imagenes_actividad4/simulada_2_2.png" width="90%"/> | <img src="./imagenes_actividad4/simulada_2_3.png" width="90%"/> |
 
