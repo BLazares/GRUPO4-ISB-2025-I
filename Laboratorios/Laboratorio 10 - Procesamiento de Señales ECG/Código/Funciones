@@ -1,0 +1,155 @@
+# @title Funciones
+#Generar señales
+def gen_signs(parameters, duration, bpm, mod, N): #Recibe vectores
+  ecgs = []
+
+  for i in range(N):
+    # Multiplicar los parámetros t, a y b por los factores correspondientes de mod
+    ti_new = parameters[0] * mod[i]  # Multiplicar ti (t)
+    ai_new = parameters[1] * mod[i]  # Multiplicar ai (a)
+    bi_new = parameters[2] * mod[i]  # Multiplicar bi (b)
+
+    # Simular una nueva señal ECG
+    ecg_new = nk.ecg_simulate(
+        duration=duration[i],
+        sampling_rate=1000,
+        heart_rate=bpm[i],
+        method="ecgsyn", ti=ti_new, ai=ai_new, bi=bi_new
+    )
+
+    # Añadir ruido a la nueva señal
+    ecg_new += np.random.normal(0, 0.1, len(ecg_new))
+
+    # Agregar la nueva señal a la lista
+    ecgs.append(ecg_new)
+
+  return ecgs
+
+
+#Obtener características
+def get_caract(signals):
+  caract = []
+  for signal in signals:
+    Smean = np.mean(signal)
+    Smedian = np.median(signal)
+    Sstd = np.std(signal)
+    Skurtosis = kurtosis(signal)
+    Sskewness = skew(signal)
+    Senergy = np.sum(signal**2)
+    feat_group = [Smean,Smedian,Sstd,Skurtosis,Sskewness,Senergy]
+    caract.append(feat_group)
+  return caract
+
+#Dataframe
+def get_dataframe(signals,features,name):
+  all_features = []
+  fs = 1000
+
+  for i, signal in enumerate(signals):
+    #1. Limpieza de la sñeal
+    ecg_cleaned = nk.ecg_clean(signal, sampling_rate=fs, method="biosppy") #Limpieza
+    peaks_dict = nk.ecg_peaks(ecg_cleaned, sampling_rate=fs) #Buscamos picos R
+    rpeaks = peaks_dict[0]
+
+    #2. Calcular RR intervals en segundos
+    if len(rpeaks) >= 2:
+      t_peaks = rpeaks / fs
+      rr_intervals = np.diff(t_peaks)  # array de (N_peaks - 1) valores en segundos
+      rr_mean = np.mean(rr_intervals)
+      rr_std  = np.std(rr_intervals)
+    else:
+      rr_mean = np.nan
+      rr_std  = np.nan
+
+    #3. Características de la señal
+    S_features = features[i]
+    mean = S_features[0]
+    median = S_features[1]
+    std = S_features[2]
+    kurtosis = S_features[3]
+    skewness = S_features[4]
+    energy = S_features[5]
+
+    #4. Estadísticos “básicos” + HOS
+    feats = {
+        'Signal_Type'       : name,
+        'Mean'              : mean,
+        'Median'            : median,
+        'STD'               : std,
+        'Skewness'          : skewness,
+        'Kurtosis'          : kurtosis,
+        "Energy"            : energy,
+        #'RR_Intervals_Mean' : rr_mean,
+        #'RR_Intervals_STD'  : rr_std
+    }
+    #5. Preparando el output
+    all_features.append(pd.DataFrame([feats]))
+
+  combined_features_df = pd.concat(all_features, ignore_index=True)
+  return combined_features_df
+
+
+def do_pca(grp_features_df):
+  # 3.1) Preparamos los datos numéricos para PCA (quitamos la columna Signal_Type)
+  pca_input = grp_features_df.drop(columns=['Signal_Type']).copy()
+
+  # 3.1.1) Rellenar NaNs (por seguridad). Aquí se llenan con la media de cada columna.
+  pca_input = pca_input.fillna(pca_input.mean())
+
+  # 3.2) Instanciar y entrenar PCA
+  pca = PCA(n_components=2)
+  pca_result = pca.fit_transform(pca_input)  # devuelve matrix (n_signals × 2)
+
+  # 3.3) Armamos un DataFrame para graficar
+  pca_df = pd.DataFrame(pca_result, columns=['PC1', 'PC2'])
+  pca_df['Signal_Type'] = grp_features_df['Signal_Type']
+  return pca_df
+
+#Mostrar PCA
+def plot_PCA(pca_df):
+  plt.figure(figsize=(8, 6))
+  sns.scatterplot(
+      x='PC1',
+      y='PC2',
+      hue='Signal_Type',
+      data=pca_df,
+      s=100,
+      palette="Set2"
+  )
+  plt.title('PCA de Características de ECG (2 Dimensiones)')
+  plt.xlabel('Componente Principal 1')
+  plt.ylabel('Componente Principal 2')
+  plt.grid(alpha=0.3)
+  plt.legend(title='Tipo de Señal')
+  plt.tight_layout()
+  plt.show()
+
+
+#Imprimir señales
+def print_signs(signals):
+  for i,vector in enumerate(signals):
+    array = np.array(signals[i])
+    print("Señal " + str(i+1) + ": " + str(array) + "\n")
+
+
+#Plotear señales
+def plot_signs(signals, name):
+  fs = 1000  # frecuencia de muestreo
+  i=1
+
+  for signal in signals:
+    n_samples = len(signal)
+    t = np.linspace(0, n_samples / fs, n_samples)
+
+    plt.figure(figsize=(10, 3))
+    plt.plot(t, signal, color="darkblue")
+    plt.title(name + ": Señal " + str(i))
+    plt.xlabel("Tiempo (s)")
+    plt.ylabel("Amplitud (a.u.)")
+    plt.xlim(0, t[-1])
+    plt.tight_layout()
+    plt.xlim(0,2)
+    plt.grid(ls=":")
+    plt.tight_layout()
+    plt.show()
+    i=i+1
