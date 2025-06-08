@@ -29,7 +29,7 @@ Evaluar la separabilidad entre señales EKG simuladas a partir de señales origi
 
 | Clase 0 | Clase 1 | Clase 2 |
 |--------|---------|---------|
-| <img src="./imagenes_actividad4/original_0.png" width="90%"/> | <img src="./imagenes_actividad4/original_1.png" width="90%"/> | <img src="./imagenes_actividad4/original_2.png" width="90%"/> |
+| <img src="./Imágenes/original_0.png" width="90%"/> | <img src="./Imágenes/original_1.png" width="90%"/> | <img src="./Imágenes/original_2.png" width="90%"/> |
 
 </div>
 
