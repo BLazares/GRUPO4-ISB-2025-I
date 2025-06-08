@@ -95,7 +95,7 @@ Evaluar la separabilidad entre señales EKG simuladas a partir de señales origi
 
 | PCA Visualización |
 |-------------------|
-| <img src="PCA.png" width="60%"/> |
+| <img src="./Imágenes/PCA.png" width="60%"/> |
 
 </div>
 
