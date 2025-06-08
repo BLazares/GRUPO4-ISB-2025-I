@@ -2,7 +2,7 @@
 
 ## ✳️ Objetivo
 
-Evaluar la separabilidad entre señales EKG simuladas a partir de señales originales, extrayendo características, etiquetándolas por clase, y aplicando reducción de dimensionalidad (PCA).
+Evaluar la separabilidad entre señales EKG simuladas a partir de señales originales, extrayendo sus características, etiquetándolas por clase, y aplicando reducción de dimensionalidad (PCA).
 
 ---
 
