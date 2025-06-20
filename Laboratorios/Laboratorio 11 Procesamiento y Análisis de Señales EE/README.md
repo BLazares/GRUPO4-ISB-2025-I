@@ -15,7 +15,6 @@ Este proyecto tiene como objetivo desarrollar un pipeline de procesamiento para 
 
 ## Materiales y Herramientas
 
-<h2 align="center">Materiales y Herramientas</h2>
 
 | Elemento                   | Descripción                                     |
 |----------------------------|-------------------------------------------------|
@@ -24,7 +23,6 @@ Este proyecto tiene como objetivo desarrollar un pipeline de procesamiento para 
 | Software                   | Python, MNE, NumPy, SciPy, Scikit-learn, pandas |
 | Frecuencia de muestreo EEG | ~250 Hz (según la fuente de datos)              |
 | Número de electrodos       | 14–64 (según dispositivo o base de datos)       |
-
 
 ---
 
