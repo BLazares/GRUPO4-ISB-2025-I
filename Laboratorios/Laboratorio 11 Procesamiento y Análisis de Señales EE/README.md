@@ -94,13 +94,8 @@ Se extrajeron características del dominio del tiempo, frecuencia y tiempo-frecu
 ---
 
 ## Resultados Esperados
+se colcoaran los resultados aquí
 
-- Mejora en la calidad de las señales EEG preprocesadas.
-- Reducción significativa de artefactos y ruido.
-- Conjuntos de características optimizadas para modelos de clasificación.
-- Visualización de mapas topográficos y espectros de potencia.
-
----
 
 ## Referencias
 
