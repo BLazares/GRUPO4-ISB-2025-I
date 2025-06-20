@@ -15,13 +15,16 @@ Este proyecto tiene como objetivo desarrollar un pipeline de procesamiento para 
 
 ## Materiales y Herramientas
 
-| Elemento                      | Descripción                                        |
-|------------------------------|----------------------------------------------------|
-| Headset EEG                  | Ultracortex Mark IV (opcional)                     |
-| Base de datos                | EEGBCI / DEAP                                      |
-| Software                     | Python, MNE, NumPy, SciPy, Scikit-learn, pandas    |
-| Frecuencia de muestreo EEG  | ~250 Hz (según base de datos o dispositivo usado)  |
-| Número de electrodos         | 14-64 (según base de datos o headset)              |
+<h2 align="center">Materiales y Herramientas</h2>
+
+| Elemento                   | Descripción                                     |
+|----------------------------|-------------------------------------------------|
+| Headset EEG                | Ultracortex Mark IV (opcional)                  |
+| Base de datos              | EEGBCI / DEAP                                   |
+| Software                   | Python, MNE, NumPy, SciPy, Scikit-learn, pandas |
+| Frecuencia de muestreo EEG | ~250 Hz (según la fuente de datos)              |
+| Número de electrodos       | 14–64 (según dispositivo o base de datos)       |
+
 
 ---
 
