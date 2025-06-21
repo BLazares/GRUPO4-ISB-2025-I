@@ -1,110 +1,89 @@
-# Procesamiento y Análisis de Señales EEG con MNE-Python
+# Laboratorio de actividad de procesamiento y análisis de señales EEG
 
-## Introducción
-
-La electroencefalografía (EEG) es una técnica no invasiva que registra la actividad eléctrica cerebral a través de electrodos colocados sobre el cuero cabelludo. Es ampliamente utilizada en neurociencia, diagnóstico clínico y sistemas de interfaz cerebro-computadora (BCI). El análisis de señales EEG implica una serie de pasos complejos debido a la baja relación señal-ruido, artefactos fisiológicos (como parpadeos y movimientos musculares), y variabilidad entre sujetos y sesiones.
-
-Este proyecto tiene como objetivo desarrollar un pipeline de procesamiento para señales EEG obtenidas mediante el headset **Ultracortex Mark IV** o bases de datos públicas como **EEGBCI** o **DEAP**, utilizando herramientas del paquete **MNE-Python**. A partir del preprocesamiento, se extraerán características relevantes y se optimizarán para tareas de clasificación utilizando algoritmos de aprendizaje automático.
-
-## Objetivos
-
-- Realizar el preprocesamiento de señales EEG, incluyendo filtrado, corrección de artefactos y normalización.
-- Extraer características estadísticas, espectrales y tiempo-frecuencia que representen la actividad cerebral.
-- Aplicar técnicas de selección y transformación de características para mejorar el rendimiento de los modelos de clasificación.
-- Integrar el análisis completo utilizando **MNE-Python** para visualización y validación.
-
-## Materiales y Herramientas
-
-
-| Elemento                   | Descripción                                     |
-|----------------------------|-------------------------------------------------|
-| Headset EEG                | Ultracortex Mark IV (opcional)                  |
-| Base de datos              | EEGBCI / DEAP                                   |
-| Software                   | Python, MNE, NumPy, SciPy, Scikit-learn, pandas |
-| Frecuencia de muestreo EEG | ~250 Hz (según la fuente de datos)              |
-| Número de electrodos       | 14–64 (según dispositivo o base de datos)       |
+## Contenidos
+1. [Origen de los Datos](#1-origen-de-los-datos)
+2. [Preprocesamiento](#2-preprocesamiento)
+3. [Extracción de Características](#3-extracción-de-características)
+4. [Optimización y Selección de Features](#4-optimizacion-y-seleccion-de-features)
+5. [Análisis Integrado con MNE Python](#5-analisis-integrado-con-mne-python)
+6. [Resultados y Visualizaciones](#6-resultados-y-visualizaciones)
+7. [Referencias](#7-referencias)
 
 ---
 
-## Fase 1: Origen de los Datos
+## 1. Origen de los Datos
 
-Dependiendo del enfoque experimental se utilizarán:
+- **Dispositivo**: Ultracortex Mark IV  
+- **Electrodos utilizados**: 8 canales  
+- **Frecuencia de muestreo**: 250 Hz  
+- **Software de adquisición**: OpenBCI GUI / BrainFlow  
+- *O también puedes usar* **[EEGBCI](https://www.physionet.org/content/eegmmidb/1.0.0/)**
 
-### a) Datos Propios con Ultracortex
-- Headset: Ultracortex Mark IV
-- Electrodos: 14
-- Frecuencia de muestreo: 250 Hz
-- Software de adquisición: OpenBCI GUI
-
-### b) Base de Datos Pública
-- EEGBCI Dataset  
-  - URL: https://www.physionet.org/content/eegmmidb/1.0.0/  
-  - Actividades: imaginaria de movimientos (MI)
-- DEAP Dataset  
-  - URL: https://www.eecs.qmul.ac.uk/mmv/datasets/deap/  
-  - Actividades: estímulos audiovisuales y emociones
+> _Insertar imagen de configuración del headset o layout de electrodos_
 
 ---
 
-## Fase 2: Procedimiento de Preprocesamiento
+## 2. Preprocesamiento
 
-- **Filtrado**:
-  - Filtro Notch: 50/60 Hz para eliminar ruido de red.
-  - Filtro Pasa Banda: 1–50 Hz para mantener frecuencias relevantes (delta, theta, alfa, beta).
-- **Corrección de artefactos**:
-  - Método: ICA (Análisis de Componentes Independientes).
-  - Artefactos corregidos: parpadeo (EOG), interferencia muscular (EMG).
-- **Normalización y alineación**:
-  - Escalado Z-score por canal.
-  - Sincronización temporal para alinear ensayos.
+- **Filtro pasa banda aplicado**: 1–40 Hz  
+- **Filtro notch**: 50 Hz para remover ruido eléctrico  
+- **Eliminación de artefactos**: ICA (parpadeos, EMG)  
+- **Interpolación de canales malos**  
+
+> _Insertar imagen de señal cruda vs filtrada_  
+> _Insertar imagen de componentes ICA_
 
 ---
 
-## Fase 3: Extracción de Características
+## 3. Extracción de Características
 
-Se extrajeron características del dominio del tiempo, frecuencia y tiempo-frecuencia:
+- **Bandas de frecuencia**: Delta, Theta, Alpha, Beta, Gamma  
+- **Análisis de espectro de potencia**: Método de Welch  
+- **Transformada Wavelet discreta (DWT)**: Daubechies (db4), nivel 5  
 
-### a) Dominio del Tiempo
-- Media, Desviación estándar, Varianza
-- MAV (Valor Absoluto Medio)
-- RMS (Raíz Cuadrada Media)
-
-### b) Dominio de la Frecuencia
-- Potencia por bandas: Delta (1–4 Hz), Theta (4–8 Hz), Alpha (8–13 Hz), Beta (13–30 Hz)
-- Análisis espectral usando la técnica de Welch
-
-### c) Tiempo-Frecuencia
-- Transformada Wavelet Discreta (DWT)
-  - Wavelet: Daubechies (db4)
-  - Niveles: 3–5
+> _Insertar gráficas de espectro por canal o topomapas por banda_
 
 ---
 
-## Fase 4: Optimización y Selección de Características
+## 4. Optimización y Selección de Features
 
-- **Normalización**: estándar (Z-score), Min-Max
-- **Reducción de dimensionalidad**:
-  - PCA (Análisis de Componentes Principales)
-  - Selección basada en importancia de características
-- **Transformaciones estadísticas**:
-  - Coherencia inter-canales
-  - Entropía espectral
-  - Fractal dimension
+- **Normalización**: z-score  
+- **Reducción de dimensionalidad**: PCA  
+- **Selección de características relevantes**: energía, entropía, estadísticas por banda  
+
+> _Insertar gráfico PCA o tabla de features seleccionadas_
 
 ---
 
-## Resultados Esperados
-se colcoaran los resultados aquí
+## 5. Análisis Integrado con MNE Python
 
+- **Módulos usados**: `Raw`, `Epochs`, `Evoked`, `ICA`, `montage`, `interpolate_bads`  
+- **Visualización de eventos y épocas**  
+- **Promedios evocados y mapas topográficos**  
 
-## Referencias
+> _Insertar imagen de épocas y eventos_  
+> _Insertar topomapas_
 
-1. Gorrell, D. (2020). *Overview of MEG/EEG analysis with MNE Python*. Disponible en: https://g0rella.github.io/gorella_mwn/preprocessing_eeg  
-2. MNE Developers. (2024). *MNE-Python documentation*. https://mne.tools/stable/auto_tutorials/intro/10_overview.html  
-3. Goldberger AL, et al. (2000). *PhysioBank, PhysioToolkit, and PhysioNet: Components of a New Research Resource for Complex Physiologic Signals*. Circulation.  
-4. Koelstra, S., et al. (2012). *DEAP: A Database for Emotion Analysis using Physiological Signals*. IEEE Transactions on Affective Computing.  
-5. Pareek, N. (2020). *EEG real-time acquisition and power spectrum analysis*. https://github.com/pareeknikhil/EEG  
-6. Ghaderi, A. (2021). *MNE-Preprocessing*. https://github.com/AGhaderi/MNE-Preprocessing  
-7. R. Srinivasan. (2020). *brain-waves-emotions: CNN for emotion classification from EEG*. https://github.com/rohansrinivasan/brain-waves-emotions
+---
+
+## 6. Resultados y Visualizaciones
+
+- **Comparación antes y después del preprocesamiento**  
+- **Visualización por sujetos/clases**  
+- **Distribución de características**  
+
+> _Insertar gráficos resumen (boxplots, scatter PCA, matriz de correlación)_
+
+---
+
+## 7. Referencias
+
+- MNE-Python: https://mne.tools/stable/index.html  
+- EEGBCI Dataset: https://www.physionet.org/content/eegmmidb/1.0.0/  
+- Tutorial oficial MNE: https://mne.tools/stable/auto_tutorials/intro/10_overview.html  
+- GitHub ejemplos:
+  - https://github.com/pareeknikhil/EEG
+  - https://github.com/rohansrinivasan/brain-waves-emotions
+  - https://github.com/AGhaderi/MNE-Preprocessing
 
 ---
