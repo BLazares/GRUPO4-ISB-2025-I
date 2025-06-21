@@ -13,11 +13,16 @@
 
 ## 1. Origen de los Datos
 
-- **Dispositivo**: Ultracortex Mark IV  
-- **Electrodos utilizados**: 8 canales  
-- **Frecuencia de muestreo**: 250 Hz  
-- **Software de adquisición**: OpenBCI GUI / BrainFlow  
-- *O también puedes usar* **[EEGBCI](https://www.physionet.org/content/eegmmidb/1.0.0/)**
+- **Fuente de datos**:  
+  - Registros propios con headset **Ultracortex Mark IV**  
+  - O base de datos pública como:  
+    - **EEGBCI**: [https://www.physionet.org/content/eegmmidb/1.0.0/](https://www.physionet.org/content/eegmmidb/1.0.0/)
+    - **DEAP**: [https://www.eecs.qmul.ac.uk/mmv/datasets/deap/](https://www.eecs.qmul.ac.uk/mmv/datasets/deap/)
+
+- **Especificaciones técnicas (Ultracortex)**:
+  - Frecuencia de muestreo: 250 Hz
+  - Número de electrodos: 8
+  - Software de adquisición: OpenBCI GUI
 
 > _Insertar imagen de configuración del headset o layout de electrodos_
 
@@ -25,21 +30,42 @@
 
 ## 2. Preprocesamiento
 
-- **Filtro pasa banda aplicado**: 1–40 Hz  
-- **Filtro notch**: 50 Hz para remover ruido eléctrico  
-- **Eliminación de artefactos**: ICA (parpadeos, EMG)  
-- **Interpolación de canales malos**  
+### Objetivo:
+Limpiar las señales EEG mediante:
+- Filtros: pasa banda, notch, wavelet
+- Eliminación de artefactos: blink, EMG, ECG
+- Normalización y alineación entre sesiones y sujetos
+
+### Técnicas utilizadas:
+- **Filtro pasa banda**: 1–40 Hz  
+- **Filtro notch**: 50 Hz para eliminar interferencia de red  
+- **ICA**: para remover artefactos fisiológicos  
+- **Interpolación** de canales malos  
 
 > _Insertar imagen de señal cruda vs filtrada_  
 > _Insertar imagen de componentes ICA_
+
+Referencias:
+- [Tutorial MNE: Preprocesamiento EEG](https://g0rella.github.io/gorella_mwn/preprocessing_eeg)  
+- [Documentación oficial MNE Python](https://mne.tools/stable/auto_tutorials/intro/10_overview.html)
 
 ---
 
 ## 3. Extracción de Características
 
-- **Bandas de frecuencia**: Delta, Theta, Alpha, Beta, Gamma  
-- **Análisis de espectro de potencia**: Método de Welch  
-- **Transformada Wavelet discreta (DWT)**: Daubechies (db4), nivel 5  
+### Detalles del análisis:
+- **Análisis Wavelet**:  
+  - Tipo: Daubechies (db4)  
+  - Nivel: 5  
+- **Bandas EEG**:
+  - Delta (1–4 Hz)
+  - Theta (4–8 Hz)
+  - Alpha (8–13 Hz)
+  - Beta (13–30 Hz)
+  - Gamma (>30 Hz)
+- **Técnicas**:
+  - Espectro de potencia (Welch)
+  - Estadísticas temporales y frecuenciales: media, energía, entropía
 
 > _Insertar gráficas de espectro por canal o topomapas por banda_
 
@@ -47,32 +73,52 @@
 
 ## 4. Optimización y Selección de Features
 
-- **Normalización**: z-score  
-- **Reducción de dimensionalidad**: PCA  
-- **Selección de características relevantes**: energía, entropía, estadísticas por banda  
+### Objetivo:
+Mejorar la calidad de los datos antes de alimentar modelos de clasificación.
+
+### Técnicas:
+- **Normalización**: z-score
+- **Transformación**: PCA para reducción de dimensionalidad
+- **Selección de características**: 
+  - Energía por banda
+  - Entropía
+  - Coherencia
+  - Estadísticas por canal
 
 > _Insertar gráfico PCA o tabla de features seleccionadas_
+
+### Ejemplos de referencia:
+- [EEG real-time acquisition y análisis de coherencia](https://github.com/pareeknikhil/EEG/blob/master/UltraCortex/src/denoise.py)  
+- [Clasificación de emociones con CNN y EEG](https://github.com/rohansrinivasan/brain-waves-emotions)
 
 ---
 
 ## 5. Análisis Integrado con MNE Python
 
-- **Módulos usados**: `Raw`, `Epochs`, `Evoked`, `ICA`, `montage`, `interpolate_bads`  
-- **Visualización de eventos y épocas**  
-- **Promedios evocados y mapas topográficos**  
+### Objetivo:
+Analizar datos en el dominio temporal, frecuencial y espacial con herramientas de MNE.
 
-> _Insertar imagen de épocas y eventos_  
-> _Insertar topomapas_
+### Funcionalidades utilizadas:
+- `Raw`, `Epochs`, `Evoked`
+- `ICA`, `montage`, `interpolate_bads`
+
+> _Insertar imagen de visualización de eventos y épocas_  
+> _Insertar imagen de topomapas o actividad evocada_
+
+Material recomendado:
+- [Guía paso a paso con MNE](https://g0rella.github.io/gorella_mwn/preprocessing_eeg)
+- [Repositorio AGhaderi - Preprocessing](https://github.com/AGhaderi/MNE-Preprocessing)
 
 ---
 
 ## 6. Resultados y Visualizaciones
 
-- **Comparación antes y después del preprocesamiento**  
-- **Visualización por sujetos/clases**  
-- **Distribución de características**  
+- Comparación de señales antes y después del preprocesamiento  
+- Mapas topográficos de actividad por banda  
+- Gráficas de distribución de características  
+- Visualización por clases o condiciones experimentales
 
-> _Insertar gráficos resumen (boxplots, scatter PCA, matriz de correlación)_
+> _Insertar resultados: gráficos, boxplots, mapas cerebrales, etc._
 
 ---
 
@@ -80,8 +126,9 @@
 
 - MNE-Python: https://mne.tools/stable/index.html  
 - EEGBCI Dataset: https://www.physionet.org/content/eegmmidb/1.0.0/  
-- Tutorial oficial MNE: https://mne.tools/stable/auto_tutorials/intro/10_overview.html  
-- GitHub ejemplos:
+- DEAP Dataset: https://www.eecs.qmul.ac.uk/mmv/datasets/deap/  
+- Tutorial MNE: https://g0rella.github.io/gorella_mwn/preprocessing_eeg  
+- Ejemplos GitHub:
   - https://github.com/pareeknikhil/EEG
   - https://github.com/rohansrinivasan/brain-waves-emotions
   - https://github.com/AGhaderi/MNE-Preprocessing
