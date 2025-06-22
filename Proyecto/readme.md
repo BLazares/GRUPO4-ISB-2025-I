@@ -19,9 +19,9 @@ Esta condición puede presentarse sin síntomas, pero está asociada a riesgos s
 - Diabetes mellitus
 - Genética
 
-
+<p align="center">
 <img src="Imagenes/ecg_normal.gif" alt="Imagen ECG Normal" width="400px"/>
-
+</p>
 ---
 
 ## ⚡️ Problemática
