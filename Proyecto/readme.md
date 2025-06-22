@@ -33,7 +33,9 @@ Los sistemas tradicionales de monitoreo continuo son costosos, invasivos o poco 
 Por ello, se necesita un sistema de **detección automática y temprana**, con alta sensibilidad y que funcione incluso en registros ECG simples de una sola derivación.
 
 > ![Gráfica de arritmia](Imagenes/IMAGEN_FA.png)
-
+<p align="center">
+<img src="Imagenes/IMAGEN_FA.png" alt="Imagen ECG Normal" width="400px"/>
+</p>
 ---
 
 ## 🔗 Tema General
