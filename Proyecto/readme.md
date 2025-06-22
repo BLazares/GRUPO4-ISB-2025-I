@@ -34,7 +34,7 @@ Por ello, se necesita un sistema de **detección automática y temprana**, con a
 
 
 <p align="center">
-<img src="Imagenes/IMAGEN_FA.png" alt="Imagen ECG Normal" width="800px"/>
+<img src="Imagenes/IMAGEN_FA.png" alt="Imagen ECG Normal" width=500px"/>
 </p>
 ---
 
