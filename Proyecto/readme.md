@@ -19,7 +19,7 @@ Esta condición puede presentarse sin síntomas, pero está asociada a riesgos s
 - Diabetes mellitus
 - Genética
 
-> ![Imagen ECG Normal](imagenes/IMAGEB_ECG.png)
+> ![Imagen ECG Normal](Imagenes/IMAGEB_ECG.png)
 
 ---
 
@@ -31,7 +31,7 @@ Los sistemas tradicionales de monitoreo continuo son costosos, invasivos o poco 
 
 Por ello, se necesita un sistema de **detección automática y temprana**, con alta sensibilidad y que funcione incluso en registros ECG simples de una sola derivación.
 
-> ![Gráfica de arritmia](imagenes/IMAGEB_FA.png)
+> ![Gráfica de arritmia](Imagenes/IMAGEB_FA.png)
 
 ---
 
@@ -45,7 +45,7 @@ Usamos una combinación de:
 - Transformación polar de las imágenes
 - Clasificación con redes neuronales convolucionales (CNN)
 
-> ![Pipeline general](imagenes/imagen_dofetilIna.png)
+> ![Pipeline general](Imagenes/imagen_dofetilIna.png)
 
 ---
 
@@ -56,7 +56,7 @@ Usamos una combinación de:
 - Evaluada en más de 44,000 pacientes. Mantiene AUROC de 0.80 incluso 6 meses después de la toma de datos.
 - Considera la variabilidad temporal del riesgo, con generalización clínica importante.
 
-> ![Arquitectura QTNet](imagenes/IMAGEN_EA1.png)
+> ![Arquitectura QTNet](Imagenes/IMAGEN_EA1.png)
 
 ---
 
@@ -66,7 +66,7 @@ Usamos una combinación de:
 - Métricas: Precisión: 85%, Sensibilidad: 77%, Especificidad: 87%.
 - Uso de DNN mejora clasificación automatizada sin intervención humana.
 
-> ![Red neuronal Bos](imagenes/IMAGEN_EA2.png)
+> ![Red neuronal Bos](Imagenes/IMAGEN_EA2.png)
 
 ---
 
@@ -75,7 +75,7 @@ Usamos una combinación de:
 - **DAI (Desfibrilador Automático Implantable)**: detectan y revierten arritmias graves como taquicardia ventricular o FA.
 - Ambos dispositivos son invasivos, requieren cirugía y seguimiento médico estricto.
 
-> ![Comparación marcapasos vs DAI](imagenes/IMAGEN_EA3.png)
+> ![Comparación marcapasos vs DAI](Imagenes/IMAGEN_EA3.png)
 ---
 
 ## 📅 Propuesta de Solución
@@ -89,7 +89,7 @@ Usamos una combinación de:
 4. Transformación polar del espectrograma
 5. Clasificación por CNN (MobileNet o ResNet)
 
-> ![Espectrograma polar ejemplo](imagenes/IMAGEN_SPECTOGRAMA1.png)
+> ![Espectrograma polar ejemplo](Imagenes/IMAGEN_SPECTOGRAMA1.png)
 
 **Ventajas:**
 - Portabilidad
@@ -116,7 +116,7 @@ Usamos una combinación de:
 **Paso 4:** Evaluación
 - Accuracy, F1-score, matriz de confusión, AUC
 
-> ![Diagrama de bloques metodología](imagenes/IMAGEN_SPECTOGRAMA1.png)
+> ![Diagrama de bloques metodología](Imagenes/IMAGEN_SPECTOGRAMA1.png)
 
 ---
 
