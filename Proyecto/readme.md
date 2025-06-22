@@ -20,7 +20,7 @@ Esta condición puede presentarse sin síntomas, pero está asociada a riesgos s
 - Genética
 
 
-<img src="imagen/IMAGEN_ECG.png" alt="Imagen ECG Normal" width="400px"/>
+<img src="imagen/ecg_normal.png" alt="Imagen ECG Normal" width="400px"/>
 
 ---
 
