@@ -19,7 +19,7 @@ Esta condición puede presentarse sin síntomas, pero está asociada a riesgos s
 - Diabetes mellitus
 - Genética
 
-> ![Imagen ECG Normal](Imagenes/IMAGEN_ECG.png)
+> ![Imagen ECG Normal](Imagenes/ecg_normal.gif)
 
 ---
 
