@@ -19,7 +19,7 @@ Esta condición puede presentarse sin síntomas, pero está asociada a riesgos s
 - Diabetes mellitus
 - Genética
 
-> ![Imagen ECG Normal](Imagenes/IMAGEB_ECG.png)
+> ![Imagen ECG Normal](Imagenes/IMAGEN_ECG.png)
 
 ---
 
@@ -31,7 +31,7 @@ Los sistemas tradicionales de monitoreo continuo son costosos, invasivos o poco 
 
 Por ello, se necesita un sistema de **detección automática y temprana**, con alta sensibilidad y que funcione incluso en registros ECG simples de una sola derivación.
 
-> ![Gráfica de arritmia](Imagenes/IMAGEB_FA.png)
+> ![Gráfica de arritmia](Imagenes/IMAGEN_FA.png)
 
 ---
 
@@ -45,7 +45,7 @@ Usamos una combinación de:
 - Transformación polar de las imágenes
 - Clasificación con redes neuronales convolucionales (CNN)
 
-> ![Pipeline general](Imagenes/imagen_dofetilIna.png)
+> ![Pipeline general](Imagenes/imagen_dofetilina.png)
 
 ---
 
