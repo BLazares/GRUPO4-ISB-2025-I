@@ -1,18 +1,6 @@
 # 🧠 Proyecto: Sistema Predictivo de Fibrilación Auricular Basado en Deep Learning
 
-## 👥 Integrantes
-- Joseph Ruiz Medrano  
-- José M. Otoya Barrios  
-- Brayam Lazares Salcedo  
-- Eliane Loza Elguera  
-- Margareth Olazabal  
-**Grupo 4 – Introducción a Señales Biomédicas (2025-2)**  
 
-Profesores:  
-- José Alonso Cáceres  
-- Moisés Stevens Meza Rodríguez
-
----
 
 ## 📄 Introducción
 
