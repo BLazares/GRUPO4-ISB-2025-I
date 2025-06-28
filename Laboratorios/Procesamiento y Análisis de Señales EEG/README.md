@@ -137,7 +137,7 @@ import pandas as pd
 save_dir = r"C:\Apple\2025-1\Señales\proyecto de clase"
 os.makedirs(save_dir, exist_ok=True)
 
-# --- 1. CARGAR DATOS EEGBCI ---
+ --- 1. CARGAR DATOS EEGBCI ---
 subject = 1
 runs = [3, 4, 7]
 files = eegbci.load_data(subject, runs)
@@ -147,45 +147,44 @@ mne.datasets.eegbci.standardize(raw)
 montage = mne.channels.make_standard_montage("standard_1005")
 raw.set_montage(montage)
 
-# --- 2. FILTRADO ---
+ --- 2. FILTRADO ---
 raw.notch_filter(freqs=50)
 raw.filter(l_freq=1.0, h_freq=40.0)
-
-# --- 3. ICA ---
+ --- 3. ICA ---
 ica = ICA(n_components=20, random_state=97, max_iter=800)
 ica.fit(raw)
 ica.exclude = [0, 1]
 raw.load_data()
 ica.apply(raw)
 
-# --- 4. GUARDAR RAW ---
+ --- 4. GUARDAR RAW ---
 raw_file = os.path.join(save_dir, "sujeto01_run01_preprocesado_raw.fif")
 raw.save(raw_file, overwrite=True)
 print("✅ RAW preprocesado guardado.")
 
-# --- 5. DETECCIÓN DE EVENTOS (usando anotaciones) ---
+--- 5. DETECCIÓN DE EVENTOS (usando anotaciones) ---
 events, event_id_map = mne.events_from_annotations(raw)
 print("✅ Eventos detectados:", events[:10])
 print("🧠 Mapeo de etiquetas:", event_id_map)
 
-# --- 6. EPOCHS ---
+--- 6. EPOCHS ---
 # Mapear los eventos correctos del mapeo (puede necesitar ajustes según etiquetas reales)
 event_id = {key: event_id_map[key] for key in event_id_map if key in ["T0", "T1", "T2"]}
 epochs = mne.Epochs(raw, events, event_id=event_id, tmin=-0.2, tmax=0.5, baseline=(None, 0), preload=True)
 
-# --- 7. GUARDAR EPOCHS ---
+ --- 7. GUARDAR EPOCHS ---
 epochs_file = os.path.join(save_dir, "sujeto01_run01-epo.fif")
 epochs.save(epochs_file, overwrite=True)
 print("✅ Epochs guardados.")
 
-# --- 8. ERP (Evoked) ---
+--- 8. ERP (Evoked) ---
 first_label = list(event_id.keys())[0]
 evoked = epochs[first_label].average()
 evoked_file = os.path.join(save_dir, "sujeto01_run01-ave.fif")
 evoked.save(evoked_file)
 print("✅ ERP promedio guardado.")
 
-# --- 9. GRÁFICOS ---
+ --- 9. GRÁFICOS ---
 ica.plot_components(show=True)
 plt.savefig(os.path.join(save_dir, "ICA_componentes.png"))
 print("✅ Gráfico de ICA guardado.")
@@ -194,7 +193,7 @@ evoked.plot()
 plt.savefig(os.path.join(save_dir, "Evoked_tarea1.png"))
 print("✅ Gráfico Evoked guardado.")
 
-# === 10. EXTRAER CARACTERÍSTICAS ===
+=== 10. EXTRAER CARACTERÍSTICAS ===
 data = epochs.get_data()
 psds = []
 for trial in data:
@@ -226,11 +225,11 @@ X = pd.DataFrame(features)
 y = epochs.events[:, 2]
 X["label"] = y
 
-# === 11. GUARDAR CARACTERÍSTICAS ===
+=== 11. GUARDAR CARACTERÍSTICAS ===
 X.to_csv(os.path.join(save_dir, "caracteristicas_EEG.csv"), index=False)
 print("✅ CSV de características guardado.")
 
-# === 12. CLASIFICACIÓN SIMPLE ===
+ === 12. CLASIFICACIÓN SIMPLE ===
 X_data = X.drop(columns=["label"])
 y_data = X["label"]
 
@@ -243,15 +242,15 @@ y_pred = clf.predict(X_test)
 acc = accuracy_score(y_test, y_pred)
 print(f"⭐ Precisión del modelo: {acc:.2f}")
 
-# === 13. NORMALIZACIÓN ===
+=== 13. NORMALIZACIÓN ===
 scaler = StandardScaler()
 X_scaled = scaler.fit_transform(X_data)
 
-# === 14. PCA ===
+=== 14. PCA ===
 pca = PCA(n_components=10)
 X_pca = pca.fit_transform(X_scaled)
 
-# === 15. CLASIFICACIÓN CON PCA ===
+ === 15. CLASIFICACIÓN CON PCA ===
 X_train, X_test, y_train, y_test = train_test_split(X_pca, y_data, test_size=0.3, random_state=42)
 clf = RandomForestClassifier()
 clf.fit(X_train, y_train)
@@ -260,7 +259,7 @@ y_pred = clf.predict(X_test)
 acc_pca = accuracy_score(y_test, y_pred)
 print(f"📊 Precisión con PCA: {acc_pca:.2f}")
 
-# === 16. VISUALIZACIÓN PCA 2D ===
+=== 16. VISUALIZACIÓN PCA 2D ===
 X_pca_2d = X_pca[:, :2]
 plt.figure(figsize=(8, 6))
 for label in np.unique(y_data):
@@ -277,7 +276,7 @@ plt.savefig(os.path.join(save_dir, "pca_visualizacion_2D.png"))
 plt.show()
 print("✅ Gráfico PCA 2D guardado.")
 
-# === 17. MATRIZ DE CONFUSIÓN ===
+ === 17. MATRIZ DE CONFUSIÓN ===
 cm = confusion_matrix(y_test, y_pred)
 disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=clf.classes_)
 disp.plot(cmap='Blues')
@@ -287,11 +286,11 @@ plt.savefig(os.path.join(save_dir, "matriz_confusion_pca.png"))
 plt.show()
 print("✅ Matriz de confusión guardada.")
 
-# === 18. VALIDACIÓN CRUZADA ===
+ === 18. VALIDACIÓN CRUZADA ===
 scores = cross_val_score(clf, X_pca, y_data, cv=5)
 print(f"🔁 Validación cruzada (5-fold): precisión media = {scores.mean():.2f}")
 
-# === ARCHIVOS GENERADOS ===
+ === ARCHIVOS GENERADOS ===
 print("\n📂 Archivos en la carpeta de salida:")
 for archivo in os.listdir(save_dir):
     print(" -", archivo)
