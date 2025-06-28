@@ -28,7 +28,7 @@ Este documento presenta el flujo completo de procesamiento de señales EEG del d
 
 **Visualización de los componentes ICA:**
 
-![ICA](/fotos/imagen_1.jpeg)
+![ICA](fotos/imagen_1.jpeg)
 ![ICA](fotos/imagen_2.jpeg)
 
 ---
