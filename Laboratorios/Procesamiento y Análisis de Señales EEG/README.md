@@ -50,19 +50,20 @@ Se cargan los archivos `.edf` del dataset EEGBCI y se visualiza la señal sin fi
 ## 3. ⚙️ Extracción y Segmentación de Características
 
 ### 3.1 Eventos y Segmentación
-- Se detectaron eventos desde el canal `"STI 014"`.
-- Clases detectadas: `T0`, `T1`, `T2`.
-- Se generaron *epochs* desde -200 ms hasta +500 ms respecto a cada evento.
+- Se detectaron eventos a partir del canal `STI 014`.
+- Las clases identificadas corresponden a:
+  - `T0`: Basal 1
+  - `T1`: Basal 2
+  - `T2`: Tarea (condiciones experimentales)
+- Se generaron *epochs* desde -200 ms hasta +500 ms respecto al evento.
 
 ### 3.2 ERP Promedio
-- Se calculó y visualizó el promedio de señal para la clase `'tarea1'`.
+- Se calculó el ERP promedio para la clase `'tarea1'`, a partir de los *epochs* segmentados.
+- Este análisis permite visualizar el comportamiento promedio de la señal cerebral ante un estímulo.
 
-![ERP](./Evoked_tarea1.png)
-
-### 3.3 Visualización de señal preprocesada
-- Ejemplo del EEG tras filtros y corrección por ICA:
-
-![EEG crudo](./EEG_crudo.png)
+### 3.3 Preprocesamiento de la señal EEG
+- La señal cruda fue filtrada y corregida por artefactos utilizando ICA (Análisis de Componentes Independientes).
+- Posteriormente, se visualizaron los canales corregidos para asegurar la calidad de la limpieza.
 
 ---
 
