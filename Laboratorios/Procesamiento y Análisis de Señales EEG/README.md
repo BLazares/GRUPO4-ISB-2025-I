@@ -91,7 +91,20 @@ Se cargan los archivos `.edf` del dataset EEGBCI y se visualiza la señal sin fi
 - **Reducción de dimensionalidad:** PCA (10 componentes).
 - Visualización 2D con primeras dos componentes:
 
-![PCA](./pca_visualizacion_2D.png)
+## Resultados del Análisis PCA por condición (Paciente 1)
+
+| Basal 1 | Basal 2 |
+|--------|---------|
+| ![PCA Basal 1](./resultados_pca/pca_basal1_paciente1.png) | ![PCA Basal 2](./resultados_pca/pca_basal2_paciente1.png) |
+
+| Tarea 1 | Tarea 2 |
+|--------|---------|
+| ![PCA Tarea 1](./resultados_pca/pca_tarea1_paciente1.png) | ![PCA Tarea 2](./resultados_pca/pca_tarea2_paciente1.png) |
+
+| Tarea 3 | Tarea 4 |
+|--------|---------|
+| ![PCA Tarea 3](./resultados_pca/pca_tarea3_paciente1.png) | ![PCA Tarea 4](./resultados_pca/pca_tarea4_paciente1.png) |
+
 
 ### 5.3 Evaluación del modelo
 - Métricas calculadas:
