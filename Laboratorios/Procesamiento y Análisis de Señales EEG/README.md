@@ -20,12 +20,12 @@ Este documento presenta el flujo completo de procesamiento de señales EEG del d
 Se cargan los archivos `.edf` del dataset EEGBCI y se visualiza la señal sin filtrar.
 
 <div align="center">
-  <img src="./img/imagen_cruda_1.png" width="75%" />
+  <img src="fotos/imagen_1.jpeg" width="75%" />
   <br><em>Visualización de las señales crudas: se observa ruido y artefactos fisiológicos.</em>
 </div>
 
 <div align="center">
-  <img src="./img/imagen_cruda_2.png" width="75%" />
+  <img src="fotos/imagen_2.jpeg" width="75%" />
   <br><em>Otra vista de los canales antes de cualquier filtrado o procesamiento.</em>
 </div>
 
