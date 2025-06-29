@@ -42,7 +42,7 @@ Se cargan los archivos `.edf` del dataset EEGBCI y se visualiza la señal sin fi
 
 **Visualización de los componentes ICA:**
 
-<img src="fotos/EEG 64 CHANNELS.jpeg" width="75%" />
+<img src="fotos/EEG 64 CHANNELS.png" width="75%" />
 
 
 ---
