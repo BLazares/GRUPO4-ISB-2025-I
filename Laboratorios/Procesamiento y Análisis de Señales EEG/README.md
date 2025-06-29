@@ -130,11 +130,15 @@ Se cargan los archivos `.edf` del dataset EEGBCI y se visualiza la señal sin fi
 
 ## 7. ✅ Conclusiones
 
-- El pipeline permite preparar datos EEG de forma robusta para clasificación automática.
-- Las técnicas de limpieza (ICA) y transformación (PCA) fueron efectivas.
-- El modelo Random Forest logró una precisión considerable sobre tareas imaginadas.
-- El proceso puede extenderse a más sujetos y tareas para mejorar generalización.
-
+- Se implementó un pipeline robusto para el procesamiento de señales EEG, abarcando desde el preprocesamiento hasta la clasificación automática.
+- El uso de filtros (Notch y Bandpass) permitió aislar las frecuencias de interés y eliminar interferencias, mejorando la calidad de los datos.
+- La técnica de corrección de artefactos mediante **ICA** fue eficaz para remover componentes no neuronales, como parpadeos y actividad muscular.
+- La reducción de dimensionalidad mediante **PCA** facilitó la visualización de los datos y redujo la complejidad computacional sin perder información relevante.
+- El modelo **Random Forest** demostró un desempeño adecuado en la clasificación de tareas imaginadas, con una precisión competitiva.
+- Se observó una clara separación en el espacio de características entre las diferentes condiciones (basales y tareas), lo que indica que la señal EEG contiene patrones distinguibles para cada clase.
+- El pipeline es modular y fácilmente escalable, permitiendo su reutilización en otros experimentos o bases de datos con mínimas modificaciones.
+- El análisis evidenció variabilidad entre tareas y estados de reposo, lo que refuerza la necesidad de adaptar modelos a cada usuario o implementar estrategias de generalización.
+- La metodología empleada es replicable, transparente y está alineada con buenas prácticas de investigación en neurociencia computacional.
 ---
 
 ## 8. 💻 Código Fuente
