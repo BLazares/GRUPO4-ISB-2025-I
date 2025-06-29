@@ -19,6 +19,15 @@ Este documento presenta el flujo completo de procesamiento de señales EEG del d
 
 Se cargan los archivos `.edf` del dataset EEGBCI y se visualiza la señal sin filtrar.
 
+### Paciente 1:
+| Actividad                 | Señal Filtrada                |
+|-----------------------|--------------------|
+| Basal 1               | <img src="fotos/imagen_1.jpeg" width="75%" />|
+| Basal 2     |![BASAL2_PACIENTE_1](fotos/imagen_2.jpeg)|
+| Tarea 1     |![TAREA1_PACIENTE_1](fotos/imagen_2.jpeg)|
+| Tarea 2 |![TAREA2_PACIENTE_1](fotos/imagen_2.jpeg)|
+| Tarea 3 |![TAREA3_PACIENTE_1](fotos/imagen_2.jpeg)|
+| Tarea 4 |![TAREA4_PACIENTE_1](fotos/imagen_2.jpeg)|
 <div align="center">
   <img src="fotos/imagen_1.jpeg" width="75%" />
   <br><em>Visualización de las señales crudas: se observa ruido y artefactos fisiológicos.</em>
