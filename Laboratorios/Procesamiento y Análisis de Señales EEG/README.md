@@ -97,7 +97,7 @@ Se cargan los archivos `.edf` del dataset EEGBCI y se visualiza la señal sin fi
 
 | Basal 1 | Basal 2 |
 |--------|---------|
-| <img src="fotos/pca_basal1_paciente1.png" width="75%"/> | <img src="fotos/pca_basal2_paciente1.png" width="75%"/> |
+| <img src="fotos/pca_basal1.png" width="75%"/> | <img src="fotos/pca_basal2_paciente1.png" width="75%"/> |
 
 | Tarea 1 | Tarea 2 |
 |--------|---------|
@@ -123,7 +123,7 @@ Se cargan los archivos `.edf` del dataset EEGBCI y se visualiza la señal sin fi
 | `Evoked_tarea1.png`              | ERP promedio de tarea1                      |
 | `EEG_crudo.png`                  | EEG crudo preprocesado                      |
 | `pca_visualizacion_2D.png`       | Visualización de PCA                        |
-| `matriz_confusion_pca.png`       | Evaluación de clasificación                 |
+
 
 ---
 
