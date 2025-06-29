@@ -93,27 +93,21 @@ Se cargan los archivos `.edf` del dataset EEGBCI y se visualiza la señal sin fi
 
 ## Resultados del Análisis PCA por condición (Paciente 1)
 
+## 📊 Resultados del Análisis PCA por condición (Paciente 1)
+
 | Basal 1 | Basal 2 |
 |--------|---------|
-| ![PCA Basal 1](./resultados_pca/pca_basal1_paciente1.png) | ![PCA Basal 2](./resultados_pca/pca_basal2_paciente1.png) |
+| <img src="fotos/pca_basal1_paciente1.png" width="75%"/> | <img src="fotos/pca_basal2_paciente1.png" width="75%"/> |
 
 | Tarea 1 | Tarea 2 |
 |--------|---------|
-| ![PCA Tarea 1](./resultados_pca/pca_tarea1_paciente1.png) | ![PCA Tarea 2](./resultados_pca/pca_tarea2_paciente1.png) |
+| <img src="fotos/pca_tarea1_paciente1.png" width="75%"/> | <img src="fotos/pca_tarea2_paciente1.png" width="75%"/> |
 
 | Tarea 3 | Tarea 4 |
 |--------|---------|
-| ![PCA Tarea 3](./resultados_pca/pca_tarea3_paciente1.png) | ![PCA Tarea 4](./resultados_pca/pca_tarea4_paciente1.png) |
+| <img src="fotos/pca_tarea3_paciente1.png" width="75%"/> | <img src="fotos/pca_tarea4_paciente1.png" width="75%"/> |
 
 
-### 5.3 Evaluación del modelo
-- Métricas calculadas:
-  - Precisión (accuracy) sin PCA.
-  - Precisión con PCA.
-  - Validación cruzada 5-fold.
-  - Matriz de confusión:
-
-![Confusión](./matriz_confusion_pca.png)
 
 ---
 
