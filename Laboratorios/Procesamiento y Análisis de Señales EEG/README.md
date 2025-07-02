@@ -1,6 +1,6 @@
 # 🧠 Análisis EEG para Imaginación Motora (EEGBCI)
 
-Este documento presenta el flujo completo de procesamiento de señales EEG del dataset EEG Motor Movement/Imagery (PhysioNet), desde la carga de datos hasta la clasificación de tareas mentales mediante aprendizaje automático.
+Este documento presenta el flujo desarrollado de procesamiento de señales EEG del dataset EEG Motor Movement/Imagery (PhysioNet), desde la carga de datos hasta la clasificación de tareas mentales mediante aprendizaje automático.
 
 ---
 
