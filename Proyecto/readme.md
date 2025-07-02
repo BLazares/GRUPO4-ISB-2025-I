@@ -125,7 +125,7 @@ Usamos una combinación de:
 
 ---
 ## Avance del Poster
-En el siguiente link se encuentra el *Avance del Poster* en Canva 
+En el siguiente link se encuentra el *Avance del Poster* en Canva: https://www.canva.com/design/DAGsBA-KWl0/PAI-44JD8UuFgZTz7Q0Ozw/edit?utm_content=DAGsBA-KWl0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 ## 📚 Referencias
 
 1. [Mayo Clinic – FA](https://www.mayoclinic.org/es/diseases-conditions/atrial-fibrillation/symptoms-causes/syc-20350624)  
