@@ -124,7 +124,8 @@ Usamos una combinación de:
 > ![Diagrama de bloques metodología](Imagenes/IMAGEN_SPECTOGRAMA1.png)
 
 ---
-
+##Avance del Poster
+En el siguiente link se encuentra el avance del Poster en Canva 
 ## 📚 Referencias
 
 1. [Mayo Clinic – FA](https://www.mayoclinic.org/es/diseases-conditions/atrial-fibrillation/symptoms-causes/syc-20350624)  
