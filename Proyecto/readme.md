@@ -1,4 +1,4 @@
-# 🧠 Proyecto: Sistema Predictivo de Fibrilación Auricular Basado en Deep Learning
+# 🧠 Proyecto: Análisis del Efecto de los Filtros Wavelet en la Precisión de un Modelo Predictivo de Fibrilación Auricular Basado en Deep Learning
 
 
 
